@@ -3,7 +3,7 @@
 // https://gamefaqs.gamespot.com/nes/563433-the-legend-of-zelda/faqs/12694
 var hyruleGridOptionTiles = {
     "hyruleGridTileOptions0101":{
-        "door": {
+        "door01": {
           "gridPosition":[],
           "type":"",
           "entranceTo":"",
@@ -12,9 +12,9 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0102":{
-        "door": {
+        "door01": {
           "gridPosition":[1,9],
-          "type":"door-repair",
+          "type":"doorrepair",
           "entranceTo":"0102shop",
           "hidden-entrance":"hidden-entrance",
           "required":"bomb",
@@ -22,7 +22,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0103":{
-        "door": {
+        "door01": {
           "gridPosition":[],
           "type":"",
           "entranceTo":"",
@@ -31,16 +31,16 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0104":{
-        "door": {
+        "door01": {
           "gridPosition":[4,7],
-          "type":"door-repairs",
+          "type":"doorrepairs",
           "entranceTo":"0104shop",
           "required":"bomb",
           "note":"D"
         }
     },
     "hyruleGridTileOptions0105":{
-        "door": {
+        "door01": {
           "gridPosition":[],
           "type":"potion-shop",
           "entranceTo":"0105shop",
@@ -48,7 +48,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0106":{
-        "door": {
+        "door01": {
           "gridPosition":[6,5],
           "type":"",
           "entranceTo":"level-09",
@@ -57,7 +57,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0107":{
-        "door": {
+        "door01": {
           "gridPosition":[],
           "type":"",
           "entranceTo":"",
@@ -66,9 +66,9 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0108":{
-        "door": {
+        "door01": {
           "gridPosition":[4,10],
-          "type":"door-repair",
+          "type":"doorrepair",
           "entranceTo":"0108shop",
           "hidden-entrance":"hidden-entrance",
           "required":"bomb",
@@ -76,7 +76,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0109":{
-        "door": {
+        "door01": {
           "gridPosition":[],
           "type":"",
           "entranceTo":"",
@@ -85,7 +85,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0110":{
-        "door": {
+        "door01": {
           "gridPosition":[],
           "type":"",
           "entranceTo":"",
@@ -94,7 +94,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0111":{
-        "door": {
+        "door01": {
           "gridPosition":[],
           "type":"",
           "entranceTo":"0111shop",
@@ -103,13 +103,13 @@ var hyruleGridOptionTiles = {
     },
     "hyruleGridTileOptions0112":{
         "doors": {
-          "door-01": {
+          "door01": {
             "gridPosition":[],
             "hidden-entrance":"hidden-entrance",
               "entranceTo":"level-05",
               "note":"5"
           },
-          "door-02": {
+          "door02": {
             "gridPosition":[],
           "type":"",
               "entranceTo":"",
@@ -118,7 +118,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0113":{
-        "door": {
+        "door01": {
           "gridPosition":[],
           "type":"item-shop",
           "entranceTo":"0113shop",
@@ -126,7 +126,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0114":{
-        "door": {
+        "door01": {
           "gridPosition":[1,9],
           "type":"potion-shop",
           "hidden-entrace":"hidden-entrance",
@@ -136,7 +136,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0115":{
-        "door": {
+        "door01": {
           "gridPosition":[],
           "type":"",
           "entranceTo":"0115shop",
@@ -144,7 +144,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0116":{
-        "door": {
+        "door01": {
           "gridPosition":[],
           "type":"rupees-free",
           "entranceTo":"shop0116",
@@ -153,7 +153,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0201":{
-        "door": {
+        "door01": {
           "gridPosition":[1,9],
           "type":"gambling-spot",
           "entranceTo":"0201shop",
@@ -162,7 +162,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0202":{
-        "door": {
+        "door01": {
           "gridPosition":[],
           "type":"",
           "entranceTo":"",
@@ -171,7 +171,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0203":{
-        "door": {
+        "door01": {
           "gridPosition":[1,8],
           "type":"item-shop",
           "hidden-entrance":"hidden-entrance",
@@ -181,7 +181,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0204":{
-        "door": {
+        "door01": {
           "gridPosition":[1,2],
           "type":"rupees-free",
           "entranceTo":"0204shop",
@@ -192,9 +192,9 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0205":{
-        "door": {
+        "door01": {
           "gridPosition":[1,12],
-          "type":"door-repair",
+          "type":"doorrepair",
           "hidden-entrance":"hidden-entrance",
           "entranceTo":"shop0205",
           "note":"",
@@ -202,7 +202,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0206":{
-        "door": {
+        "door01": {
           "gridPosition":[],
           "type":"",
           "entranceTo":"",
@@ -211,7 +211,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0207":{
-        "door": {
+        "door01": {
           "gridPosition":[1,6],
           "type":"gambling-spot",
           "entranceTo":"0207shop",
@@ -221,7 +221,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0208":{
-        "door": {
+        "door01": {
           "gridPosition":[],
           "type":"",
           "entranceTo":"river crossing",
@@ -230,7 +230,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0209":{
-        "door": {
+        "door01": {
           "gridPosition":[],
           "type":"",
           "entranceTo":"",
@@ -239,7 +239,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0210":{
-        "door": {
+        "door01": {
           "gridPosition":[],
           "type":"",
           "entranceTo":"",
@@ -248,7 +248,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0211":{
-        "door": {
+        "door01": {
           "gridPosition":[3,6],
           "type":"",
           "entranceTo":"shop0211",
@@ -256,14 +256,14 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0212":{
-        "door": {
+        "door01": {
           "gridPosition":[],
           "type":"",
           "entranceTo":"Hidden Space - go north four times or something"
         }
     },
     "hyruleGridTileOptions0213":{
-        "door": {
+        "door01": {
           "gridPosition":[4,11],
           "hidden-entrance":"hidden-entrance",
           "entranceTo":"0213shop",
@@ -272,7 +272,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0214":{
-        "door": {
+        "door01": {
           "gridPosition":[3,5],
           "type":"warp-hall",
           "warp-locations":{
@@ -287,9 +287,9 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0215":{
-        "door": {
+        "door01": {
           "gridPosition":[1,12],
-          "type":"door-repair",
+          "type":"doorrepair",
           "entranceTo":"0215shop",
           "hidden-entrance":"hidden-entrance",
           "note":"D.",
@@ -297,7 +297,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0216":{
-        "door": {
+        "door01": {
           "gridPosition":[],
           "type":"gambling-spot",
           "entranceTo":"0216shop",
@@ -305,7 +305,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0301":{
-        "door": {
+        "door01": {
           "gridPosition":[],
           "type":"",
           "entranceTo":"",
@@ -314,7 +314,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0302":{
-        "door": {
+        "door01": {
           "gridPosition":[5,9],
           "hidden-entrance":"hidden-entrance",
           "entranceTo":"shop0302",
@@ -323,14 +323,14 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0303":{
-        "door-01": {
+        "door01": {
           "gridPosition":[],
           "hidden-entrance":"hidden-entrance",
           "entranceTo":"",
           "note":"stairs",
           "required":"move arnos statue"
         },
-        "door-02": {
+        "door02": {
           "gridPosition":[],
           "type":"",
           "entranceTo":"Level 06",
@@ -338,14 +338,14 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0304":{
-    	"door-01": {
+    	"door01": {
           "gridPosition":[5,3],
           "hidden-entrance":"hidden-entrance",
           "entranceTo":"0304shop stairs",
           "required":"Move Western Boulder Rock North",
           "note":"boulder moves to [4,3]"
         },
-        "door-02": {
+        "door02": {
           "gridPosition":[5,4],
           "type":"warp-hall",
           "warp-locations":{
@@ -358,7 +358,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0305":{
-        "door": {
+        "door01": {
           "gridPosition":[4,14],
           "hidden-entrance":"hidden-entrance",
           "entranceTo":"Magic Bracelet",
@@ -367,7 +367,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0306":{
-        "door": {
+        "door01": {
           "gridPosition":[],
           "type":"item-shop",
           "entranceTo":"0306shop",
@@ -375,7 +375,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0307":{
-        "door": {
+        "door01": {
           "gridPosition":[1,3],
           "type":"item-shop",
           "hidden-entrance":"hidden-entrance",
@@ -385,7 +385,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0308":{
-        "door-01": {
+        "door01": {
           "gridPosition":[1,14],
           "type":"potion-shop",
           "hidden-entrance":"hidden-entrance",
@@ -393,7 +393,7 @@ var hyruleGridOptionTiles = {
           "note":"E",
           "required":"bomb"
         },
-        "door-02": {
+        "door02": {
           "gridPosition":[],
           "type":"",
           "entranceTo":"river crossing",
@@ -402,7 +402,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0309":{
-        "door": {
+        "door01": {
           "gridPosition":[6,13],
           "type":"rupees-free",
           "hidden-entrance":"hidden-entrance",
@@ -413,7 +413,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0310":{
-        "door": {
+        "door01": {
           "gridPosition":[],
           "type":"",
           "entranceTo":"",
@@ -422,7 +422,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0311":{
-        "door": {
+        "door01": {
           "gridPosition":[],
           "type":"",
           "entranceTo":"",
@@ -431,7 +431,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0312":{
-        "door": {
+        "door01": {
           "gridPosition":[],
           "type":"",
           "entranceTo":"",
@@ -440,7 +440,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0313":{
-        "door": {
+        "door01": {
           "gridPosition":[6,9],
           "type":"",
           "entranceTo":"0313shop",
@@ -450,7 +450,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0314":{
-        "door": {
+        "door01": {
           "gridPosition":[1,5],
           "type":"rupees-free",
           "entranceTo":"0314shop",
@@ -461,7 +461,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0315":{
-        "door": {
+        "door01": {
           "gridPosition":[],
           "type":"",
           "entranceTo":"",
@@ -470,7 +470,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0316":{
-        "door": {
+        "door01": {
           "gridPosition":[],
           "type":"",
           "entranceTo":"",
@@ -480,7 +480,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0401":{
-        "door": {
+        "door01": {
           "gridPosition":[],
           "type":"",
           "entranceTo":"",
@@ -489,7 +489,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0402":{
-        "door": {
+        "door01": {
           "gridPosition":[],
           "type":"",
           "entranceTo":"",
@@ -498,7 +498,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0403":{
-        "door": {
+        "door01": {
           "gridPosition":[],
           "type":"",
           "entranceTo":"",
@@ -507,7 +507,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0404":{
-        "door": {
+        "door01": {
           "gridPosition":[1,10],
           "type":"potion-shop",
           "hidden-entrance":"hidden-entrance",
@@ -517,7 +517,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0405":{
-        "door": {
+        "door01": {
           "gridPosition":[4,4],
           "type":"item-shop",
           "hidden-entrance":"hidden-entrance",
@@ -527,7 +527,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0406":{
-        "door": {
+        "door01": {
           "gridPosition":[],
           "type":"",
           "entranceTo":"",
@@ -536,7 +536,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0407":{
-        "door": {
+        "door01": {
           "gridPosition":[],
           "type":"",
           "entranceTo":"",
@@ -545,7 +545,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0408":{
-        "door": {
+        "door01": {
           "gridPosition":[],
           "type":"",
           "entranceTo":"level 01",
@@ -554,7 +554,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0409":{
-        "door": {
+        "door01": {
           "gridPosition":[],
           "type":"",
           "entranceTo":"",
@@ -563,7 +563,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0410":{
-        "door": {
+        "door01": {
           "gridPosition":[],
           "type":"fairy-pond",
           "entranceTo":"power up",
@@ -572,7 +572,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0411":{
-        "door": {
+        "door01": {
           "gridPosition":[],
           "type":"",
           "entranceTo":"",
@@ -581,7 +581,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0412":{
-        "door": {
+        "door01": {
           "gridPosition":[],
           "type":"",
           "entranceTo":"",
@@ -590,7 +590,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0413":{
-        "door": {
+        "door01": {
           "gridPosition":[],
           "type":"",
           "entranceTo":"Level 02",
@@ -599,7 +599,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0414":{
-        "door": {
+        "door01": {
           "gridPosition":[4,9],
           "type":"rupees-free",
           "hidden-entrance":"hidden-entrance",
@@ -610,7 +610,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0415":{
-        "door": {
+        "door01": {
           "gridPosition":[],
           "type":"",
           "entranceTo":"",
@@ -619,7 +619,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0416":{
-        "door": {
+        "door01": {
           "gridPosition":[],
           "type":"",
           "entranceTo":"tile 0316",
@@ -628,7 +628,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0501":{
-        "door": {
+        "door01": {
           "gridPosition":[],
           "type":"",
           "entranceTo":"",
@@ -637,7 +637,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0502":{
-        "door": {
+        "door01": {
           "gridPosition":[],
           "type":"",
           "entranceTo":"",
@@ -646,14 +646,14 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0503":{
-        "door-01": {
+        "door01": {
           "gridPosition":[],
           "type":"",
           "entranceTo":"tile stairs",
           "note":"flute play drains the lake to expose the staircase",
           "required":"flute"
         },
-        "door-02": {
+        "door02": {
           "gridPosition":[5,6],
           "type":"tile-stairs",
           "entranceTo":"Level 07",
@@ -662,7 +662,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0504":{
-        "door": {
+        "door01": {
           "gridPosition":[],
           "type":"fairy-pond",
           "entranceTo":"power up",
@@ -671,7 +671,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0505":{
-        "door": {
+        "door01": {
           "gridPosition":[],
           "type":"item-shop",
           "entranceTo":"shop0505",
@@ -680,14 +680,14 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0506":{
-        "door-01": {
+        "door01": {
           "gridPosition":[],
           "type":"",
           "entranceTo":"Level 04",
           "note":"4",
           "required":""
         },
-        "door-02": {
+        "door02": {
           "gridPosition":[],
           "type":"",
           "entranceTo":"Mainland Hyrule Overworld",
@@ -696,7 +696,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0507":{
-        "door": {
+        "door01": {
           "gridPosition":[7,9],
           "type":"item-shop",
           "hidden-entrance":"hidden-entrance",
@@ -706,7 +706,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0508":{
-        "door": {
+        "door01": {
           "gridPosition":[7,11],
           "type":"",
           "entranceTo":"shop0508",
@@ -716,7 +716,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0509":{
-        "door": {
+        "door01": {
           "gridPosition":[2,13],
           "type":"rupees-free",
           "entranceTo":"shop0509",
@@ -727,7 +727,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0510":{
-        "door": {
+        "door01": {
           "gridPosition":[3,5],
           "type":"warp-hall",
           "warp-locations":{
@@ -742,7 +742,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0511":{
-        "door": {
+        "door01": {
           "gridPosition":[],
           "type":"item-shop",
           "entranceTo":"shop0511",
@@ -751,7 +751,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0512":{
-        "door": {
+        "door01": {
           "gridPosition":[2,11],
           "type":"potion-shop",
           "entranceTo":"shop0512",
@@ -760,7 +760,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0513":{
-        "door": {
+        "door01": {
           "gridPosition":[],
           "type":"",
           "entranceTo":"",
@@ -769,7 +769,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0514":{
-        "door": {
+        "door01": {
           "gridPosition":[6,13],
           "type":"item-shop",
           "hidden-entrance":"hidden-entrance",
@@ -779,7 +779,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0515":{
-        "door": {
+        "door01": {
           "gridPosition":[4,10],
           "type":"rupees-free",
           "hidden-entrance":"hidden-entrance",
@@ -790,14 +790,14 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0516":{
-        "door-01": {
+        "door01": {
           "gridPosition":[],
           "type":"",
           "entranceTo":"pier",
           "note":"",
           "required":"ladder"
         },
-        "door-02": {
+        "door02": {
           "gridPosition":[],
           "type":"",
           "entranceTo":"outer pier and mainland hyrule",
@@ -806,7 +806,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0601":{
-        "door": {
+        "door01": {
           "gridPosition":[],
           "type":"",
           "entranceTo":"",
@@ -815,7 +815,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0602":{
-        "door": {
+        "door01": {
           "gridPosition":[6,9],
           "type":"rupies-free",
           "hidden-entrance":"hidden-entrance",
@@ -826,7 +826,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0603":{
-        "door": {
+        "door01": {
           "gridPosition":[],
           "type":"",
           "entranceTo":"",
@@ -835,7 +835,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0604":{
-        "door": {
+        "door01": {
           "gridPosition":[],
           "type":"",
           "entranceTo":"",
@@ -844,7 +844,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0605":{
-        "door": {
+        "door01": {
           "gridPosition":[],
           "type":"",
           "entranceTo":"",
@@ -853,7 +853,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0606":{
-        "door": {
+        "door01": {
           "gridPosition":[4,8],
           "type":"",
           "entranceTo":"island of level 04 and back to mainland hyule",
@@ -862,7 +862,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0607":{
-        "door": {
+        "door01": {
           "gridPosition":[6,10],
           "type":"free-rupies",
           "entranceTo":"shop0607",
@@ -873,7 +873,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0608":{
-        "door": {
+        "door01": {
           "gridPosition":[],
           "type":"",
           "entranceTo":"",
@@ -882,7 +882,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0609":{
-        "door": {
+        "door01": {
           "gridPosition":[],
           "type":"",
           "entranceTo":"",
@@ -891,7 +891,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0610":{
-        "door": {
+        "door01": {
           "gridPosition":[],
           "type":"",
           "entranceTo":"",
@@ -900,7 +900,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0611":{
-        "door": {
+        "door01": {
           "gridPosition":[],
           "type":"",
           "entranceTo":"",
@@ -909,7 +909,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0612":{
-        "door": {
+        "door01": {
           "gridPosition":[6,2],
           "type":"",
           "entranceTo":"",
@@ -918,7 +918,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0613":{
-        "door": {
+        "door01": {
           "gridPosition":[],
           "type":"",
           "entranceTo":"",
@@ -927,7 +927,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0614":{
-        "door": {
+        "door01": {
           "gridPosition":[],
           "type":"",
           "entranceTo":"",
@@ -936,7 +936,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0615":{
-        "door": {
+        "door01": {
           "gridPosition":[],
           "type":"item-shop",
           "entranceTo":"shop0615",
@@ -945,7 +945,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0616":{
-        "door-01": {
+        "door01": {
           "gridPosition":[5,8],
           "type":"",
           "entranceTo":"pier",
@@ -953,14 +953,14 @@ var hyruleGridOptionTiles = {
           "required":"ladder",
           "gain":"heart-container"
         },
-        "door-02": {
+        "door02": {
           "gridPosition":[5,10],
           "type":"",
           "entranceTo":"outer pier and mainland hyrule",
           "note":"",
           "required":"ladder"
         },
-        "door-03": {
+        "door03": {
           "gridPosition":[5,12],
           "type":"",
           "entranceTo":"inner pier",
@@ -969,7 +969,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0701":{
-        "door": {
+        "door01": {
           "gridPosition":[],
           "type":"",
           "entranceTo":"",
@@ -978,7 +978,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0702":{
-        "door": {
+        "door01": {
           "gridPosition":[],
           "type":"",
           "entranceTo":"",
@@ -987,7 +987,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0703":{
-        "door": {
+        "door01": {
           "gridPosition":[2,8],
           "type":"rupies-free",
           "hidden-entrance":"hidden-entrance",
@@ -998,9 +998,9 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0704":{
-        "door": {
+        "door01": {
           "gridPosition":[6,6],
-          "type":"door-repair",
+          "type":"doorrepair",
           "hidden-entrance":"hidden-entrance",
           "entranceTo":"0704shop",
           "note":"D",
@@ -1008,7 +1008,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0705":{
-        "door": {
+        "door01": {
           "gridPosition":[],
           "type":"potion-shop",
           "entranceTo":"",
@@ -1017,7 +1017,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0706":{
-        "door": {
+        "door01": {
           "gridPosition":[],
           "type":"",
           "entranceTo":"shop0706",
@@ -1026,7 +1026,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0707":{
-        "door": {
+        "door01": {
           "gridPosition":[],
           "type":"item-shop",
           "entranceTo":"0707shop",
@@ -1035,7 +1035,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0708":{
-        "door": {
+        "door01": {
           "gridPosition":[1,7],
           "type":"rupees-free",
           "entranceTo":"0708shop",
@@ -1046,9 +1046,9 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0709":{
-        "door": {
+        "door01": {
           "gridPosition":[6,2],
-          "type":"door-repair",
+          "type":"doorrepair",
           "entranceTo":"0709shop",
           "hidden-entrance":"hidden-entrance",
           "note":"D",
@@ -1056,9 +1056,9 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0710":{
-        "door": {
+        "door01": {
           "gridPosition":[],
-          "type":"door-repair",
+          "type":"doorrepair",
           "entranceTo":"0710shop",
           "hidden-entrance":"hidden-entrance",
           "note":"",
@@ -1066,7 +1066,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0711":{
-        "door": {
+        "door01": {
           "gridPosition":[6,12],
           "hidden-entrance":"hidden-entrance",
           "entranceTo":"0711shop",
@@ -1075,7 +1075,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0712":{
-        "door": {
+        "door01": {
           "gridPosition":[6,8],
           "type":"rupees-free",
           "hidden-entrance":"hidden-entrance",
@@ -1086,7 +1086,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0713":{
-        "door": {
+        "door01": {
           "gridPosition":[],
           "type":"",
           "entranceTo":"",
@@ -1095,7 +1095,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0714":{
-        "door": {
+        "door01": {
           "gridPosition":[2,10],
           "hidden-entrance":"hidden-entrance",
           "entranceTo":"Level 08",
@@ -1104,7 +1104,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0715":{
-        "door": {
+        "door01": {
           "gridPosition":[],
           "type":"",
           "entranceTo":"",
@@ -1113,7 +1113,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0716":{
-        "door": {
+        "door01": {
           "gridPosition":[],
           "type":"item-shop",
           "entranceTo":"0716shop",
@@ -1122,7 +1122,7 @@ var hyruleGridOptionTiles = {
         }
     },
 	"hyruleGridTileOptions0801":{
-		"door": {
+		"door01": {
           "gridPosition":[],
           "type":"",
           "entranceTo":"0801shop",
@@ -1131,7 +1131,7 @@ var hyruleGridOptionTiles = {
         }
     },
 	"hyruleGridTileOptions0802":{
-		"door": {
+		"door01": {
           "gridPosition":[1,5],
           "type":"rupies-free",
           "entranceTo":"0802shop",
@@ -1141,7 +1141,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0803":{
-		"door": {
+		"door01": {
           "gridPosition":[],
           "type":"",
           "entranceTo":"",
@@ -1150,7 +1150,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0804":{
-		"door": {
+		"door01": {
           "gridPosition":[],
           "type":"",
           "entranceTo":"",
@@ -1159,7 +1159,7 @@ var hyruleGridOptionTiles = {
         }
     },
 	"hyruleGridTileOptions0805":{
-		"door": {
+		"door01": {
           "gridPosition":[],
           "type":"",
           "entranceTo":"Level 03",
@@ -1168,7 +1168,7 @@ var hyruleGridOptionTiles = {
         }
     },
 	"hyruleGridTileOptions0806":{
-		"door": {
+		"door01": {
           "gridPosition":[],
           "type":"",
           "entranceTo":"0806shop",
@@ -1177,7 +1177,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0807":{
-        "door": {
+        "door01": {
           "gridPosition":[1,6],
           "type":"gambling-spot",
           "entranceTo":"0807shop",
@@ -1187,7 +1187,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0808":{
-		"door": {
+		"doorA": {
           "gridPosition":[1,4],
           "type":"",
           "entranceTo":"0808shop",
@@ -1195,7 +1195,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0809":{
-        "door": {
+        "door01": {
           "gridPosition":[6,4],
           "type":"potion-shop",
           "hidden-entrance":"hidden-entrance",
@@ -1205,7 +1205,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0810":{
-        "door-01": {
+        "door01": {
           "gridPosition":[5,8],
           "type":"",
           "entranceTo":"access to tile stairs/warp zone",
@@ -1213,7 +1213,7 @@ var hyruleGridOptionTiles = {
           "required":"push north",
           "note":"boulder ends up at [4,8]"
         },
-        "door-02": {
+        "door02": {
           "gridPosition":[5,9],
           "type":"warp-hall",
           "warp-locations":{
@@ -1228,7 +1228,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0811":{
-        "door": {
+        "door01": {
           "gridPosition":[],
           "type":"",
           "entranceTo":"",
@@ -1237,7 +1237,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0812":{
-        "door": {
+        "door01": {
           "gridPosition":[1,9],
           "type":"",
           "entranceTo":"0812shop",
@@ -1247,7 +1247,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0813":{
-        "door": {
+        "door01": {
           "gridPosition":[1,6],
           "type":"gambling-spot",
           "entranceTo":"0813shop",
@@ -1257,9 +1257,9 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0814":{
-        "door": {
+        "door01": {
           "gridPosition":[1,6],
-          "type":"door-repair",
+          "type":"doorrepair",
           "entranceTo":"0814shop",
           "hidden-entrance":"hidden-entrance",
           "note":"D",
@@ -1267,7 +1267,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0815":{
-        "door": {
+        "door01": {
           "gridPosition":[],
           "type":"",
           "entranceTo":"",
@@ -1276,7 +1276,7 @@ var hyruleGridOptionTiles = {
         }
     },
     "hyruleGridTileOptions0816":{
-        "door": {
+        "door01": {
           "gridPosition":[],
           "type":"",
           "entranceTo":""

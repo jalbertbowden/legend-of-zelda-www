@@ -114,11 +114,9 @@ var isEqual = function (value, other) {
 };
 
 function getScreenGridOptions(){ // get array of option values for current active screen grid
-  //console.log("YO!: " +hyruleGridOptionTiles.hyruleGridTileOptions0808["door01"]);
   tileGridOptionsID = hyruleGridTilePrepend+ "Options" +htmlScreenGridTileID;
-  //console.log('tile grid options id: ' +tileGridOptionsID);
+  // console.log('tile grid options id: ' +tileGridOptionsID);
   tileGridOptionsValues = hyruleGridOptionTiles[tileGridOptionsID];
-  // console.log("tile grid options values array: " +tileGridOptionsValues.door01.gridPosition);
   // console.log("tile grid options values array: " +tileGridOptionsValues.door.gridPosition+ ", " +tileGridOptionsValues.door.entranceTo);
   return tileGridOptionsValues;
 }
@@ -478,13 +476,8 @@ function moveLinkTileJSON(string, direction){ // accepts tile option string of c
 function linkMovementHidden(str){
   console.log("hidden movement direction: " +str);
   // hidden screen grid tile id to be built
-  var screenToGet = tileGridOptionsValues.door01.entranceTo;
-  console.log("entrance to: " +tileGridOptionsValues.door01.entranceTo);
-  
-  
-  // !!!!! connect screenToGet to list of cave tile screens markup.
-  // match screenToGet with value in list
-  // return tile screen markup and change the current active tile screen!!!
+  var screenToGet = tileGridOptionsValues.door.entranceTo;
+  console.log(tileGridOptionsValues.door.entranceTo);
   
 }
 function moveLinkAndTileNorth(str){ // move link one current screen grid value north, while simultaneously changing the current screen to the one above (north) of it
@@ -494,9 +487,7 @@ function moveLinkAndTileNorth(str){ // move link one current screen grid value n
   moveLinkTileJSON(northOptionJSONID, str);
 }
 function linkMovementNorth(){ // move north options cycle
-  console.log("hidden move north: " +tileGridOptionsValues);
-  // tileGridOptionsValues.door01.gridPosition
-  var hiddenMoveNorth = isEqual(tileGridOptionsValues.door01.gridPosition, movementOptions[0]);
+  var hiddenMoveNorth = isEqual(tileGridOptionsValues.door.gridPosition,movementOptions[0]);
   console.log("hidden move north: " +hiddenMoveNorth);
   tileWildCard = "north";
   if(hiddenMoveNorth === true) {
@@ -518,8 +509,8 @@ function moveLinkAndTileEast(){
   moveLinkTileJSON(eastOptionJSONID, tileWildCard);
 }
 function linkMovementEast() {
-  //var hiddenMoveEast = isEqual(tileGridOptionsValues.door.gridPosition,movementOptions[1]);
-  //console.log("hidden move east: " +hiddenMoveEast);
+  var hiddenMoveEast = isEqual(tileGridOptionsValues.door.gridPosition,movementOptions[1]);
+  console.log("hidden move east: " +hiddenMoveEast);
   
   if ((walkabilityOptions[1] == true) && (htmlLinkScreenGridPositions[1] < 15)) {
   	// console.log("walkability option east is true!");
@@ -536,8 +527,8 @@ function moveLinkAndTileSouth(){
   moveLinkTileJSON(southOptionJSONID, tileWildCard);
 }
 function linkMovementSouth(){ // console.log("screen grid position: " +htmlLinkScreenGridPositions[0]+ ", hyrule grid row: " +hyruleGridRow);
-  //var hiddenMoveSouth = isEqual(tileGridOptionsValues.door.gridPosition,movementOptions[2]);
-  //console.log("hidden move south: " +hiddenMoveSouth);
+  var hiddenMoveSouth = isEqual(tileGridOptionsValues.door.gridPosition,movementOptions[2]);
+  console.log("hidden move south: " +hiddenMoveSouth);
   
   if(walkabilityOptions[2] == true) {
     moveLinkSouth();
@@ -554,8 +545,8 @@ function moveLinkAndTileWest(){ // console.log("move link and active current scr
 }
 function linkMovementWest() { // console.log("walkability west option: " +walkabilityOptions[3]+ ", and html link screen grid positions 1 is: " +htmlLinkScreenGridPositions[1]);
   console.log("inside move west: " +movementOptions[3]);
-  //var hiddenMoveWest = isEqual(tileGridOptionsValues.door.gridPosition,movementOptions[3]);
-  //console.log("hidden move west: " +hiddenMoveWest);
+  var hiddenMoveWest = isEqual(tileGridOptionsValues.door.gridPosition,movementOptions[3]);
+  console.log("hidden move west: " +hiddenMoveWest);
   if((walkabilityOptions[3] ==  true) && (htmlLinkScreenGridPositions[1] > 0)){
     moveLinkWest();
   } else if ((htmlLinkScreenGridPositions[1] === 0) && (hyruleGridColumn != "00")){ // console.log("move tile west functionality triggered!");
