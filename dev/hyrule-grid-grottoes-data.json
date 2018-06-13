@@ -1,0 +1,99 @@
+var grottoesTiles = {
+    "A": {
+          "text":"TAKE ANY ONE YOU WANT.",
+          "npc":"old-man",
+          "items":"torch-west, torch-east, potion-red, heart-container"
+    },
+    "B": {
+          "text":"TAKE ANY ROAD YOU WANT.",
+          "npc":"old-man",
+          "items":"torch-west, torch-east, tile-stairs-west, tile-stairs-central, tile-stairs-east"
+    },
+    "C": {
+          "text":"LET'S PLAY MONEY MAKING GAME.",
+          "npc":"old-man",
+          "items":"torch-west, torch-east, rupee-west, rupee-central, rupee-east, rupee-cost",
+          "prices":"-10, -10, -10"
+    },
+    "D": {
+          "text":"PAY ME FOR THE DOOR REPAIR CHARGE.",
+          "npc":"old-man",
+          "items":"torch-west, torch-east"
+          "prices":"-20"
+    },
+    "E": {
+          "text":"BUY MEDICINE BEFORE YOU GO.",
+          "npc":"old-woman and letter?",
+          "items":"torch-west, torch-east, potion-blue, potion-red, rupee-cost"
+          "prices":"40, 68"
+    },
+    "F": {
+          "text":"",
+          "npc":"",
+          "items":"torch-west, torch-east, "
+    },
+    "G": {
+          "text":"IT'S A SECRET TO EVERYBODY.",
+          "npc":"Friendly Moblin",
+          "items":"torch-west, torch-east",
+          "prices":"10"
+    },
+    "H": {
+          "text":"IT'S A SECRET TO EVERYBODY.",
+          "npc":"Friendly Moblin",
+          "items":"torch-west, torch-east"
+          "prices":"30"
+    },
+    "I": {
+          "text":"IT'S A SECRET TO EVERYBODY.",
+          "npc":"Friendly Moblin",
+          "items":"torch-west, torch-east",
+          "prices":"100"
+    },
+    "J": {
+          "text":"BOY, THIS IS REALLY EXPENSIVE!",
+          "npc":"merchant",
+          "items":"torch-west, torch-east, key, ring-blue, food, rupee-cost",
+          "prices":"80, 250, 60"
+    },
+    "K": {
+          "text":"BUY SOMETHIN' WILL YA!",
+          "npc":"merchant",
+          "items":"torch-west, torch-east, shield-magical, bomb, arrow",
+          "prices":"130, 20, 80"
+    },
+    "L": {
+          "text":"BOY, THIS IS REALLY EXPENSIVE!",
+          "npc":"merchant",
+          "items":"torch-west, torch-east, shield-magical, food, heart",
+          "prices":"90, 100, 10"
+    },
+    "M": {
+          "text":"BUY SOMETHIN' WILL YA!",
+          "npc":"merchant",
+          "items":"torch-west, torch-east, shield-magical, key, candle-blue",
+          "prices":"160, 100, 60"
+    },
+    "N": {
+          "text":"GO UP, UP, THE MOUNTAIN AHEAD.",
+          "npc":"old-woman",
+          "items":"torch-west, torch-east, rupee, rupee, rupees-five, rupee-cost",
+          "prices":"-5, -10. -20"
+    },
+    "O": {
+          "text":"SECRET IS IN THE TREE AT THE DEAD-END.",
+          "npc":"old-man",
+          "items":"torch-west, torch-east, "
+    },
+    "P": {
+          "text":"GO NORTH, WEST, SOUTH, WEST TO THE FOREST OF MAZE.",
+          "npc":"old-woman",
+          "items":"torch-west, torch-east, rupee, rupee-five, rupee, rupee-cost",
+          "prices":"-10, -30, -50"
+    },
+    "Q": {
+          "text":"MEET THE OLD MAN AT THE GRAVE.",
+          "npc":"old-woman",
+          "items":"torch-west, torch-east",
+    }
+}

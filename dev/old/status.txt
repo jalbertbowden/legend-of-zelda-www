@@ -1,0 +1,147 @@
+status notes:
+
+05.js,05.html -> keyboard arrow events and event listener added
+	2018-04-05
+	
+06a.js,06a.html -> keys/keyboard-events-dev.php merged with 06.js,06.html
+	2018-04-08
+	
+07.js, 07.html -> movementOptions object now in sync with link object
+	2018-04-09
+
+UP NEXT:
+	Implement collision detection when reading in the movement options tile array
+		allow: link to move where it is allowed
+		disallow: movement where it is restricted
+		
+START OVER 2018-04-10
+link-dev.js and link-dev.html are active dev
+link-dev-XX.js and link-dev-XX.html are last active dev saves/commits
+
+link-dev-01.js, link-dev-01.html -- 2018-04-10
+  locateLink function firing off gathering necessary/required environment details/variables for tracking link's character during game play
+  locateLink function tied to output console HTML for viewing in browser without having to look @ console.log
+  
+2018-04-11
+link-dev-02.js, link-dev-02.html - locateLink function almost complete, awaiting walkability scoring
+
+2018-04-11
+link-dev-02.js, link-dev-02.html - walkability implemented, keyboard events implemented
+link-dev-02b.js, link-dev-02b.html - walkability implemented, keyboard events implemented and separated into own script
+
+2018-04-11
+link-dev-03.js, link-dev-03.html - need to implement movement functionality.
+
+2018-04-12
+link-dev-03b.js, link-dev-03b.html - move north functionality almost implemented. need to handle offgrid options, and a few other things. implementing other three directions this release.
+
+2018-04-12
+link-dev-03c.js, link-dev-03c.html - all four movement options implemented with more functionality.
+	- need to handle offgrid screen options
+	- need to handle half height of the last row in each current active screen: going south normally, going north via current active screen grid to offscreen grid north option
+	- collision detection is working! @ least on the origin tile, and off course not handling the two exceptions listed above...
+	
+2018-04-12
+link-dev-03d.js, link-dev-03d.html - movement and animation classes for link green implemented for north, east, south, and west movement actions
+	- need to handle offgrid screen options
+	- need to handle half height of the last row in each current active screen: going south normally, going north via current active screen grid to offscreen grid north option
+
+	
+2018-04-13
+link-dev-03e.js, link-dev-03e.html
+	- implement offgrid screen functionality; function/outline is there!!!!!
+	- test doubly on south movement because this specifically wasn't looked @ because origin tile has no south option/too lazy to put in another tile...
+	- need to handle half height of the last row in each current active screen: going south normally, going north via current active screen grid to offscreen grid north option
+	
+	
+2018-04-13
+link-dev-03ea.js, link-dev-03ea.html - offscreen grid movement option functionality implemented!
+	- implement offgrid screen functionality for east, south, and west directional movements.
+	- test doubly on south movement because this specifically wasn't looked @ because origin file has no south option/too lazy to put in another tile...
+	- need to handle half height of the last row in each current active screen: going south normally...
+	- need to update hyrule grid map locator in subscreen upon tile change!
+	- update link's character for each movement too!
+	
+	
+2018-04-13
+link-dev-03eb.js, link-dev-03eb.html - offscreen grid tile movement move action now updating variables properly. testing going from origin tile, north to tile 0708.
+	- implement offgrid screen functionality for east, south, and west directional movements.
+	- test doubly on south movement because this specifically wasn't looked @ because origin file has no south option/too lazy to put in another tile...
+	- need to handle half height of the last row in each current active screen: going south normally...
+	- need to update hyrule grid map locator in subscreen upon tile change!
+	- update link's character for each movement too!
+
+2018-04-14
+link-dev-03ec.js, link-dev-03ec.html - south off screen movement option functionality implemented, @ least in all rows save the last; need to test on last row - south off screen grid option...there should be no option/no functionality!!!!
+	- implement offgrid screen functionality for east, and west directional movements.
+	- test implementation of off screen movement options in new active screen grids that link has moved into...noticed east/west movement options are broken after going from tile 0808 (origin) to 0708; going east/west from 0708 is broken, whereas east/west in 0808 is not. 0808 is not broken because the functionality option isn't there...yet. I think...
+	- need to handle half height of last row in each current active screen: going south normally....
+	- need to update hyrule grid map locator in subscreen upon tile change!
+	- update link's character for each movement too!
+	
+	
+	
+NEED TO FIGURE OUT HOW/WHAT TO DO ABOUT OFF SCREEN GRIDS.....
+	- generate them after finding out possible movement options for the first time in/on current active screen grid.
+	- delete/destroy existing off screen grids after one has been moved into.
+	- generate off screen grids for current active screen grid, upon deleting/destroying off screen grids unused/left over from latest current active tile change....
+	
+
+2018-04-15
+link-dev-03ed.js link-dev-03ed.html - east off screen grid functionality implemented.
+	- need to update hyrule grid map locator in subscreen upon tile change!
+	- ensure updateLink()/locateLink() are firing off at proper times across the board.
+	- check last status update before this (last update for 2018-04-14 -> link-dev-03ec.js and link-dev-03ec.html) issues and ensure they are implemented across the board!
+	
+
+2018-04-18
+link-dev-03ef.js, link-dev-03ef.html - new functionality!!! lots of missing old functionality!!!!
+	- swapped tile generation functionality for ajax calls and proper json responses.
+	- currently only functional moving north from the origin tile
+		- on that note, its the only option implemented on, so just port the functionality down the chain and it should all be coming together!!!!!
+
+		
+2018-04-18
+link-dev-03eg.js, link-dev-03eg.html - movement option tiles functionality complete for all directions from origin tile!
+	- NEED: to correct link classes entering new tiles; example: coming south from 0708 to 0808, link is still facing north after entering the new tile
+	
+2018-04-19
+link-dev-03eh.js, link-dev-03eh.html - movement across hyrule almost functional
+- need to fix tiles current set to unwalkable: ladders/bridges whatever they are called. also black tiles (doors)
+- fix position of link when changing directions
+- fix wrong styles on background tiles
+- tie hyrule overworld map in subscreen to link's movements; make it dynamic
+- look up enemies movements
+
+2018-04-19 - cleaned up a few things
+link-dev-03eh.js and link-dev-03eh.html not touched; dont as link-dev.js, and link-dev.html. saving as link-dev-03eh.js and link-dev-03eh.html and moving onto "ei" for development
+- need to fix tiles current set to unwalkable: ladders/bridges whatever they are called. also black tiles (doors)
+- fix position of link when changing directions
+- fix wrong styles on background tiles
+- tie hyrule overworld map in subscreen to link's movements; make it dynamic
+- look up enemies movements
+
+2018-04-20 - movement across hyrule seemingly completed; walkable tiles now walkable. position of link when changing directions fixed.
+link-dev-03ei.js, link-dev-03ei.html
+- still random background tiles color errors...as i come across them...
+- tie hyrule overworld map in subscreen to link's movements; make it dynamic;
+- look up enemies-movements
+
+NOTE
+NOTE
+NOTE
+Screen Grid Tile ID: 0604
+	link cannot advance to the bottom row of the screen grid, preventing him from access the southern tile option.
+		south tile option comes back as undefined.....
+Screen Grid Tile ID: 0804
+	grid position 2,11 is khaki. all tile options are khaki as well. east and west options are returning as "tile-bush, bush-brown"
+
+
+	
+NOTE - 2018-04-20
+	- 0804 fixed.
+	- 0704 fixed.
+	- 0604 fixed....i think; need to check/follow up on that....
+	
+	
+	
