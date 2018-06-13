@@ -1,0 +1,74 @@
+/** underworld brick tile level 01 **/
+/**
+light grey - #00efde
+grey - #008c8c
+dark grey - #00425a 
+
+	--color-u-grey-light: ##00efde;
+	--color-u-grey: #008c8c;
+	--color-u-grey-dark:
+
+**/
+
+
+.level-01-gsarchives.tile-dungeon-wall-base-south-01:before{
+	background-color:var(--color-u-grey);
+}
+.level-01-gsarchives.tile-dungeon-wall-base-south-01:after,
+.level-01-gsarchives.tile-dungeon-wall-base-south-01 .bit-01,
+.level-01-gsarchives.tile-dungeon-wall-base-south-01 .bit-01:before{
+	background-color:var(--color-u-grey-dark);
+}
+.level-01-gsarchives.tile-dungeon-wall-base-south-01 .bit-01:after,
+.level-01-gsarchives.tile-dungeon-wall-base-south-01 .bit-02,
+.level-01-gsarchives.tile-dungeon-wall-base-south-01 .bit-02:before{
+	background-color:var(--color-u-grey-light);
+}
+/** display:none;s **/
+.level-01-gsarchives.tile-dungeon-wall-base-south-01 .bit-02:after{
+	display:none;
+}
+
+.level-01-gsarchives.tile-dungeon-wall-base-south-01:before{
+	width:100%;
+	height:75%;
+	top:0;
+	left:0;
+}
+.level-01-gsarchives.tile-dungeon-wall-base-south-01:after{
+	width:100%;
+	height:3.125%;
+	top:12.5%;
+	left:0;
+}
+
+.level-01-gsarchives.tile-dungeon-wall-base-south-01 .bit{
+	width:3.125%;
+	height:3.125%;
+}
+.level-01-gsarchives.tile-dungeon-wall-base-south-01 .bit-01{
+	top:37.5%;
+	left:0;
+}
+.level-01-gsarchives.tile-dungeon-wall-base-south-01 .bit-01:before{
+	top:0;
+	left:100%;
+	width:3100%;
+	height:100%;
+}
+.level-01-gsarchives.tile-dungeon-wall-base-south-01 .bit-01:after{
+	top:-900%;
+	left:0;
+	width:3200%;
+	height:100%;
+}
+.level-01-gsarchives.tile-dungeon-wall-base-south-01 .bit-02{
+	top:34.375%;
+	left:0;
+}
+.level-01-gsarchives.tile-dungeon-wall-base-south-01 .bit-02:before{
+	top:0;
+	left:100%;
+	width:3100%;
+	height:100%;
+}

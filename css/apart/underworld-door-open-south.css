@@ -1,0 +1,269 @@
+.tile-dungeon-door-open-south .bit-15:after{
+	display:none;
+}
+
+.tile-dungeon-door-open-south{
+	position:absolute;
+	z-index:20;
+}
+.s512 .tile-dungeon-door-open-south{
+	width:64px;
+	height:64px;
+	left:224px;
+	top:288px;
+}
+.s512 .tile-dungeon-door-open-south .bit{
+	height:3.125%;
+	width:3.125%;
+}
+
+
+
+
+
+.tile-dungeon-door-open-south:before{
+	width:100%;
+	height:62.5%;
+	top:0;
+	left:0;
+}
+.tile-dungeon-door-open-south:after{
+	width:50%;
+	height:21.875%;
+	top:25%;
+	left:25%;
+}
+.tile-dungeon-door-open-south .bit-01{
+	top:0;
+	left:87.5%;
+}
+.tile-dungeon-door-open-south .bit-01:before{
+	top:0;
+	left:-1100%;
+	width:800%;
+	height:100%;
+}
+.tile-dungeon-door-open-south .bit-01:after{
+	top:1500%;
+	left:-2500%;
+	width:2600%;
+	height:100%;
+}
+.tile-dungeon-door-open-south .bit-02{
+	top:34.375%;
+	left:0;
+}
+.tile-dungeon-door-open-south .bit-02:before{
+	top:-1000%;
+	left:2400%;
+	width:100%;
+	height:1400%; 
+}
+.tile-dungeon-door-open-south .bit-02:after{
+	top:-1000%;
+	left:700%;
+	width:100%;
+	height:1400%;
+}
+.tile-dungeon-door-open-south .bit-03{
+	left:0;
+	top:12.5%;
+}
+.tile-dungeon-door-open-south .bit-03:before{
+	top:0;
+	left:2500%;
+	width:100%;
+	height:1100%;
+}
+.tile-dungeon-door-open-south .bit-03:after{
+	top:0;
+	left:600%;
+	width:100%;
+	height:1100%;
+}
+.tile-dungeon-door-open-south .bit-04{
+	left:3.125%;
+	top:12.5%;
+}
+.tile-dungeon-door-open-south .bit-04:before{
+	left:2800%;
+	top:200%;
+	width:100%;
+	height:300%;
+}
+.tile-dungeon-door-open-south .bit-04:after{
+	left:2700%;
+	top:-100%;
+	width:100%;
+	height:300%;
+}
+.tile-dungeon-door-open-south .bit-05{
+	left:6.25%;
+	top:12.5%;
+}
+.tile-dungeon-door-open-south .bit-05:before{
+	left:2800%;
+	top:500%;
+	width:100%;
+	height:300%;
+}
+.tile-dungeon-door-open-south .bit-05:after{
+	left:2500%;
+	top:-400%;
+	width:100%;
+	height:300%;
+}
+.tile-dungeon-door-open-south .bit-06{
+	left:6.25%;
+	top:9.375%;
+}
+.tile-dungeon-door-open-south .bit-06:before{
+	left:2900%;
+	top:900%;
+	width:100%;
+	height:400%;
+}
+.tile-dungeon-door-open-south .bit-06:after{
+	left:2700%;
+	top:100%;
+	width:300%;
+	height:100%;
+}
+.tile-dungeon-door-open-south .bit-07{
+	left:96.875%;
+	top:34.375%;
+}
+.tile-dungeon-door-open-south .bit-07:before{
+	left:-1500%;
+	top:-1000%;
+	width:100%;
+	height:700%;
+}
+.tile-dungeon-door-open-south .bit-07:after{
+	left:-3100%;
+	top:800%;
+	width:3200%;
+	height:100%;
+}
+.tile-dungeon-door-open-south .bit-08{
+	left:96.875%;
+	top:9.375%;
+}
+.tile-dungeon-door-open-south .bit-08:before{
+	left:-2800%;
+	top:0;
+	width:100%;
+	height:300%;
+}
+.tile-dungeon-door-open-south .bit-08:after{
+	left:-2700%;
+	top:-300%;
+	width:100%;
+	height:300%;
+}
+.tile-dungeon-door-open-south .bit-09{
+	left:93.75%;
+	top:9.375%;
+}
+.tile-dungeon-door-open-south .bit-09:before{
+	left:-2800%;
+	top:300%;
+	width:100%;
+	height:300%;
+}
+.tile-dungeon-door-open-south .bit-09:after{
+	left:-2900%;
+	top:600%;
+	width:100%;
+	height:300%;
+}
+.tile-dungeon-door-open-south .bit-10{
+	left:90.625%;
+	top:9.375%;
+}
+.tile-dungeon-door-open-south .bit-10:before{
+	left:-2400%;
+	top:400%;
+	width:100%;
+	height:800%;
+}
+.tile-dungeon-door-open-south .bit-10:after{
+	left:-300%;
+	top:400%;
+	width:100%;
+	height:800%;
+}
+.tile-dungeon-door-open-south .bit-11{
+	left:0;
+	top:9.375%;
+}
+.tile-dungeon-door-open-south .bit-11:before{
+	left:400%;
+	top:700%;
+	width:100%;
+	height:500%;
+}
+.tile-dungeon-door-open-south .bit-11:after{
+	left:2700%;
+	top:700%;
+	width:100%;
+	height:500%;
+}
+.tile-dungeon-door-open-south .bit-12{
+	left:3.125%;
+	top:9.375%;
+}
+.tile-dungeon-door-open-south .bit-12:before{
+	left:200%;
+	top:1000%;
+	width:100%;
+	height:200%;
+}
+.tile-dungeon-door-open-south .bit-12:after{
+	left:2700%;
+	top:1000%;
+	width:100%;
+	height:200%;
+}
+.tile-dungeon-door-open-south .bit-13{
+	left:0;
+	top:37.5%;
+}
+.tile-dungeon-door-open-south .bit-13:before{
+	left:0;
+	top:100%;
+	width:100%;
+	height:300%;
+}
+.tile-dungeon-door-open-south .bit-13:after{
+	left:0;
+	top:700%;
+	width:3200%;
+	height:100%;
+}
+.tile-dungeon-door-open-south .bit-14{
+	left:9.375%;
+	top:0;
+}
+.tile-dungeon-door-open-south .bit-14:before{
+	left:1200%;
+	top:100%;
+	width:100%;
+	height:700%;
+}
+.tile-dungeon-door-open-south .bit-14:after{
+	left:400%;
+	top:0;
+	width:800%;
+	height:100%;
+}
+.tile-dungeon-door-open-south .bit-15{
+	left:0;
+	top:56.25%;
+}
+.tile-dungeon-door-open-south .bit-15:before{
+	left:100%;
+	top:0;
+	width:3100%;
+	height:100%;
+}

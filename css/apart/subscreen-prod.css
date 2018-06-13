@@ -1,0 +1,781 @@
+/** subscreen maths yo !!!!! **/
+/**
+first section with hyrule grid map link locator is 160x112 on 512x112 size scale.
+first section is 160/512 = 31.25%;
+NOTE! First Section size != hyrule grid map link locator size! Hyrule grid map link locator fits into first section size!
+
+inventory list with margins/spacing is 086x112 on 512x112 size scale.
+inventory list by itself is: 046x064
+list icons are x016; bombs are 014x016
+inventory items (b, a blue boxes) = 084x112 on 512x112 size scale. size: 16.40625%;
+each item = 042 width including spacing
+each item = 036 width
+
+42/512 = 8.20%;
+36/512 = 7.03%;
+
+**/
+
+
+/** COLORS - MOVE FROM HERE **/
+.s512 #link-locator-hyrule-overworld{
+	background-color:#747474;
+}
+
+
+
+#subscreen{
+	width:100%;
+	height:25%;
+	/** background-color:#000; **/
+	position:relative;
+	display:grid;
+	grid-template-areas:"ss01 ss02 ss03 ss04";
+}
+
+
+
+.subscreen-demo:before,
+.subscreen-demo:after{
+	content:"";
+	position:absolute;
+}
+
+
+/** #subscreen-1 **/
+/** subscreen hyrule grid on 256x224 is 064x032 **/
+/** 16 columns in hyrule grid **/
+/** 8 rows in hyrule grid **/
+/** each tile is 4x4 **/
+/** #link-locators -> switches depending on environment **/
+.s512 #link-locator-hyrule-overworld{
+	margin-left:32px;
+	width:128px;
+	height:64px;
+}
+
+#subscreen-hyrule-grid{
+	top:16px;
+	left:16px;
+	position:relative;
+	width:64px;
+	height:32px;
+	background-color:#747474;
+}
+#hyrule-grid-link{
+/** links position coordinates for this map formula **/
+/** get tile id from data attribute of current active screen grid **/
+/** apply same formula for finding array position of tile movement options **/
+/** active row value tells you how many pixels to go down the y axis **/
+/** active column value tells you how many pixels to go across the x axis **/
+/** origin tile example, tile id is 0808 **/
+/** example dimensions: 064x032; **/
+/** tile dimensions being 4x4 **/
+/** row id is 08 **/
+/** so 8 rows down, aka the bottom row **/
+/** bottom:100%; **/
+/** 08 is column id **/
+/** 08 * 4 = 32 **/
+/** so 32 in on the y axis **/
+/** left:32px; **/
+  top:87.5%;
+  left:32px;
+  position:absolute;
+  height:3px;
+  width:3px;
+  background-color:#80d010;
+}
+
+
+
+
+
+#subscreen-section-1{
+	grid-area:ss01;
+	width:31.25%;
+}
+#subscreen-section-2{
+	grid-area:ss02;
+}
+#subscreen-section-3{
+	grid-area:ss03;
+}
+#subscreen-section-3,
+#sub-screen-column-03{
+	display:grid;
+	grid-template-areas: "inv-sel-b inv-sel-a";
+}
+#subscreen-section-4{
+	grid-area:ss04;
+}
+#item-selection-b{
+	grid-area: inv-sel-b;
+}
+#item-selection-a{
+	grid-area: inv-sel-a;
+}
+.subscreen-section{
+	/**background-color:#000;**/
+}
+
+
+/** 256x224 **/
+#subscreen-test.s256{
+	width:256px;
+	height:56px;
+	grid-template-columns:80px 43px 42px 91px;
+	grid-template-rows:56px;
+}
+.s256 #subscreen-section-1{
+	width:180px;
+}
+.s256 #subscreen-section-2{
+	width:53px;
+}
+.s256 #subscreen-section-3{
+	width:42px;
+}
+.s256 #subscreen-section-3{
+	width:42px;
+	height:29px;
+	grid-template-columns:18px;
+	grid-column-gap:6px;
+	grid-template-rows:29px;
+}
+.s256 #subscreen-section-4{
+	width:91px;
+}
+
+#subscreen-section-1{
+        outline:1px dotted #666;
+}
+.s256 #subscreen-section-1{
+        margin-left:15px;
+        margin-right:8px;
+        width:64px;
+}
+.s512 #subscreen-section-1{
+        margin-left:30px;
+        margin-right:16px;
+        width:128px;
+}
+.s1024 #subscreen-section-1{
+        margin-left:60px;
+        margin-right:32px;
+        width:256px;
+}
+.s2048 #subscreen-section-1{
+        margin-left:120px;
+        margin-right:64px;
+        width:512px;
+}
+
+
+/** 512x448 **/
+#subscreen-test.s512{
+	width:512px;
+	height:112px;
+	grid-template-columns:160px 86px 84px 182px;
+	grid-template-rows:112px;
+}
+.s512 #subscreen-section-1{
+	width:160px;
+}
+.s512 #subscreen-section-2{
+	width:106px;
+}
+.s512 #subscreen-section-3{
+	width:84px;
+}
+.s512 #subscreen-section-3{
+	width:84px;
+	height:58px;
+	grid-template-columns:36px;
+	grid-column-gap:12px;
+	grid-template-rows:58px;
+}
+.s512 #subscreen-section-4{
+	width:182px;
+}
+
+
+/** 1024x896 **/
+.s1024 #subscreen-section-3{
+	width:168px;
+	height:116px;
+	grid-template-columns:72px;
+	grid-column-gap:24px;
+	grid-template-rows:116px;
+}
+
+/** 2048x1792 **/
+.s2048 #subscreen-section-3{
+	width:336px;
+	height:232px;
+	grid-template-columns:144px;
+	grid-column-gap:48px;
+	grid-template-rows:232px;
+}
+
+
+
+
+
+/** life text **/
+#life-text{
+	position:relative;
+	margin-top:0;
+	margin-bottom:0;
+}
+#life-text:before,
+#life-text:after,
+#life-text .bit,
+#life-text .bit:before,
+#life-text .bit:after{
+	background-color:var(--color-red);
+}
+
+
+#life-text .bit{
+	position:absolute;
+}
+#life-text:before,
+#life-text:after,
+#life-text .bit:before,
+#life-text .bit:after{
+	position:absolute;
+	content:"";
+}
+
+
+#subscreen.s512 #life-text{
+	margin-left:45px;
+	margin-bottom:34px;
+}
+.s512 #life-text .bit{
+	width:2px;
+	height:2px;
+}
+.s1024 #life-text .bit{
+	width:4px;
+	height:4px;
+}
+.s2048 #life-text .bit{
+	width:8px;
+	height:8px;
+}
+
+.s4096 #life-text .bit{
+	width:16px;
+	height:16px;
+}
+
+
+
+
+.s512 #life-text{
+	width:92px;
+	height:14px;
+}
+.s512 #life-text:before{
+	height:2px;
+	width:12px;
+	top:6px;
+	left:0;
+}
+.s512 #life-text:after{
+	height:2px;
+	width:12px;
+	top:6px;
+	left:80px;
+}
+
+
+
+#life-text.h2-subscreen-184x028{
+	width:184px;
+	height:28px;
+}
+#life-text.h2-subscreen-184x028:before{
+	height:4px;
+	width:24px;
+	top:12px;
+	left:0;
+}
+#life-text.h2-subscreen-184x028:after{
+	height:4px;
+	width:24px;
+	top:12px;
+	left:160px;
+}
+
+
+
+
+#life-text.h2-subscreen-368x056{
+	width:368px;
+	height:56px;
+}
+#life-text.h2-subscreen-368x056:before{
+	height:8px;
+	width:48px;
+	top:24px;
+	left:0;
+}
+#life-text.h2-subscreen-368x056:after{
+	height:8px;
+	width:48px;
+	top:24px;
+	left:320px;
+}
+
+
+#life-text.h2-subscreen-736x112{
+	width:736px;
+	height:112px;
+}
+#life-text.h2-subscreen-736x112:before{
+	height:16px;
+	width:96px;
+	top:48px;
+	left:0;
+}
+#life-text.h2-subscreen-736x112:after{
+	height:16px;
+	width:96px;
+	top:48px;
+	left:640px;
+}
+
+
+
+.s512 #life-text .bit-01{
+	left:36px;
+	top:0;
+}
+.s1024 #life-text .bit-01{
+	left:72px;
+	top:0;
+}
+.s2048 #life-text .bit-01{
+	left:144px;
+	top:0;
+}
+.s4096 #life-text .bit-01{
+	left:288px;
+	top:0;
+}
+
+
+
+
+
+
+#life-text .bit-01:before{
+	width:200%;
+	height:700%;
+	left:-900%;
+	top:0;
+}
+#life-text .bit-01:after{
+	width:400%;
+	height:100%;
+	left:-700%;
+	top:600%;
+}
+
+
+.s512 #life-text .bit-02{
+	left:36px;
+	top:12px;
+}
+.s1024 #life-text .bit-02{
+	left:72px;
+	top:24px;
+}
+.s2048 #life-text .bit-02{
+	left:144px;
+	top:48px;
+}
+.s4096 #life-text .bit-02{
+	left:288px;
+	top:96px;
+}
+
+
+
+
+
+#life-text .bit-02:before{
+	width:500%;
+	height:100%;
+	left:1600%;
+	top:-600%;
+}
+#life-text .bit-02:after{
+	width:500%;
+	height:100%;
+	left:1600%;
+	top:0;
+}
+
+
+.s512 #life-text .bit-03{
+	left:42px;
+	top:0;
+}
+.s1024 #life-text .bit-03{
+	left:84px;
+	top:0;
+}
+.s2048 #life-text .bit-03{
+	left:168px;
+	top:0;
+}
+.s4096 #life-text .bit-03{
+	left:336px;
+	top:0;
+}
+
+
+
+
+#life-text .bit-03:before{
+	width:400%;
+	height:100%;
+	left:1300%;
+	top:300%;
+}
+#life-text .bit-03:after{
+	width:200%;
+	height:700%;
+	left:1100%;
+	top:0;
+}
+
+
+
+.s512 #life-text .bit-04{
+	left:42px;
+	top:12px;
+}
+.s1024 #life-text .bit-04{
+	left:84px;
+	top:24px;
+}
+.s2048 #life-text .bit-04{
+	left:168px;
+	top:48px;
+}
+.s4096 #life-text .bit-04{
+	left:336px;
+	top:96px;
+}
+
+
+
+#life-text .bit-04:before{
+	width:200%;
+	height:700%;
+	top:-600%;
+	left:300%;
+}
+#life-text .bit-04:after{
+	width:500%;
+	height:100%;
+	left:400%;
+	top:-300%;
+}
+
+
+
+.s512 #life-text .bit-05{
+	left:40px;
+	top:0;
+}
+.s1024 #life-text .bit-05{
+	left:80px;
+	top:0;
+}
+.s2048 #life-text .bit-05{
+	left:160px;
+	top:0;
+}
+.s4096 #life-text .bit-05{
+	left:320px;
+	top:0;
+}
+
+
+
+
+
+
+#life-text .bit-05:before{
+	width:200%;
+	height:700%;
+	top:0;
+	left:-100%;
+}
+#life-text .bit-05:after{
+	width:500%;
+	height:100%;
+	left:600%;
+	top:0;
+}
+
+
+
+
+
+
+/** life heart containers, life heart gauge inventory meter - subscreen **/
+
+
+
+/** maximum width is eight life hearts; maxiumum height is two life hearts **/
+#heart-containers-list{
+	position:relative;
+	background-color:#000;
+}
+.s512 #heart-containers-list{
+	width:128px;
+	height:32px;
+	margin-left:22px;
+}
+.s1024 #heart-containers-list{
+	width:256px;
+	height:64px;
+}
+.s2048 #heart-containers-list{
+	width:512px;
+	height:128px;
+}
+.s4096 #heart-containers-list{
+	width:1024px;
+	height:256px;
+}
+.s8192 #heart-containers-list{
+	width:2048px;
+	height:512px;
+}
+/** second row of life hearts' height is one less than first; doing this via negative margins yo **/
+.s1024 #heart-life-8,
+.s1024 #heart-life-9,
+.s1024 #heart-life-10,
+.s1024 #heart-life-11,
+.s1024 #heart-life-12,
+.s1024 #heart-life-13,
+.s1024 #heart-life-14,
+.s1024 #heart-life-15{
+	margin-top:-4px;
+}
+.s512 #heart-life-8,
+.s512 #heart-life-9,
+.s512 #heart-life-10,
+.s512 #heart-life-11,
+.s512 #heart-life-12,
+.s512 #heart-life-13,
+.s512 #heart-life-14,
+.s512 #heart-life-15{
+	margin-top:-2px;
+}
+
+
+
+.tile-heart-life{
+	display:inline-block;
+	position:relative;
+}
+
+
+
+
+.s1024 .tile-heart-life{
+	width:32px;
+	height:32px;
+}
+.s1024 .tile-heart-life .bit{
+	width:4px;
+	height:4px;
+}
+
+
+.s512 .tile-heart-life {
+	width:16px;
+	height:16px;
+}
+.s512 .tile-heart-life .bit{
+	width:2px;
+	height:2px;
+}
+
+
+
+.tile-heart-life:before,
+.tile-heart-life:after,
+.tile-heart-life .bit:before,
+.tile-heart-life .bit:after{
+	position:absolute;
+	content:"";
+}
+.tile-heart-life .bit{
+	position:absolute;
+}
+
+.tile-heart-life:before,
+.tile-heart-life:after,
+.tile-heart-life .bit-01,
+.tile-heart-life .bit-01:before,
+.tile-heart-life .bit-01:after,
+.tile-heart-life .bit-02,
+.tile-heart-life .bit-02:before{
+	background-color:var(--color-white-empty);
+}
+.tile-heart-life .bit-02:after,
+.tile-heart-life .bit-03,
+.tile-heart-life .bit-03:before,
+.tile-heart-life .bit-03:after,
+.tile-heart-life .bit-04,
+.tile-heart-life .bit-04:before,
+.tile-heart-life .bit-04:after{
+	background-color:var(--color-red);
+}
+
+
+
+/** display:none;s **/
+.tile-heart-life .bit-02:after,
+.tile-heart-life .bit-03,
+.tile-heart-life .bit-04{
+	display:none;
+}
+.tile-heart-life.heart-life-half .bit-02:after,
+.tile-heart-life.heart-life-half .bit-03,
+.tile-heart-life.heart-life-half .bit-04,
+.tile-heart-life.heart-life-full .bit-02:after,
+.tile-heart-life.heart-life-full .bit-03,
+.tile-heart-life.heart-life-full .bit-04{
+	display:block;
+}
+
+
+
+
+.tile-heart-life:before{
+	width:87.5%;
+	height:50%;
+	top:12.5%;
+	left:0;
+}
+.tile-heart-life:after{
+	width:62.5%;
+	left:12.5%;
+	height:12.5%;
+	top:62.5%;
+}
+.tile-heart-life .bit-01{
+	top:87.5%;
+	left:37.5%;
+}
+.tile-heart-life .bit-01:before{
+	width:300%;
+	height:100%;
+	left:-100%;
+	top:-100%;
+}
+.tile-heart-life .bit-01:after{
+	width:200%;
+	top:-700%;
+	left:-200%;
+	height:100%;
+}
+.tile-heart-life .bit-02{
+	top:0;
+	left:50%;
+}
+.tile-heart-life .bit-02:before{
+	width:100%;
+	height:100%;
+	left:100%;
+	top:0;
+}
+/** heart life half empty **/
+.heart-life-half .bit-02:after{
+	width:100%;
+	height:400%;
+	left:-400%;
+	top:100%;
+}
+.heart-life-half .bit-03{
+	top:87.5%;
+	left:37.5%;
+}
+.heart-life-half .bit-03:before{
+	width:200%;
+	height:600%;
+	top:-700%;
+	left:-200%;
+}
+.heart-life-half .bit-03:after{
+	width:100%;
+	height:100%;
+	top:-100%;
+	left:-100%;
+}
+.heart-life-half .bit-04{
+	top:12.5%;
+	left:37.5%;
+}
+.heart-life-half .bit-04:before{
+	width:100%;
+	height:100%;
+	left:0;
+	top:200%;
+}
+.heart-life-half .bit-04:after{
+	width:100%;
+	height:100%;
+	left:0;
+	top:400%;
+}
+/** heart-life-full **/
+.heart-life-full .bit-02:after{
+	width:700%;
+	height:400%;
+	left:-400%;
+	top:100%;
+}
+.heart-life-full .bit-03{
+	top:87.5%;
+	left:37.5%;
+}
+.heart-life-full .bit-03:before{
+	width:500%;
+	height:100%;
+	top:-200%;
+	left:-200%;
+}
+.heart-life-full .bit-03:after{
+	top:-100%;
+	left:-100%;
+	width:300%;
+	height:100%;
+}
+.heart-life-full .bit-04{
+	left:12.5%;
+	top:0;
+}
+.heart-life-full .bit-04:before{
+	left:300%;
+	top:0;
+	width:200%;
+	height:100%;
+}
+.heart-life-full .bit-04:after{
+	width:100%;
+	height:100%;
+	top:0;
+	left:100%;
+}
+

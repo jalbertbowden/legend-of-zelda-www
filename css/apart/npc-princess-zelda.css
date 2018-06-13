@@ -1,0 +1,239 @@
+/** princess zelda **/
+/**
+
+
+princess zelda
+red clothes #f84100
+
+red hair #e46310
+
+eyes #000
+
+skin/khaki #ffa644
+
+**/
+
+
+
+/** red hair #e46310 **/
+.tile-princess-zelda:before,
+.tile-princess-zelda:after,
+.tile-princess-zelda .bit-06:before,
+.tile-princess-zelda .bit-07,
+.tile-princess-zelda .bit-07:before{
+	background-color:#e46310;
+}
+
+/** skin/khaki #ffa644 **/
+.tile-princess-zelda .bit-01,
+.tile-princess-zelda .bit-01:before,
+.tile-princess-zelda .bit-01:after,
+.tile-princess-zelda .bit-02,
+.tile-princess-zelda .bit-02:before,
+.tile-princess-zelda .bit-02:after,
+.tile-princess-zelda .bit-06:after,
+.tile-princess-zelda .bit-07:after,
+.tile-princess-zelda .bit-09,
+.tile-princess-zelda .bit-09:before{
+	background-color:#ffa644;
+}
+
+
+/** red clothes #f84100 **/
+.tile-princess-zelda .bit-03,
+.tile-princess-zelda .bit-03:before,
+.tile-princess-zelda .bit-03:after,
+.tile-princess-zelda .bit-04,
+.tile-princess-zelda .bit-04:before,
+.tile-princess-zelda .bit-04:after,
+.tile-princess-zelda .bit-05,
+.tile-princess-zelda .bit-05:before,
+.tile-princess-zelda .bit-05:after,
+.tile-princess-zelda .bit-06{
+	background-color:#f84100;
+}
+
+/** black - eyes **/
+.tile-princess-zelda .bit-08,
+.tile-princess-zelda .bit-08:before,
+.tile-princess-zelda .bit-08:after{
+	background-color:#000;
+}
+
+
+/** display:none;s **/
+.tile-princess-zelda .bit-09:after{
+	display:none;
+}
+
+
+
+
+
+
+
+.tile-princess-zelda:before{}
+.tile-princess-zelda:after{}
+
+.tile-princess-zelda .bit-01,
+.tile-princess-zelda .bit-01:before,
+.tile-princess-zelda .bit-01:after{
+
+}
+
+
+
+.tile-princess-zelda:before{
+	width:75%;
+	height:43.75%;
+	top:50%;
+	left:12.5%;
+}
+.tile-princess-zelda:after{
+	width:62.5%;
+	height:31.25%;
+	top:18.75%;
+	left:18.75%;
+}
+
+.tile-princess-zelda .bit-01{
+	left:37.5%;
+	top:37.5%;
+}
+.tile-princess-zelda .bit-01:before{
+	left:-200%;
+	top:-500%;
+	height:200%;
+	width:800%;
+}
+.tile-princess-zelda .bit-01:after{
+	left:-100%;
+	top:-200%;
+	width:600%;
+	height:200%;
+}
+.tile-princess-zelda .bit-02{
+	left:56.25%;
+	top:37.5%;
+}
+.tile-princess-zelda .bit-02:before{
+	left:-700%;
+	top:500%;
+	height:100%;
+	width:1200%;
+}
+.tile-princess-zelda .bit-02:after{
+	left:-500%;
+	top:200%;
+	width:800%;
+	height:300%;
+}
+
+
+.tile-princess-zelda .bit-03{
+	top:62.5%;
+	left:31.25%;
+}
+.tile-princess-zelda .bit-03:before{
+	width:1400%;
+	height:100%;
+	left:-400%;
+	top:500%;
+}
+.tile-princess-zelda .bit-03:after{
+	width:1000%;
+	height:200%;
+	left:-200%;
+	top:300%;
+}
+.tile-princess-zelda .bit-04{
+	top:62.5%;
+	left:62.5%;
+}
+.tile-princess-zelda .bit-04:before{
+	width:800%;
+	height:200%;
+	left:-600%;
+	top:100%;
+}
+.tile-princess-zelda .bit-04:after{
+	width:400%;
+	height:200%;
+	left:-400%;
+	top:-200%;
+}
+.tile-princess-zelda .bit-05{
+	top:43.75%;
+	left:37.5%;
+}
+.tile-princess-zelda .bit-05:before{
+	width:100%;
+	height:200%;
+	top:0;
+	left:-100%;
+}
+.tile-princess-zelda .bit-05:after{
+	width:100%;
+	height:200%;
+	top:0;
+	left:400%;
+}
+.tile-princess-zelda .bit-06{
+	top:43.75%;
+	left:56.25%;
+}
+.tile-princess-zelda .bit-06:before{
+	width:600%;
+	height:300%;
+	top:-700%;
+	left:-400%;
+}
+.tile-princess-zelda .bit-06:after{
+	width:200%;
+	height:100%;
+	top:-600%;
+	left:-200%;
+}
+.tile-princess-zelda .bit-07{
+	top:62.5%;
+	left:37.5%;
+}
+.tile-princess-zelda .bit-07:before{
+	width:100%;
+	height:100%;
+	top:0;
+	left:300%;
+}
+.tile-princess-zelda .bit-07:after{
+	width:200%;
+	height:100%;
+	top:-300%;
+	left:100%;
+}
+
+.tile-princess-zelda .bit-08{
+	top:18.75%;
+	left:37.5%;
+}
+.tile-princess-zelda .bit-08:before{
+	width:100%;
+	height:200%;
+	top:0;
+	left:300%;
+}
+.tile-princess-zelda .bit-08:after{
+	width:100%;
+	height:100%;
+	top:100%;
+	left:0;
+}
+.tile-princess-zelda .bit-09{
+	top:18.75%;
+	left:43.75%;
+}
+.tile-princess-zelda .bit-09:before{
+	width:100%;
+	height:100%;
+	left:100%;
+	top:0;
+}

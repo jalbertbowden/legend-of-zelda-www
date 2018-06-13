@@ -1,0 +1,831 @@
+.tile-dungeon-01a.level-01{
+	background-color:var(--color-underground-grey);
+}
+.tile-dungeon-01a.level-01:before, .tile-dungeon-01a.level-01:after, .tile-dungeon-01a.level-01 .bit-01, .tile-dungeon-01a.level-01 .bit-01:before, .tile-dungeon-01a.level-01 .bit-01:after, .tile-dungeon-01a.level-01 .bit-02, .tile-dungeon-01a.level-01 .bit-02:before, .tile-dungeon-01a.level-01 .bit-02:after, .tile-dungeon-01a.level-01 .bit-03, .tile-dungeon-01a.level-01 .bit-03:before, .tile-dungeon-01a.level-01 .bit-03:after, .tile-dungeon-01a.level-01 .bit-04, .tile-dungeon-01a.level-01 .bit-04:before, .tile-dungeon-01a.level-01 .bit-04:after, .tile-dungeon-01a.level-01 .bit-05, .tile-dungeon-01a.level-01 .bit-05:before, .tile-dungeon-01a.level-01 .bit-05:after, .tile-dungeon-01a.level-01 .bit-06{
+	background-color:var(--color-underground-grey-dark);
+}
+.tile-dungeon-01a.level-01 .bit-06:before, .tile-dungeon-01a.level-01 .bit-06:after{
+	background-color:var(--color-underground-blue-light);
+}
+
+
+
+
+
+
+.tile-dungeon-01c.level-01{
+	background-color:var(--color-underground-grey);
+}
+.tile-dungeon-01c.level-01:before, .tile-dungeon-01c.level-01 .bit-01, .tile-dungeon-01c.level-01 .bit-01:before, .tile-dungeon-01c.level-01 .bit-01:after, .tile-dungeon-01c.level-01 .bit-02, .tile-dungeon-01c.level-01 .bit-02:before, .tile-dungeon-01c.level-01 .bit-02:after, .tile-dungeon-01c.level-01 .bit-03{
+	background-color:var(--color-underground-grey-dark);
+}
+.tile-dungeon-01c.level-01:after, .tile-dungeon-01c.level-01 .bit-03:before, .tile-dungeon-01c.level-01 .bit-03:after, .tile-dungeon-01c.level-01 .bit-04, .tile-dungeon-01c.level-01 .bit-04:before, .tile-dungeon-01c.level-01 .bit-04:after, .tile-dungeon-01c.level-01 .bit-05, .tile-dungeon-01c.level-01 .bit-05:before, .tile-dungeon-01c.level-01 .bit-05:after{
+	background-color:var(--color-underground-blue-light);
+}
+
+/** 01 b **/
+.tile-dungeon-01b.level-01{
+	background-color:var(--color-underground-grey);
+}
+.tile-dungeon-01b.level-01:before{
+	background-color:var(--color-underground-grey-dark);
+}
+.tile-dungeon-01b.level-01:after{
+	background-color:var(--color-underground-blue-light);
+}
+
+
+/** 01 d **/
+.tile-dungeon-01d.level-01{
+	background-color:var(--color-underground-grey);
+}
+.tile-dungeon-01d.level-01:before, .tile-dungeon-01d.level-01 .bit-01, .tile-dungeon-01d.level-01 .bit-01:before{
+	background-color:var(--color-underground-grey-dark);
+}
+.tile-dungeon-01d.level-01:after, .tile-dungeon-01d.level-01 .bit-01:after, .tile-dungeon-01d.level-01 .bit-02{
+	background-color:var(--color-underground-blue-light);
+}
+
+/** 01 e **/
+.tile-dungeon-01e.level-01{
+	background-color:var(--color-underground-grey);
+}
+.tile-dungeon-01e.level-01:before, .tile-dungeon-01e.level-01 .bit-01, .tile-dungeon-01e.level-01 .bit-01:before, .tile-dungeon-01e.level-01 .bit-01:after, .tile-dungeon-01e.level-01 .bit-02, .tile-dungeon-01e.level-01 .bit-02:before, .tile-dungeon-01e.level-01 .bit-02:after, .tile-dungeon-01e.level-01 .bit-03{
+	background-color:var(--color-underground-grey-dark);
+}
+.tile-dungeon-01e.level-01:after, .tile-dungeon-01e.level-01 .bit-03:before, .tile-dungeon-01e.level-01 .bit-03:after, .tile-dungeon-01e.level-01 .bit-04, .tile-dungeon-01e.level-01 .bit-04:before, .tile-dungeon-01e.level-01 .bit-04:after, .tile-dungeon-01e.level-01 .bit-05, .tile-dungeon-01e.level-01 .bit-05:before{
+	background-color:var(--color-underground-blue-light);
+}
+/** 01 f **/
+.tile-dungeon-01f.level-01{
+	background-color:var(--color-underground-grey);
+}
+.tile-dungeon-01f.level-01:before{
+	background-color:var(--color-underground-grey-dark);
+}
+.tile-dungeon-01f.level-01:after{
+	background-color:var(--color-underground-blue-light);
+}
+/** 01 g **/
+.tile-dungeon-01g.level-01{
+	background-color:var(--color-underground-grey);
+}
+.tile-dungeon-01g.level-01:before, .tile-dungeon-01g.level-01 .bit-01, .tile-dungeon-01g.level-01 .bit-01:before, .tile-dungeon-01g.level-01 .bit-01:after, .tile-dungeon-01g.level-01 .bit-02, .tile-dungeon-01g.level-01 .bit-02:before, .tile-dungeon-01g.level-01 .bit-02:after, .tile-dungeon-01g.level-01 .bit-03{
+	background-color:var(--color-underground-grey-dark);
+}
+.tile-dungeon-01g.level-01 .bit-03:before, .tile-dungeon-01g.level-01 .bit-03:after{
+	background-color:var(--color-black);
+}
+.tile-dungeon-01g.level-01:after, .tile-dungeon-01g.level-01 .bit-04, .tile-dungeon-01g.level-01 .bit-04:before, .tile-dungeon-01g.level-01 .bit-04:after, .tile-dungeon-01g.level-01 .bit-05, .tile-dungeon-01g.level-01 .bit-05:before, .tile-dungeon-01g.level-01 .bit-05:after{
+	background-color:var(--color-underground-blue-light);
+}
+/** 01 h **/
+.tile-dungeon-01h.level-01{
+	background-color:var(--color-underground-grey);
+}
+.tile-dungeon-01h.level-01:before{
+	background-color:var(--color-underground-grey-dark);
+}
+.tile-dungeon-01h.level-01:after{
+	background-color:var(--color-underground-blue-light);
+}
+
+/** 01 i **/
+.tile-dungeon-01i.level-01{
+	background-color:var(--color-underground-grey);
+}
+.tile-dungeon-01i.level-01:before, .tile-dungeon-01i.level-01 .bit-02, .tile-dungeon-01i.level-01 .bit-02:before, .tile-dungeon-01i.level-01 .bit-02:after, .tile-dungeon-01i.level-01 .bit-03, .tile-dungeon-01i.level-01 .bit-03:before, .tile-dungeon-01i.level-01 .bit-04, .tile-dungeon-01i.level-01 .bit-04:before{
+	background-color:var(--color-underground-grey-dark);
+}
+.tile-dungeon-01i.level-01 .bit-03:after, .tile-dungeon-01i.level-01 .bit-04:after{
+	background-color:var(--color-black);
+}
+.tile-dungeon-01i.level-01:after, .tile-dungeon-01i.level-01 .bit-01, .tile-dungeon-01i.level-01 .bit-01:before, .tile-dungeon-01i.level-01 .bit-01:after, .tile-dungeon-01i.level-01 .bit-05, .tile-dungeon-01i.level-01 .bit-05:before, .tile-dungeon-01i.level-01 .bit-05:after, .tile-dungeon-01i.level-01 .bit-06, .tile-dungeon-01i.level-01 .bit-06:before{
+	background-color:var(--color-underground-blue-light);
+}
+/** 01 j **/
+.tile-dungeon-01j.level-01{
+	background-color:var(--color-underground-grey);
+}
+.tile-dungeon-01j.level-01:before{
+	background-color:var(--color-underground-grey-dark);
+}
+.tile-dungeon-01j.level-01:after{
+	background-color:var(--color-underground-blue-light);
+}/** 01 k **/
+.tile-dungeon-01k.level-01{
+	background-color:var(--color-underground-grey);
+}
+.tile-dungeon-01k.level-01:before, .tile-dungeon-01k.level-01 .bit-01, .tile-dungeon-01k.level-01 .bit-01:before, .tile-dungeon-01k.level-01 .bit-01:after, .tile-dungeon-01k.level-01 .bit-02, .tile-dungeon-01k.level-01 .bit-02:before, .tile-dungeon-01k.level-01 .bit-02:after{
+	background-color:var(--color-underground-grey-dark);
+}
+.tile-dungeon-01k.level-01:after, .tile-dungeon-01k.level-01 .bit-03, .tile-dungeon-01k.level-01 .bit-03:before, .tile-dungeon-01k.level-01 .bit-03:after, .tile-dungeon-01k.level-01 .bit-04, .tile-dungeon-01k.level-01 .bit-04:before, .tile-dungeon-01k.level-01 .bit-04:after{
+	background-color:var(--color-underground-blue-light);
+}
+/** 01 l **/
+.tile-dungeon-01l.level-01{
+	background-color:var(--color-underground-grey);
+}
+.tile-dungeon-01l.level-01:before, .tile-dungeon-01l.level-01 .bit-01, .tile-dungeon-01l.level-01 .bit-01:before{
+	background-color:var(--color-underground-grey-dark);
+}
+.tile-dungeon-01l.level-01:after, .tile-dungeon-01l.level-01 .bit-01:after, .tile-dungeon-01l.level-01 .bit-02{
+	background-color:var(--color-underground-blue-light);
+}
+/** 01 m **/
+.tile-dungeon-01m.level-01{
+	background-color:var(--color-underground-grey);
+}
+.tile-dungeon-01m.level-01:before, .tile-dungeon-01m.level-01 .bit-01, .tile-dungeon-01m.level-01 .bit-01:before, .tile-dungeon-01m.level-01 .bit-01:after, .tile-dungeon-01m.level-01 .bit-02, .tile-dungeon-01m.level-01 .bit-02:before, .tile-dungeon-01m.level-01 .bit-02:after{
+	background-color:var(--color-underground-grey-dark);
+}
+.tile-dungeon-01m.level-01:after, .tile-dungeon-01m.level-01 .bit-03, .tile-dungeon-01m.level-01 .bit-03:before, .tile-dungeon-01m.level-01 .bit-03:after, .tile-dungeon-01m.level-01 .bit-04, .tile-dungeon-01m.level-01 .bit-04:before, .tile-dungeon-01m.level-01 .bit-04:after{
+	background-color:var(--color-underground-blue-light);
+}
+
+/** 01 n **/
+.tile-dungeon-01n.level-01{
+	background-color:var(--color-underground-grey);
+}
+.tile-dungeon-01n.level-01:before{
+	background-color:var(--color-underground-grey-dark);
+}
+.tile-dungeon-01n.level-01:after{
+	background-color:var(--color-underground-blue-light);
+}/** 01 o **/
+.tile-dungeon-01o.level-01{
+	background-color:var(--color-underground-grey);
+}
+.tile-dungeon-01o.level-01:before, .tile-dungeon-01o.level-01:after, .tile-dungeon-01o.level-01 .bit-01, .tile-dungeon-01o.level-01 .bit-01:before, .tile-dungeon-01o.level-01 .bit-01:after, .tile-dungeon-01o.level-01 .bit-02, .tile-dungeon-01o.level-01 .bit-02:before, .tile-dungeon-01o.level-01 .bit-02:after, .tile-dungeon-01o.level-01 .bit-03, .tile-dungeon-01o.level-01 .bit-03:before, .tile-dungeon-01o.level-01 .bit-03:after, .tile-dungeon-01o.level-01 .bit-04, .tile-dungeon-01o.level-01 .bit-04:before, .tile-dungeon-01o.level-01 .bit-04:after, .tile-dungeon-01o.level-01 .bit-05, .tile-dungeon-01o.level-01 .bit-05:before, .tile-dungeon-01o.level-01 .bit-05:after{
+	background-color:var(--color-underground-grey-dark);
+}
+.tile-dungeon-01o.level-01 .bit-06, .tile-dungeon-01o.level-01 .bit-06:before, .tile-dungeon-01o.level-01 .bit-06:after{
+	background-color:var(--color-underground-blue-light);
+}
+
+
+
+
+
+/** 02 **/
+.tile-dungeon-02a.level-01{
+	background-color:var(--color-underground-grey);
+}
+.tile-dungeon-02a.level-01:before{
+	background-color:var(--color-underground-grey-dark);
+}
+.tile-dungeon-02a.level-01:after{
+	background-color:var(--color-underground-blue-light);
+}
+.tile-dungeon-02b.level-01{
+	background-color:var(--color-underground-grey);
+}
+.tile-dungeon-02b.level-01:before, .tile-dungeon-02b.level-01 .bit-01, .tile-dungeon-02b.level-01 .bit-01:before, .tile-dungeon-02b.level-01 .bit-01:after, .tile-dungeon-02b.level-01 .bit-02, .tile-dungeon-02b.level-01 .bit-02:before, .tile-dungeon-02b.level-01 .bit-02:after, .tile-dungeon-02b.level-01 .bit-03, .tile-dungeon-02b.level-01 .bit-03:before{
+	background-color:var(--color-underground-grey-dark);
+}
+.tile-dungeon-02b.level-01:after, .tile-dungeon-02b.level-01 .bit-03:after{
+	background-color:var(--color-underground-blue-light);
+}
+.tile-dungeon-02n.level-01{
+	background-color:var(--color-underground-grey);
+}
+.tile-dungeon-02n.level-01:before, .tile-dungeon-02n.level-01 .bit-01, .tile-dungeon-02n.level-01 .bit-01:before, .tile-dungeon-02n.level-01 .bit-01:after, .tile-dungeon-02n.level-01 .bit-02, .tile-dungeon-02n.level-01 .bit-02:before, .tile-dungeon-02n.level-01 .bit-02:after, .tile-dungeon-02n.level-01 .bit-03, .tile-dungeon-02n.level-01 .bit-03:before{
+	background-color:var(--color-underground-grey-dark);
+}
+.tile-dungeon-02n.level-01:after, .tile-dungeon-02n.level-01 .bit-03:after{
+	background-color:var(--color-underground-blue-light);
+}
+.tile-dungeon-02o.level-01{
+	background-color:var(--color-underground-grey);
+}
+.tile-dungeon-02o.level-01:before{
+	background-color:var(--color-underground-grey-dark);
+}
+.tile-dungeon-02o.level-01:after{
+	background-color:var(--color-underground-blue-light);
+}
+.tile-dungeon-02c.level-01{
+	background-color:var(--color-underground-grey);
+}
+.tile-dungeon-02c.level-01:before, .tile-dungeon-02c.level-01 .bit-01, .tile-dungeon-02c.level-01 .bit-01:before{
+	background-color:var(--color-underground-grey-dark);
+}
+.tile-dungeon-02c.level-01:after, .tile-dungeon-02c.level-01 .bit-01:after, .tile-dungeon-02c.level-01 .bit-02{
+	background-color:var(--color-underground-blue-light);
+}
+.tile-dungeon-02d.level-01{
+	background-color:var(--color-underground-grey);
+}
+.tile-dungeon-02d.level-01:before, .tile-dungeon-02d.level-01 .bit-01, .tile-dungeon-02d.level-01 .bit-01:before{
+	background-color:var(--color-underground-grey-dark);
+}
+.tile-dungeon-02d.level-01:after, .tile-dungeon-02d.level-01 .bit-01:after, .tile-dungeon-02d.level-01 .bit-02{
+	background-color:var(--color-underground-blue-light);
+}
+.tile-dungeon-02e.level-01{
+	background-color:var(--color-underground-grey);
+}
+.tile-dungeon-02e.level-01:before{
+	background-color:var(--color-underground-grey-dark);
+}
+.tile-dungeon-02e.level-01:after{
+	background-color:var(--color-underground-blue-light);
+}
+
+.tile-dungeon-02f.level-01{
+	background-color:var(--color-underground-grey);
+}
+.tile-dungeon-02f.level-01:before, .tile-dungeon-02f.level-01 .bit-01, .tile-dungeon-02f.level-01 .bit-01:before{
+	background-color:var(--color-underground-grey-dark);
+}
+.tile-dungeon-02f.level-01:after, .tile-dungeon-02f.level-01 .bit-01:after, .tile-dungeon-02f.level-01 .bit-02{
+	background-color:var(--color-underground-blue-light);
+}
+.tile-dungeon-02g.level-01{
+	background-color:var(--color-underground-grey);
+}
+.tile-dungeon-02g.level-01:before, .tile-dungeon-02g.level-01 .bit-01, .tile-dungeon-02g.level-01 .bit-01:before{
+	background-color:var(--color-underground-grey-dark);
+}
+.tile-dungeon-02g.level-01:after, .tile-dungeon-02g.level-01 .bit-01:after, .tile-dungeon-02g.level-01 .bit-02{
+	background-color:var(--color-underground-blue-light);
+}
+.tile-dungeon-02h.level-01{
+	background-color:var(--color-underground-grey);
+}
+.tile-dungeon-02h.level-01:before{
+	background-color:var(--color-underground-grey-dark);
+}
+.tile-dungeon-02h.level-01:after{
+	background-color:var(--color-underground-blue-light);
+}
+
+.tile-dungeon-02i.level-01{
+	background-color:var(--color-underground-grey);
+}
+.tile-dungeon-02i.level-01:before, .tile-dungeon-02i.level-01 .bit-01, .tile-dungeon-02i.level-01 .bit-01:before{
+	background-color:var(--color-underground-grey-dark);
+}
+.tile-dungeon-02i.level-01:after, .tile-dungeon-02i.level-01 .bit-01:after, .tile-dungeon-02i.level-01 .bit-02{
+	background-color:var(--color-underground-blue-light);
+}
+.tile-dungeon-02j.level-01{
+	background-color:var(--color-underground-grey);
+}
+.tile-dungeon-02j.level-01:before, .tile-dungeon-02j.level-01 .bit-01, .tile-dungeon-02j.level-01 .bit-01:before{
+	background-color:var(--color-underground-grey-dark);
+}
+.tile-dungeon-02j.level-01:after, .tile-dungeon-02j.level-01 .bit-01:after, .tile-dungeon-02j.level-01 .bit-02{
+	background-color:var(--color-underground-blue-light);
+}
+.tile-dungeon-02k.level-01{
+	background-color:var(--color-underground-grey);
+}
+.tile-dungeon-02k.level-01:before{
+	background-color:var(--color-underground-grey-dark);
+}
+.tile-dungeon-02k.level-01:after{
+	background-color:var(--color-underground-blue-light);
+}
+.tile-dungeon-02l.level-01{
+	background-color:var(--color-underground-grey);
+}
+.tile-dungeon-02l.level-01:before, .tile-dungeon-02l.level-01 .bit-01, .tile-dungeon-02l.level-01 .bit-01:before{
+	background-color:var(--color-underground-grey-dark);
+}
+.tile-dungeon-02l.level-01:after, .tile-dungeon-02l.level-01 .bit-01:after, .tile-dungeon-02l.level-01 .bit-02{
+	background-color:var(--color-underground-blue-light);
+}
+.tile-dungeon-02m.level-01{
+	background-color:var(--color-underground-grey);
+}
+.tile-dungeon-02m.level-01:before, .tile-dungeon-02m.level-01 .bit-01, .tile-dungeon-02m.level-01 .bit-01:before{
+	background-color:var(--color-underground-grey-dark);
+}
+.tile-dungeon-02m.level-01:after, .tile-dungeon-02m.level-01 .bit-01:after, .tile-dungeon-02m.level-01 .bit-02{
+	background-color:var(--color-underground-blue-light);
+}
+.tile-dungeon-03a.level-01{
+	background-color:var(--color-underground-grey);
+}
+.tile-dungeon-03a.level-01:before, .tile-dungeon-03a.level-01 .bit-01, .tile-dungeon-03a.level-01 .bit-01:before, .tile-dungeon-03a.level-01 .bit-01:after, .tile-dungeon-03a.level-01 .bit-02, .tile-dungeon-03a.level-01 .bit-02:before, .tile-dungeon-03a.level-01 .bit-02:after, .tile-dungeon-03a.level-01 .bit-03, .tile-dungeon-03a.level-01 .bit-03:before, .tile-dungeon-03a.level-01 .bit-03:after{
+	background-color:var(--color-underground-grey-dark);
+}
+.tile-dungeon-03a.level-01:after, .tile-dungeon-03a.level-01 .bit-04, .tile-dungeon-03a.level-01 .bit-04:before, .tile-dungeon-03a.level-01 .bit-04:after, .tile-dungeon-03a.level-01 .bit-05, .tile-dungeon-03a.level-01 .bit-05:before, .tile-dungeon-03a.level-01 .bit-05:after, .tile-dungeon-03a.level-01 .bit-06, .tile-dungeon-03a.level-01 .bit-06:before, .tile-dungeon-03a.level-01 .bit-06:after{
+	background-color:var(--color-underground-blue-light);
+}
+.tile-dungeon-03b.level-01{
+	background-color:var(--color-underground-grey);
+}
+.tile-dungeon-03b.level-01:before, .tile-dungeon-03b.level-01 .bit-01, .tile-dungeon-03b.level-01 .bit-01:before{
+	background-color:var(--color-underground-grey-dark);
+}
+.tile-dungeon-03b.level-01:after, .tile-dungeon-03b.level-01 .bit-01:after, .tile-dungeon-03b.level-01 .bit-02{
+	background-color:var(--color-underground-blue-light);
+}
+.tile-dungeon-03c.level-01{
+	background-color:var(--color-underground-grey);
+}
+.tile-dungeon-03c.level-01:before, .tile-dungeon-03c.level-01 .bit-01, .tile-dungeon-03c.level-01 .bit-01:before{
+	background-color:var(--color-underground-grey-dark);
+}
+.tile-dungeon-03c.level-01:after, .tile-dungeon-03c.level-01 .bit-01:after, .tile-dungeon-03c.level-01 .bit-02{
+	background-color:var(--color-underground-blue-light);
+}
+.tile-dungeon-03d.level-01{
+	background-color:var(--color-underground-grey);
+}
+.tile-dungeon-03d.level-01:before, .tile-dungeon-03d.level-01 .bit-01, .tile-dungeon-03d.level-01 .bit-01:before, .tile-dungeon-03d.level-01 .bit-01:after, .tile-dungeon-03d.level-01 .bit-02, .tile-dungeon-03d.level-01 .bit-02:before, .tile-dungeon-03d.level-01 .bit-02:after, .tile-dungeon-03d.level-01 .bit-03, .tile-dungeon-03d.level-01 .bit-03:before{
+	background-color:var(--color-underground-grey-dark);
+}
+.tile-dungeon-03d.level-01:after, .tile-dungeon-03d.level-01 .bit-04, .tile-dungeon-03d.level-01 .bit-04:before, .tile-dungeon-03d.level-01 .bit-04:after, .tile-dungeon-03d.level-01 .bit-05, .tile-dungeon-03d.level-01 .bit-05:before, .tile-dungeon-03d.level-01 .bit-05:after, .tile-dungeon-03d.level-01 .bit-06, .tile-dungeon-03d.level-01 .bit-06:before{
+	background-color:var(--color-underground-blue-light);
+}
+.tile-dungeon-04a.level-01, .tile-dungeon-04b.level-01, .tile-dungeon-04c.level-01, .tile-dungeon-04d.level-01{
+	background-color:var(--color-underground-grey);
+}
+.tile-dungeon-04a.level-01:before, .tile-dungeon-04a.level-01 .bit-01, .tile-dungeon-04a.level-01 .bit-01:before, .tile-dungeon-04a.level-01 .bit-01:after, .tile-dungeon-04a.level-01 .bit-02, .tile-dungeon-04a.level-01 .bit-02:before, .tile-dungeon-04b.level-01:before, .tile-dungeon-04b.level-01 .bit-01, .tile-dungeon-04b.level-01 .bit-01:before, .tile-dungeon-04b.level-01 .bit-01:after, .tile-dungeon-04b.level-01 .bit-03, .tile-dungeon-04c.level-01:before, .tile-dungeon-04c.level-01 .bit-01, .tile-dungeon-04c.level-01 .bit-01:before, .tile-dungeon-04c.level-01 .bit-01:after, .tile-dungeon-04c.level-01 .bit-03, .tile-dungeon-04d.level-01:before, .tile-dungeon-04d.level-01 .bit-01, .tile-dungeon-04d.level-01 .bit-01:before, .tile-dungeon-04d.level-01 .bit-01:after, .tile-dungeon-04d.level-01 .bit-05, .tile-dungeon-04d.level-01 .bit-05:before{
+	background-color:var(--color-underground-grey-dark);
+}
+.tile-dungeon-04a.level-01:after, .tile-dungeon-04a.level-01 .bit-03, .tile-dungeon-04a.level-01 .bit-03:before, .tile-dungeon-04a.level-01 .bit-04, .tile-dungeon-04a.level-01 .bit-04:before, .tile-dungeon-04a.level-01 .bit-04:after, .tile-dungeon-04b.level-01:after, .tile-dungeon-04b.level-01 .bit-02, .tile-dungeon-04b.level-01 .bit-02:before, .tile-dungeon-04b.level-01 .bit-02:after, .tile-dungeon-04b.level-01 .bit-03:before, .tile-dungeon-04c.level-01:after, .tile-dungeon-04c.level-01 .bit-02, .tile-dungeon-04c.level-01 .bit-02:before, .tile-dungeon-04c.level-01 .bit-02:after, .tile-dungeon-04c.level-01 .bit-03:before, .tile-dungeon-04d.level-01:after, .tile-dungeon-04d.level-01 .bit-02, .tile-dungeon-04d.level-01 .bit-02:before, .tile-dungeon-04d.level-01 .bit-02:after, .tile-dungeon-04d.level-01 .bit-03, .tile-dungeon-04d.level-01 .bit-03:before, .tile-dungeon-04d.level-01 .bit-03:after{
+	background-color:var(--color-underground-blue-light);
+}
+.tile-dungeon-04a.level-01 .bit-02:after, .tile-dungeon-04a.level-01 .bit-05, .tile-dungeon-04a.level-01 .bit-05:before, .tile-dungeon-04d.level-01 .bit-04, .tile-dungeon-04d.level-01 .bit-04:before, .tile-dungeon-04d.level-01 .bit-04:after{
+	background-color:var(--color-black);
+}
+.tile-dungeon-05a.level-01, .tile-dungeon-05b.level-01, .tile-dungeon-05c.level-01, .tile-dungeon-05d.level-01{
+	background-color:var(--color-underground-grey);
+}
+.tile-dungeon-05a.level-01:before, .tile-dungeon-05b.level-01:before, .tile-dungeon-05c.level-01:before, .tile-dungeon-05d.level-01:before{
+	background-color:var(--color-underground-grey-dark);
+}
+.tile-dungeon-05a.level-01:after, .tile-dungeon-05b.level-01:after, .tile-dungeon-05c.level-01:after, .tile-dungeon-05d.level-01:after{
+	background-color:var(--color-underground-blue-light);
+}
+.tile-dungeon-06a.level-01, .tile-dungeon-06b.level-01, .tile-dungeon-06c.level-01, .tile-dungeon-06d.level-01{
+	background-color:var(--color-underground-grey);
+}
+.tile-dungeon-06a.level-01:before, .tile-dungeon-06b.level-01:before, .tile-dungeon-06c.level-01:before, .tile-dungeon-06d.level-01:before{
+	background-color:var(--color-underground-grey-dark);
+}
+.tile-dungeon-06a.level-01:after, .tile-dungeon-06b.level-01:after, .tile-dungeon-06c.level-01:after, .tile-dungeon-06d.level-01:after{
+	background-color:var(--color-underground-blue-light);
+}
+.tile-dungeon-07a.level-01, .tile-dungeon-07b.level-01, .tile-dungeon-07c.level-01, .tile-dungeon-07d.level-01{
+	background-color:var(--color-underground-grey);
+}
+.tile-dungeon-07a.level-01:before, .tile-dungeon-07a.level-01 .bit-01, .tile-dungeon-07a.level-01 .bit-01:before, .tile-dungeon-07a.level-01 .bit-01:after, .tile-dungeon-07a.level-01 .bit-04, .tile-dungeon-07a.level-01 .bit-04:before, .tile-dungeon-07a.level-01 .bit-04:after, .tile-dungeon-07b.level-01:before, .tile-dungeon-07b.level-01 .bit-01, .tile-dungeon-07b.level-01 .bit-01:before, .tile-dungeon-07b.level-01 .bit-01:after, .tile-dungeon-07b.level-01 .bit-03, .tile-dungeon-07c.level-01:before, .tile-dungeon-07c.level-01 .bit-01, .tile-dungeon-07c.level-01 .bit-01:before, .tile-dungeon-07c.level-01 .bit-01:after, .tile-dungeon-07c.level-01 .bit-03, .tile-dungeon-07d.level-01:before, .tile-dungeon-07d.level-01 .bit-01, .tile-dungeon-07d.level-01 .bit-01:before, .tile-dungeon-07d.level-01 .bit-01:after, .tile-dungeon-07d.level-01 .bit-04, .tile-dungeon-07d.level-01 .bit-04:before, .tile-dungeon-07d.level-01 .bit-04:after{
+	background-color:var(--color-underground-grey-dark);
+}
+.tile-dungeon-07a.level-01:after, .tile-dungeon-07a.level-01 .bit-02, .tile-dungeon-07a.level-01 .bit-02:before, .tile-dungeon-07a.level-01 .bit-02:after, .tile-dungeon-07a.level-01 .bit-03, .tile-dungeon-07a.level-01 .bit-03:before, .tile-dungeon-07a.level-01 .bit-03:after, .tile-dungeon-07b.level-01:after, .tile-dungeon-07b.level-01 .bit-02, .tile-dungeon-07b.level-01 .bit-02:before, .tile-dungeon-07b.level-01 .bit-02:after, .tile-dungeon-07b.level-01 .bit-03:before, .tile-dungeon-07c.level-01:after, .tile-dungeon-07c.level-01 .bit-02, .tile-dungeon-07c.level-01 .bit-02:before, .tile-dungeon-07c.level-01 .bit-02:after, .tile-dungeon-07c.level-01 .bit-03:before, .tile-dungeon-07d.level-01:after, .tile-dungeon-07d.level-01 .bit-02, .tile-dungeon-07d.level-01 .bit-02:before, .tile-dungeon-07d.level-01 .bit-02:after, .tile-dungeon-07d.level-01 .bit-03, .tile-dungeon-07d.level-01 .bit-03:before, .tile-dungeon-07d.level-01 .bit-03:after{
+	background-color:var(--color-underground-blue-light);
+}
+.tile-dungeon-07a.level-01 .bit-05, .tile-dungeon-07a.level-01 .bit-05:before, .tile-dungeon-07a.level-01 .bit-05:after, .tile-dungeon-07d.level-01 .bit-05, .tile-dungeon-07d.level-01 .bit-05:before, .tile-dungeon-07d.level-01 .bit-05:after{
+	background-color:var(--color-black);
+}
+.tile-dungeon-08a.level-01{
+	background-color:var(--color-underground-grey);
+}
+.tile-dungeon-08a.level-01:before, .tile-dungeon-08a.level-01 .bit-01, .tile-dungeon-08a.level-01 .bit-01:before, .tile-dungeon-08a.level-01 .bit-01:after, .tile-dungeon-08a.level-01 .bit-02, .tile-dungeon-08a.level-01 .bit-02:before, .tile-dungeon-08a.level-01 .bit-02:after, .tile-dungeon-08a.level-01 .bit-05, .tile-dungeon-08a.level-01 .bit-05:before, .tile-dungeon-08a.level-01 .bit-05:after{
+	background-color:var(--color-underground-grey-dark);
+}
+.tile-dungeon-08a.level-01:after, .tile-dungeon-08a.level-01 .bit-03, .tile-dungeon-08a.level-01 .bit-03:before, .tile-dungeon-08a.level-01 .bit-03:after, .tile-dungeon-08a.level-01 .bit-04, .tile-dungeon-08a.level-01 .bit-04:before, .tile-dungeon-08a.level-01 .bit-04:after, .tile-dungeon-08a.level-01 .bit-06, .tile-dungeon-08a.level-01 .bit-06:before, .tile-dungeon-08a.level-01 .bit-06:after{
+	background-color:var(--color-underground-blue-light);
+}
+.tile-dungeon-08b.level-01{
+	background-color:var(--color-underground-grey);
+}
+.tile-dungeon-08b.level-01:before, .tile-dungeon-08b.level-01 .bit-01, .tile-dungeon-08b.level-01 .bit-01:before{
+	background-color:var(--color-underground-grey-dark);
+}
+.tile-dungeon-08b.level-01:after, .tile-dungeon-08b.level-01 .bit-01:after, .tile-dungeon-08b.level-01 .bit-02{
+	background-color:var(--color-underground-blue-light);
+}
+
+
+
+
+
+
+
+.tile-dungeon-08c.level-01{
+	background-color:var(--color-underground-grey);
+}
+.tile-dungeon-08c.level-01:before, .tile-dungeon-08c.level-01 .bit-01, .tile-dungeon-08c.level-01 .bit-01:before{
+	background-color:var(--color-underground-grey-dark);
+}
+.tile-dungeon-08c.level-01:after, .tile-dungeon-08c.level-01 .bit-01:after, .tile-dungeon-08c.level-01 .bit-02{
+	background-color:var(--color-underground-blue-light);
+}
+.tile-dungeon-08d.level-01{
+	background-color:var(--color-underground-grey);
+}
+.tile-dungeon-08d.level-01:before, .tile-dungeon-08d.level-01 .bit-01, .tile-dungeon-08d.level-01 .bit-01:before, .tile-dungeon-08d.level-01 .bit-01:after, .tile-dungeon-08d.level-01 .bit-02, .tile-dungeon-08d.level-01 .bit-02:before, .tile-dungeon-08d.level-01 .bit-02:after, .tile-dungeon-08d.level-01 .bit-04, .tile-dungeon-08d.level-01 .bit-04:before, .tile-dungeon-08d.level-01 .bit-04:after, .tile-dungeon-08d.level-01 .bit-05, .tile-dungeon-08d.level-01 .bit-05:before, .tile-dungeon-08d.level-01 .bit-05:after{
+	background-color:var(--color-underground-grey-dark);
+}
+.tile-dungeon-08d.level-01:after, .tile-dungeon-08d.level-01 .bit-03, .tile-dungeon-08d.level-01 .bit-03:before, .tile-dungeon-08d.level-01 .bit-03:after, .tile-dungeon-08d.level-01 .bit-06, .tile-dungeon-08d.level-01 .bit-06:before, .tile-dungeon-08d.level-01 .bit-06:after, .tile-dungeon-08d.level-01 .bit-07, .tile-dungeon-08d.level-01 .bit-07:before, .tile-dungeon-08d.level-01 .bit-07:after{
+	background-color:var(--color-underground-blue-light);
+}
+.tile-dungeon-09a.level-01{
+	background-color:var(--color-underground-grey);
+}
+.tile-dungeon-09a.level-01:before{
+	background-color:var(--color-underground-grey-dark);
+}
+.tile-dungeon-09a.level-01:after{
+	background-color:var(--color-underground-blue-light);
+}
+.tile-dungeon-09b.level-01{
+	background-color:var(--color-underground-grey);
+}
+.tile-dungeon-09b.level-01:before, .tile-dungeon-09b.level-01 .bit-01, .tile-dungeon-09b.level-01 .bit-01:before, .tile-dungeon-09b.level-01 .bit-01:after, .tile-dungeon-09b.level-01 .bit-02, .tile-dungeon-09b.level-01 .bit-02:before, .tile-dungeon-09b.level-01 .bit-02:after, .tile-dungeon-09b.level-01 .bit-03, .tile-dungeon-09b.level-01 .bit-03:before, .tile-dungeon-09b.level-01 .bit-03:after, .tile-dungeon-09b.level-01 .bit-04, .tile-dungeon-09b.level-01 .bit-04:before, .tile-dungeon-09b.level-01 .bit-04:after{
+	background-color:var(--color-underground-grey-dark);
+}
+.tile-dungeon-09b.level-01:after, .tile-dungeon-09b.level-01 .bit-03:after{
+	background-color:var(--color-underground-blue-light);
+}
+.tile-dungeon-09c.level-01{
+	background-color:var(--color-underground-grey);
+}
+.tile-dungeon-09c.level-01:before, .tile-dungeon-09c.level-01 .bit-01, .tile-dungeon-09c.level-01 .bit-01:before{
+	background-color:var(--color-underground-grey-dark);
+}
+.tile-dungeon-09c.level-01:after, .tile-dungeon-09c.level-01 .bit-01:after, .tile-dungeon-09c.level-01 .bit-02{
+	background-color:var(--color-underground-blue-light);
+}
+.tile-dungeon-09d.level-01{
+	background-color:var(--color-underground-grey);
+}
+.tile-dungeon-09d.level-01:before, .tile-dungeon-09d.level-01 .bit-01, .tile-dungeon-09d.level-01 .bit-01:before{
+	background-color:var(--color-underground-grey-dark);
+}
+.tile-dungeon-09d.level-01:after, .tile-dungeon-09d.level-01 .bit-01:after, .tile-dungeon-09d.level-01 .bit-02{
+	background-color:var(--color-underground-blue-light);
+}
+
+.tile-dungeon-09e.level-01{
+	background-color:var(--color-underground-grey);
+}
+.tile-dungeon-09e.level-01:before{
+	background-color:var(--color-underground-grey-dark);
+}
+.tile-dungeon-09e.level-01:after{
+	background-color:var(--color-underground-blue-light);
+}
+.tile-dungeon-09f.level-01{
+	background-color:var(--color-underground-grey);
+}
+.tile-dungeon-09f.level-01:before, .tile-dungeon-09f.level-01 .bit-01, .tile-dungeon-09f.level-01 .bit-01:before{
+	background-color:var(--color-underground-grey-dark);
+}
+.tile-dungeon-09f.level-01:after, .tile-dungeon-09f.level-01 .bit-01:after, .tile-dungeon-09f.level-01 .bit-02{
+	background-color:var(--color-underground-blue-light);
+}
+.tile-dungeon-09g.level-01{
+	background-color:var(--color-underground-grey);
+}
+.tile-dungeon-09g.level-01:before, .tile-dungeon-09g.level-01 .bit-01, .tile-dungeon-09g.level-01 .bit-01:before{
+	background-color:var(--color-underground-grey-dark);
+}
+.tile-dungeon-09g.level-01:after, .tile-dungeon-09g.level-01 .bit-01:after, .tile-dungeon-09g.level-01 .bit-02{
+	background-color:var(--color-underground-blue-light);
+}
+.tile-dungeon-09h.level-01{
+	background-color:var(--color-underground-grey);
+}
+.tile-dungeon-09h.level-01:before{
+	background-color:var(--color-underground-grey-dark);
+}
+.tile-dungeon-09h.level-01:after{
+	background-color:var(--color-underground-blue-light);
+}
+.tile-dungeon-09i.level-01{
+	background-color:var(--color-underground-grey);
+}
+.tile-dungeon-09i.level-01:before, .tile-dungeon-09i.level-01 .bit-01, .tile-dungeon-09i.level-01 .bit-01:before{
+	background-color:var(--color-underground-grey-dark);
+}
+.tile-dungeon-09i.level-01:after, .tile-dungeon-09i.level-01 .bit-01:after, .tile-dungeon-09i.level-01 .bit-02{
+	background-color:var(--color-underground-blue-light);
+}
+.tile-dungeon-09j.level-01{
+	background-color:var(--color-underground-grey);
+}
+.tile-dungeon-09j.level-01:before, .tile-dungeon-09j.level-01 .bit-01, .tile-dungeon-09j.level-01 .bit-01:before{
+	background-color:var(--color-underground-grey-dark);
+}
+.tile-dungeon-09j.level-01:after, .tile-dungeon-09j.level-01 .bit-01:after, .tile-dungeon-09j.level-01 .bit-02{
+	background-color:var(--color-underground-blue-light);
+}
+.tile-dungeon-09k.level-01{
+	background-color:var(--color-underground-grey);
+}
+.tile-dungeon-09k.level-01:before{
+	background-color:var(--color-underground-grey-dark);
+}
+.tile-dungeon-09k.level-01:after{
+	background-color:var(--color-underground-blue-light);
+}
+.tile-dungeon-09l.level-01{
+	background-color:var(--color-underground-grey);
+}
+.tile-dungeon-09l.level-01:before, .tile-dungeon-09l.level-01 .bit-01, .tile-dungeon-09l.level-01 .bit-01:before{
+	background-color:var(--color-underground-grey-dark);
+}
+.tile-dungeon-09l.level-01:after, .tile-dungeon-09l.level-01 .bit-01:after, .tile-dungeon-09l.level-01 .bit-02{
+	background-color:var(--color-underground-blue-light);
+}
+.tile-dungeon-09m.level-01{
+	background-color:var(--color-underground-grey);
+}
+.tile-dungeon-09m.level-01:before, .tile-dungeon-09m.level-01 .bit-01, .tile-dungeon-09m.level-01 .bit-01:before{
+	background-color:var(--color-underground-grey-dark);
+}
+.tile-dungeon-09m.level-01:after, .tile-dungeon-09m.level-01 .bit-01:after, .tile-dungeon-09m.level-01 .bit-02{
+	background-color:var(--color-underground-blue-light);
+}
+.tile-dungeon-09n.level-01{
+	background-color:var(--color-underground-grey);
+}
+.tile-dungeon-09n.level-01:before, .tile-dungeon-09n.level-01 .bit-01, .tile-dungeon-09n.level-01 .bit-01:before, .tile-dungeon-09n.level-01 .bit-01:after, .tile-dungeon-09n.level-01 .bit-02, .tile-dungeon-09n.level-01 .bit-02:before, .tile-dungeon-09n.level-01 .bit-02:after, .tile-dungeon-09n.level-01 .bit-03, .tile-dungeon-09n.level-01 .bit-03:before, .tile-dungeon-09n.level-01 .bit-03:after, .tile-dungeon-09n.level-01 .bit-04, .tile-dungeon-09n.level-01 .bit-04:before, .tile-dungeon-09n.level-01 .bit-04:after{
+	background-color:var(--color-underground-grey-dark);
+}
+.tile-dungeon-09n.level-01:after, .tile-dungeon-09n.level-01 .bit-03:after{
+	background-color:var(--color-underground-blue-light);
+}
+.tile-dungeon-09o.level-01{
+	background-color:var(--color-underground-grey);
+}
+.tile-dungeon-09o.level-01:before, .tile-dungeon-09o.level-01 .bit-01, .tile-dungeon-09o.level-01 .bit-01:before, .tile-dungeon-09o.level-01 .bit-01:after, .tile-dungeon-09o.level-01 .bit-02, .tile-dungeon-09o.level-01 .bit-02:before, .tile-dungeon-09o.level-01 .bit-02:after, .tile-dungeon-09o.level-01 .bit-03, .tile-dungeon-09o.level-01 .bit-03:before, .tile-dungeon-09o.level-01 .bit-03:after, .tile-dungeon-09o.level-01 .bit-04, .tile-dungeon-09o.level-01 .bit-04:before, .tile-dungeon-09o.level-01 .bit-04:after{
+	background-color:var(--color-underground-grey-dark);
+}
+.tile-dungeon-09o.level-01:after, .tile-dungeon-09o.level-01 .bit-03:after{
+	background-color:var(--color-underground-blue-light);
+}
+.tile-dungeon-10a.level-01, .tile-dungeon-10b.level-01, .tile-dungeon-10c.level-01, .tile-dungeon-10d.level-01, .tile-dungeon-10e.level-01, .tile-dungeon-10f.level-01, .tile-dungeon-10g.level-01, .tile-dungeon-10h.level-01, .tile-dungeon-10i.level-01, .tile-dungeon-10j.level-01, .tile-dungeon-10k.level-01, .tile-dungeon-10l.level-01, .tile-dungeon-10m.level-01, .tile-dungeon-10n.level-01, .tile-dungeon-10o.level-01{
+	background-color:var(--color-underground-grey);
+}
+.tile-dungeon-10a.level-01:before, .tile-dungeon-10a.level-01 .bit-01, .tile-dungeon-10a.level-01 .bit-01:before, .tile-dungeon-10a.level-01 .bit-01:after, .tile-dungeon-10a.level-01 .bit-02, .tile-dungeon-10a.level-01 .bit-02:before, .tile-dungeon-10a.level-01 .bit-02:after, .tile-dungeon-10a.level-01 .bit-03, .tile-dungeon-10a.level-01 .bit-03:before, .tile-dungeon-10a.level-01 .bit-03:after, .tile-dungeon-10a.level-01 .bit-04, .tile-dungeon-10a.level-01 .bit-04:before, .tile-dungeon-10a.level-01 .bit-04:after, .tile-dungeon-10a.level-01 .bit-05, .tile-dungeon-10a.level-01 .bit-05:before, .tile-dungeon-10a.level-01 .bit-05:after, .tile-dungeon-10a.level-01 .bit-06, .tile-dungeon-10a.level-01 .bit-06:before, .tile-dungeon-10b.level-01:before, .tile-dungeon-10c.level-01:before, .tile-dungeon-10c.level-01 .bit-01, .tile-dungeon-10c.level-01 .bit-01:before, .tile-dungeon-10c.level-01 .bit-01:after, .tile-dungeon-10c.level-01 .bit-02, .tile-dungeon-10c.level-01 .bit-02:before, .tile-dungeon-10c.level-01 .bit-02:after, .tile-dungeon-10c.level-01 .bit-03, .tile-dungeon-10d.level-01:before, .tile-dungeon-10d.level-01 .bit-01, .tile-dungeon-10d.level-01 .bit-01:before, .tile-dungeon-10e.level-01:before, .tile-dungeon-10e.level-01 .bit-01, .tile-dungeon-10e.level-01 .bit-01:before, .tile-dungeon-10e.level-01 .bit-01:after, .tile-dungeon-10e.level-01 .bit-02, .tile-dungeon-10e.level-01 .bit-02:before, .tile-dungeon-10e.level-01 .bit-02:after, .tile-dungeon-10f.level-01:before, .tile-dungeon-10g.level-01:before, .tile-dungeon-10g.level-01 .bit-01, .tile-dungeon-10g.level-01 .bit-01:before, .tile-dungeon-10g.level-01 .bit-01:after, .tile-dungeon-10g.level-01 .bit-03, .tile-dungeon-10g.level-01 .bit-03:before, .tile-dungeon-10h.level-01:before, .tile-dungeon-10i.level-01:before, .tile-dungeon-10i.level-01 .bit-01, .tile-dungeon-10i.level-01 .bit-01:before, .tile-dungeon-10i.level-01 .bit-01:after, .tile-dungeon-10i.level-01 .bit-05, .tile-dungeon-10i.level-01 .bit-05:before, .tile-dungeon-10i.level-01 .bit-05:after, .tile-dungeon-10j.level-01:before, .tile-dungeon-10k.level-01:before, .tile-dungeon-10k.level-01 .bit-01, .tile-dungeon-10k.level-01 .bit-01:before, .tile-dungeon-10k.level-01 .bit-01:after, .tile-dungeon-10k.level-01 .bit-02, .tile-dungeon-10k.level-01 .bit-02:before, .tile-dungeon-10k.level-01 .bit-02:after, .tile-dungeon-10l.level-01:before, .tile-dungeon-10l.level-01 .bit-01, .tile-dungeon-10l.level-01 .bit-01:before, .tile-dungeon-10m.level-01:before, .tile-dungeon-10m.level-01 .bit-01, .tile-dungeon-10m.level-01 .bit-01:before, .tile-dungeon-10m.level-01 .bit-01:after, .tile-dungeon-10m.level-01 .bit-02, .tile-dungeon-10m.level-01 .bit-02:before, .tile-dungeon-10m.level-01 .bit-02:after, .tile-dungeon-10n.level-01:before, .tile-dungeon-10o.level-01:before, .tile-dungeon-10o.level-01 .bit-01, .tile-dungeon-10o.level-01 .bit-01:before, .tile-dungeon-10o.level-01 .bit-01:after, .tile-dungeon-10o.level-01 .bit-02, .tile-dungeon-10o.level-01 .bit-02:before, .tile-dungeon-10o.level-01 .bit-02:after, .tile-dungeon-10o.level-01 .bit-03, .tile-dungeon-10o.level-01 .bit-03:before, .tile-dungeon-10o.level-01 .bit-03:after, .tile-dungeon-10o.level-01 .bit-04, .tile-dungeon-10o.level-01 .bit-04:before, .tile-dungeon-10o.level-01 .bit-04:after, .tile-dungeon-10o.level-01 .bit-05, .tile-dungeon-10o.level-01 .bit-05:before, .tile-dungeon-10o.level-01 .bit-05:after, .tile-dungeon-10o.level-01 .bit-06, .tile-dungeon-10o.level-01 .bit-06:before{
+	background-color:var(--color-underground-grey-dark);
+}
+.tile-dungeon-10a.level-01:after, .tile-dungeon-10a.level-01 .bit-06:after, .tile-dungeon-10b.level-01:after, .tile-dungeon-10c.level-01:after, .tile-dungeon-10c.level-01 .bit-03:before, .tile-dungeon-10c.level-01 .bit-03:after, .tile-dungeon-10c.level-01 .bit-04, .tile-dungeon-10c.level-01 .bit-04:before, .tile-dungeon-10c.level-01 .bit-04:after, .tile-dungeon-10c.level-01 .bit-05, .tile-dungeon-10c.level-01 .bit-05:before, .tile-dungeon-10d.level-01:after, .tile-dungeon-10d.level-01 .bit-01:after, .tile-dungeon-10d.level-01 .bit-02, .tile-dungeon-10e.level-01:after, .tile-dungeon-10e.level-01 .bit-03, .tile-dungeon-10e.level-01 .bit-03:before, .tile-dungeon-10e.level-01 .bit-03:after, .tile-dungeon-10e.level-01 .bit-04, .tile-dungeon-10e.level-01 .bit-04:before, .tile-dungeon-10e.level-01 .bit-04:after, .tile-dungeon-10f.level-01:after, .tile-dungeon-10g.level-01:after, .tile-dungeon-10g.level-01 .bit-02, .tile-dungeon-10g.level-01 .bit-02:before, .tile-dungeon-10g.level-01 .bit-02:after, .tile-dungeon-10g.level-01 .bit-04, .tile-dungeon-10g.level-01 .bit-04:before, .tile-dungeon-10h.level-01:after, .tile-dungeon-10i.level-01:after, .tile-dungeon-10i.level-01 .bit-02, .tile-dungeon-10i.level-01 .bit-02:before, .tile-dungeon-10i.level-01 .bit-02:after, .tile-dungeon-10i.level-01 .bit-03, .tile-dungeon-10i.level-01 .bit-03:before, .tile-dungeon-10i.level-01 .bit-03:after, .tile-dungeon-10i.level-01 .bit-04, .tile-dungeon-10j.level-01:after, .tile-dungeon-10k.level-01:after, .tile-dungeon-10k.level-01 .bit-03, .tile-dungeon-10k.level-01 .bit-03:before, .tile-dungeon-10k.level-01 .bit-03:after, .tile-dungeon-10k.level-01 .bit-04, .tile-dungeon-10k.level-01 .bit-04:before, .tile-dungeon-10k.level-01 .bit-04:after, .tile-dungeon-10k.level-01 .bit-05, .tile-dungeon-10k.level-01 .bit-05:before, .tile-dungeon-10l.level-01:after, .tile-dungeon-10l.level-01 .bit-01:after, .tile-dungeon-10l.level-01 .bit-02, .tile-dungeon-10m.level-01:after, .tile-dungeon-10m.level-01 .bit-03, .tile-dungeon-10m.level-01 .bit-03:before, .tile-dungeon-10m.level-01 .bit-03:after, .tile-dungeon-10m.level-01 .bit-04, .tile-dungeon-10m.level-01 .bit-04:before, .tile-dungeon-10m.level-01 .bit-04:after, .tile-dungeon-10m.level-01 .bit-05, .tile-dungeon-10m.level-01 .bit-05:before, .tile-dungeon-10n.level-01:after, .tile-dungeon-10o.level-01:after, .tile-dungeon-10o.level-01 .bit-06:after{
+	background-color:var(--color-underground-blue-light);
+}
+.tile-dungeon-10g.level-01 .bit-03:after, .tile-dungeon-10g.level-01 .bit-04:after, .tile-dungeon-10i.level-01 .bit-04:before, .tile-dungeon-10i.level-01 .bit-04:after{
+	background-color:var(--color-black);
+}
+
+
+
+/** doors **/
+.tile-dungeon-door-shuttered-west.level-01:before{
+	background-color:var(--color-underground-grey); /** light grey **/
+}
+.tile-dungeon-door-shuttered-west.level-01 .bit-07, .tile-dungeon-door-shuttered-west.level-01 .bit-07:before, .tile-dungeon-door-shuttered-west.level-01 .bit-07:after, .tile-dungeon-door-shuttered-west.level-01 .bit-08, .tile-dungeon-door-shuttered-west.level-01 .bit-08:before, .tile-dungeon-door-shuttered-west.level-01 .bit-08:after, .tile-dungeon-door-shuttered-west.level-01 .bit-09, .tile-dungeon-door-shuttered-west.level-01 .bit-09:before, .tile-dungeon-door-shuttered-west.level-01 .bit-09:after, .tile-dungeon-door-shuttered-west.level-01 .bit-10, .tile-dungeon-door-shuttered-west.level-01 .bit-10:before, .tile-dungeon-door-shuttered-west.level-01 .bit-10:after, .tile-dungeon-door-shuttered-west.level-01 .bit-11, .tile-dungeon-door-shuttered-west.level-01 .bit-11:before, .tile-dungeon-door-shuttered-west.level-01 .bit-11:after, .tile-dungeon-door-shuttered-west.level-01 .bit-12, .tile-dungeon-door-shuttered-west.level-01 .bit-12:before, .tile-dungeon-door-shuttered-west.level-01 .bit-12:after, .tile-dungeon-door-shuttered-west.level-01 .bit-13, .tile-dungeon-door-shuttered-west.level-01 .bit-13:before, .tile-dungeon-door-shuttered-west.level-01 .bit-15, .tile-dungeon-door-shuttered-west.level-01 .bit-15:before, .tile-dungeon-door-shuttered-west.level-01 .bit-15:after, .tile-dungeon-door-shuttered-west.level-01 .bit-16, .tile-dungeon-door-shuttered-west.level-01 .bit-16:before, .tile-dungeon-door-shuttered-west.level-01 .bit-16:after, .tile-dungeon-door-shuttered-west.level-01 .bit-17, .tile-dungeon-door-shuttered-west.level-01 .bit-17:before, .tile-dungeon-door-shuttered-west.level-01 .bit-17:after{	
+	background-color:var(--color-underground-blue-light); /** light blue **/
+}
+.tile-dungeon-door-shuttered-west.level-01:after, .tile-dungeon-door-shuttered-west.level-01 .bit-02, .tile-dungeon-door-shuttered-west.level-01 .bit-02:before, .tile-dungeon-door-shuttered-west.level-01 .bit-02:after, .tile-dungeon-door-shuttered-west.level-01 .bit-03, .tile-dungeon-door-shuttered-west.level-01 .bit-03:before, .tile-dungeon-door-shuttered-west.level-01 .bit-03:after, .tile-dungeon-door-shuttered-west.level-01 .bit-04, .tile-dungeon-door-shuttered-west.level-01 .bit-04:before, .tile-dungeon-door-shuttered-west.level-01 .bit-04:after, .tile-dungeon-door-shuttered-west.level-01 .bit-05, .tile-dungeon-door-shuttered-west.level-01 .bit-05:before, .tile-dungeon-door-shuttered-west.level-01 .bit-05:after, .tile-dungeon-door-shuttered-west.level-01 .bit-06, .tile-dungeon-door-shuttered-west.level-01 .bit-06:before, .tile-dungeon-door-shuttered-west.level-01 .bit-06:after, .tile-dungeon-door-shuttered-west.level-01 .bit-13:after{
+	background-color:var(--color-underground-grey-dark); /** dark grey **/
+}
+.tile-dungeon-door-shuttered-east.level-01:before{
+	background-color:var(--color-underground-grey); /** light grey **/
+}
+.tile-dungeon-door-shuttered-east.level-01 .bit-07, .tile-dungeon-door-shuttered-east.level-01 .bit-07:before, .tile-dungeon-door-shuttered-east.level-01 .bit-07:after, .tile-dungeon-door-shuttered-east.level-01 .bit-08, .tile-dungeon-door-shuttered-east.level-01 .bit-08:before, .tile-dungeon-door-shuttered-east.level-01 .bit-08:after, .tile-dungeon-door-shuttered-east.level-01 .bit-09, .tile-dungeon-door-shuttered-east.level-01 .bit-09:before, .tile-dungeon-door-shuttered-east.level-01 .bit-09:after, .tile-dungeon-door-shuttered-east.level-01 .bit-10, .tile-dungeon-door-shuttered-east.level-01 .bit-10:before, .tile-dungeon-door-shuttered-east.level-01 .bit-10:after, .tile-dungeon-door-shuttered-east.level-01 .bit-11, .tile-dungeon-door-shuttered-east.level-01 .bit-11:before, .tile-dungeon-door-shuttered-east.level-01 .bit-11:after, .tile-dungeon-door-shuttered-east.level-01 .bit-12, .tile-dungeon-door-shuttered-east.level-01 .bit-12:before, .tile-dungeon-door-shuttered-east.level-01 .bit-12:after, .tile-dungeon-door-shuttered-east.level-01 .bit-13, .tile-dungeon-door-shuttered-east.level-01 .bit-13:before, .tile-dungeon-door-shuttered-east.level-01 .bit-15, .tile-dungeon-door-shuttered-east.level-01 .bit-15:before, .tile-dungeon-door-shuttered-east.level-01 .bit-15:after, .tile-dungeon-door-shuttered-east.level-01 .bit-16, .tile-dungeon-door-shuttered-east.level-01 .bit-16:before, .tile-dungeon-door-shuttered-east.level-01 .bit-16:after, .tile-dungeon-door-shuttered-east.level-01 .bit-17, .tile-dungeon-door-shuttered-east.level-01 .bit-17:before, .tile-dungeon-door-shuttered-east.level-01 .bit-17:after{	
+	background-color:var(--color-underground-blue-light); /** light blue **/
+}
+.tile-dungeon-door-shuttered-east.level-01:after, .tile-dungeon-door-shuttered-east.level-01 .bit-02, .tile-dungeon-door-shuttered-east.level-01 .bit-02:before, .tile-dungeon-door-shuttered-east.level-01 .bit-02:after, .tile-dungeon-door-shuttered-east.level-01 .bit-03, .tile-dungeon-door-shuttered-east.level-01 .bit-03:before, .tile-dungeon-door-shuttered-east.level-01 .bit-03:after, .tile-dungeon-door-shuttered-east.level-01 .bit-04, .tile-dungeon-door-shuttered-east.level-01 .bit-04:before, .tile-dungeon-door-shuttered-east.level-01 .bit-04:after, .tile-dungeon-door-shuttered-east.level-01 .bit-05, .tile-dungeon-door-shuttered-east.level-01 .bit-05:before, .tile-dungeon-door-shuttered-east.level-01 .bit-05:after, .tile-dungeon-door-shuttered-east.level-01 .bit-06, .tile-dungeon-door-shuttered-east.level-01 .bit-06:before, .tile-dungeon-door-shuttered-east.level-01 .bit-06:after, .tile-dungeon-door-shuttered-east.level-01 .bit-13:after{
+	background-color:var(--color-underground-grey-dark); /** dark grey **/
+}
+.tile-dungeon-door-shuttered-east .bit-01, .tile-dungeon-door-shuttered-east .bit-01:before, .tile-dungeon-door-shuttered-east .bit-01:after, .tile-dungeon-door-shuttered-east .bit-14, .tile-dungeon-door-shuttered-east .bit-14:before, .tile-dungeon-door-shuttered-east .bit-14:after, .tile-dungeon-door-shuttered-east .bit-18, .tile-dungeon-door-shuttered-east .bit-18:before, .tile-dungeon-door-shuttered-east .bit-18:after, .tile-dungeon-door-shuttered-east .bit-19, .tile-dungeon-door-shuttered-east .bit-19:before, .tile-dungeon-door-shuttered-east .bit-19:after{
+	background-color:var(--color-black);
+}
+
+
+
+.tile-dungeon-door-shuttered-north.level-01:before{
+	background-color:var(--color-underground-grey); /** light grey **/
+}
+.tile-dungeon-door-shuttered-north.level-01 .bit-07, .tile-dungeon-door-shuttered-north.level-01 .bit-07:after, .tile-dungeon-door-shuttered-north.level-01 .bit-08, .tile-dungeon-door-shuttered-north.level-01 .bit-08:before, .tile-dungeon-door-shuttered-north.level-01 .bit-08:after, .tile-dungeon-door-shuttered-north.level-01 .bit-09, .tile-dungeon-door-shuttered-north.level-01 .bit-09:before, .tile-dungeon-door-shuttered-north.level-01 .bit-09:after, .tile-dungeon-door-shuttered-north.level-01 .bit-10, .tile-dungeon-door-shuttered-north.level-01 .bit-10:before, .tile-dungeon-door-shuttered-north.level-01 .bit-10:after, .tile-dungeon-door-shuttered-north.level-01 .bit-11, .tile-dungeon-door-shuttered-north.level-01 .bit-11:before, .tile-dungeon-door-shuttered-north.level-01 .bit-11:after, .tile-dungeon-door-shuttered-north.level-01 .bit-12, .tile-dungeon-door-shuttered-north.level-01 .bit-12:before, .tile-dungeon-door-shuttered-north.level-01 .bit-12:after, .tile-dungeon-door-shuttered-north.level-01 .bit-13, .tile-dungeon-door-shuttered-north.level-01 .bit-13:before, .tile-dungeon-door-shuttered-north.level-01 .bit-17, .tile-dungeon-door-shuttered-north.level-01 .bit-17:before, .tile-dungeon-door-shuttered-north.level-01 .bit-17:after, .tile-dungeon-door-shuttered-north.level-01 .bit-18, .tile-dungeon-door-shuttered-north.level-01 .bit-18:before, .tile-dungeon-door-shuttered-north.level-01 .bit-18:after, .tile-dungeon-door-shuttered-north.level-01 .bit-19, .tile-dungeon-door-shuttered-north.level-01 .bit-19:before, .tile-dungeon-door-shuttered-north.level-01 .bit-19:after, .tile-dungeon-door-shuttered-north.level-01 .bit-16:after{
+	background-color:var(--color-underground-blue-light); /** light blue **/
+}
+.tile-dungeon-door-shuttered-north.level-01:after, .tile-dungeon-door-shuttered-north.level-01 .bit-02, .tile-dungeon-door-shuttered-north.level-01 .bit-02:before, .tile-dungeon-door-shuttered-north.level-01 .bit-02:after, .tile-dungeon-door-shuttered-north.level-01 .bit-03, .tile-dungeon-door-shuttered-north.level-01 .bit-03:before, .tile-dungeon-door-shuttered-north.level-01 .bit-03:after, .tile-dungeon-door-shuttered-north.level-01 .bit-04, .tile-dungeon-door-shuttered-north.level-01 .bit-04:before, .tile-dungeon-door-shuttered-north.level-01 .bit-04:after, .tile-dungeon-door-shuttered-north.level-01 .bit-05, .tile-dungeon-door-shuttered-north.level-01 .bit-05:before, .tile-dungeon-door-shuttered-north.level-01 .bit-05:after, .tile-dungeon-door-shuttered-north.level-01 .bit-06, .tile-dungeon-door-shuttered-north.level-01 .bit-06:before, .tile-dungeon-door-shuttered-north.level-01 .bit-06:after, .tile-dungeon-door-shuttered-north.level-01 .bit-13:after{
+	background-color:var(--color-underground-grey-dark); /** dark grey **/
+}
+.tile-dungeon-door-shuttered-north .bit-01, .tile-dungeon-door-shuttered-north .bit-01:before, .tile-dungeon-door-shuttered-north .bit-01:after, .tile-dungeon-door-shuttered-north .bit-07:before, .tile-dungeon-door-shuttered-north .bit-14, .tile-dungeon-door-shuttered-north .bit-14:before, .tile-dungeon-door-shuttered-north .bit-14:after, .tile-dungeon-door-shuttered-north .bit-15, .tile-dungeon-door-shuttered-north .bit-15:before, .tile-dungeon-door-shuttered-north .bit-15:after, .tile-dungeon-door-shuttered-north .bit-16, .tile-dungeon-door-shuttered-north .bit-16:before, .tile-dungeon-door-shuttered-north .bit-20, .tile-dungeon-door-shuttered-north .bit-20:before, .tile-dungeon-door-shuttered-north .bit-20:after{
+	background-color:var(--color-black);
+}
+
+
+
+
+.tile-dungeon-door-shuttered-south.level-01:before{
+	background-color:var(--color-underground-grey); /** light grey **/
+}
+.tile-dungeon-door-shuttered-south.level-01 .bit-07, .tile-dungeon-door-shuttered-south.level-01 .bit-07:before, .tile-dungeon-door-shuttered-south.level-01 .bit-08, .tile-dungeon-door-shuttered-south.level-01 .bit-08:before, .tile-dungeon-door-shuttered-south.level-01 .bit-08:after, .tile-dungeon-door-shuttered-south.level-01 .bit-09, .tile-dungeon-door-shuttered-south.level-01 .bit-09:before, .tile-dungeon-door-shuttered-south.level-01 .bit-09:after, .tile-dungeon-door-shuttered-south.level-01 .bit-10, .tile-dungeon-door-shuttered-south.level-01 .bit-10:before, .tile-dungeon-door-shuttered-south.level-01 .bit-10:after, .tile-dungeon-door-shuttered-south.level-01 .bit-11, .tile-dungeon-door-shuttered-south.level-01 .bit-11:before, .tile-dungeon-door-shuttered-south.level-01 .bit-11:after, .tile-dungeon-door-shuttered-south.level-01 .bit-12, .tile-dungeon-door-shuttered-south.level-01 .bit-12:before, .tile-dungeon-door-shuttered-south.level-01 .bit-12:after, .tile-dungeon-door-shuttered-south.level-01 .bit-13, .tile-dungeon-door-shuttered-south.level-01 .bit-13:before, .tile-dungeon-door-shuttered-south.level-01 .bit-17, .tile-dungeon-door-shuttered-south.level-01 .bit-17:before, .tile-dungeon-door-shuttered-south.level-01 .bit-17:after, .tile-dungeon-door-shuttered-south.level-01 .bit-18, .tile-dungeon-door-shuttered-south.level-01 .bit-18:before, .tile-dungeon-door-shuttered-south.level-01 .bit-18:after, .tile-dungeon-door-shuttered-south.level-01 .bit-19, .tile-dungeon-door-shuttered-south.level-01 .bit-19:before, .tile-dungeon-door-shuttered-south.level-01 .bit-19:after, .tile-dungeon-door-shuttered-south.level-01 .bit-16:after{
+	background-color:var(--color-underground-blue-light); /** light blue **/
+}
+.tile-dungeon-door-shuttered-south.level-01:after, .tile-dungeon-door-shuttered-south.level-01 .bit-02, .tile-dungeon-door-shuttered-south.level-01 .bit-02:before, .tile-dungeon-door-shuttered-south.level-01 .bit-02:after, .tile-dungeon-door-shuttered-south.level-01 .bit-03, .tile-dungeon-door-shuttered-south.level-01 .bit-03:before, .tile-dungeon-door-shuttered-south.level-01 .bit-03:after, .tile-dungeon-door-shuttered-south.level-01 .bit-04, .tile-dungeon-door-shuttered-south.level-01 .bit-04:before, .tile-dungeon-door-shuttered-south.level-01 .bit-04:after, .tile-dungeon-door-shuttered-south.level-01 .bit-05, .tile-dungeon-door-shuttered-south.level-01 .bit-05:before, .tile-dungeon-door-shuttered-south.level-01 .bit-05:after, .tile-dungeon-door-shuttered-south.level-01 .bit-06, .tile-dungeon-door-shuttered-south.level-01 .bit-06:before, .tile-dungeon-door-shuttered-south.level-01 .bit-06:after, .tile-dungeon-door-shuttered-south.level-01 .bit-13:after{
+	background-color:var(--color-underground-grey-dark); /** dark grey **/
+}
+.tile-dungeon-door-shuttered-south .bit-01, .tile-dungeon-door-shuttered-south .bit-01:before, .tile-dungeon-door-shuttered-south .bit-01:after, .tile-dungeon-door-shuttered-south .bit-07:after, .tile-dungeon-door-shuttered-south .bit-14, .tile-dungeon-door-shuttered-south .bit-14:before, .tile-dungeon-door-shuttered-south .bit-14:after, .tile-dungeon-door-shuttered-south .bit-15, .tile-dungeon-door-shuttered-south .bit-15:before, .tile-dungeon-door-shuttered-south .bit-15:after, .tile-dungeon-door-shuttered-south .bit-16, .tile-dungeon-door-shuttered-south .bit-16:before{
+	background-color:var(--color-black);
+}
+
+
+
+.tile-dungeon-door-locked-west.level-01:before{
+	background-color:var(--color-underground-grey); /** light grey **/
+}
+.tile-dungeon-door-locked-west.level-01 .bit-07, .tile-dungeon-door-locked-west.level-01 .bit-07:before, .tile-dungeon-door-locked-west.level-01 .bit-07:after, .tile-dungeon-door-locked-west.level-01 .bit-08, .tile-dungeon-door-locked-west.level-01 .bit-08:before, .tile-dungeon-door-locked-west.level-01 .bit-08:after, .tile-dungeon-door-locked-west.level-01 .bit-09, .tile-dungeon-door-locked-west.level-01 .bit-09:before, .tile-dungeon-door-locked-west.level-01 .bit-09:after, .tile-dungeon-door-locked-west.level-01 .bit-10, .tile-dungeon-door-locked-west.level-01 .bit-10:before, .tile-dungeon-door-locked-west.level-01 .bit-10:after, .tile-dungeon-door-locked-west.level-01 .bit-11, .tile-dungeon-door-locked-west.level-01 .bit-11:before, .tile-dungeon-door-locked-west.level-01 .bit-11:after, .tile-dungeon-door-locked-west.level-01 .bit-12, .tile-dungeon-door-locked-west.level-01 .bit-12:before, .tile-dungeon-door-locked-west.level-01 .bit-12:after, .tile-dungeon-door-locked-west.level-01 .bit-13, .tile-dungeon-door-locked-west.level-01 .bit-13:before{
+	background-color:var(--color-underground-blue-light); /** light blue **/
+}
+.tile-dungeon-door-locked-west.level-01:after, .tile-dungeon-door-locked-west.level-01 .bit-02, .tile-dungeon-door-locked-west.level-01 .bit-02:before, .tile-dungeon-door-locked-west.level-01 .bit-02:after, .tile-dungeon-door-locked-west.level-01 .bit-03, .tile-dungeon-door-locked-west.level-01 .bit-03:before, .tile-dungeon-door-locked-west.level-01 .bit-03:after, .tile-dungeon-door-locked-west.level-01 .bit-04, .tile-dungeon-door-locked-west.level-01 .bit-04:before, .tile-dungeon-door-locked-west.level-01 .bit-04:after, .tile-dungeon-door-locked-west.level-01 .bit-05, .tile-dungeon-door-locked-west.level-01 .bit-05:before, .tile-dungeon-door-locked-west.level-01 .bit-05:after, .tile-dungeon-door-locked-west.level-01 .bit-06, .tile-dungeon-door-locked-west.level-01 .bit-06:before, .tile-dungeon-door-locked-west.level-01 .bit-06:after, .tile-dungeon-door-locked-west.level-01 .bit-13:after{
+	background-color:var(--color-underground-grey-dark); /** dark grey **/
+}
+.tile-dungeon-door-locked-west .bit-01, .tile-dungeon-door-locked-west .bit-01:before, .tile-dungeon-door-locked-west .bit-01:after, .tile-dungeon-door-locked-west .bit-14, .tile-dungeon-door-locked-west .bit-14:before, .tile-dungeon-door-locked-west .bit-14:after{
+	background-color:var(--color-black);
+}
+
+.tile-dungeon-door-locked-south.level-01:before{
+	background-color:var(--color-underground-grey); /** light grey **/
+}
+.tile-dungeon-door-locked-south.level-01 .bit-07, .tile-dungeon-door-locked-south.level-01 .bit-07:before, .tile-dungeon-door-locked-south.level-01 .bit-07:after, .tile-dungeon-door-locked-south.level-01 .bit-08, .tile-dungeon-door-locked-south.level-01 .bit-08:before, .tile-dungeon-door-locked-south.level-01 .bit-08:after, .tile-dungeon-door-locked-south.level-01 .bit-09, .tile-dungeon-door-locked-south.level-01 .bit-09:before, .tile-dungeon-door-locked-south.level-01 .bit-09:after, .tile-dungeon-door-locked-south.level-01 .bit-10, .tile-dungeon-door-locked-south.level-01 .bit-10:before, .tile-dungeon-door-locked-south.level-01 .bit-10:after, .tile-dungeon-door-locked-south.level-01 .bit-11, .tile-dungeon-door-locked-south.level-01 .bit-11:before, .tile-dungeon-door-locked-south.level-01 .bit-11:after, .tile-dungeon-door-locked-south.level-01 .bit-12, .tile-dungeon-door-locked-south.level-01 .bit-12:before, .tile-dungeon-door-locked-south.level-01 .bit-12:after, .tile-dungeon-door-locked-south.level-01 .bit-13, .tile-dungeon-door-locked-south.level-01 .bit-13:before{
+	background-color:var(--color-underground-blue-light); /** light blue **/
+}
+.tile-dungeon-door-locked-south.level-01:after, .tile-dungeon-door-locked-south.level-01 .bit-02, .tile-dungeon-door-locked-south.level-01 .bit-02:before, .tile-dungeon-door-locked-south.level-01 .bit-02:after, .tile-dungeon-door-locked-south.level-01 .bit-03, .tile-dungeon-door-locked-south.level-01 .bit-03:before, .tile-dungeon-door-locked-south.level-01 .bit-03:after, .tile-dungeon-door-locked-south.level-01 .bit-04, .tile-dungeon-door-locked-south.level-01 .bit-04:before, .tile-dungeon-door-locked-south.level-01 .bit-04:after, .tile-dungeon-door-locked-south.level-01 .bit-05, .tile-dungeon-door-locked-south.level-01 .bit-05:before, .tile-dungeon-door-locked-south.level-01 .bit-05:after, .tile-dungeon-door-locked-south.level-01 .bit-06, .tile-dungeon-door-locked-south.level-01 .bit-06:before, .tile-dungeon-door-locked-south.level-01 .bit-06:after, .tile-dungeon-door-locked-south.level-01 .bit-13:after{
+	background-color:var(--color-underground-grey-dark); /** dark grey **/
+}
+.tile-dungeon-door-locked-south .bit-01, .tile-dungeon-door-locked-south .bit-01:before, .tile-dungeon-door-locked-south .bit-01:after, .tile-dungeon-door-locked-south .bit-14, .tile-dungeon-door-locked-south .bit-14:before, .tile-dungeon-door-locked-south .bit-14:after{
+	background-color:var(--color-black);
+}
+
+
+
+.tile-dungeon-door-locked-east.level-01:before{
+	background-color:var(--color-underground-grey); /** light grey **/
+}
+.tile-dungeon-door-locked-east.level-01 .bit-07, .tile-dungeon-door-locked-east.level-01 .bit-07:before, .tile-dungeon-door-locked-east.level-01 .bit-07:after, .tile-dungeon-door-locked-east.level-01 .bit-08, .tile-dungeon-door-locked-east.level-01 .bit-08:before, .tile-dungeon-door-locked-east.level-01 .bit-08:after, .tile-dungeon-door-locked-east.level-01 .bit-09, .tile-dungeon-door-locked-east.level-01 .bit-09:before, .tile-dungeon-door-locked-east.level-01 .bit-09:after, .tile-dungeon-door-locked-east.level-01 .bit-10, .tile-dungeon-door-locked-east.level-01 .bit-10:before, .tile-dungeon-door-locked-east.level-01 .bit-10:after, .tile-dungeon-door-locked-east.level-01 .bit-11, .tile-dungeon-door-locked-east.level-01 .bit-11:before, .tile-dungeon-door-locked-east.level-01 .bit-11:after, .tile-dungeon-door-locked-east.level-01 .bit-12, .tile-dungeon-door-locked-east.level-01 .bit-12:before, .tile-dungeon-door-locked-east.level-01 .bit-12:after, .tile-dungeon-door-locked-east.level-01 .bit-13, .tile-dungeon-door-locked-east.level-01 .bit-13:before{
+	background-color:var(--color-underground-blue-light); /** light blue **/
+}
+.tile-dungeon-door-locked-east.level-01:after, .tile-dungeon-door-locked-east.level-01 .bit-02, .tile-dungeon-door-locked-east.level-01 .bit-02:before, .tile-dungeon-door-locked-east.level-01 .bit-02:after, .tile-dungeon-door-locked-east.level-01 .bit-03, .tile-dungeon-door-locked-east.level-01 .bit-03:before, .tile-dungeon-door-locked-east.level-01 .bit-03:after, .tile-dungeon-door-locked-east.level-01 .bit-04, .tile-dungeon-door-locked-east.level-01 .bit-04:before, .tile-dungeon-door-locked-east.level-01 .bit-04:after, .tile-dungeon-door-locked-east.level-01 .bit-05, .tile-dungeon-door-locked-east.level-01 .bit-05:before, .tile-dungeon-door-locked-east.level-01 .bit-05:after, .tile-dungeon-door-locked-east.level-01 .bit-06, .tile-dungeon-door-locked-east.level-01 .bit-06:before, .tile-dungeon-door-locked-east.level-01 .bit-06:after, .tile-dungeon-door-locked-east.level-01 .bit-13:after{
+	background-color:var(--color-underground-grey-dark); /** dark grey **/
+}
+.tile-dungeon-door-locked-east .bit-01, .tile-dungeon-door-locked-east .bit-01:before, .tile-dungeon-door-locked-east .bit-01:after, .tile-dungeon-door-locked-east .bit-14, .tile-dungeon-door-locked-east .bit-14:before, .tile-dungeon-door-locked-east .bit-14:after{
+	background-color:var(--color-black);
+}
+
+
+
+.tile-dungeon-door-locked-north.level-01:before{
+	background-color:var(--color-underground-grey); /** light grey **/
+}
+.tile-dungeon-door-locked-north.level-01 .bit-07, .tile-dungeon-door-locked-north.level-01 .bit-07:before, .tile-dungeon-door-locked-north.level-01 .bit-07:after, .tile-dungeon-door-locked-north.level-01 .bit-08, .tile-dungeon-door-locked-north.level-01 .bit-08:before, .tile-dungeon-door-locked-north.level-01 .bit-08:after, .tile-dungeon-door-locked-north.level-01 .bit-09, .tile-dungeon-door-locked-north.level-01 .bit-09:before, .tile-dungeon-door-locked-north.level-01 .bit-09:after, .tile-dungeon-door-locked-north.level-01 .bit-10, .tile-dungeon-door-locked-north.level-01 .bit-10:before, .tile-dungeon-door-locked-north.level-01 .bit-10:after, .tile-dungeon-door-locked-north.level-01 .bit-11, .tile-dungeon-door-locked-north.level-01 .bit-11:before, .tile-dungeon-door-locked-north.level-01 .bit-11:after, .tile-dungeon-door-locked-north.level-01 .bit-12, .tile-dungeon-door-locked-north.level-01 .bit-12:before, .tile-dungeon-door-locked-north.level-01 .bit-12:after, .tile-dungeon-door-locked-north.level-01 .bit-13, .tile-dungeon-door-locked-north.level-01 .bit-13:before{
+	background-color:var(--color-underground-blue-light); /** light blue **/
+}
+.tile-dungeon-door-locked-north.level-01:after, .tile-dungeon-door-locked-north.level-01 .bit-02, .tile-dungeon-door-locked-north.level-01 .bit-02:before, .tile-dungeon-door-locked-north.level-01 .bit-02:after, .tile-dungeon-door-locked-north.level-01 .bit-03, .tile-dungeon-door-locked-north.level-01 .bit-03:before, .tile-dungeon-door-locked-north.level-01 .bit-03:after, .tile-dungeon-door-locked-north.level-01 .bit-04, .tile-dungeon-door-locked-north.level-01 .bit-04:before, .tile-dungeon-door-locked-north.level-01 .bit-04:after, .tile-dungeon-door-locked-north.level-01 .bit-05, .tile-dungeon-door-locked-north.level-01 .bit-05:before, .tile-dungeon-door-locked-north.level-01 .bit-05:after, .tile-dungeon-door-locked-north.level-01 .bit-06, .tile-dungeon-door-locked-north.level-01 .bit-06:before, .tile-dungeon-door-locked-north.level-01 .bit-06:after, .tile-dungeon-door-locked-north.level-01 .bit-13:after{
+	background-color:var(--color-underground-grey-dark); /** dark grey **/
+}
+.tile-dungeon-door-locked-north .bit-01, .tile-dungeon-door-locked-north .bit-01:before, .tile-dungeon-door-locked-north .bit-01:after, .tile-dungeon-door-locked-north .bit-14, .tile-dungeon-door-locked-north .bit-14:before, .tile-dungeon-door-locked-north .bit-14:after, .tile-dungeon-door-locked-north .bit-15{
+	background-color:var(--color-black);
+}
+
+
+/** door bombed **/
+.tile-dungeon-door-bombed-west,
+.tile-dungeon-door-bombed-west:after,
+.tile-dungeon-door-bombed-west .bit,
+.tile-dungeon-door-bombed-west .bit:before,
+.tile-dungeon-door-bombed-west .bit:after{
+	background-color:var(--color-black);
+}
+.tile-dungeon-door-bombed-west.level-01:before{
+	background-color:var(--color-underground-grey);
+}
+/** door bombed **/
+.tile-dungeon-door-bombed-east,
+.tile-dungeon-door-bombed-east:after,
+.tile-dungeon-door-bombed-east .bit,
+.tile-dungeon-door-bombed-east .bit:before,
+.tile-dungeon-door-bombed-east .bit:after{
+	background-color:var(--color-black);
+}
+.tile-dungeon-door-bombed-east.level-01:before{
+	background-color:var(--color-underground-grey);
+}
+/** door bombed **/
+.tile-dungeon-door-bombed-north, .tile-dungeon-door-bombed-north.level-01:after, .tile-dungeon-door-bombed-north.level-01 .bit, .tile-dungeon-door-bombed-north.level-01 .bit:before, .tile-dungeon-door-bombed-north.level-01 .bit:after{
+	background-color:var(--color-black);
+}
+.tile-dungeon-door-bombed-north.level-01:before{
+	background-color:var(--color-underground-grey);
+}
+/** door bombed **/
+.tile-dungeon-door-bombed-south,
+.tile-dungeon-door-bombed-south:after,
+.tile-dungeon-door-bombed-south .bit,
+.tile-dungeon-door-bombed-south .bit:before,
+.tile-dungeon-door-bombed-south .bit:after{
+	background-color:var(--color-black);
+}
+.tile-dungeon-door-bombed-south.level-01:before{
+	background-color:var(--color-underground-grey);
+}
+
+/** underworld-door-open-north.css **/
+.tile-dungeon-door-open-north.level-01:before{
+	background-color:var(--color-underground-grey); /** light grey **/
+}
+.tile-dungeon-door-open-north.level-01 .bit-07, .tile-dungeon-door-open-north.level-01 .bit-07:before, .tile-dungeon-door-open-north.level-01 .bit-07:after, .tile-dungeon-door-open-north.level-01 .bit-08, .tile-dungeon-door-open-north.level-01 .bit-08:before, .tile-dungeon-door-open-north.level-01 .bit-08:after, .tile-dungeon-door-open-north.level-01 .bit-09, .tile-dungeon-door-open-north.level-01 .bit-09:before, .tile-dungeon-door-open-north.level-01 .bit-09:after, .tile-dungeon-door-open-north.level-01 .bit-10, .tile-dungeon-door-open-north.level-01 .bit-11, .tile-dungeon-door-open-north.level-01 .bit-12, .tile-dungeon-door-open-north.level-01 .bit-13, .tile-dungeon-door-open-north.level-01 .bit-13:before{
+	background-color:var(--color-underground-blue-light); /** light blue **/
+}
+.tile-dungeon-door-open-north.level-01 .bit-02, .tile-dungeon-door-open-north.level-01 .bit-02:before, .tile-dungeon-door-open-north.level-01 .bit-02:after, .tile-dungeon-door-open-north.level-01 .bit-03, .tile-dungeon-door-open-north.level-01 .bit-03:before, .tile-dungeon-door-open-north.level-01 .bit-03:after, .tile-dungeon-door-open-north.level-01 .bit-04, .tile-dungeon-door-open-north.level-01 .bit-04:before, .tile-dungeon-door-open-north.level-01 .bit-04:after, .tile-dungeon-door-open-north.level-01 .bit-05, .tile-dungeon-door-open-north.level-01 .bit-05:before, .tile-dungeon-door-open-north.level-01 .bit-05:after, .tile-dungeon-door-open-north.level-01 .bit-06, .tile-dungeon-door-open-north.level-01 .bit-06:before, .tile-dungeon-door-open-north.level-01 .bit-06:after, .tile-dungeon-door-open-north.level-01 .bit-10:before, .tile-dungeon-door-open-north.level-01 .bit-10:after, .tile-dungeon-door-open-north.level-01 .bit-11:before, .tile-dungeon-door-open-north.level-01 .bit-11:after, .tile-dungeon-door-open-north.level-01 .bit-12:before, .tile-dungeon-door-open-north.level-01 .bit-12:after, .tile-dungeon-door-open-north.level-01 .bit-13:after{
+	background-color:var(--color-underground-grey-dark); /** dark grey **/
+}
+.tile-dungeon-door-open-north:after, .tile-dungeon-door-open-north .bit-01, .tile-dungeon-door-open-north .bit-01:before, .tile-dungeon-door-open-north .bit-01:after, .tile-dungeon-door-open-north .bit-14, .tile-dungeon-door-open-north .bit-14:before, .tile-dungeon-door-open-north .bit-14:after, .tile-dungeon-door-open-north .bit-15{
+	background-color:var(--color-black);
+}
+
+.tile-dungeon-door-open-east.level-01:before{
+	background-color:var(--color-underground-grey); /** light grey **/
+}
+.tile-dungeon-door-open-east.level-01 .bit-14:after{
+	background-color:var(--color-underground-grey); /** light grey **/
+}
+.tile-dungeon-door-open-east.level-01 .bit-07, .tile-dungeon-door-open-east.level-01 .bit-07:before, .tile-dungeon-door-open-east.level-01 .bit-07:after, .tile-dungeon-door-open-east.level-01 .bit-08, .tile-dungeon-door-open-east.level-01 .bit-09, .tile-dungeon-door-open-east.level-01 .bit-10, .tile-dungeon-door-open-east.level-01 .bit-11, .tile-dungeon-door-open-east.level-01 .bit-11:before, .tile-dungeon-door-open-east.level-01 .bit-11:after, .tile-dungeon-door-open-east.level-01 .bit-12, .tile-dungeon-door-open-east.level-01 .bit-12:before, .tile-dungeon-door-open-east.level-01 .bit-12:after, .tile-dungeon-door-open-east.level-01 .bit-13, .tile-dungeon-door-open-east.level-01 .bit-13:before, .tile-dungeon-door-open-east.level-01 .bit-15, .tile-dungeon-door-open-east.level-01 .bit-15:before{	
+	background-color:var(--color-underground-blue-light); /** light blue **/
+}
+.tile-dungeon-door-open-east.level-01 .bit-02, .tile-dungeon-door-open-east.level-01 .bit-02:before, .tile-dungeon-door-open-east.level-01 .bit-02:after, .tile-dungeon-door-open-east.level-01 .bit-03, .tile-dungeon-door-open-east.level-01 .bit-03:before, .tile-dungeon-door-open-east.level-01 .bit-03:after, .tile-dungeon-door-open-east.level-01 .bit-04, .tile-dungeon-door-open-east.level-01 .bit-04:before, .tile-dungeon-door-open-east.level-01 .bit-04:after, .tile-dungeon-door-open-east.level-01 .bit-05, .tile-dungeon-door-open-east.level-01 .bit-05:before, .tile-dungeon-door-open-east.level-01 .bit-05:after, .tile-dungeon-door-open-east.level-01 .bit-06, .tile-dungeon-door-open-east.level-01 .bit-06:before, .tile-dungeon-door-open-east.level-01 .bit-06:after, .tile-dungeon-door-open-east.level-01 .bit-08:before, .tile-dungeon-door-open-east.level-01 .bit-08:after, .tile-dungeon-door-open-east.level-01 .bit-09:before, .tile-dungeon-door-open-east.level-01 .bit-09:after, .tile-dungeon-door-open-east.level-01 .bit-10:before, .tile-dungeon-door-open-east.level-01 .bit-10:after, .tile-dungeon-door-open-east.level-01 .bit-13:after{
+	background-color:var(--color-underground-grey-dark); /** dark grey **/
+}
+.tile-dungeon-door-open-east:after, .tile-dungeon-door-open-east .bit-01, .tile-dungeon-door-open-east .bit-01:before, .tile-dungeon-door-open-east .bit-01:after, .tile-dungeon-door-open-east .bit-14, .tile-dungeon-door-open-east .bit-14:before, .tile-dungeon-door-open-east .bit-15:after{
+	background-color:var(--color-black);
+}
+
+.tile-dungeon-door-open-south.level-01:before{
+	background-color:var(--color-underground-grey); /** light grey **/
+}
+.tile-dungeon-door-open-south.level-01 .bit-07, .tile-dungeon-door-open-south.level-01 .bit-07:before, .tile-dungeon-door-open-south.level-01 .bit-07:after, .tile-dungeon-door-open-south.level-01 .bit-08, .tile-dungeon-door-open-south.level-01 .bit-08:before, .tile-dungeon-door-open-south.level-01 .bit-08:after, .tile-dungeon-door-open-south.level-01 .bit-09, .tile-dungeon-door-open-south.level-01 .bit-09:before, .tile-dungeon-door-open-south.level-01 .bit-09:after, .tile-dungeon-door-open-south.level-01 .bit-10, .tile-dungeon-door-open-south.level-01 .bit-11, .tile-dungeon-door-open-south.level-01 .bit-12, .tile-dungeon-door-open-south.level-01 .bit-13, .tile-dungeon-door-open-south.level-01 .bit-13:before, .tile-dungeon-door-open-south.level-01 .bit-15, .tile-dungeon-door-open-south.level-01 .bit-15:before{
+	background-color:var(--color-underground-blue-light); /** light blue **/
+}
+.tile-dungeon-door-open-south.level-01 .bit-02, .tile-dungeon-door-open-south.level-01 .bit-02:before, .tile-dungeon-door-open-south.level-01 .bit-02:after, .tile-dungeon-door-open-south.level-01 .bit-03, .tile-dungeon-door-open-south.level-01 .bit-03:before, .tile-dungeon-door-open-south.level-01 .bit-03:after, .tile-dungeon-door-open-south.level-01 .bit-04, .tile-dungeon-door-open-south.level-01 .bit-04:before, .tile-dungeon-door-open-south.level-01 .bit-04:after, .tile-dungeon-door-open-south.level-01 .bit-05, .tile-dungeon-door-open-south.level-01 .bit-05:before, .tile-dungeon-door-open-south.level-01 .bit-05:after, .tile-dungeon-door-open-south.level-01 .bit-06, .tile-dungeon-door-open-south.level-01 .bit-06:before, .tile-dungeon-door-open-south.level-01 .bit-06:after, .tile-dungeon-door-open-south.level-01 .bit-10:before, .tile-dungeon-door-open-south.level-01 .bit-10:after, .tile-dungeon-door-open-south.level-01 .bit-11:before, .tile-dungeon-door-open-south.level-01 .bit-11:after, .tile-dungeon-door-open-south.level-01 .bit-12:before, .tile-dungeon-door-open-south.level-01 .bit-12:after, .tile-dungeon-door-open-south.level-01 .bit-13:after{
+	background-color:var(--color-underground-grey-dark); /** dark grey **/
+}
+.tile-dungeon-door-open-south:after, .tile-dungeon-door-open-south .bit-01, .tile-dungeon-door-open-south .bit-01:before, .tile-dungeon-door-open-south .bit-01:after, .tile-dungeon-door-open-south .bit-14, .tile-dungeon-door-open-south .bit-14:before, .tile-dungeon-door-open-south .bit-14:after{
+	background-color:var(--color-black);
+}
+/** underworld-door-open-west.css **/
+/** light blue - #0ff light grey - #008484 dark grey - #214242 black - #000 **/
+.tile-dungeon-door-open-west.level-01:before, .tile-dungeon-door-open-west.level-01 .bit-14:after{
+	background-color:var(--color-underground-grey); /** light grey **/
+}
+.tile-dungeon-door-open-west.level-01 .bit-07, .tile-dungeon-door-open-west.level-01 .bit-07:before, .tile-dungeon-door-open-west.level-01 .bit-07:after, .tile-dungeon-door-open-west.level-01 .bit-08, .tile-dungeon-door-open-west.level-01 .bit-09, .tile-dungeon-door-open-west.level-01 .bit-10, .tile-dungeon-door-open-west.level-01 .bit-11, .tile-dungeon-door-open-west.level-01 .bit-11:before, .tile-dungeon-door-open-west.level-01 .bit-11:after, .tile-dungeon-door-open-west.level-01 .bit-12, .tile-dungeon-door-open-west.level-01 .bit-12:before, .tile-dungeon-door-open-west.level-01 .bit-12:after, .tile-dungeon-door-open-west.level-01 .bit-13, .tile-dungeon-door-open-west.level-01 .bit-13:before{	
+	background-color:var(--color-underground-blue-light); /** light blue **/
+}
+.tile-dungeon-door-open-west.level-01 .bit-02, .tile-dungeon-door-open-west.level-01 .bit-02:before, .tile-dungeon-door-open-west.level-01 .bit-02:after, .tile-dungeon-door-open-west.level-01 .bit-03, .tile-dungeon-door-open-west.level-01 .bit-03:before, .tile-dungeon-door-open-west.level-01 .bit-03:after, .tile-dungeon-door-open-west.level-01 .bit-04, .tile-dungeon-door-open-west.level-01 .bit-04:before, .tile-dungeon-door-open-west.level-01 .bit-04:after, .tile-dungeon-door-open-west.level-01 .bit-05, .tile-dungeon-door-open-west.level-01 .bit-05:before, .tile-dungeon-door-open-west.level-01 .bit-05:after, .tile-dungeon-door-open-west.level-01 .bit-06, .tile-dungeon-door-open-west.level-01 .bit-06:before, .tile-dungeon-door-open-west.level-01 .bit-06:after, .tile-dungeon-door-open-west.level-01 .bit-08:before, .tile-dungeon-door-open-west.level-01 .bit-08:after, .tile-dungeon-door-open-west.level-01 .bit-09:before, .tile-dungeon-door-open-west.level-01 .bit-09:after, .tile-dungeon-door-open-west.level-01 .bit-10:before, .tile-dungeon-door-open-west.level-01 .bit-10:after, .tile-dungeon-door-open-west.level-01 .bit-13:after{
+	background-color:var(--color-underground-grey-dark); /** dark grey **/
+}
+.tile-dungeon-door-open-west:after, .tile-dungeon-door-open-west .bit-01, .tile-dungeon-door-open-west .bit-01:before, .tile-dungeon-door-open-west .bit-01:after, .tile-dungeon-door-open-west .bit-14, .tile-dungeon-door-open-west .bit-14:before{
+	background-color:var(--color-black);
+}
+
+
+/** stone statues **/
+/** level 01 **/
+.tile-stone-statue-west.level-01{
+	background-color:var(--color-underground-grey);
+}
+.stone-statue-west-a.level-01:before, .stone-statue-west-a.level-01:after, .stone-statue-west-a.level-01 .bit-13, .stone-statue-west-a.level-01 .bit-13:before, .stone-statue-west-a.level-01 .bit-13:after, .stone-statue-west-a.level-01 .bit-14, .stone-statue-west-a.level-01 .bit-14:before, .stone-statue-west-a.level-01 .bit-14:after, .stone-statue-west-a.level-01 .bit-20:after{
+	background-color:var(--color-underground-grey-dark);
+}
+.stone-statue-west-b.level-01:before, .stone-statue-west-b.level-01:after, .stone-statue-west-b.level-01 .bit-13, .stone-statue-west-b.level-01 .bit-13:before, .stone-statue-west-b.level-01 .bit-13:after, .stone-statue-west-b.level-01 .bit-14, .stone-statue-west-b.level-01 .bit-14:before, .stone-statue-west-b.level-01 .bit-14:after, .stone-statue-west-b.level-01 .bit-20:after{
+  background-color:var(--color-underground-blue);
+}
+.tile-stone-statue-west.level-01 .bit-09, .tile-stone-statue-west.level-01 .bit-09:before, .tile-stone-statue-west.level-01 .bit-09:after, .tile-stone-statue-west.level-01 .bit-10, .tile-stone-statue-west.level-01 .bit-10:before, .tile-stone-statue-west.level-01 .bit-10:after, .tile-stone-statue-west.level-01 .bit-11, .tile-stone-statue-west.level-01 .bit-11:before, .tile-stone-statue-west.level-01 .bit-11:after, .tile-stone-statue-west.level-01 .bit-12, .tile-stone-statue-west.level-01 .bit-12:before{
+  background-color:var(--color-underground-blue-light);
+}
+.tile-stone-statue-west .bit-01, .tile-stone-statue-west .bit-01:before, .tile-stone-statue-west .bit-01:after, .tile-stone-statue-west .bit-02, .tile-stone-statue-west .bit-02:before, .tile-stone-statue-west .bit-02:after, .tile-stone-statue-west .bit-03, .tile-stone-statue-west .bit-03:before, .tile-stone-statue-west .bit-03:after, .tile-stone-statue-west .bit-04, .tile-stone-statue-west .bit-04:before, .tile-stone-statue-west .bit-04:after, .tile-stone-statue-west .bit-05, .tile-stone-statue-west .bit-05:before, .tile-stone-statue-west .bit-05:after, .tile-stone-statue-west .bit-06, .tile-stone-statue-west .bit-06:before, .tile-stone-statue-west .bit-06:after, .tile-stone-statue-west .bit-07, .tile-stone-statue-west .bit-07:before, .tile-stone-statue-west .bit-07:after, .tile-stone-statue-west .bit-08, .tile-stone-statue-west .bit-08:before, .tile-stone-statue-west .bit-08:after, .tile-stone-statue-west .bit-15, .tile-stone-statue-west .bit-15:before, .tile-stone-statue-west .bit-15:after, .tile-stone-statue-west .bit-16, .tile-stone-statue-west .bit-16:before, .tile-stone-statue-west .bit-16:after, .tile-stone-statue-west .bit-12:after, .tile-stone-statue-west .bit-17, .tile-stone-statue-west .bit-17:before, .tile-stone-statue-west .bit-17:after, .tile-stone-statue-west .bit-18, .tile-stone-statue-west .bit-18:before, .tile-stone-statue-west .bit-18:after, .tile-stone-statue-west .bit-19, .tile-stone-statue-west .bit-19:before, .tile-stone-statue-west .bit-19:after, .tile-stone-statue-west .bit-20, .tile-stone-statue-west .bit-20:before{
+	background-color:var(--color-underground-black); /** black **/
+}
+
+
+/** level 01 **/
+.tile-stone-statue-east.level-01, .tile-stone-statue-east.level-01 .bit-23, .tile-stone-statue-east.level-01 .bit-23:before, .tile-stone-statue-east.level-01 .bit-23:after{
+  background-color:var(--color-underground-grey); /** grey : #008c8c; light grey level 01 gsarchives **/
+}
+.stone-statue-east-a.level-01:before, .stone-statue-east-a.level-01 .bit-13, .stone-statue-east-a.level-01 .bit-13:before, .stone-statue-east-a.level-01 .bit-13:after, .stone-statue-east-a.level-01 .bit-14, .stone-statue-east-a.level-01 .bit-14:before, .stone-statue-east-a.level-01 .bit-14:after, .stone-statue-east-a.level-01 .bit-15, .stone-statue-east-a.level-01 .bit-15:before, .stone-statue-east-a.level-01 .bit-15:after, .stone-statue-east-a.level-01 .bit-16, .stone-statue-east-a.level-01 .bit-16:before, .stone-statue-east-a.level-01 .bit-16:after, .stone-statue-east-a.level-01 .bit-17, .stone-statue-east-a.level-01 .bit-24, .stone-statue-east-a.level-01 .bit-24:before{
+  background-color:var(--color-underground-grey-dark); /** dark grey - #00425a; level 01 gsarchives **/
+} 
+.stone-statue-east-b.level-01:before, .stone-statue-east-b.level-01 .bit-13, .stone-statue-east-b.level-01 .bit-13:before, .stone-statue-east-b.level-01 .bit-13:after, .stone-statue-east-b.level-01 .bit-14, .stone-statue-east-b.level-01 .bit-14:before, .stone-statue-east-b.level-01 .bit-14:after, .stone-statue-east-b.level-01 .bit-15, .stone-statue-east-b.level-01 .bit-15:before, .stone-statue-east-b.level-01 .bit-15:after, .stone-statue-east-b.level-01 .bit-16, .stone-statue-east-b.level-01 .bit-16:before, .stone-statue-east-b.level-01 .bit-16:after, .stone-statue-east-b.level-01 .bit-17, .stone-statue-east-b.level-01 .bit-24, .stone-statue-east-b.level-01 .bit-24:before{
+  background-color:var(--color-underground-blue);
+}
+.tile-stone-statue-east.level-01:after, .tile-stone-statue-east.level-01 .bit-09, .tile-stone-statue-east.level-01 .bit-09:before, .tile-stone-statue-east.level-01 .bit-09:after, .tile-stone-statue-east.level-01 .bit-10, .tile-stone-statue-east.level-01 .bit-10:before, .tile-stone-statue-east.level-01 .bit-10:after, .tile-stone-statue-east.level-01 .bit-11, .tile-stone-statue-east.level-01 .bit-11:before, .tile-stone-statue-east.level-01 .bit-11:after, .tile-stone-statue-east.level-01 .bit-12, .tile-stone-statue-east.level-01 .bit-12:before, .tile-stone-statue-east.level-01 .bit-12:after{
+  background-color:var(--color-underground-blue-light);
+}
+.tile-stone-statue-east .bit-01, .tile-stone-statue-east .bit-01:before, .tile-stone-statue-east .bit-01:after, .tile-stone-statue-east .bit-02, .tile-stone-statue-east .bit-02:before, .tile-stone-statue-east .bit-02:after, .tile-stone-statue-east .bit-03, .tile-stone-statue-east .bit-03:before, .tile-stone-statue-east .bit-03:after, .tile-stone-statue-east .bit-04, .tile-stone-statue-east .bit-04:before, .tile-stone-statue-east .bit-04:after, .tile-stone-statue-east .bit-05, .tile-stone-statue-east .bit-05:before, .tile-stone-statue-east .bit-05:after, .tile-stone-statue-east .bit-06, .tile-stone-statue-east .bit-06:before, .tile-stone-statue-east .bit-06:after, .tile-stone-statue-east .bit-07, .tile-stone-statue-east .bit-07:before, .tile-stone-statue-east .bit-07:after, .tile-stone-statue-east .bit-08, .tile-stone-statue-east .bit-08:before, .tile-stone-statue-east .bit-08:after, .tile-stone-statue-east .bit-17:before, .tile-stone-statue-east .bit-17:after, .tile-stone-statue-east .bit-18, .tile-stone-statue-east .bit-18:before, .tile-stone-statue-east .bit-18:after, .tile-stone-statue-east .bit-19, .tile-stone-statue-east .bit-19:before, .tile-stone-statue-east .bit-19:after, .tile-stone-statue-east .bit-20, .tile-stone-statue-east .bit-20:before, .tile-stone-statue-east .bit-20:after, .tile-stone-statue-east .bit-21, .tile-stone-statue-east .bit-21:before, .tile-stone-statue-east .bit-21:after, .tile-stone-statue-east .bit-22, .tile-stone-statue-east .bit-22:before, .tile-stone-statue-east .bit-22:after{
+  background-color:var(--color-black);
+}
+
+/** underworld water / lava **/
+.level-01.tile-underworld-water-lava{
+	background-color:var(--color-underground-blue-royal-7);
+}

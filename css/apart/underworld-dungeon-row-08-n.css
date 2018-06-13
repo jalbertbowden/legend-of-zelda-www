@@ -1,0 +1,57 @@
+/** underworld-dungeon-row-08-c.css **/
+	
+/**
+	--color-underground-blue-light
+**/
+
+.tile-dungeon-08n.level-01-gsarchives{
+	background-color:var(--color-underground-grey);
+}
+.tile-dungeon-08n.level-01-gsarchives:before,
+.tile-dungeon-08n.level-01-gsarchives .bit-01,
+.tile-dungeon-08n.level-01-gsarchives .bit-01:before{
+	background-color:var(--color-underground-grey-dark);
+}
+.tile-dungeon-08n.level-01-gsarchives:after,
+.tile-dungeon-08n.level-01-gsarchives .bit-01:after,
+.tile-dungeon-08n.level-01-gsarchives .bit-02{
+	background-color:var(--color-underground-blue-light);
+}
+/** display:none;s **/
+.tile-dungeon-08n.level-01-gsarchives .bit-02:before,
+.tile-dungeon-08n.level-01-gsarchives .bit-02:after{
+	display:none;
+}
+
+.tile-dungeon-08n:before{
+	width:6.25%;
+	height:100%;
+	top:0;
+	left:75%;
+}
+.tile-dungeon-08n:after{
+	width:6.25%;
+	height:100%;
+	top:0;
+	left:68.75%;
+}
+.tile-dungeon-08n .bit-01{
+	top:68.75%;
+	left:93.75%;
+}
+.tile-dungeon-08n .bit-01:before{
+	top:-100%;
+	left:-200%;
+	width:200%;
+	height:100%;
+}
+.tile-dungeon-08n .bit-01:after{
+	top:0;
+	left:-200%;
+	width:200%;
+	height:100%;
+}
+.tile-dungeon-08n .bit-02{
+	top:75%;
+	left:93.75%;
+}

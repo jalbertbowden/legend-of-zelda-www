@@ -1,0 +1,117 @@
+.tile-underworld-floor-tile .bit-01,
+.tile-underworld-floor-tile .bit-01:before,
+.tile-underworld-floor-tile .bit-01:after{
+	background-color:var(--color-underground-black); /** black **/
+}
+
+/** level-01 gsarchives **/
+.tile-underworld-floor-tile.level-01-gsarchives{
+	background-color:var(--color-u-grey); /** grey **/
+}
+.tile-underworld-floor-tile.level-01-gsarchives:before,
+.tile-underworld-floor-tile.level-01-gsarchives:after{
+	background-color:var(--color-u-grey-light); /** cream **/
+}
+
+/** level-01 **/
+.tile-underworld-floor-tile.level-01{
+	background-color:var(--color-underground-grey); /** grey **/
+}
+.tile-underworld-floor-tile.level-01:before,
+.tile-underworld-floor-tile.level-01:after{
+	background-color:var(--color-underground-blue-light); /** light blue **/
+}
+
+/** level-02 **/
+.tile-underworld-floor-tile.level-02{
+	background-color:var(--color-underground-purple);
+}
+.tile-underworld-floor-tile.level-02:before,
+.tile-underworld-floor-tile.level-02:after{
+	background-color:var(--color-underground-blue-light-level-02);
+}
+
+/** level-03 **/
+.tile-underworld-floor-tile.level-03{
+	background-color:var(--color-underground-green);
+}
+.tile-underworld-floor-tile.level-03:before,
+.tile-underworld-floor-tile.level-03:after{
+	background-color:var(--color-underground-green-light);
+}
+
+/** level-04 **/
+.tile-underworld-floor-tile.level-04{
+	background-color:var(--color-underground-orange);
+}
+.tile-underworld-floor-tile.level-04:before,
+.tile-underworld-floor-tile.level-04:after{
+	background-color:var(--color-underground-orange-light);
+}
+
+/** level-05 **/
+.tile-underworld-floor-tile.level-05{
+	background-color:var(--color-underground-orange-green);
+}
+.tile-underworld-floor-tile.level-05:before,
+.tile-underworld-floor-tile.level-05:after{
+	background-color:var(--color-underground-orange-green-light);
+}
+
+/** level-06 **/
+.tile-underworld-floor-tile.level-06{
+	background-color:var(--color-underground-green-alt);
+}
+.tile-underworld-floor-tile.level-06:before,
+.tile-underworld-floor-tile.level-06:after{
+	background-color:var(--color-underground-green-light-alt);
+}
+/** level-07 **/
+.tile-underworld-floor-tile.level-07{
+	background-color:var(--color-underground-orange-green);
+}
+.tile-underworld-floor-tile.level-07:before,
+.tile-underworld-floor-tile.level-07:after{
+	background-color:var(--color-underground-orange-green-light);
+}
+/** levels-08-09 **/
+.tile-underworld-floor-tile.level-08,
+.tile-underworld-floor-tile.level-09{
+	background-color:var(--color-underground-grey-89);
+}
+.tile-underworld-floor-tile.level-08:before,
+.tile-underworld-floor-tile.level-08:after,
+.tile-underworld-floor-tile.level-09:before,
+.tile-underworld-floor-tile.level-09:after{
+	background-color:var(--color-underground-white); 
+}
+
+
+.tile-underworld-floor-tile:before{
+	width:87.5%;
+	height:6.25%;
+	left:6.25%;
+	top:0;
+}
+.tile-underworld-floor-tile:after{
+	width:6.25%;
+	height:87.5%;
+	left:0;
+	top:6.25%;
+}
+.tile-underworld-floor-tile .bit-01{
+	top:93.75%;
+	left:6.25%;
+}
+.tile-underworld-floor-tile .bit-01:before{
+	width:1300%;
+	height:100%;
+	top:0;
+	left:100%;
+}
+.tile-underworld-floor-tile .bit-01:after{
+	width:100%;
+	height:1400%;
+	top:-1400%;
+	left:1400%;
+}

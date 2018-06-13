@@ -1,0 +1,509 @@
+/** stone statues **/
+/** gsarchives colors
+tile-underworld-stone-statue-1-level-01-gsarchives (east);
+grey
+#008c8c
+light grey
+#00efde
+blue
+#005aff
+black
+#000
+
+/tile-underworld-stone-statue-1-east-grey-level-01-gsarchives-512
+dark grey
+#00425a
+
+**/
+.tile-stone-statue-east.level-01-gsarchives,
+.tile-stone-statue-east.level-01-gsarchives .bit-23,
+.tile-stone-statue-east.level-01-gsarchives .bit-23:before,
+.tile-stone-statue-east.level-01-gsarchives .bit-23:after{
+	background-color:#008c8c; /** grey **/
+}
+.tile-stone-statue-east.level-01-gsarchives:before,
+.tile-stone-statue-east.level-01-gsarchives .bit-13,
+.tile-stone-statue-east.level-01-gsarchives .bit-13:before,
+.tile-stone-statue-east.level-01-gsarchives .bit-13:after,
+.tile-stone-statue-east.level-01-gsarchives .bit-14,
+.tile-stone-statue-east.level-01-gsarchives .bit-14:before,
+.tile-stone-statue-east.level-01-gsarchives .bit-14:after,
+.tile-stone-statue-east.level-01-gsarchives .bit-15,
+.tile-stone-statue-east.level-01-gsarchives .bit-15:before,
+.tile-stone-statue-east.level-01-gsarchives .bit-15:after,
+.tile-stone-statue-east.level-01-gsarchives .bit-16,
+.tile-stone-statue-east.level-01-gsarchives .bit-16:before,
+.tile-stone-statue-east.level-01-gsarchives .bit-16:after,
+.tile-stone-statue-east.level-01-gsarchives .bit-17,
+.tile-stone-statue-east.level-01-gsarchives .bit-24,
+.tile-stone-statue-east.level-01-gsarchives .bit-24:before{
+	background-color:#00425a; /** dark grey **/
+}
+.tile-stone-statue-east.level-01-gsarchives:after,
+.tile-stone-statue-east.level-01-gsarchives .bit-09,
+.tile-stone-statue-east.level-01-gsarchives .bit-09:before,
+.tile-stone-statue-east.level-01-gsarchives .bit-09:after,
+.tile-stone-statue-east.level-01-gsarchives .bit-10,
+.tile-stone-statue-east.level-01-gsarchives .bit-10:before,
+.tile-stone-statue-east.level-01-gsarchives .bit-10:after,
+.tile-stone-statue-east.level-01-gsarchives .bit-11,
+.tile-stone-statue-east.level-01-gsarchives .bit-11:before,
+.tile-stone-statue-east.level-01-gsarchives .bit-11:after,
+.tile-stone-statue-east.level-01-gsarchives .bit-12,
+.tile-stone-statue-east.level-01-gsarchives .bit-12:before,
+.tile-stone-statue-east.level-01-gsarchives .bit-12:after{
+	background-color:#00efde; /** light grey **/
+}
+
+.tile-stone-statue-east.level-01-gsarchives .bit-01,
+.tile-stone-statue-east.level-01-gsarchives .bit-01:before,
+.tile-stone-statue-east.level-01-gsarchives .bit-01:after,
+.tile-stone-statue-east.level-01-gsarchives .bit-02,
+.tile-stone-statue-east.level-01-gsarchives .bit-02:before,
+.tile-stone-statue-east.level-01-gsarchives .bit-02:after,
+.tile-stone-statue-east.level-01-gsarchives .bit-03,
+.tile-stone-statue-east.level-01-gsarchives .bit-03:before,
+.tile-stone-statue-east.level-01-gsarchives .bit-03:after,
+.tile-stone-statue-east.level-01-gsarchives .bit-04,
+.tile-stone-statue-east.level-01-gsarchives .bit-04:before,
+.tile-stone-statue-east.level-01-gsarchives .bit-04:after,
+.tile-stone-statue-east.level-01-gsarchives .bit-05,
+.tile-stone-statue-east.level-01-gsarchives .bit-05:before,
+.tile-stone-statue-east.level-01-gsarchives .bit-05:after,
+.tile-stone-statue-east.level-01-gsarchives .bit-06,
+.tile-stone-statue-east.level-01-gsarchives .bit-06:before,
+.tile-stone-statue-east.level-01-gsarchives .bit-06:after,
+.tile-stone-statue-east.level-01-gsarchives .bit-07,
+.tile-stone-statue-east.level-01-gsarchives .bit-07:before,
+.tile-stone-statue-east.level-01-gsarchives .bit-07:after,
+.tile-stone-statue-east.level-01-gsarchives .bit-08,
+.tile-stone-statue-east.level-01-gsarchives .bit-08:before,
+.tile-stone-statue-east.level-01-gsarchives .bit-08:after,
+.tile-stone-statue-east.level-01-gsarchives .bit-17:before,
+.tile-stone-statue-east.level-01-gsarchives .bit-17:after,
+.tile-stone-statue-east.level-01-gsarchives .bit-18,
+.tile-stone-statue-east.level-01-gsarchives .bit-18:before,
+.tile-stone-statue-east.level-01-gsarchives .bit-18:after,
+.tile-stone-statue-east.level-01-gsarchives .bit-19,
+.tile-stone-statue-east.level-01-gsarchives .bit-19:before,
+.tile-stone-statue-east.level-01-gsarchives .bit-19:after,
+.tile-stone-statue-east.level-01-gsarchives .bit-20,
+.tile-stone-statue-east.level-01-gsarchives .bit-20:before,
+.tile-stone-statue-east.level-01-gsarchives .bit-20:after,
+.tile-stone-statue-east.level-01-gsarchives .bit-21,
+.tile-stone-statue-east.level-01-gsarchives .bit-21:before,
+.tile-stone-statue-east.level-01-gsarchives .bit-21:after,
+.tile-stone-statue-east.level-01-gsarchives .bit-22,
+.tile-stone-statue-east.level-01-gsarchives .bit-22:before,
+.tile-stone-statue-east.level-01-gsarchives .bit-22:after{
+	background-color:#000; /** black **/
+}
+
+/** display:none;s **/
+.tile-stone-statue-east.level-01-gsarchives .bit-24:after{
+	display:none;
+}
+
+.tile-stone-statue-east.level-01-gsarchives .bit{}
+.tile-stone-statue-east.level-01-gsarchives .bit:before{}
+.tile-stone-statue-east.level-01-gsarchives .bit:after{}
+
+
+
+.tile-stone-statue-east:before{
+	width:75%;
+	height:75%;
+	top:12.5%;
+	left:6.25%
+}
+.tile-stone-statue-east:after{
+	top:0;
+	left:43.75%;
+	width:43.75%;
+	height:18.75%;
+}
+
+.tile-stone-statue-east .bit{}
+.tile-stone-statue-east .bit:before{}
+.tile-stone-statue-east .bit:after{}
+
+
+
+.tile-stone-statue-east.level-01-gsarchives .bit-01{
+	top:6.25%;
+	left:18.75%;
+}
+.tile-stone-statue-east.level-01-gsarchives .bit-01:before{
+	width:200%;
+	height:100%;
+	top:-100%;
+	left:-200%;
+}
+.tile-stone-statue-east.level-01-gsarchives .bit-01:after{
+	width:100%;
+	height:400%;
+	top:0;
+	left:-300%;
+}
+.tile-stone-statue-east.level-01-gsarchives .bit-02{
+	top:12.5%;
+	left:25%;
+}
+.tile-stone-statue-east.level-01-gsarchives .bit-02:before{
+	width:100%;
+	height:400%;
+	top:300%;
+	left:-300%;
+}
+.tile-stone-statue-east.level-01-gsarchives .bit-02:after{
+	width:100%;
+	height:500%;
+	top:600%;
+	left:-400%;
+}
+.tile-stone-statue-east.level-01-gsarchives .bit-03{
+	top:18.75%;
+	left:18.75%;
+}
+.tile-stone-statue-east.level-01-gsarchives .bit-03:before{
+	width:100%;
+	height:600%;
+	top:400%;
+	left:-100%;
+}
+.tile-stone-statue-east.level-01-gsarchives .bit-03:after{
+	width:100%;
+	height:200%;
+	top:100%;
+	left:100%;
+}
+.tile-stone-statue-east.level-01-gsarchives .bit-04{
+	top:81.25%;
+	left:6.25%;
+}
+.tile-stone-statue-east.level-01-gsarchives .bit-04:before{
+	width:100%;
+	height:400%;
+	top:-300%;
+	left:600%;
+}
+.tile-stone-statue-east.level-01-gsarchives .bit-04:after{
+	width:200%;
+	height:300%;
+	top:-200%;
+	left:800%;
+}
+.tile-stone-statue-east.level-01-gsarchives .bit-05{
+	top:81.25%;
+	left:18.75%;
+}
+.tile-stone-statue-east.level-01-gsarchives .bit-05:before{
+	width:100%;
+	height:200%;
+	top:100%;
+	left:-100%;
+}
+.tile-stone-statue-east.level-01-gsarchives .bit-05:after{
+	width:200%;
+	height:400%;
+	top:-400%;
+	left:700%;
+}
+.tile-stone-statue-east.level-01-gsarchives .bit-06{
+	top:0;
+	left:93.75%;
+}
+.tile-stone-statue-east.level-01-gsarchives .bit-06:before{
+	width:100%;
+	height:200%;
+	top:400%;
+	left:0;
+}
+.tile-stone-statue-east.level-01-gsarchives .bit-06:after{
+	width:200%;
+	height:100%;
+	top:300%;
+	left:-200%;
+}
+.tile-stone-statue-east.level-01-gsarchives .bit-07{
+	top:6.25%;
+	left:87.5%;
+}
+.tile-stone-statue-east.level-01-gsarchives .bit-07:before{
+	width:200%;
+	height:100%;
+	top:700%;
+	left:-300%;
+}
+.tile-stone-statue-east.level-01-gsarchives .bit-07:after{
+	width:200%;
+	height:100%;
+	top:200%;
+	left:-500%;
+}
+.tile-stone-statue-east.level-01-gsarchives .bit-08{
+	top:12.5%;
+	left:81.25%;
+}
+.tile-stone-statue-east.level-01-gsarchives .bit-08:before{
+	width:100%;
+	height:200%;
+	top:400%;
+	left:100%;
+}
+.tile-stone-statue-east.level-01-gsarchives .bit-08:after{
+	width:100%;
+	height:200%;
+	top:1100%;
+	left:200%;
+}
+.tile-stone-statue-east.level-01-gsarchives .bit-09{
+	top:6.25%;
+	left:31.25%;
+}
+.tile-stone-statue-east.level-01-gsarchives .bit-09:before{
+	width:400%;
+	height:200%;
+	top:300%;
+	left:300%;
+}
+.tile-stone-statue-east.level-01-gsarchives .bit-09:after{
+	width:200%;
+	height:400%;
+	top:900%;
+	left:0;
+}
+.tile-stone-statue-east.level-01-gsarchives .bit-10{
+	top:12.5%;
+	left:31.25%;
+}
+.tile-stone-statue-east.level-01-gsarchives .bit-10:before{
+	width:200%;
+	height:200%;
+	top:400%;
+	left:300%;
+}
+.tile-stone-statue-east.level-01-gsarchives .bit-10:after{
+	width:100%;
+	height:200%;
+	top:500%;
+	left:800%;
+}
+.tile-stone-statue-east.level-01-gsarchives .bit-11{
+	top:12.5%;
+	left:37.5%;
+}
+.tile-stone-statue-east.level-01-gsarchives .bit-11:before{
+	width:100%;
+	height:100%;
+	top:700%;
+	left:0;
+}
+.tile-stone-statue-east.level-01-gsarchives .bit-11:after{
+	width:100%;
+	height:200%;
+	top:700%;
+	left:-200%;
+}
+.tile-stone-statue-east.level-01-gsarchives .bit-12{
+	top:87.5%;
+	left:43.75%;
+}
+.tile-stone-statue-east.level-01-gsarchives .bit-12:before{
+	width:100%;
+	height:100%;
+	top:-200%;
+	left:-300%;
+}
+.tile-stone-statue-east.level-01-gsarchives .bit-12:after{
+	width:100%;
+	height:200%;
+	top:-700%;
+	left:600%;
+}
+.tile-stone-statue-east.level-01-gsarchives .bit-13{
+	top:6.25%;
+	left:37.5%;
+}
+.tile-stone-statue-east.level-01-gsarchives .bit-13:before{
+	width:400%;
+	height:200%;
+	top:1300%;
+	left:-300%;
+}
+.tile-stone-statue-east.level-01-gsarchives .bit-13:after{
+	width:200%;
+	height:100%;
+	top:1300%;
+	left:300%;
+}
+.tile-stone-statue-east.level-01-gsarchives .bit-14{
+	top:12.5%;
+	left:43.75%;
+}
+.tile-stone-statue-east.level-01-gsarchives .bit-14:before{
+	width:200%;
+	height:200%;
+	top:200%;
+	left:600%;
+}
+.tile-stone-statue-east.level-01-gsarchives .bit-14:after{
+	width:300%;
+	height:100%;
+	top:1300%;
+	left:400%;
+}
+.tile-stone-statue-east.level-01-gsarchives .bit-15{
+	top:0;
+	left:75%;
+}
+.tile-stone-statue-east.level-01-gsarchives .bit-15:before{
+	width:200%;
+	height:100%;
+	top:1500%;
+	left:-500%;
+}
+.tile-stone-statue-east.level-01-gsarchives .bit-15:after{
+	width:200%;
+	height:100%;
+	top:1300%;
+	left:100%;
+}
+.tile-stone-statue-east.level-01-gsarchives .bit-16{
+	top:37.5%;
+	left:81.25%;
+}
+.tile-stone-statue-east.level-01-gsarchives .bit-16:before{
+	width:100%;
+	height:300%;
+	top:-600%;
+	left:-400%;
+}
+.tile-stone-statue-east.level-01-gsarchives .bit-16:after{
+	width:100%;
+	height:200%;
+	top:-500%;
+	left:-200%;
+}
+.tile-stone-statue-east.level-01-gsarchives .bit-17{
+	top:75%;
+	left:81.25%;
+}
+.tile-stone-statue-east.level-01-gsarchives .bit-17:before{
+	width:100%;
+	height:300%;
+	top:-300%;
+	left:-100%;
+}
+.tile-stone-statue-east.level-01-gsarchives .bit-17:after{
+	width:100%;
+	height:300%;
+	top:-700%;
+	left:-600%;
+}
+.tile-stone-statue-east.level-01-gsarchives .bit-18{
+	top:87.5%;
+	left:50%;
+}
+.tile-stone-statue-east.level-01-gsarchives .bit-18:before{
+	width:200%;
+	height:100%;
+	top:-600%;
+	left:0;
+}
+.tile-stone-statue-east.level-01-gsarchives .bit-18:after{
+	width:200%;
+	height:100%;
+	top:-800%;
+	left:200%;
+}
+.tile-stone-statue-east.level-01-gsarchives .bit-19{
+	top:93.75%;
+	left:87.5%;
+}
+.tile-stone-statue-east.level-01-gsarchives .bit-19:before{
+	width:100%;
+	height:200%;
+	top:-1000%;
+	left:-900%;
+}
+.tile-stone-statue-east.level-01-gsarchives .bit-19:after{
+	width:100%;
+	height:200%;
+	top:-1200%;
+	left:-800%;
+}
+.tile-stone-statue-east.level-01-gsarchives .bit-20{
+	top:75%;
+	left:87.5%;
+}
+.tile-stone-statue-east.level-01-gsarchives .bit-20:before{
+	width:100%;
+	height:100%;
+	top:-300%;
+	left:-100%;
+}
+.tile-stone-statue-east.level-01-gsarchives .bit-20:after{
+	width:100%;
+	height:100%;
+	top:-100%;
+	left:-100%;
+}
+.tile-stone-statue-east.level-01-gsarchives .bit-21{
+	top:18.75%;
+	left:31.25%;
+}
+.tile-stone-statue-east.level-01-gsarchives .bit-21:before{
+	width:100%;
+	height:100%;
+	top:100%;
+	left:300%;
+}
+.tile-stone-statue-east.level-01-gsarchives .bit-21:after{
+	width:100%;
+	height:100%;
+	top:100%;
+	left:600%;
+}
+.tile-stone-statue-east.level-01-gsarchives .bit-22{
+	top:56.25%;
+	left:18.75%;
+}
+.tile-stone-statue-east.level-01-gsarchives .bit-22:before{
+	width:100%;
+	height:100%;
+	top:0;
+	left:500%;
+}
+.tile-stone-statue-east.level-01-gsarchives .bit-22:after{
+	width:100%;
+	height:100%;
+	top:-400%;
+	left:700%;
+}
+.tile-stone-statue-east.level-01-gsarchives .bit-23{
+	top:43.75%;
+	left:31.25%;
+}
+.tile-stone-statue-east.level-01-gsarchives .bit-23:before{
+	width:100%;
+	height:200%;
+	top:-300%;
+	left:-200%;
+}
+.tile-stone-statue-east.level-01-gsarchives .bit-23:after{
+	width:100%;
+	height:200%;
+	top:-100%;
+	left:-100%;
+}
+.tile-stone-statue-east.level-01-gsarchives .bit-24{
+	top:6.25%;
+	left:6.25%;
+}
+.tile-stone-statue-east.level-01-gsarchives .bit-24:before{
+	width:100%;
+	height:100%;
+	top:0;
+	left:100%;
+}

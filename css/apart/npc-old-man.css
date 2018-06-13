@@ -1,0 +1,275 @@
+/**
+old man color palette
+
+skin/khaki
+#ffa944
+
+white hair
+#fff
+
+black eyes
+#000
+
+red clothes
+#f84500
+**/
+
+/** red robe **/
+.tile-old-man:before,
+.tile-old-man:after,
+.tile-old-man .bit-01,
+.tile-old-man .bit-01:before,
+.tile-old-man .bit-01:after,
+.tile-old-man .bit-02,
+.tile-old-man .bit-02:before,
+.tile-old-man .bit-02:after,
+.tile-old-man .bit-03,
+.tile-old-man .bit-03:before,
+.tile-old-man .bit-03:after,
+.tile-old-man .bit-04{
+	background-color:#f84500;
+}
+
+/** skin/khaki **/
+.tile-old-man .bit-04:before,
+.tile-old-man .bit-04:after,
+.tile-old-man .bit-05,
+.tile-old-man .bit-05:before,
+.tile-old-man .bit-05:after,
+.tile-old-man .bit-06,
+.tile-old-man .bit-06:before,
+.tile-old-man .bit-06:after{
+	background-color:#ffa944;
+}
+
+/** white - hair/eyebrows/beard **/
+.tile-old-man .bit-07,
+.tile-old-man .bit-07:before,
+.tile-old-man .bit-07:after,
+.tile-old-man .bit-08,
+.tile-old-man .bit-08:before,
+.tile-old-man .bit-08:after,
+.tile-old-man .bit-09,
+.tile-old-man .bit-09:before,
+.tile-old-man .bit-09:after,
+.tile-old-man .bit-10,
+.tile-old-man .bit-10:before,
+.tile-old-man .bit-10:after,
+.tile-old-man .bit-11{
+	background-color:#fff;
+}
+.tile-old-man .bit-11:before,
+.tile-old-man .bit-11:after,
+.tile-old-man .bit-12,
+.tile-old-man .bit-12:before{
+	background-color:#000;
+}
+
+/** display:none;s **/
+.tile-old-man .bit-12:after{
+	display:none;
+}
+
+
+
+.tile-old-man:before{
+	width:37.5%;
+	height:37.5%;
+	top:62.5%;
+	left:31.25%;
+}
+.tile-old-man:after{
+	width:87.5%;
+	height:18.75%;
+	top:43.75%;
+	left:6.25%;
+}
+
+.tile-old-man .bit-01{
+	left:12.5%;
+	top:81.25%;
+}
+.tile-old-man .bit-01:before{
+	width:300%;
+	height:300%;
+	top:-300%;
+	left:-100%;
+}
+.tile-old-man .bit-01:after{
+	width:300%;
+	height:300%;
+	top:-300%;
+	left:1000%;
+}
+.tile-old-man .bit-02{
+	left:81.25%;
+	top:81.25%;
+}
+
+.tile-old-man .bit-02:before{
+	width:1000%;
+	top:200%;
+	left:-1000%;
+	height:100%;
+}
+.tile-old-man .bit-02:after{
+	width:800%;
+	height:200%;
+	left:-900%;
+	height:200%;
+}
+.tile-old-man .bit-03{
+	top:25%;
+	left:25%;
+}
+.tile-old-man .bit-03:before{
+	height:100%;
+	width:1200%;
+	top:200%;
+	left:-200%;
+}
+.tile-old-man .bit-03:after{
+	height:100%;
+	top:100%;
+	left:-100%;
+	width:1000%;
+}
+.tile-old-man .bit-04{
+	top:25%;
+	left:68.75%;
+}
+.tile-old-man .bit-04:before{
+	width:400%;
+	height:500%;
+	left:-500%;
+	top:-400%;
+}
+.tile-old-man .bit-04:after{
+	width:800%;
+	top:-300%;
+	left:-700%;
+	height:300%;
+}
+.tile-old-man .bit-05{
+	top:0;
+	left:31.25%;
+}
+.tile-old-man .bit-05:before{
+	width:100%;
+	height:300%;
+	left:-500%;
+	top:800%;
+}
+.tile-old-man .bit-05:after{
+	top:800%;
+	left:1000%;
+	height:300%;
+	width:100%;
+}
+.tile-old-man .bit-06{
+	top:0;
+	left:62.5%;
+}
+.tile-old-man .bit-06:before{
+	width:200%;
+	height:100%;
+	left:-500%;
+	top:1500%;
+}
+.tile-old-man .bit-06:after{
+	width:200%;
+	height:100%;
+	left:-100%;
+	top:1500%;
+}
+.tile-old-man .bit-07{
+	top:6.25%;
+	left:25%;
+}
+.tile-old-man .bit-07:before{
+	width:400%;
+	height:300%;
+	top:600%;
+	left:200%;
+}
+.tile-old-man .bit-07:after{
+	width:800%;
+	height:200%;
+	left:0;
+	top:400%;
+}
+.tile-old-man .bit-08{
+	top:6.25%;
+	left:68.75%;
+}
+
+.tile-old-man .bit-08:before{
+	height:200%;
+	width:100%;
+	left:-800%;
+	top:600%;
+}
+.tile-old-man .bit-08:after{
+	height:200%;
+	width:100%;
+	left:100%;
+	top:600%;
+}
+.tile-old-man .bit-09{
+	top:6.25%;
+	left:37.5%;
+}
+.tile-old-man .bit-09:before{
+	width:200%;
+	height:100%;
+	left:100%;
+	top:900%;
+}
+.tile-old-man .bit-09:after{
+	width:100%;
+	height:100%;
+	left:-200%;
+	top:600%;
+}
+.tile-old-man .bit-10{
+	top:6.25%;
+	left:56.25%;
+}
+.tile-old-man .bit-10:before{
+	width:100%;
+	height:100%;
+	left:-400%;
+	top:300%;
+}
+.tile-old-man .bit-10:after{
+	width:100%;
+	height:100%;
+	left:100%;
+	top:300%;
+}
+.tile-old-man .bit-11{
+	top:43.75%;
+	left:68.75%;
+}
+.tile-old-man .bit-11:before{
+	width:400%;
+	height:100%;
+	top:-100%;
+	left:-500%;
+}
+.tile-old-man .bit-11:after{
+	width:100%;
+	height:200%;
+	top:-500%;
+	left:-200%;
+}
+.tile-old-man .bit-12{
+	top:18.75%;
+	left:37.5%;
+}
+.tile-old-man .bit-12:before{
+	width:100%;
+	height:100%;
+	top:-100%;
+	left:0;
+}

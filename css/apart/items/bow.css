@@ -1,0 +1,99 @@
+/** bow.css - treasures-comp-half-bg-transparent-bow-icon-012x017.gif **/
+:root{
+	--color-green-neon: #94da00;
+	--color-brown: #a35600;
+}
+.tile-bow{
+	background:url("https://bowdenweb.com/nes/loz/i/items/bow/bow-256x512.gif") 50% 50% no-repeat;
+}
+.tile-bow:after,
+.tile-bow .bit-01,
+.tile-bow .bit-01:before,
+.tile-bow .bit-01:after,
+.tile-bow .bit-02,
+.tile-bow .bit-02:before,
+.tile-bow .bit-02:after,
+.tile-bow .bit-03,
+.tile-bow .bit-03:before,
+.tile-bow .bit-03:after,
+.tile-bow .bit-04,
+.tile-bow .bit-04:before{
+	background-color:var(--color-brown);
+}
+.tile-bow:before{
+	background-color:var(--color-green-neon);
+}
+/** display:none;s **/
+.tile-bow .bit-04:after{
+	display:none;
+}
+.tile-bow:before{
+	width:6.25%;
+	height:87.5%;
+	top:6.25%;
+	left:25%;
+}
+.tile-bow:after{
+	width:12.5%;
+	height:37.5%;
+	top:31.25%;
+	left:62.5%;
+}
+.tile-bow .bit-01{
+	top:0;
+	left:25%;
+}
+.tile-bow .bit-01:before{
+	top:300%;
+	left:500%;
+	width:200%;
+	height:200%;
+}
+.tile-bow .bit-01:after{
+	top:1100%;
+	left:500%;
+	width:200%;
+	height:200%;
+}
+.tile-bow .bit-02{
+	top:0;
+	left:31.25%;
+}
+.tile-bow .bit-02:before{
+	top:200%;
+	left:300%;
+	width:200%;
+	height:100%;
+}
+.tile-bow .bit-02:after{
+	top:1300%;
+	left:300%;
+	width:200%;
+	height:100%;
+}
+.tile-bow .bit-03{
+	top:0;
+	left:37.5%;
+}
+.tile-bow .bit-03:before{
+	top:100%;
+	left:100%;
+	width:200%;
+	height:100%;
+}
+.tile-bow .bit-03:after{
+	top:1400%;
+	left:100%;
+	width:200%;
+	height:100%;
+}
+.tile-bow .bit-04{
+	top:93.75%;
+	left:25%;
+}
+.tile-bow .bit-04:before{
+	top:0;
+	left:100%;
+	width:200%;
+	height:100%;
+}

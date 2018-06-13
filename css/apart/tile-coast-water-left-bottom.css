@@ -1,0 +1,298 @@
+.tile-0701,
+.tile-coast-water-left-bottom.water-brown,
+.tile-coast-water-left-bottom.sand-brown,
+.tile-coast-water-left-bottom.water-green,
+.tile-coast-water-left-bottom.sand-green{
+	background-color: var(--color-khaki);
+}
+.tile-coast-water-left-bottom.water-grey,
+.tile-coast-water-left-bottom.sand-grey{
+	background-color: var(--color-grey);
+}
+
+.tile-0701 .bit-04:before, .tile-0701 .bit-04:after, .tile-0701 .bit-05, .tile-0701 .bit-05:before, .tile-0701 .bit-05:after, .tile-0701 .bit-06, .tile-0701 .bit-06:before,
+.tile-0701 .bit-06:after, .tile-0701 .bit-07, .tile-0701 .bit-07:before{
+	background-color: var(--color-brown);
+}
+.tile-coast-water-left-bottom.water-brown .bit-04:before, .tile-coast-water-left-bottom.water-brown .bit-04:after, .tile-coast-water-left-bottom.water-brown .bit-05, .tile-coast-water-left-bottom.water-brown .bit-05:before, .tile-coast-water-left-bottom.water-brown .bit-05:after, .tile-coast-water-left-bottom.water-brown .bit-06, .tile-coast-water-left-bottom.water-brown .bit-06:before,
+.tile-coast-water-left-bottom.water-brown .bit-06:after, .tile-coast-water-left-bottom.water-brown .bit-07, .tile-coast-water-left-bottom.water-brown .bit-07:before,
+.tile-coast-water-left-bottom.sand-brown .bit-04:before, .tile-coast-water-left-bottom.sand-brown .bit-04:after, .tile-coast-water-left-bottom.sand-brown .bit-05, .tile-coast-water-left-bottom.sand-brown .bit-05:before, .tile-coast-water-left-bottom.sand-brown .bit-05:after, .tile-coast-water-left-bottom.sand-brown .bit-06, .tile-coast-water-left-bottom.sand-brown .bit-06:before,
+.tile-coast-water-left-bottom.sand-brown .bit-06:after, .tile-coast-water-left-bottom.sand-brown .bit-07, .tile-coast-water-left-bottom.sand-brown .bit-07:before{
+	background-color: var(--color-brown);
+}
+.tile-coast-water-left-bottom.water-green .bit-04:before, .tile-coast-water-left-bottom.water-green .bit-04:after, .tile-coast-water-left-bottom.water-green .bit-05, .tile-coast-water-left-bottom.water-green .bit-05:before, .tile-coast-water-left-bottom.water-green .bit-05:after, .tile-coast-water-left-bottom.water-green .bit-06, .tile-coast-water-left-bottom.water-green .bit-06:before,
+.tile-coast-water-left-bottom.water-green .bit-06:after, .tile-coast-water-left-bottom.water-green .bit-07, .tile-coast-water-left-bottom.water-green .bit-07:before,
+.tile-coast-water-left-bottom.sand-green .bit-04:before, .tile-coast-water-left-bottom.sand-green .bit-04:after, .tile-coast-water-left-bottom.sand-green .bit-05, .tile-coast-water-left-bottom.sand-green .bit-05:before, .tile-coast-water-left-bottom.sand-green .bit-05:after, .tile-coast-water-left-bottom.sand-green .bit-06, .tile-coast-water-left-bottom.sand-green .bit-06:before,
+.tile-coast-water-left-bottom.sand-green .bit-06:after, .tile-coast-water-left-bottom.sand-green .bit-07, .tile-coast-water-left-bottom.sand-green .bit-07:before{
+	background-color: var(--color-green);
+}
+.tile-coast-water-left-bottom.water-grey .bit-04:before, .tile-coast-water-left-bottom.water-grey .bit-04:after, .tile-coast-water-left-bottom.water-grey .bit-05, .tile-coast-water-left-bottom.water-grey .bit-05:before, .tile-coast-water-left-bottom.water-grey .bit-05:after, .tile-coast-water-left-bottom.water-grey .bit-06, .tile-coast-water-left-bottom.water-grey .bit-06:before,
+.tile-coast-water-left-bottom.water-grey .bit-06:after, .tile-coast-water-left-bottom.water-grey .bit-07, .tile-coast-water-left-bottom.water-grey .bit-07:before,
+.tile-coast-water-left-bottom.sand-grey .bit-04:before, .tile-coast-water-left-bottom.sand-grey .bit-04:after, .tile-coast-water-left-bottom.sand-grey .bit-05, .tile-coast-water-left-bottom.sand-grey .bit-05:before, .tile-coast-water-left-bottom.sand-grey .bit-05:after, .tile-coast-water-left-bottom.sand-grey .bit-06, .tile-coast-water-left-bottom.sand-grey .bit-06:before,
+.tile-coast-water-left-bottom.sand-grey .bit-06:after, .tile-coast-water-left-bottom.sand-grey .bit-07, .tile-coast-water-left-bottom.sand-grey .bit-07:before{
+	background-color: var(--color-white);
+}
+
+
+.tile-coast-water-left-bottom.water-brown:before, .tile-coast-water-left-bottom.water-brown:after, .tile-coast-water-left-bottom.water-brown .bit-01, .tile-coast-water-left-bottom.water-brown .bit-01:before, .tile-coast-water-left-bottom.water-brown .bit-01:after, .tile-coast-water-left-bottom.water-brown .bit-02, .tile-coast-water-left-bottom.water-brown .bit-02:before,
+.tile-coast-water-left-bottom.water-brown .bit-02:after, .tile-coast-water-left-bottom.water-brown .bit-03, .tile-coast-water-left-bottom.water-brown .bit-03:before,
+.tile-coast-water-left-bottom.water-green:before, .tile-coast-water-left-bottom.water-green:after, .tile-coast-water-left-bottom.water-green .bit-01, .tile-coast-water-left-bottom.water-green .bit-01:before, .tile-coast-water-left-bottom.water-green .bit-01:after, .tile-coast-water-left-bottom.water-green .bit-02, .tile-coast-water-left-bottom.water-green .bit-02:before,
+.tile-coast-water-left-bottom.water-green .bit-02:after, .tile-coast-water-left-bottom.water-green .bit-03, .tile-coast-water-left-bottom.water-green .bit-03:before,
+.tile-coast-water-left-bottom.water-grey:before, .tile-coast-water-left-bottom.water-grey:after, .tile-coast-water-left-bottom.water-grey .bit-01, .tile-coast-water-left-bottom.water-grey .bit-01:before, .tile-coast-water-left-bottom.water-grey .bit-01:after, .tile-coast-water-left-bottom.water-grey .bit-02, .tile-coast-water-left-bottom.water-grey .bit-02:before,
+.tile-coast-water-left-bottom.water-grey .bit-02:after, .tile-coast-water-left-bottom.water-grey .bit-03, .tile-coast-water-left-bottom.water-grey .bit-03:before{
+	background-color: var(--color-blue);
+}
+.tile-coast-water-left-bottom.sand-grey:before, .tile-coast-water-left-bottom.sand-grey:after, .tile-coast-water-left-bottom.sand-grey .bit-01, .tile-coast-water-left-bottom.sand-grey .bit-01:before, .tile-coast-water-left-bottom.sand-grey .bit-01:after, .tile-coast-water-left-bottom.sand-grey .bit-02, .tile-coast-water-left-bottom.sand-grey .bit-02:before,
+.tile-coast-water-left-bottom.sand-grey .bit-02:after, .tile-coast-water-left-bottom.sand-grey .bit-03, .tile-coast-water-left-bottom.sand-grey .bit-03:before{
+	background-color: var(--color-grey);
+}
+
+.tile-0701:before, .tile-0701:after, .tile-0701 .bit-01, .tile-0701 .bit-01:before, .tile-0701 .bit-01:after, .tile-0701 .bit-02, .tile-0701 .bit-02:before,
+.tile-0701 .bit-02:after, .tile-0701 .bit-03, .tile-0701 .bit-03:before{
+	background-color: var(--color-blue);
+}
+.tile-0701 .bit-03:after, .tile-0701 .bit-04,
+.tile-coast-water-left-bottom .bit-03:after, .tile-coast-water-left-bottom .bit-04{
+	background-color: var(--color-black);
+}
+.tile-0701 .bit-07:after,
+.tile-coast-water-left-bottom .bit-07:after{
+	display:none;
+}
+
+.tile-0701:before{
+	width:100%;
+	height:25%;
+	left:0;
+	top:0;
+}
+.tile-0701:after{
+	width:93.75%;
+	height:31.25%;
+	left:6.25%;
+	top:25%;
+}
+.tile-0701 .bit-01{
+	top:93.75%;
+	left:68.75%;
+}
+.tile-0701 .bit-01:before{
+	width:1400%;
+	height:100%;
+	left:-900%;
+	top:-600%;
+}
+.tile-0701 .bit-01:after{
+	width:1100%;
+	height:400%;
+	left:-600%;
+	top:-500%;
+}
+.tile-0701 .bit-02{
+	top:62.5%;
+	left:25%;
+}
+.tile-0701 .bit-02:before{
+	width:700%;
+	height:100%;
+	left:200%;
+	top:400%;
+}
+.tile-0701 .bit-02:after{
+	width:200%;
+	height:100%;
+	left:1000%;
+	top:400%;
+}
+.tile-0701 .bit-03{
+	top:93.75%;
+	left:56.25%;
+}
+.tile-0701 .bit-03:before{
+	width:100%;
+	height:100%;
+	left:-100%;
+	top:0;
+}
+.tile-0701 .bit-03:after{
+	width:100%;
+	height:200%;
+	left:-500%;
+	top:-300%;
+}
+.tile-0701 .bit-04{
+	top:81.25%;
+	left:18.75%;
+}
+.tile-0701 .bit-04:before{
+	width:100%;
+	height:100%;
+	left:0;
+	top:-500%;
+}
+.tile-0701 .bit-04:after{
+	width:100%;
+	height:100%;
+	left:0;
+	top:-900%;
+}
+.tile-0701 .bit-05{
+	top:6.25%;
+	left:6.25%;
+}
+.tile-0701 .bit-05:before{
+	width:100%;
+	height:100%;
+	left:700%;
+	top:900%;
+}
+.tile-0701 .bit-05:after{
+	width:100%;
+	height:100%;
+	left:700%;
+	top:1300%;
+}
+.tile-0701 .bit-06{
+	top:87.5%;
+	left:68.75%;
+}
+.tile-0701 .bit-06:before{
+	width:100%;
+	height:100%;
+	left:0;
+	top:-900%;
+}
+.tile-0701 .bit-06:after{
+	width:100%;
+	height:100%;
+	left:400%;
+	top:-600%;
+}
+.tile-0701 .bit-07{
+	top:0;
+	left:43.75%;
+}
+.tile-0701 .bit-07:before{
+	width:100%;
+	height:100%;
+	left:500%;
+	top:100%;
+}
+.tile-coast-water-left-bottom:before{
+	width:100%;
+	height:25%;
+	left:0;
+	top:0;
+}
+.tile-coast-water-left-bottom:after{
+	width:93.75%;
+	height:31.25%;
+	left:6.25%;
+	top:25%;
+}
+.tile-coast-water-left-bottom .bit-01{
+	top:93.75%;
+	left:68.75%;
+}
+.tile-coast-water-left-bottom .bit-01:before{
+	width:1400%;
+	height:100%;
+	left:-900%;
+	top:-600%;
+}
+.tile-coast-water-left-bottom .bit-01:after{
+	width:1100%;
+	height:400%;
+	left:-600%;
+	top:-500%;
+}
+.tile-coast-water-left-bottom .bit-02{
+	top:62.5%;
+	left:25%;
+}
+.tile-coast-water-left-bottom .bit-02:before{
+	width:700%;
+	height:100%;
+	left:200%;
+	top:400%;
+}
+.tile-coast-water-left-bottom .bit-02:after{
+	width:200%;
+	height:100%;
+	left:1000%;
+	top:400%;
+}
+.tile-coast-water-left-bottom .bit-03{
+	top:93.75%;
+	left:56.25%;
+}
+.tile-coast-water-left-bottom .bit-03:before{
+	width:100%;
+	height:100%;
+	left:-100%;
+	top:0;
+}
+.tile-coast-water-left-bottom .bit-03:after{
+	width:100%;
+	height:200%;
+	left:-500%;
+	top:-300%;
+}
+.tile-coast-water-left-bottom .bit-04{
+	top:81.25%;
+	left:18.75%;
+}
+.tile-coast-water-left-bottom .bit-04:before{
+	width:100%;
+	height:100%;
+	left:0;
+	top:-500%;
+}
+.tile-coast-water-left-bottom .bit-04:after{
+	width:100%;
+	height:100%;
+	left:0;
+	top:-900%;
+}
+.tile-coast-water-left-bottom .bit-05{
+	top:6.25%;
+	left:6.25%;
+}
+.tile-coast-water-left-bottom .bit-05:before{
+	width:100%;
+	height:100%;
+	left:700%;
+	top:900%;
+}
+.tile-coast-water-left-bottom .bit-05:after{
+	width:100%;
+	height:100%;
+	left:700%;
+	top:1300%;
+}
+.tile-coast-water-left-bottom .bit-06{
+	top:87.5%;
+	left:68.75%;
+}
+.tile-coast-water-left-bottom .bit-06:before{
+	width:100%;
+	height:100%;
+	left:0;
+	top:-900%;
+}
+.tile-coast-water-left-bottom .bit-06:after{
+	width:100%;
+	height:100%;
+	left:400%;
+	top:-600%;
+}
+.tile-coast-water-left-bottom .bit-07{
+	top:0;
+	left:43.75%;
+}
+.tile-coast-water-left-bottom .bit-07:before{
+	width:100%;
+	height:100%;
+	left:500%;
+	top:100%;
+}

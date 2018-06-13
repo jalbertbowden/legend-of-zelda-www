@@ -1,0 +1,342 @@
+/** stone statues **/
+/** display:none;s **/
+.tile-stone-statue-west .bit-20:after{
+	/** display:none; **/
+}
+.tile-stone-statue-west .bit-20:after{
+	width:300%;
+	height:100%;
+	top:-700%;
+	left:300%;
+	
+}
+
+
+.tile-stone-statue-west:before{
+	width:43.75%;
+	height:87.5%;
+	top:12.5%;
+	left:50%
+}
+.tile-stone-statue-west:after{
+	top:56.25%;
+	left:18.75%;
+	width:31.25%;
+	height:43.75%;
+}
+
+
+.tile-stone-statue-west .bit-01{
+	top:6.25%;
+	left:56.25%;
+}
+.tile-stone-statue-west .bit-01:before{
+	width:100%;
+	height:300%;
+	top:-100%;
+	left:600%;
+}
+.tile-stone-statue-west .bit-01:after{
+	width:100%;
+	height:500%;
+	top:600%;
+	left:600%;
+}
+.tile-stone-statue-west .bit-02{
+	top:12.5%;
+	left:62.5%;
+}
+.tile-stone-statue-west .bit-02:before{
+	width:300%;
+	height:100%;
+	top:-200%;
+	left:-900%;
+}
+.tile-stone-statue-west .bit-02:after{
+	width:300%;
+	height:100%;
+	top:-200%;
+	left:-400%;
+}
+.tile-stone-statue-west .bit-03{
+	top:6.25%;
+	left:68.75%;
+}
+.tile-stone-statue-west .bit-03:before{
+	width:300%;
+	height:100%;
+	top:-100%;
+	left:100%;
+}
+.tile-stone-statue-west .bit-03:after{
+	width:100%;
+	height:200%;
+	top:1300%;
+	left:400%;
+}
+.tile-stone-statue-west .bit-04{
+	top:12.5%;
+	left:50%;
+}
+.tile-stone-statue-west .bit-04:before{
+	width:100%;
+	height:300%;
+	top:100%;
+	left:100%;
+}
+.tile-stone-statue-west .bit-04:after{
+	width:200%;
+	height:100%;
+	top:300%;
+	left:-100%;
+}
+.tile-stone-statue-west .bit-05{
+	top:37.5%;
+	left:43.75%;
+}
+.tile-stone-statue-west .bit-05:before{
+	width:200%;
+	height:300%;
+	top:-100%;
+	left:-500%;
+}
+.tile-stone-statue-west .bit-05:after{
+	width:100%;
+	height:400%;
+	top:-500%;
+	left:-700%;
+}
+.tile-stone-statue-west .bit-06{
+	top:50%;
+	left:6.25%;
+}
+.tile-stone-statue-west .bit-06:before{
+	width:700%;
+	height:100%;
+	top:200%;
+	left:-100%;
+}
+.tile-stone-statue-west .bit-06:after{
+	width:400%;
+	height:100%;
+	top:400%;
+	left:0;
+}
+.tile-stone-statue-west .bit-07{
+	top:18.75%;
+	left:87.5%;
+}
+.tile-stone-statue-west .bit-07:before{
+	width:200%;
+	height:100%;
+	top:300%;
+	left:-100%;
+}
+.tile-stone-statue-west .bit-07:after{
+	width:100%;
+	height:300%;
+	top:300%;
+	left:-400%;
+}
+.tile-stone-statue-west .bit-08{
+	top:31.25%;
+	left:93.75%;
+}
+.tile-stone-statue-west .bit-08:before{
+	width:100%;
+	height:200%;
+	top:700%;
+	left:-400%;
+}
+.tile-stone-statue-west .bit-08:after{
+	width:100%;
+	height:200%;
+	top:700%;
+	left:-100%;
+}
+.tile-stone-statue-west .bit-09{
+	top:12.5%;
+	left:37.5%;
+}
+.tile-stone-statue-west .bit-09:before{
+	width:200%;
+	height:200%;
+	top:100%;
+	left:100%;
+}
+.tile-stone-statue-west .bit-09:after{
+	width:100%;
+	height:200%;
+	top:100%;
+	left:-500%;
+}
+.tile-stone-statue-west .bit-10{
+	top:12.5%;
+	left:43.75%;
+}
+.tile-stone-statue-west .bit-10:before{
+	width:300%;
+	height:100%;
+	top:900%;
+	left:-400%;
+}
+.tile-stone-statue-west .bit-10:after{
+	width:300%;
+	height:100%;
+	top:1100%;
+	left:-600%;
+}
+.tile-stone-statue-west .bit-11{
+	top:25%;
+	left:93.75%;
+}
+.tile-stone-statue-west .bit-11:before{
+	width:300%;
+	height:200%;
+	top:0;
+	left:-300%;
+}
+.tile-stone-statue-west .bit-11:after{
+	width:200%;
+	height:300%;
+	top:100%;
+	left:-400%;
+}
+.tile-stone-statue-west .bit-12{
+	top:43.75%;
+	left:81.25%;
+}
+.tile-stone-statue-west .bit-12:before{
+	width:300%;
+	height:100%;
+	top:800%;
+	left:-1200%;
+}
+.tile-stone-statue-west .bit-12:after{
+	width:500%;
+	height:100%;
+	top:800%;
+	left:-600%;
+}
+.tile-stone-statue-west .bit-13{
+	top:6.25%;
+	left:18.75%;
+}
+.tile-stone-statue-west .bit-13:before{
+	width:300%;
+	height:100%;
+	top:0;
+	left:300%;
+}
+.tile-stone-statue-west .bit-13:after{
+	width:200%;
+	height:100%;
+	top:100%;
+	left:100%;
+}
+.tile-stone-statue-west .bit-14{
+	top:31.25%;
+	left:37.5%;
+}
+.tile-stone-statue-west .bit-14:before{
+	width:200%;
+	height:200%;
+	top:-200%;
+	left:-100%;
+}
+.tile-stone-statue-west .bit-14:after{
+	width:300%;
+	height:100%;
+	top:300%;
+	left:-100%;
+}
+.tile-stone-statue-west .bit-15{
+	top:56.25%;
+	left:0;
+}
+.tile-stone-statue-west .bit-15:before{
+	width:100%;
+	height:300%;
+	top:400%;
+	left:0;
+}
+.tile-stone-statue-west .bit-15:after{
+	width:300%;
+	height:100%;
+	top:500%;
+	left:100%;
+}
+.tile-stone-statue-west .bit-16{
+	top:87.5%;
+	left:75%;
+}
+.tile-stone-statue-west .bit-16:before{
+	width:100%;
+	height:200%;
+	top:-200%;
+	left:-300%;
+}
+.tile-stone-statue-west .bit-16:after{
+	width:100%;
+	height:100%;
+	top:-300%;
+	left:-400%;
+}
+.tile-stone-statue-west .bit-17{
+	top:87.5%;
+	left:62.5%;
+}
+.tile-stone-statue-west .bit-17:before{
+	width:100%;
+	height:100%;
+	top:-400%;
+	left:-100%;
+}
+.tile-stone-statue-west .bit-17:after{
+	width:100%;
+	height:100%;
+	top:-500%;
+	left:-300%;
+}
+.tile-stone-statue-west .bit-18{
+	top:68.75%;
+	left:12.5%;
+}
+.tile-stone-statue-west .bit-18:before{
+	width:200%;
+	height:100%;
+	top:-500%;
+	left:200%;
+}
+.tile-stone-statue-west .bit-18:after{
+	width:100%;
+	height:100%;
+	top:-600%;
+	left:-100%;
+}
+.tile-stone-statue-west .bit-19{
+	top:18.75%;
+	left:37.5%;
+}
+.tile-stone-statue-west .bit-19:before{
+	width:200%;
+	height:100%;
+	top:-200%;
+	left:-200%;
+}
+.tile-stone-statue-west .bit-19:after{
+	width:100%;
+	height:100%;
+	top:100%;
+	left:-400%;
+}
+.tile-stone-statue-west .bit-20{
+	top:50%;
+	left:56.25%;
+}
+.tile-stone-statue-west .bit-20:before{
+	width:200%;
+	height:100%;
+	top:300%;
+	left:300%;
+}

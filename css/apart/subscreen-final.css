@@ -1,0 +1,1031 @@
+@import url("https://bowdenweb.com/nes/loz/css/apart/subscreen-rupee.css");
+@import url("https://bowdenweb.com/nes/loz/css/apart/subscreen-key.css");
+@import url("https://bowdenweb.com/nes/loz/css/apart/subscreen-bomb.css");
+@import url("https://bowdenweb.com/nes/loz/css/apart/subscreen-text.css");
+@import url("https://bowdenweb.com/nes/loz/css/apart/subscreen-inventory-selections-prod.css");
+
+
+/** new sub screen **/
+.sub-screen{
+	background-repeat:no-repeat;
+	background-position:0 0;
+	width:100%;
+	height:25%;
+	display:grid;
+	grid-template-rows:100%;
+	grid-template-columns:6.25% 25% 3.125% 12.5% 18.75% 3.125% 25% 6.25%;
+}
+
+/** colors and display:none;s **/
+.subscreen-overworld-grid li{
+	background-color:var(--color-grey);
+}
+.subscreen-level-grid li{
+	background-color:var(--color-black);
+}
+.subscreen-level-grid li:before{
+	background-color:var(--color-subscreen-legend-blue);
+}
+
+/** display:none;s **/
+.subscreen-level-grid .tile-black:before{
+	display:none;
+}
+
+
+
+
+
+
+
+.s256 .subscreen-section{
+	margin-top:16px;
+}
+.s512 .subscreen-section{
+	margin-top:32px;
+}
+.s1024 .subscreen-section{
+	margin-top:64px;
+}
+.s2048 .subscreen-section{
+	margin-top:128px;
+}
+#subscreen-section-1{
+	margin-top:0;
+}
+
+
+/** section 01 - legend map **/
+#sub-screen-column-01{
+	display:grid;
+	grid-template-columns:1;
+	grid-template-rows:12.5% 15.625% 59.375%;
+}
+.sub-screen-legend-level-text{
+	display:grid;
+	grid-template-columns:repeat(8, 1fr);
+	width:100%;
+}
+.sub-screen-legend-level-text li{
+	display:inline-block;
+}
+
+.screen-size-256x224 .sub-screen-map{
+	height:32px;	
+}
+.screen-size-512x448 .sub-screen-map{
+	height:64px;
+}
+.screen-size-1024x896 .sub-screen-map{
+	height:128px;
+}
+.screen-size-2048x1792 .sub-screen-map{
+	height:256px;
+}
+
+/** subscreen legend map **/
+/**
+legend tilebox 432x256
+	64x32
+		56x24 tile
+		8x8 column-row-gap:8; column-header-gap:8;
+**/
+.subscreen-level-grid,
+.subscreen-overworld-grid{
+	display:grid;
+	grid-template-columns: repeat(8, 1fr);
+	grid-template-rows: repeat(8, 1fr);
+	grid-row-gap: 0;
+	grid-column-gap: 0;
+	grid-gap:0;
+}
+.screen-size-064 .subscreen-level-grid{
+	margin-top:15px;
+	width:64px;
+	height:32px;
+}
+.screen-size-128 .subscreen-level-grid{
+	margin-top:30px;
+}
+.subscreen-section.screen-size-128 .subscreen-level-grid{
+	margin-top:0;
+	margin-left:32px;
+}
+.screen-size-128 .subscreen-level-grid,
+.s512 .subscreen-level-grid{
+	width:128px;
+	height:64px;
+}
+.screen-size-256 .subscreen-level-grid{
+	width:256px;
+	height:128px;
+}
+.screen-size-512 .subscreen-level-grid{
+	margin-top:120px;
+	width:512px;
+	height:256px;
+}
+.subscreen-overworld-grid li,
+.subscreen-level-grid li{
+	display:inline-block;
+	position:relative;
+}
+
+.subscreen-level-grid.screen-size-032 li,
+.screen-size-256x224 .sub-screen-map li{
+	width:4px;
+	height:2px;
+}
+.subscreen-level-grid.screen-size-064 li,
+.screen-size-256x224 .sub-screen-map li{
+	width:8px;
+	height:4px;
+}
+.subscreen-level-grid.screen-size-128 li,
+.screen-size-512x448 .sub-screen-map li{
+	width:16px;
+	height:8px;
+}
+.subscreen-level-grid.screen-size-256 li,
+.screen-size1024x896 .sub-screen-map li{
+	width:32px;
+	height:16px;
+}
+
+
+
+
+
+.subscreen-level-grid.screen-size-512 li,
+.screen-size-2048x1792 .sub-screen-map li{
+	width:64px;
+	height:32px;
+}
+.subscreen-level-grid li:before{
+	position:absolute;
+	content:"";
+	left:0;
+}
+.screen-size-064 .subscreen-level-grid li:before{
+	top:1px;
+	width:7px;
+	height:3px;
+}
+.screen-size-128 .subscreen-level-grid li:before{
+	top:2px;
+	width:14px;
+	height:6px;
+}
+.screen-size-256 .subscreen-level-grid li:before{
+	top:4px;
+	width:28px;
+	height:12px;
+}
+.screen-size-512 .subscreen-level-grid li:before{
+	top:8px;
+	width:56px;
+	height:24px;
+}
+
+/** section 02 - inventory list **/
+.inventory-list-tile{
+	display:inline-block;
+	height:100%;
+}
+.inv-times,
+.inv-amount{
+	vertical-align:top;
+}
+#inventory-list{
+	/** background-color:#000; **/
+	overflow:hidden; /** in conjunction with grid-column-gap and negative margins on grid items **/
+	display:grid;
+	grid-template-areas:
+	  "inv-icon-area1 inv-times-area1 inv-amount-area1"
+	  "inv-icon-area2 inv-times-area2 inv-amount-area2"
+	  "inv-icon-area3 inv-times-area3 inv-amount-area3";
+}
+.s256 #inventory-list{
+	width:23px;
+	height:32px;
+	grid-template-columns: 8px 7px 7px;
+	grid-template-rows: 8px;
+	grid-column-gap:1px;
+}
+.s256 .inventory-list-tile{
+	width:8px;
+	height:8px;
+}
+.s512 #inventory-list{
+	width:46px;
+	height:64px;
+	grid-template-columns: 16px 14px 14px;
+	grid-template-rows: 16px;
+	grid-column-gap:2px;
+}
+.s512 .inventory-list-tile{
+	width:16px;
+	height:16px;
+}
+.s1024 #inventory-list{
+	width:92px;
+	height:128px;
+	grid-template-columns: 32px 28px 28px;
+	grid-template-rows: 32px;
+	grid-column-gap:4px;
+}
+.s1024 .inventory-list-tile{
+	width:32px;
+	height:32px;
+}
+.s2048 #inventory-list{
+	width:184px;
+	height:256px;
+	grid-template-columns: 64px 56px 56px;
+	grid-template-rows: 64px;
+	grid-column-gap:8px;
+}
+.s2048 .inventory-list-tile{
+	width:64px;
+	height:64px;
+}
+
+#inv-icon-rupee{
+	grid-area: inv-icon-area1;
+}
+#inv-icon-key{
+	grid-area: inv-icon-area2;
+}
+#inv-icon-bomb{
+	grid-area: inv-icon-area3;
+}
+#inv-times-rupee{
+	grid-area: inv-times-area1;
+}
+#inv-times-key{
+	grid-area: inv-times-area2;
+}
+#inv-times-bomb{
+	grid-area: inv-times-area3;
+}
+#inv-amount-rupee{
+	grid-area: inv-amount-area1;
+}
+#inv-amount-key{
+	grid-area: inv-amount-area2;
+}
+#inv-amount-bomb{
+	grid-area: inv-amount-area3;
+}
+
+
+
+.s2048 .inv-times,
+.s2048 .inv-amount{
+	margin-left:-8px;
+}
+.s1024 .inv-times,
+.s1024 .inv-amount{
+	margin-left:-4px;
+}
+#listboxxx064 .inv-times,
+#listboxxx064 .inv-amount,
+.s512 .inv-times,
+.s512 .inv-amount{
+	margin-left:-2px;
+}
+.s256 .inv-times,
+.s256 .inv-amount{
+	margin-left:-1px;
+}
+
+
+.s2048 #inv-icon-key,
+.s2048 #inv-times-key,
+.s2048 #inv-amount-key{
+	margin-top:64px;
+}
+.s1024 #inv-icon-key,
+.s1024 #inv-times-key,
+.s1024 #inv-amount-key{
+	margin-top:32px;
+}
+.s512 #inv-icon-key,
+.s512 #inv-times-key,
+.s512 #inv-amount-key{
+	margin-top:16px;
+}
+.s256 #inv-icon-key,
+.s256 #inv-times-key,
+.s256 #inv-amount-key{
+	margin-top:8px;
+}
+
+
+/** section 03 - inventory selections **/
+#sub-screen-column-03{
+	display:grid;
+	grid-template-areas: "inv-sel-b inv-sel-a";
+	margin-left:6.25%;
+}
+#item-selection-b{
+	grid-area: inv-sel-b;
+}
+#item-selection-a{
+	grid-area: inv-sel-a;
+}
+
+
+.s256 #sub-screen-column-03{
+	width:42px;
+	height:29px;
+	grid-template-columns:18px;
+	grid-column-gap:6px;
+	grid-template-rows:29px;
+}
+.s512 #sub-screen-column-03{
+	width:84px;
+	height:58px;
+	grid-template-columns:36px;
+	grid-column-gap:12px;
+	grid-template-rows:58px;
+}
+.s1024 #sub-screen-column-03{
+	width:168px;
+	height:116px;
+	grid-template-columns:72px;
+	grid-column-gap:24px;
+	grid-template-rows:116px;
+}
+.s2048 #sub-screen-column-03{
+	width:336px;
+	height:232px;
+	grid-template-columns:144px;
+	grid-column-gap:48px;
+	grid-template-rows:232px;
+}
+
+
+
+/** section 04 - -life- heart containers **/
+
+/** -life- header text **/
+
+/** life text **/
+#life-text{text-align:center;}
+#life-text:before,
+#life-text:after,
+#life-text .bit,
+#life-text .bit:before,
+#life-text .bit:after{
+	background-color:var(--color-red);
+}
+
+#life-text{
+	position:relative;
+	margin-top:0;
+	margin-bottom:0;
+}
+#life-text .bit{
+	position:absolute;
+}
+#life-text:before,
+#life-text:after,
+#life-text .bit:before,
+#life-text .bit:after{
+	position:absolute;
+	content:"";
+}
+
+
+#life-text{
+	width:71.875%;
+	margin-left:12.5%;
+}
+.s256 #life-text{
+	height:7px;
+	margin-left:12.5%;
+}
+.s512 #life-text{
+	height:14px;
+}
+.s1024 #life-text{
+	height:28px;
+}
+.s2048 #life-text{
+	height:56px;
+}
+
+
+
+
+#life-text:before{
+	left:0;
+}
+.s256 #life-text:before{
+	height:1px;
+	width:6px;
+	top:3px;
+}
+.s512 #life-text:before{
+	height:2px;
+	width:12px;
+	top:6px;
+}
+.s1024 #life-text:before{
+	height:4px;
+	width:24px;
+	top:12px;
+}
+.s2048 #life-text:before{
+	height:8px;
+	width:48px;
+	top:24px;
+}
+.s256 #life-text:after{
+	height:1px;
+	width:6px;
+	top:3px;
+	left:40px;
+}
+.s512 #life-text:after{
+	height:2px;
+	width:12px;
+	top:6px;
+	left:80px;
+}
+.s1024 #life-text:after{
+	height:4px;
+	width:24px;
+	top:12px;
+	left:160px;
+}
+.s2048 #life-text:after{
+	height:8px;
+	width:48px;
+	top:24px;
+	left:320px;
+}
+
+
+
+.s256 #life-text .bit{
+	width:1px;
+	height:1px;
+}
+.s512 #life-text .bit{
+	width:2px;
+	height:2px;
+}
+.s1024 #life-text .bit{
+	width:4px;
+	height:4px;
+}
+.s2048 #life-text .bit{
+	width:8px;
+	height:8px;
+}
+
+
+#life-text .bit-01{
+	top:0;
+}
+.s256 #life-text .bit-01{
+	left:18px;
+}
+.s512 #life-text .bit-01{
+	left:36px;
+}
+.s1024 #life-text .bit-01{
+	left:72px;
+}
+.s2048 #life-text .bit-01{
+	left:144px;
+}
+
+
+
+#life-text .bit-01:before{
+	width:200%;
+	height:700%;
+	left:-900%;
+	top:0;
+}
+#life-text .bit-01:after{
+	width:400%;
+	height:100%;
+	left:-700%;
+	top:600%;
+}
+
+.s256 #life-text .bit-02{
+	left:18px;
+	top:6px;
+}
+.s512 #life-text .bit-02{
+	left:36px;
+	top:12px;
+}
+.s1024 #life-text .bit-02{
+	left:72px;
+	top:24px;
+}
+.s2048 #life-text .bit-02{
+	left:144px;
+	top:48px;
+}
+
+
+
+#life-text .bit-02:before{
+	width:500%;
+	height:100%;
+	left:1600%;
+	top:-600%;
+}
+#life-text .bit-02:after{
+	width:500%;
+	height:100%;
+	left:1600%;
+	top:0;
+}
+
+#life-text .bit-03{
+	top:0;
+}
+.s256 #life-text .bit-03{
+	left:21px;
+}
+.s512 #life-text .bit-03{
+	left:42px;
+}
+.s1024 #life-text .bit-03{
+	left:84px;
+}
+.s2048 #life-text .bit-03{
+	left:168px;
+}
+
+
+
+#life-text .bit-03:before{
+	width:400%;
+	height:100%;
+	left:1300%;
+	top:300%;
+}
+#life-text .bit-03:after{
+	width:200%;
+	height:700%;
+	left:1100%;
+	top:0;
+}
+
+
+.s256 #life-text .bit-04{
+	left:21px;
+	top:6px;
+}
+.s512 #life-text .bit-04{
+	left:42px;
+	top:12px;
+}
+.s1024 #life-text .bit-04{
+	left:84px;
+	top:24px;
+}
+.s2048 #life-text .bit-04{
+	left:168px;
+	top:48px;
+}
+
+
+#life-text .bit-04:before{
+	width:200%;
+	height:700%;
+	top:-600%;
+	left:300%;
+}
+#life-text .bit-04:after{
+	width:500%;
+	height:100%;
+	left:400%;
+	top:-300%;
+}
+
+
+#life-text .bit-05{
+	top:0;
+}
+.s256 #life-text .bit-05{
+	left:20px;
+}
+.s512 #life-text .bit-05{
+	left:40px;
+}
+.s1024 #life-text .bit-05{
+	left:80px;
+}
+.s2048 #life-text .bit-05{
+	left:160px;
+}
+
+
+
+
+
+#life-text .bit-05:before{
+	width:200%;
+	height:700%;
+	top:0;
+	left:-100%;
+}
+#life-text .bit-05:after{
+	width:500%;
+	height:100%;
+	left:600%;
+	top:0;
+}
+
+
+/** heart containers **/
+
+/** life heart containers, life heart gauge inventory meter - subscreen **/
+
+
+
+/** maximum width is eight life hearts; maxiumum height is two life hearts **/
+/**
+#heart-containers-list{
+	position:relative;
+	outline:3px dotted #ff0;
+}
+.s256 #heart-containers-list{
+	width:64px;
+	height:15px;
+	margin-top:10px;
+}
+.s512 #heart-containers-list{
+	width:128px;
+	height:31px;
+	margin-top:18px;
+}
+.s1024 #heart-containers-list{
+	width:256px;
+	height:62px;
+	margin-top:36px;
+}
+.s2048 #heart-containers-list{
+	width:512px;
+	height:124px;
+	margin-top:72px;
+}
+**/
+
+
+
+/** maximum width is eight life hearts; maxiumum height is two life hearts, bottom heart has negative margin into bottom row of first heart **/
+.heart-containers-list{
+	position:relative;
+}
+.s256 .heart-containers-list{
+	width:64px;
+	height:8px;
+}
+.s256 #heart-containers-list-top{
+	margin-top:10px;
+}
+.s256 #heart-containers-list-bottom{
+	margin-top:-7px;
+} /** SHITTY FIX!!! ABOVE FOOL!!!
+.s256 #heart-containers-list-bottom li{
+	margin-top:-7px;
+}
+**/
+.s512 .heart-containers-list{
+	width:128px;
+	height:16px;
+}
+.s512 #heart-containers-list-top{
+	margin-top:18px;
+}
+.s512 #heart-containers-list-bottom{
+	margin-top:-2px;
+}
+.s1024 .heart-containers-list{
+	width:256px;
+	height:32px;
+}
+.s1024 #heart-containers-list-top{
+	margin-top:36px;
+}
+.s1024 #heart-containers-list-bottom{
+	margin-top:-4px;
+}
+.s2048 .heart-containers-list{
+	width:512px;
+	height:64px;
+}
+.s2048 #heart-containers-list-top{
+	margin-top:72px;
+}
+.s2048 #heart-containers-list-bottom{
+	margin-top:-4px;
+}
+
+
+/** second row of life hearts' height is one less than first; doing this via negative margins yo **/
+.s256 #heart-life-8,
+.s256 #heart-life-9,
+.s256 #heart-life-10,
+.s256 #heart-life-11,
+.s256 #heart-life-12,
+.s256 #heart-life-13,
+.s256 #heart-life-14,
+.s256 #heart-life-15{
+	margin-top:-1px;
+}
+.s512 #heart-life-8,
+.s512 #heart-life-9,
+.s512 #heart-life-10,
+.s512 #heart-life-11,
+.s512 #heart-life-12,
+.s512 #heart-life-13,
+.s512 #heart-life-14,
+.s512 #heart-life-15{
+	margin-top:-2px;
+}
+.s1024 #heart-life-8,
+.s1024 #heart-life-9,
+.s1024 #heart-life-10,
+.s1024 #heart-life-11,
+.s1024 #heart-life-12,
+.s1024 #heart-life-13,
+.s1024 #heart-life-14,
+.s1024 #heart-life-15{
+	margin-top:-4px;
+}
+.s2048 #heart-life-8,
+.s2048 #heart-life-9,
+.s2048 #heart-life-10,
+.s2048 #heart-life-11,
+.s2048 #heart-life-12,
+.s2048 #heart-life-13,
+.s2048 #heart-life-14,
+.s2048 #heart-life-15{
+	margin-top:-8px;
+}
+
+
+
+.tile-heart-life{
+	display:inline-block;
+	position:relative;
+}
+
+
+
+
+.s256 .tile-heart-life{
+	width:8px;
+	height:8px;
+}
+.s256 .tile-heart-life .bit{
+	width:1px;
+	height:1px;
+}
+.s512 .tile-heart-life {
+	width:16px;
+	height:16px;
+}
+.s512 .tile-heart-life .bit{
+	width:2px;
+	height:2px;
+}
+.s1024 .tile-heart-life{
+	width:32px;
+	height:32px;
+}
+.s1024 .tile-heart-life .bit{
+	width:4px;
+	height:4px;
+}
+.s2048 .tile-heart-life{
+	width:64px;
+	height:64px;
+}
+.s2048 .tile-heart-life .bit{
+	width:8px;
+	height:8px;
+}
+
+
+.tile-heart-life:before,
+.tile-heart-life:after,
+.tile-heart-life .bit:before,
+.tile-heart-life .bit:after{
+	position:absolute;
+	content:"";
+}
+.tile-heart-life .bit{
+	position:absolute;
+}
+
+.tile-heart-life:before,
+.tile-heart-life:after,
+.tile-heart-life .bit-01,
+.tile-heart-life .bit-01:before,
+.tile-heart-life .bit-01:after,
+.tile-heart-life .bit-02,
+.tile-heart-life .bit-02:before{
+	background-color:var(--color-white-empty);
+}
+.tile-heart-life .bit-02:after,
+.tile-heart-life .bit-03,
+.tile-heart-life .bit-03:before,
+.tile-heart-life .bit-03:after,
+.tile-heart-life .bit-04,
+.tile-heart-life .bit-04:before,
+.tile-heart-life .bit-04:after{
+	background-color:var(--color-red);
+}
+
+/** display:none;s **/
+.tile-heart-life .bit-02:after,
+.tile-heart-life .bit-03,
+.tile-heart-life .bit-04{
+	display:none;
+}
+.tile-heart-life.heart-life-half .bit-02:after,
+.tile-heart-life.heart-life-half .bit-03,
+.tile-heart-life.heart-life-half .bit-04,
+.tile-heart-life.heart-life-full .bit-02:after,
+.tile-heart-life.heart-life-full .bit-03,
+.tile-heart-life.heart-life-full .bit-04{
+	display:block;
+}
+
+
+
+
+.tile-heart-life:before{
+	width:87.5%;
+	height:50%;
+	top:12.5%;
+	left:0;
+}
+.tile-heart-life:after{
+	width:62.5%;
+	left:12.5%;
+	height:12.5%;
+	top:62.5%;
+}
+.tile-heart-life .bit-01{
+	top:87.5%;
+	left:37.5%;
+}
+.tile-heart-life .bit-01:before{
+	width:300%;
+	height:100%;
+	left:-100%;
+	top:-100%;
+}
+.tile-heart-life .bit-01:after{
+	width:200%;
+	top:-700%;
+	left:-200%;
+	height:100%;
+}
+.tile-heart-life .bit-02{
+	top:0;
+	left:50%;
+}
+.tile-heart-life .bit-02:before{
+	width:100%;
+	height:100%;
+	left:100%;
+	top:0;
+}
+/** heart life half empty **/
+.heart-life-half .bit-02:after{
+	width:100%;
+	height:400%;
+	left:-400%;
+	top:100%;
+}
+.heart-life-half .bit-03{
+	top:87.5%;
+	left:37.5%;
+}
+.heart-life-half .bit-03:before{
+	width:200%;
+	height:600%;
+	top:-700%;
+	left:-200%;
+}
+.heart-life-half .bit-03:after{
+	width:100%;
+	height:100%;
+	top:-100%;
+	left:-100%;
+}
+.heart-life-half .bit-04{
+	top:12.5%;
+	left:37.5%;
+}
+.heart-life-half .bit-04:before{
+	width:100%;
+	height:100%;
+	left:0;
+	top:200%;
+}
+.heart-life-half .bit-04:after{
+	width:100%;
+	height:100%;
+	left:0;
+	top:400%;
+}
+/** heart-life-full **/
+.heart-life-full .bit-02:after{
+	width:700%;
+	height:400%;
+	left:-400%;
+	top:100%;
+}
+.heart-life-full .bit-03{
+	top:87.5%;
+	left:37.5%;
+}
+.heart-life-full .bit-03:before{
+	width:500%;
+	height:100%;
+	top:-200%;
+	left:-200%;
+}
+.heart-life-full .bit-03:after{
+	top:-100%;
+	left:-100%;
+	width:300%;
+	height:100%;
+}
+.heart-life-full .bit-04{
+	left:12.5%;
+	top:0;
+}
+.heart-life-full .bit-04:before{
+	left:300%;
+	top:0;
+	width:200%;
+	height:100%;
+}
+.heart-life-full .bit-04:after{
+	width:100%;
+	height:100%;
+	top:0;
+	left:100%;
+}
+
+
+
+
+
+
+
+/** sizes/sizing - MOVE TO tiles or tiles-underworld or both!! **/
+.screen-size-016{
+	width:16px;
+	height:16px;
+}
+.screen-size-032{
+	width:32px;
+	height:32px;
+}
+.screen-size-064{
+	width:64px;
+	height:64px;
+}
+.screen-size-128{
+	width:128px;
+	height:128px;
+}
+.screen-size-256{
+	width:256px;
+	height:256px;
+}
+
+
+.size112{
+	width:112px;
+	height:112px;
+}
+.size112x128{
+	width:112px;
+	height:128px;
+}
+.size128{
+	width:128px;
+	height:128px;
+}
+
+
+

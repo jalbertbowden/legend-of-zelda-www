@@ -1,0 +1,140 @@
+/** demo gifs have #fcbcb0 which differs from color-khaki; going with khaki for now, but need to follow up; maybe this is correct/on purpose **/
+/** <li id="inv-icon-rupee"></li> **/
+/** gold #fc9838  - khaki #fcbcb0    **/
+
+
+#inv-icon-rupee{
+	background-color:var(--color-black);
+}
+/** gold **/
+#inv-icon-rupee:before,
+#inv-icon-rupee:after,
+#inv-icon-rupee .bit-01,
+#inv-icon-rupee .bit-01:before,
+#inv-icon-rupee .bit-01:after,
+#inv-icon-rupee .bit-02,
+#inv-icon-rupee .bit-02:before,
+#inv-icon-rupee .bit-02:after,
+#inv-icon-rupee .bit-03,
+#inv-icon-rupee .bit-03:before,
+#inv-icon-rupee .bit-03:after{
+	background-color:#fc9838;
+}
+
+/** khaki **/
+#inv-icon-rupee .bit-04,
+#inv-icon-rupee .bit-04:before,
+#inv-icon-rupee .bit-04:after,
+#inv-icon-rupee .bit-05{
+	background-color:#fcbcb0;
+}
+
+/** display:none **/
+#inv-icon-rupee .bit-05:before,
+#inv-icon-rupee .bit-05:after{
+	display:none;
+}
+
+.inventory-list-tile{
+	position:relative;
+}
+.inventory-list-tile:before,
+.inventory-list-tile:after{
+	position:absolute;
+	content:"";
+}
+.inventory-list-tile.size128{
+	width:128px;
+	height:128px;
+}
+.inventory-list-tile.size112{
+	width:112px;
+	height:112px;
+}
+
+#inv-icon-rupee.tile .bit,
+#inv-icon-rupee.inventory-list-tile .bit{
+	width:12.5%;
+	height:12.5%;
+}
+
+#inv-icon-rupee:before{
+	width:37.5%;
+	left:37.5%;
+	height:50%;
+	top:0;
+}
+#inv-icon-rupee:after{
+	width:50%;
+	height:37.5%;
+	top:37.5%;
+	left:0;
+}
+#inv-icon-rupee .bit-01{
+	top:87.5%;
+	left:0;
+}
+#inv-icon-rupee .bit-01:before{
+	width:100%;
+	height:200%;
+	top:-100%;
+	left:400%;
+}
+#inv-icon-rupee .bit-01:after{
+	width:100%;
+	height:200%;
+	top:-200%;
+	left:500%;
+}
+#inv-icon-rupee .bit-02{
+	top:87.5%;
+	left:12.5%;
+}
+#inv-icon-rupee .bit-02:before{
+	width:100%;
+	height:400%;
+	top:-700%;
+	left:600%;
+}
+#inv-icon-rupee .bit-02:after{
+	width:100%;
+	height:100%;
+	top:-300%;
+	left:300%;
+}
+#inv-icon-rupee .bit-03{
+	top:87.5%;
+	left:25%;
+}
+#inv-icon-rupee .bit-03:before{
+	width:100%;
+	height:100%;
+	top:-200%;
+	left:400%;
+}
+#inv-icon-rupee .bit-03:after{
+	top:-500%;
+	height:100%;
+	width:100%;
+	left:0;
+}
+#inv-icon-rupee .bit-04{
+	left:12.5%;
+	top:25%;
+}
+#inv-icon-rupee .bit-04:before{
+	width:100%;
+	height:300%;
+	left:-100%;
+	top:200%;
+}
+#inv-icon-rupee .bit-04:after{
+	width:300%;
+	height:100%;
+	top:-200%;
+	left:300%;
+}
+#inv-icon-rupee .bit-05{
+	top:12.5%;
+	left:25%;
+}

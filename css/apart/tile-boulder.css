@@ -1,0 +1,245 @@
+.tile-boulder.boulder-brown,
+.tile-boulder.boulder-green,
+.tile-boulder.boulder-brown .bit-09,
+.tile-boulder.boulder-brown .bit-09:before,
+.tile-boulder.boulder-brown .bit-09:after,
+.tile-boulder.boulder-brown .bit-10,
+.tile-boulder.boulder-brown .bit-10:before,
+.tile-boulder.boulder-green .bit-09,
+.tile-boulder.boulder-green .bit-09:before,
+.tile-boulder.boulder-green .bit-09:after,
+.tile-boulder.boulder-green .bit-10,
+.tile-boulder.boulder-green .bit-10:before{
+	background-color: var(--color-khaki);
+}
+.tile-boulder.boulder-grey{
+	background-color: var(--color-grey);
+}
+.tile-boulder.boulder-grey:before,
+.tile-boulder.boulder-grey:after,
+.tile-boulder.boulder-grey:before,
+.tile-boulder.boulder-grey:after,
+.tile-boulder.boulder-grey .bit-01,
+.tile-boulder.boulder-grey .bit-01:before,
+.tile-boulder.boulder-grey .bit-01:after,
+.tile-boulder.boulder-grey .bit-02,
+.tile-boulder.boulder-grey .bit-02:before{
+	background-color: var(--color-white);
+}
+.tile-boulder.boulder-brown:before,
+.tile-boulder.boulder-brown:after,
+.tile-boulder.boulder-brown .bit-01,
+.tile-boulder.boulder-brown .bit-01:before,
+.tile-boulder.boulder-brown .bit-01:after,
+.tile-boulder.boulder-brown .bit-02,
+.tile-boulder.boulder-brown .bit-02:before{
+	background-color: var(--color-brown);
+}
+.tile-boulder.boulder-green:before,
+.tile-boulder.boulder-green:after,
+.tile-boulder.boulder-green:before,
+.tile-boulder.boulder-green:after,
+.tile-boulder.boulder-green .bit-01,
+.tile-boulder.boulder-green .bit-01:before,
+.tile-boulder.boulder-green .bit-01:after,
+.tile-boulder.boulder-green .bit-02,
+.tile-boulder.boulder-green .bit-02:before{
+	background-color: var(--color-green);
+}
+.tile-boulder .bit-02:after,
+.tile-boulder .bit-03,
+.tile-boulder .bit-03:before,
+.tile-boulder .bit-03:after,
+.tile-boulder .bit-04,
+.tile-boulder .bit-04:before,
+.tile-boulder .bit-04:after,
+.tile-boulder .bit-05,
+.tile-boulder .bit-05:before,
+.tile-boulder .bit-05:after,
+.tile-boulder .bit-06,
+.tile-boulder .bit-06:before,
+.tile-boulder .bit-06:after,
+.tile-boulder .bit-07,
+.tile-boulder .bit-07:before,
+.tile-boulder .bit-07:after,
+.tile-boulder .bit-08,
+.tile-boulder .bit-08:before,
+.tile-boulder .bit-08:after,
+.tile-boulder.boulder-grey .bit-09,
+.tile-boulder.boulder-grey .bit-09:before,
+.tile-boulder.boulder-grey .bit-09:after,
+.tile-boulder.boulder-grey .bit-10,
+.tile-boulder.boulder-grey .bit-10:before{
+	background-color: var(--color-black);
+}
+.tile-boulder .bit-10:after{
+	display:none;
+}
+
+.tile-boulder:before{
+	width:68.75%;
+	height:81.25%;
+	left:6.25%;
+	top:12.5%;
+}
+.tile-boulder:after{
+	width:12.5%;
+	height:56.25%;
+	left:75%;
+	top:31.25%;
+}
+.tile-boulder .bit-01{
+	top:0;
+	left:12.5%;
+}
+.tile-boulder .bit-01:before{
+	width:100%;
+	left:-200%;
+	height:500%;
+	top:300%;
+}
+.tile-boulder .bit-01:after{
+	left:-200%;
+	top:1100%;
+	width:100%;
+	height:300%;
+}
+.tile-boulder .bit-02{
+	left:18.75%;
+	top:0;
+}
+.tile-boulder .bit-02:before{
+	width:400%;
+	height:100%;
+	top:100%;
+	left:-200%;
+}
+.tile-boulder .bit-02:after{
+	width:1400%;
+	height:100%;
+	left:-300%;
+	top:1500%;
+}
+.tile-boulder .bit-03{
+	left:37.5%;
+	top:87.5%;
+}
+.tile-boulder .bit-03:before{
+	width:600%;
+	left:400%;
+	height:100%;
+	top:0;
+}
+.tile-boulder .bit-03:after{
+	height:100%;
+	width:300%;
+	left:300%;
+	top:-100%;
+}
+.tile-boulder .bit-04{
+	top:0;
+	left:25%;
+}
+.tile-boulder .bit-04:before{
+	height:400%;
+	width:100%;
+	left:100%;
+	top:100%;
+}
+.tile-boulder .bit-04:after{
+	top:500%;
+	left:0;
+	height:800%;
+	width:100%;
+}
+.tile-boulder .bit-05{
+	top:12.5%;
+	left:37.5%;
+}
+.tile-boulder .bit-05:before{
+	width:100%;
+	left:200%;
+	top:400%;
+	height:500%;
+}
+.tile-boulder .bit-05:after{
+	width:100%;
+	height:300%;
+	left:300%;
+	top:700%;
+}
+.tile-boulder .bit-06{
+	top:12.5%;
+	left:62.5%;
+}
+.tile-boulder .bit-06:before{
+	width:100%;
+	top:500%;
+	left:100%;
+	height:600%;
+}
+.tile-boulder .bit-06:after{
+	height:800%;
+	width:100%;
+	left:300%;
+	top:200%;
+}
+.tile-boulder .bit-07{
+	top:12.5%;
+	left:68.75%;
+}
+.tile-boulder .bit-07:before{
+	width:100%;
+	top:100%;
+	left:100%;
+	height:200%;
+}
+.tile-boulder .bit-07:after{
+	height:100%;
+	width:200%;
+	left:0;
+	top:500%;
+}
+.tile-boulder .bit-08{
+	top:75%;
+	left:75%;
+}
+.tile-boulder .bit-08:before{
+	width:100%;
+	top:-600%;
+	left:200%;
+	height:700%;
+}
+.tile-boulder .bit-08:after{
+	height:100%;
+	width:100%;
+	left:0;
+	top:-100%;
+}
+.tile-boulder .bit-09{
+	top:12.5%;
+	left:12.5%;
+}
+
+.tile-boulder .bit-09:before{
+	width:100%;
+	top:100%;
+	left:400%;
+	height:200%;
+}
+.tile-boulder .bit-09:after{
+	height:600%;
+	width:100%;
+	left:300%;
+	top:300%;
+}
+.tile-boulder .bit-10{
+	top:18.75%;
+	left:6.25%;
+}
+.tile-boulder .bit-10:before{
+	width:100%;
+	top:100%;
+	left:0;
+	height:200%;
+}

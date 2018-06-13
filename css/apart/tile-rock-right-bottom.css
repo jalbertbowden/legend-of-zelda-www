@@ -1,0 +1,303 @@
+.tile-rock-right-bottom.rock-brown,
+.tile-rock-right-bottom.rock-green{
+	background-color: var(--color-khaki);
+}
+.tile-rock-right-bottom.rock-grey{
+	background-color: var(--color-grey);
+}
+.tile-rock-right-bottom .bit-02,
+.tile-rock-right-bottom .bit-02:before,
+.tile-rock-right-bottom .bit-02:after,
+.tile-rock-right-bottom .bit-03,
+.tile-rock-right-bottom .bit-03:before,
+.tile-rock-right-bottom .bit-03:after,
+.tile-rock-right-bottom .bit-04,
+.tile-rock-right-bottom .bit-04:before,
+.tile-rock-right-bottom .bit-04:after,
+.tile-rock-right-bottom .bit-05,
+.tile-rock-right-bottom .bit-05:before,
+.tile-rock-right-bottom .bit-05:after,
+.tile-rock-right-bottom .bit-06,
+.tile-rock-right-bottom .bit-06:before,
+.tile-rock-right-bottom .bit-06:after,
+.tile-rock-right-bottom .bit-07,
+.tile-rock-right-bottom .bit-07:before{
+	background-color: var(--color-black);
+}
+.tile-rock-right-bottom.rock-brown:before,
+.tile-rock-right-bottom.rock-brown:after,
+.tile-rock-right-bottom.rock-brown .bit-01,
+.tile-rock-right-bottom.rock-brown .bit-01:before,
+.tile-rock-right-bottom.rock-brown .bit-01:after,
+.tile-rock-right-bottom.rock-brown .bit-07:after{
+	background-color: var(--color-brown);
+}
+.tile-rock-right-bottom.rock-green:before,
+.tile-rock-right-bottom.rock-green:after,
+.tile-rock-right-bottom.rock-green .bit-01,
+.tile-rock-right-bottom.rock-green .bit-01:before,
+.tile-rock-right-bottom.rock-green .bit-01:after,
+.tile-rock-right-bottom.rock-green .bit-07:after{
+	background-color: var(--color-green);
+}
+.tile-rock-right-bottom.rock-grey:before,
+.tile-rock-right-bottom.rock-grey:after,
+.tile-rock-right-bottom.rock-grey .bit-01,
+.tile-rock-right-bottom.rock-grey .bit-01:before,
+.tile-rock-right-bottom.rock-grey .bit-01:after,
+.tile-rock-right-bottom.rock-grey .bit-07:after{
+	background-color: var(--color-white);
+}
+.tile-0403:before{
+	width:31.25%;
+	height:87.5%;
+	left:12.5%;
+	top:0;
+}
+.tile-0403:after{
+	width:18.75%;
+	height:37.5%;
+	left:68.75%;
+	top:0;
+}
+.tile-0403 .bit-01{
+	top:0;
+	left:6.25%;
+}
+.tile-0403 .bit-01:before{
+	width:100%;
+	height:200%;
+	left:0;
+	top:100%;
+}
+.tile-0403 .bit-01:after{
+	width:100%;
+	height:600%;
+	left:0;
+	top:400%;
+}
+.tile-0403 .bit-02{
+	left:6.25%;
+	top:87.5%;
+}
+.tile-0403 .bit-02:before{
+	top:-400%;
+	left:-100%;
+	width:100%;
+	height:500%;
+}
+.tile-0403 .bit-02:after{
+	top:-1200%;
+	left:100%;
+	width:200%;
+	height:100%;
+}
+.tile-0403 .bit-03{
+	left:81.25%;
+	top:0;
+}
+.tile-0403 .bit-03:before{
+	top:0;
+	left:100%;
+	width:200%;
+	height:300%;
+}
+.tile-0403 .bit-03:after{
+	top:0;
+	left:-500%;
+	width:200%;
+	height:800%;
+}
+.tile-0403 .bit-04{
+	left:43.75%;
+	top:0;
+}
+.tile-0403 .bit-04:before{
+	top:800%;
+	left:0;
+	width:200%;
+	height:400%;
+}
+.tile-0403 .bit-04:after{
+	top:1300%;
+	left:-400%;
+	width:400%;
+	height:100%;
+}
+.tile-0403 .bit-05{
+	left:37.5%;
+	top:75%;
+}
+.tile-0403 .bit-05:before{
+	top:-900%;
+	left:-200%;
+	width:100%;
+	height:1000%;
+}
+.tile-0403 .bit-05:after{
+	top:1300%;
+	left:-400%;
+	width:400%;
+	height:100%;
+	/** NOTE **/
+	display:none;
+}
+.tile-0403 .bit-06{
+	left:43.75%;
+	top:75%;
+}
+.tile-0403 .bit-06:before{
+	width:200%;
+	height:100%;
+	top:-600%;
+	left:300%;
+}
+.tile-0403 .bit-06:after{
+	width:200%;
+	height:100%;
+	top:-700%;
+	left:500%;
+}
+.tile-0403 .bit-07{
+	left:87.5%;
+	top:18.75%;
+}
+.tile-0403 .bit-07:before{
+	width:100%;
+	height:100%;
+	top:100%;
+	left:0;
+}
+.tile-0403 .bit-07:after{
+	width:100%;
+	height:700%;
+	top:-200%;
+	left:-700%;
+}
+
+.tile-rock-right-bottom:before{
+	width:31.25%;
+	height:87.5%;
+	left:12.5%;
+	top:0;
+}
+.tile-rock-right-bottom:after{
+	width:18.75%;
+	height:37.5%;
+	left:68.75%;
+	top:0;
+}
+.tile-rock-right-bottom .bit-01{
+	top:0;
+	left:6.25%;
+}
+.tile-rock-right-bottom .bit-01:before{
+	width:100%;
+	height:200%;
+	left:0;
+	top:100%;
+}
+.tile-rock-right-bottom .bit-01:after{
+	width:100%;
+	height:600%;
+	left:0;
+	top:400%;
+}
+.tile-rock-right-bottom .bit-02{
+	left:6.25%;
+	top:87.5%;
+}
+.tile-rock-right-bottom .bit-02:before{
+	top:-400%;
+	left:-100%;
+	width:100%;
+	height:500%;
+}
+.tile-rock-right-bottom .bit-02:after{
+	top:-1200%;
+	left:100%;
+	width:200%;
+	height:100%;
+}
+.tile-rock-right-bottom .bit-03{
+	left:81.25%;
+	top:0;
+}
+.tile-rock-right-bottom .bit-03:before{
+	top:0;
+	left:100%;
+	width:200%;
+	height:300%;
+}
+.tile-rock-right-bottom .bit-03:after{
+	top:0;
+	left:-500%;
+	width:200%;
+	height:800%;
+}
+.tile-rock-right-bottom .bit-04{
+	left:43.75%;
+	top:0;
+}
+.tile-rock-right-bottom .bit-04:before{
+	top:800%;
+	left:0;
+	width:200%;
+	height:400%;
+}
+.tile-rock-right-bottom .bit-04:after{
+	top:1300%;
+	left:-400%;
+	width:400%;
+	height:100%;
+}
+.tile-rock-right-bottom .bit-05{
+	left:37.5%;
+	top:75%;
+}
+.tile-rock-right-bottom .bit-05:before{
+	top:-900%;
+	left:-200%;
+	width:100%;
+	height:1000%;
+}
+.tile-rock-right-bottom .bit-05:after{
+	top:1300%;
+	left:-400%;
+	width:400%;
+	height:100%;
+	/** NOTE **/
+	display:none;
+}
+.tile-rock-right-bottom .bit-06{
+	left:43.75%;
+	top:75%;
+}
+.tile-rock-right-bottom .bit-06:before{
+	width:200%;
+	height:100%;
+	top:-600%;
+	left:300%;
+}
+.tile-rock-right-bottom .bit-06:after{
+	width:200%;
+	height:100%;
+	top:-700%;
+	left:500%;
+}
+.tile-rock-right-bottom .bit-07{
+	left:87.5%;
+	top:18.75%;
+}
+.tile-rock-right-bottom .bit-07:before{
+	width:100%;
+	height:100%;
+	top:100%;
+	left:0;
+}
+.tile-rock-right-bottom .bit-07:after{
+	width:100%;
+	height:700%;
+	top:-200%;
+	left:-700%;
+}

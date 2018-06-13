@@ -1,0 +1,77 @@
+.tile-ladder:before, .tile-ladder:after{
+	background-color: var(--color-black);
+}
+.tile-ladder.ladder-brown .bit-01, .tile-ladder.ladder-brown .bit-01:before{
+	background-color: var(--color-brown);
+}
+.tile-ladder.ladder-green .bit-01, .tile-ladder.ladder-green .bit-01:before{
+	background-color: var(--color-green);
+}
+.tile-ladder.ladder-grey .bit-01, .tile-ladder.ladder-grey .bit-01:before{
+	background-color: var(--color-white);
+}
+.tile-ladder.ladder-brown,
+.tile-ladder.ladder-green{
+	background-color: var(--color-khaki);
+}
+.tile-ladder.ladder-grey{
+	background-color: var(--color-grey);
+}
+.tile-ladder .bit-01:after, .tile-ladder .bit-02, .tile-ladder .bit-02:before, .tile-ladder .bit-02:after, .tile-ladder .bit-03, .tile-ladder .bit-03:before{
+	background-color: var(--color-blue);
+}
+.tile-ladder .bit-03:after{
+	display:none;
+}
+.tile-ladder:before{
+	width:12.5%;
+	height:100%;
+	left:6.25%;
+}
+.tile-ladder:after{
+	width:6.25%;
+	height:100%;
+	left:93.75%;
+}
+.tile-ladder .bit-01{
+	top:0;
+	left:18.75%;
+}
+.tile-ladder .bit-01:before{
+	top:0;
+	left:0;
+	width:1100%;
+	height:1600%;
+}
+.tile-ladder .bit-01:after{
+	top:100%;
+	left:-100%;
+	width:1200%;
+	height:300%;
+}
+.tile-ladder .bit-02{
+	top: 31.25%;
+	left:12.5%;
+}
+.tile-ladder .bit-02:before{
+	width:1200%;
+	height:300%;
+	top:0;
+	left:0;
+}
+.tile-ladder .bit-02:after{
+	width:1200%;
+	height:300%;
+	top:400%;
+	left:0;
+}
+.tile-ladder .bit-03{
+	top: 81.25%;
+	left:12.5%;
+}
+.tile-ladder .bit-03:before{
+	width:1200%;
+	height:300%;
+	top:0;
+	left:0;
+}

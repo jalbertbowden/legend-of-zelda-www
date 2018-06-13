@@ -1,0 +1,140 @@
+.tile-dungeon-door-bombed-south .bit-07:before,
+.tile-dungeon-door-bombed-south .bit-07:after{
+	display:none;
+}
+
+
+
+.tile-dungeon-door-bombed-south{
+	position:absolute;
+}
+.s512 .tile-dungeon-door-bombed-south{
+	width:64px;
+	width:32px;
+	height:64px;
+	height:32px;
+	left:448px;
+	left:224px;
+	z-index:20;
+}
+.s512 .tile-dungeon-door-bombed-south{
+	top:176px;
+	top:88px;
+}
+
+
+
+
+
+.tile-dungeon-door-bombed-south:before{
+	width:100%;
+	height:50%;
+	left:0;
+	top:50%;
+}
+.tile-dungeon-door-bombed-south:after{
+	width:87.5%;
+	height:12.5%;
+	left:6.25%;
+	top:50%; 
+}
+.tile-dungeon-door-bombed-south .bit-01{
+	top:68.75%;
+	left:6.25%;
+}
+.tile-dungeon-door-bombed-south .bit-01:before{
+	top:-100%;
+	left:100%;
+	height:100%;
+	width:1200%;
+}
+.tile-dungeon-door-bombed-south .bit-01:after{
+	top:0;
+	left:200%;
+	height:100%;
+	width:1000%;
+}
+.tile-dungeon-door-bombed-south .bit-02{
+	top:87.5%;
+	left:18.75%;
+}
+.tile-dungeon-door-bombed-south .bit-02:before{
+	top:-200%;
+	left:200%;
+	height:100%;
+	width:600%;
+}
+.tile-dungeon-door-bombed-south .bit-02:after{
+	top:-200%;
+	left:900%;
+	height:200%;
+	width:100%;
+}
+.tile-dungeon-door-bombed-south .bit-03{
+	top:87.5%;
+	left:0;
+}
+.tile-dungeon-door-bombed-south .bit-03:before{
+	top:-200%;
+	left:1500%;
+	height:200%;
+	width:100%;
+}
+.tile-dungeon-door-bombed-south .bit-03:after{
+	top:-300%;
+	left:1400%;
+	height:100%;
+	width:100%;
+}
+.tile-dungeon-door-bombed-south .bit-04{
+	top:81.25%;
+	left:0;
+}
+.tile-dungeon-door-bombed-south .bit-04:before{
+	top:100%;
+	left:1300%;
+	height:100%;
+	width:100%;
+}
+.tile-dungeon-door-bombed-south .bit-04:after{
+	top:200%;
+	left:1400%;
+	height:100%;
+	width:100%;
+}
+.tile-dungeon-door-bombed-south .bit-05{
+	top:75%;
+	left:0; 
+}
+.tile-dungeon-door-bombed-south .bit-05:before{
+	top:100%;
+	left:700%;
+	height:100%;
+	width:200%;
+}
+.tile-dungeon-door-bombed-south .bit-05:after{
+	top:200%;
+	left:900%;
+	height:100%;
+	width:100%;
+}
+.tile-dungeon-door-bombed-south .bit-06{
+	left:37.5%;
+	top:93.75%;
+}
+.tile-dungeon-door-bombed-south .bit-06:before{
+	top:-200%;
+	left:-200%;
+	height:100%;
+	width:100%;
+}
+.tile-dungeon-door-bombed-south .bit-06:after{
+	top:-100%;
+	left:100%;
+	height:100%;
+	width:100%;
+}
+.tile-dungeon-door-bombed-south .bit-07{
+	top:93.75%;
+	left:75%;
+}

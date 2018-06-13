@@ -1,0 +1,233 @@
+.grid-example-box{
+	display:grid;
+	grid-column-gap:10px;
+	grid-row-gap:0;
+	width:1034px;
+	height:548px;
+	outline:1px solid #f00;
+	margin:1em auto;
+	grid-template-rows:60px 488px;
+	grid-template-columns:512px 512px;
+}
+.grid-example-box-header{
+	margin:0;
+	height:60px;
+	text-indent:1em;
+	line-height:60px;
+	grid-column: 1 / span 2;
+	grid-row:1;
+	width:100%;
+}
+.grid-example-box-child{
+	outline:1px dotted #fff;
+	background-repeat:no-repeat;
+	background-position:50% 50%;
+	width:512px;
+	height:488px;
+	grid-row:2;
+	position:relative;
+}
+#example-img{
+	grid-column:1;
+}
+.example-content-box{
+	top:152px;
+	position:absolute;
+	left:0;
+	width:100%;
+	height:336px;
+}
+.example-content-box.no-subscreen{top:40px; height:448px;}/** 152 - 112 = 40 which is height of header above it **/
+#example-demo{
+	grid-column:2;
+}
+.h3-demo{
+	margin:0;
+	padding:0;
+	width:100%;
+	height:40px;
+	line-height:40px;
+	text-indent:1em;
+	grid-row:2;
+	position:relative;
+}
+.h3-demo:before{
+	width:100%;
+	height:1px;
+	position:absolute;
+	content:"";
+	top:39px;
+	left:0;
+	background-color:#666;
+}
+.content main{
+	padding-left:0;
+}
+
+.example-demo-spacer-fake-subscreen{
+	position:absolute;
+	top:40px;
+	left:0;
+	height:112px;
+	width:100%;
+	background:url("https://bowdenweb.com/nes/loz/i/subscreen/legend-of-zelda-subscreen-11-256x224-subscreen-512x112.gif") 0 0 no-repeat;
+}
+
+
+.screen-grid{
+	position:relative;
+}
+
+
+
+
+
+
+
+
+.demo-grid{
+	display:grid;
+	width:1034px;
+	grid-template-columns:512px 512px;
+	grid-template-rows:512px;
+	grid-column-gap:10px;
+	outline:1px dotted #666;
+}
+.demo-img{
+	width:512px;
+	height:512px;
+	grid-column:1;
+	grid-row:1;
+	outline:1px solid #000;
+}
+.demo-css{
+	width:512px;
+	height:512px;
+	grid-column:2;
+	grid-row:1;
+	outline:1px solid #000;
+}
+
+
+
+.tile-size-016 .tile{width:16px; height:16px;}
+.tile-size-032 .tile{width:32px; height:32px;}
+.tile-size-064 .tile{width:64px; height:64px;}
+.tile-size-128 .tile{width:128px; height:128px;}
+.tile-size-256 .tile{width:256px; height:256px;}
+.screen-size-256x224{
+	width:256px;
+	height:224px;
+}
+.screen-size-512x448{
+	width:512px;
+	height:448px;
+}
+.screen-size-1024x896{
+	width:1024px;
+	height:896px;
+}
+.screen-size-2048x1792{
+	width:2048px;
+	height:1792px;
+}
+
+.screen-size-256x224 .sub-screen{
+	background-image:url("https://bowdenweb.com/nes/loz/i/dungeons/legend/level-09-subscreen-256x056.gif");
+}
+.screen-size-256x224 .sub-screen.sub-screen-alt{
+	background-image:url("https://bowdenweb.com/nes/loz/i/subscreen/legend-of-zelda-origin-tile-11-256x224.gif");
+}
+.screen-size-512x448 .sub-screen{
+	background-image:url("https://bowdenweb.com/nes/loz/i/dungeons/legend/level-09-subscreen-512x112.gif");
+}
+.screen-size-1024x896 .sub-screen{
+	background-image:url("https://bowdenweb.com/nes/loz/i/dungeons/legend/level-09-subscreen-1024x224.gif");
+}
+.screen-size-2048x1792 .sub-screen{
+	background-image:url("https://bowdenweb.com/nes/loz/i/dungeons/legend/level-09-subscreen-2048x448.gif");
+}
+.screen-size-2048x1792 .sub-screen.sub-screen-alt{
+	background-image:url("https://bowdenweb.com/nes/loz/i/subscreen/legend-of-zelda-subscreen-11-256x224-subscreen-2048x448.gif");
+}
+
+.ssdemo{
+	margin:10px auto;
+	outline:1px dotted #666;
+}
+
+.tile-size-008 .tile,
+.tile-size-008 .tile.tile-char{width:8px; height:8px;}
+.tile-size-016 .tile,
+.tile-size-016 .tile.tile-char{width:16px; height:16px;}
+.tile-size-032 .tile,
+ol.tile-size-032 li.tile.tile-char{width:32px; height:32px;}
+.tile-size-064 .tile,
+.tile-size-064 .tile.tile-char{width:64px; height:64px;}
+.tile-size-128 .tile,
+.tile-size-128 .tile.tile-char{width:128px; height:128px;}
+.tile-size-256 .tile,
+.tile-size-256 .tile.tile-char{width:256px; height:256px;}
+
+.clearleft{clear:left; float:none;}
+
+.screen-grid{
+	position:relative;
+}
+
+
+#example-img-content.example-content-box {
+    top: 40px;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 512px;
+    background-repeat:no-repeat;
+    background-position:-128px 0;
+}
+
+.content-demo #example-img-content.example-content-box {
+    background-position:0 0;
+}
+
+
+
+.example-img{background-color:#f00;}
+.example-content-box{background-color:#00f; height:512px; top:40px; }
+main .grid-example-box{height:512px;}
+
+
+.example-content-box.screen-size-512{
+	width:512px;
+	height:512px;
+	background-color:#999;
+}
+.screen-size-016{
+	width:16px;
+	height:16px;
+}
+.screen-size-032{
+	width:32px;
+	height:32px;
+}
+.screen-size-064{
+	width:64px;
+	height:64px;
+}
+.screen-size-128{
+	width:128px;
+	height:128px;
+}
+.screen-size-256{
+	width:256px;
+	height:256px;
+}
+h2{text-align:center;}
+.example-content-box.example-content-box-standalone{
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	top:0;
+	margin-top:0; margin-bottom:0;
+}
+

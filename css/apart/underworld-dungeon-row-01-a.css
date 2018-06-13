@@ -1,0 +1,143 @@
+/** underworld-dungeon-row-01-a.css **/
+	
+/**
+	--color-underground-blue-light
+**/
+	
+.tile-dungeon-01a.level-01-gsarchives{
+	background-color:var(--color-underground-grey);
+}
+.tile-dungeon-01a.level-01-gsarchives:before,
+.tile-dungeon-01a.level-01-gsarchives:after,
+.tile-dungeon-01a.level-01-gsarchives .bit-01,
+.tile-dungeon-01a.level-01-gsarchives .bit-01:before,
+.tile-dungeon-01a.level-01-gsarchives .bit-01:after,
+.tile-dungeon-01a.level-01-gsarchives .bit-02,
+.tile-dungeon-01a.level-01-gsarchives .bit-02:before,
+.tile-dungeon-01a.level-01-gsarchives .bit-02:after,
+.tile-dungeon-01a.level-01-gsarchives .bit-03,
+.tile-dungeon-01a.level-01-gsarchives .bit-03:before,
+.tile-dungeon-01a.level-01-gsarchives .bit-03:after,
+.tile-dungeon-01a.level-01-gsarchives .bit-04,
+.tile-dungeon-01a.level-01-gsarchives .bit-04:before,
+.tile-dungeon-01a.level-01-gsarchives .bit-04:after,
+.tile-dungeon-01a.level-01-gsarchives .bit-05,
+.tile-dungeon-01a.level-01-gsarchives .bit-05:before,
+.tile-dungeon-01a.level-01-gsarchives .bit-05:after,
+.tile-dungeon-01a.level-01-gsarchives .bit-06{
+	background-color:var(--color-underground-grey-dark);
+}
+.tile-dungeon-01a.level-01-gsarchives .bit-06:before,
+.tile-dungeon-01a.level-01-gsarchives .bit-06:after{
+	background-color:var(--color-underground-blue-light);
+}
+
+.tile-dungeon-01a:before{
+	width:6.25%;
+	height:31.25%;
+	top:68.75%;
+	left:68.75%;
+}
+.tile-dungeon-01a:after{
+	width:31.25%;
+	height:6.25%;
+	top:68.75%;
+	left:68.75%;
+}
+
+.tile-dungeon-01a .bit-01{
+	top:0;
+	left:0;
+}
+.tile-dungeon-01a .bit-01:before{
+	width:100%;
+	height:100%;
+	top:100%;
+	left:100%;
+}
+.tile-dungeon-01a .bit-01:after{
+	width:100%;
+	height:100%;
+	top:200%;
+	left:200%;
+}
+.tile-dungeon-01a .bit-02{
+	top:18.75%;
+	left:18.75%;
+}
+.tile-dungeon-01a .bit-02:before{
+	width:100%;
+	height:100%;
+	top:100%;
+	left:100%;
+}
+.tile-dungeon-01a .bit-02:after{
+	width:100%;
+	height:100%;
+	top:200%;
+	left:200%;
+}
+.tile-dungeon-01a .bit-03{
+	top:37.5%;
+	left:37.5%;
+}
+.tile-dungeon-01a .bit-03:before{
+	width:100%;
+	height:100%;
+	top:100%;
+	left:100%;
+}
+.tile-dungeon-01a .bit-03:after{
+	width:100%;
+	height:100%;
+	top:200%;
+	left:200%;
+}
+.tile-dungeon-01a .bit-04{
+	top:56.25%;
+	left:56.25%;
+}
+.tile-dungeon-01a .bit-04:before{
+	width:100%;
+	height:100%;
+	top:100%;
+	left:100%;
+}
+.tile-dungeon-01a .bit-04:after{
+	width:100%;
+	height:100%;
+	top:200%;
+	left:200%;
+}
+.tile-dungeon-01a .bit-05{
+	top:75%;
+	left:75%;
+}
+.tile-dungeon-01a .bit-05:before{
+	width:100%;
+	height:100%;
+	top:100%;
+	left:100%;
+}
+.tile-dungeon-01a .bit-05:after{
+	width:100%;
+	height:100%;
+	top:200%;
+	left:200%;
+}
+.tile-dungeon-01a .bit-06{
+	top:93.75%;
+	left:93.75%;
+}
+.tile-dungeon-01a .bit-06:before{
+	width:100%;
+	height:300%;
+	top:-200%;
+	left:-300%;
+}
+.tile-dungeon-01a .bit-06:after{
+	width:300%;
+	height:100%;
+	top:-300%;
+	left:-200%;
+}

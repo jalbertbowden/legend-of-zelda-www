@@ -1,0 +1,180 @@
+.inventory-list-tile{
+	position:relative;
+}
+.inventory-list-tile:before,
+.inventory-list-tile:after,
+.inv-text .bit:before,
+.inv-text .bit:after{
+	position:absolute;
+	content:"";
+}
+.inventory-list-tile .bit,
+.inv-text .bit{
+	display:block;
+	width:12.5%;
+	height:12.5%;
+	position:absolute;
+}
+
+
+/** --color-black, --color-white **/
+
+.inv-text:before{
+	background-color:var(--color-black);
+}
+.inv-text:after,
+.inv-text .bit,
+.inv-text .bit:before,
+.inv-text .bit:after{
+	background-color:var(--color-white);
+}
+
+
+/** display:none;s **/
+.inv-text-0 .bit-03:after{
+	display:none;
+}
+
+
+
+
+
+
+.inv-times:before,
+.inv-text:before{
+	width:87.5%;
+	height:87.5%;
+	top:0;
+	left:0;
+}
+
+
+
+
+
+/** multiplication sign, aka "times" **/
+.inv-times:after{
+	width:25%;
+	height:25%;
+	left:0;
+	top:62.5%;
+}
+.inv-times .bit-01{
+	top:50%;
+	left:12.5%;
+}
+.inv-times .bit-01:before{
+	width:200%;
+	height:200%;
+	left:400%;
+	top:100%;
+}
+.inv-times .bit-01:after{
+	width:200%;
+	height:200%;
+	left:400%;
+	top:-400%;
+}
+.inv-times .bit-02{
+	top:62.5%;
+	left:25%;
+}
+.inv-times .bit-02:before{
+	top:-300%;
+	left:0;
+	width:300%;
+	height:300%;
+}
+.inv-times .bit-02:after{
+	top:-500%;
+	left:-200%;
+	width:200%;
+	height:200%;
+}
+.inv-times .bit-03{
+	top:25%;
+	left:12.5%;
+}
+.inv-times .bit-03:before{
+	width:100%;
+	height:100%;
+	top:-100%;
+	left:100%;
+}
+.inv-times .bit-03:after{
+	width:100%;
+	height:100%;
+	top:-100%;
+	left:300%;
+}
+.inv-times .bit-04{
+	top:25%;
+	left:62.5%;
+}
+.inv-times .bit-04:before{
+	width:100%;
+	height:100%;
+	top:200%;
+	left:0;
+}
+.inv-times .bit-04:after{
+	width:100%;
+	height:100%;
+	top:300%;
+	left:-100%;
+}
+
+
+
+
+/** text characters - numeric **/
+/** 0 **/
+.inv-text-0:after{
+	width:25%;
+	height:37.5%;
+	left:0;
+	top:25%;
+}
+
+.inv-text-0 .bit-01{
+	top:12.5%;
+	left:12.5%;
+}
+.inv-text-0 .bit-01:before{
+	width:200%;
+	height:300%;
+	left:400%;
+	top:100%;
+}
+.inv-text-0 .bit-01:after{
+	width:300%;
+	height:100%;
+	top:-100%;
+	left:100%;
+}
+.inv-text-0 .bit-02{
+	top:62.5%;
+	left:12.5%;
+}
+.inv-text-0 .bit-02:before{
+	top:100%;
+	left:100%;
+	width:300%;
+	height:100%;
+}
+.inv-text-0 .bit-02:after{
+	top:-400%;
+	left:300%;
+	width:200%;
+	height:100%;
+}
+.inv-text-0 .bit-03{
+	top:62.5%;
+	left:25%;
+}
+.inv-text-0 .bit-03:before{
+	top:0;
+	left:300%;
+	width:100%;
+	height:100%;
+}

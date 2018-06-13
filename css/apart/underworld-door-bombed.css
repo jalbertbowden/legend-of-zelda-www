@@ -1,0 +1,133 @@
+/** door bombed **/
+/** 
+level 1 #008484
+level 1 gsarchives #848484
+level 2 #4200ff
+level 3 #009431
+level 4 #847300
+level 5 #00a500
+level 6 #848400
+level 7 #00a500
+level 8 #848484
+level 9 #848484
+**/
+
+
+.tile-dungeon-door-bombed-east.level-01:before,
+.tile-dungeon-door-bombed-east.level-01 .bit,
+.tile-dungeon-door-bombed-east.level-01 .bit:before,
+.tile-dungeon-door-bombed-east.level-01 .bit:after{
+	background-color:var(--color-black);
+}
+.tile-dungeon-door-bombed-east.level-01:after{
+	background-color:#008484;
+}
+
+.tile-dungeon-door-bombed-east:before{
+	width:100%;
+	height:93.75%;
+	left:0;
+	top:0;
+}
+.tile-dungeon-door-bombed-east:after{
+	width:50%;
+	height:93.75%;
+	left:50%;
+	top:0;
+}
+.tile-dungeon-door-bombed-east .bit-01{
+	top:0;
+	left:68.75%;
+}
+.tile-dungeon-door-bombed-east .bit-01:before{
+	top:200%;
+	left:-100%;
+	height:100%;
+	width:400%;
+}
+.tile-dungeon-door-bombed-east .bit-01:after{
+	top:0;
+	left:-300%;
+	height:1400%;
+	width:200%;
+}
+.tile-dungeon-door-bombed-east .bit-02{
+	top:6.25%;
+	left:87.5%;
+}
+.tile-dungeon-door-bombed-east .bit-02:before{
+	top:200%;
+	left:-400%;
+	height:900%;
+	width:200%;
+}
+.tile-dungeon-door-bombed-east .bit-02:after{
+	top:300%;
+	left:-200%;
+	height:600%;
+	width:100%;
+}
+.tile-dungeon-door-bombed-east .bit-03{
+	top:0;
+	left:93.75%;
+}
+.tile-dungeon-door-bombed-east .bit-03:before{
+	top:700%;
+	left:-200%;
+	height:100%;
+	width:200%;
+}
+.tile-dungeon-door-bombed-east .bit-03:after{
+	top:1400%;
+	left:-300%;
+	height:100%;
+	width:300%;
+}
+.tile-dungeon-door-bombed-east .bit-04{
+	top:6.25%;
+	left:62.5%;
+}
+.tile-dungeon-door-bombed-east .bit-04:before{
+	top:1100%;
+	left:0;
+	height:100%;
+	width:100%;
+}
+.tile-dungeon-door-bombed-east .bit-04:after{
+	top:1200%;
+	left:100%;
+	height:100%;
+	width:100%;
+}
+.tile-dungeon-door-bombed-east .bit-05{
+	top:12.5%;
+	left:93.75%;
+}
+.tile-dungeon-door-bombed-east .bit-05:before{
+	top:900%;
+	left:-100%;
+	height:100%;
+	width:100%;
+}
+.tile-dungeon-door-bombed-east .bit-05:after{
+	top:800%;
+	left:-200%;
+	height:100%;
+	width:100%;
+}
+.tile-dungeon-door-bombed-east .bit-06{
+	top:31.25%;
+	left:87.5%;
+}
+.tile-dungeon-door-bombed-east .bit-06:before{
+	top:100%;
+	left:-100%;
+	height:100%;
+	width:100%;
+}
+.tile-dungeon-door-bombed-east .bit-06:after{
+	top:300%;
+	left:100%;
+	height:100%;
+	width:100%;
+}

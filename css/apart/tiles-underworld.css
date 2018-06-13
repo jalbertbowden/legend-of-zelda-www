@@ -1,0 +1,363 @@
+/** underworld styles **/
+
+/** color palette **/
+/** level 01
+grey: #008484, dark grey: #214242, light blue: #0ff
+**/
+
+/** level 02
+light blue: #4284ff, black: #000, purple: #4200ff, 
+--color-underground-blue-light-level-02: #4284ff;
+--color-underground-black: #000;
+--color-underground-purple: #4200ff;
+**/
+/**
+
+level 03
+light green
+#52f794
+black
+#000
+green
+#009431
+brown
+#003910
+
+
+level 04
+light orange
+#efbd39
+orange
+#847300
+red
+#392900
+black
+#000
+
+
+level 05
+light orangegreen
+#42c642
+oranggreen
+#00a500
+red
+#004200
+black
+#000
+
+
+level 06
+light green
+#ffc642
+green
+#848400
+brown-red
+#422100
+black
+#000
+
+
+
+level 07
+light orangegreen
+#42c642
+orangegreen
+#00a500
+red
+#004200
+black
+#000
+
+
+
+
+
+level 08
+white
+#fff
+grey
+#848484
+dark grey
+#424242
+black
+#000
+
+
+level 09
+white
+#fff
+grey
+#848484
+dark grey
+#424242
+black
+#000
+**/
+
+/**
+level 01 gsarchives
+grey
+#008484
+dark grey
+#214242
+light blue
+#0ff
+
+c62100
+**/
+/** underworld colors in tiles.css
+light grey - #00efde
+grey - #008c8c
+dark grey - #00425a **/
+/**	--color-underground-white: #fff; white
+	--color-underground-grey: #008484;  light grey level 01
+	--color-underground-grey-alt: #ffa584; underworld sand tiles grey flavor
+	--color-underground-grey-89: #848484; grey levels 08/09 stone statue easts backgrounds
+	--color-underground-grey-dark: #214242; grey level 01
+	--color-underground-grey-dark-alt: #424242; dark grey level 8 stone statue east b level 9 stone statues skin
+	--color-underground-blue: #0021ff; blue level 01 stone statue
+	--color-underground-blue-light: #0ff; light blue level 01
+	--color-underground-blue-light-level-02: #4284ff; light blue - level 02 stone statues east
+	--color-underground-blue-light-alt: #63a5ff; light blue - level 08 stone statue east a skin
+	--color-underground-blue-level-04: #1839ef; level 04 stone statue east a
+	--color-underground-blue-purple: #000084; underworld sand tiles
+	--color-underground-blue-royal: #000084; royal blue - level 02 stone statue east b
+	--color-underground-blue-royal-7: #2142ff; royaler blue - level 07 stone statue east a
+	--color-underground-purple: #4200ff; purple - level 02 stone statues
+	--color-underground-red: #c62100; red - level 02 stone statue east a - level 05 stone statue east a skin - stone statue level 6 a skin
+	--color-underground-red-alt: #004200; burnt sienna - level 05 stone statue east b skin - level 07 b stone statue east skin
+	--color-underground-red-alt-2: #422100; level 06 stone statue east b skin
+	--color-underground-red-dark: #392900; crimson - level 04 stone statue east b skin
+	--color-underground-red-orange: #c62100; level 03 stone statue east a skin
+	--color-underground-green: #009431; level 03 stone statue easts background
+	--color-underground-green-alt: #848400; level 06 stone statue easts backgrounds
+	--color-underground-green-gold: #847300; underworld sand tiles
+	--color-underground-green-light: #52f794; level 03 stone statue easts hair/eyes/etc
+	--color-underground-green-light-alt: #ffc642; level 06 stone statue easts hair/eyes/etc
+	--color-underground-brown: #003910; level 03 stone statue east b skin
+	--color-underground-brown-chocolate: #422100; underworld sand tiles
+	--color-underground-brown-dark: #392900; underworld sand tiles
+	--color-underground-orange: #847300; level 04 stone statue east background
+	--color-underground-orange-green: #00a500; level 05 stone statue east background - level 07 stone statue easts background
+	--color-underground-orange-green-light: #42c642; level 05 stone statue easts hair/eyes/etc - level 07 stone statue easts hair/eyes/etc
+	--color-underground-orange-light: #efbd39; level 04 stone statues easts hair/eyes/etc
+	--color-underground-orange-pink: #ffa584; underworld sand tiles
+	--color-underground-orange-yellow: #ff8400; underworld sand tiles
+	--color-underground-yellow-green: #848400; underworld sand tiles
+	--color-underground-yellow-gold: #efbd39; underworld sand tiles
+	--color-underground-yellow-pink: #ffc642; underworld sand tiles
+	
+	
+	--color-u-grey-light: #00efde; cream - level 01 gsarchives
+	--color-u-grey: #008c8c;  light grey level 01 gsarchives
+	--color-u-grey-dark: #00425a; level 01 gsarchives
+	--color-u-blue: #005aff; blue - level 01 stone statue; water-lava level 01
+**/
+
+
+
+:root{
+	
+	--color-underground-grey: #008484;
+	--color-underground-grey-alt: #ffa584;
+	--color-underground-grey-89: #848484;
+	--color-underground-grey-dark: #214242;
+	--color-underground-grey-dark-alt: #424242;
+	--color-grey-light-dungeon-item-room:#bcbcbc;
+	
+	--color-underground-black: #000;
+	
+	--color-underground-blue: #0021ff;
+	--color-underground-blue-light: #0ff;
+	--color-underground-blue-light-level-02: #4284ff;
+	--color-underground-blue-light-alt: #63a5ff;
+	--color-underground-blue-level-04: #1839ef;
+	--color-underground-blue-purple: #000084;
+	--color-underground-blue-royal: #000084;
+	--color-underground-blue-royal-7: #2142ff;
+	
+	--color-underground-purple: #4200ff;
+	
+	--color-underground-red: #c62100;
+	--color-underground-red-alt: #004200;
+	--color-underground-red-alt-2: #422100;
+	--color-underground-red-dark: #392900;
+	--color-underground-red-orange: #c62100;
+	
+	--color-underground-green: #009431;
+	--color-underground-green-alt: #848400;
+	--color-underground-green-gold: #847300;
+	--color-underground-green-light: #52f794;
+	--color-underground-green-light-alt: #ffc642;
+	
+	--color-underground-brown: #003910;
+	--color-underground-brown-chocolate: #422100;
+	--color-underground-brown-dark: #392900;
+	
+	--color-underground-orange: #847300;
+	--color-underground-orange-green: #00a500;
+	--color-underground-orange-green-light: #42c642;
+	--color-underground-orange-light: #efbd39;
+	--color-underground-orange-pink: #ffa584;
+	
+	--color-underground-orange-yellow: #ff8400;
+	
+	--color-underground-yellow-green: #848400;
+	--color-underground-yellow-gold: #efbd39;
+	--color-underground-yellow-pink: #ffc642;
+	
+	--color-underground-white: #fff;
+	
+	
+	--color-u-grey-light: #00efde;
+	--color-u-grey: #008c8c;
+	--color-u-grey-dark: #00425a;
+	--color-u-blue: #005aff;
+	
+/**
+brick dungeon item room
+	--color-grey-light-dungeon-item-room:#bcbcbc;
+	--color-grey:#747474;
+**/
+}
+
+.underworld-water-lava.level-01-gsarchives{
+	background-color:var(--color-u-blue);
+}
+.gamescreen512{
+	width:512px;
+	height:448px;
+	overflow:hidden;
+	position:relative;
+}
+.size-512x336.gamescreen512{
+	height:336px;
+}
+.size-512x336 .screen-game-grid{
+	width:100%;
+	height:336px;
+}
+.screen-game-grid{
+	position:absolute;
+	width:100%;
+	height:336px;
+	top:112px;;
+	left:0;
+}
+.size-512x336 .screen-game-grid{
+	top:0;
+}
+.dungeon-walls-north{
+	position:absolute;
+	top:16px;
+	display:grid;
+	grid-template-columns:32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px;
+	grid-template-rows: 32px;
+	left:16px;
+	height:32px;
+	/** width:480px; **/
+	width:93.75%;
+}
+.dungeon-walls-mid-01{
+	position:absolute;
+	top:48px;
+	display:grid;
+	grid-template-columns:32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px;
+	grid-template-rows: 32px;
+	left:16px;
+	height:32px;
+	/** width:480px; **/
+	width:93.75%;
+}
+.dungeon-walls-mid-0234{
+	position:absolute;
+	top:80px;
+	display:grid;
+	grid-template-columns:32px 32px 352px 32px 32px;
+	grid-template-rows: repeat(6, 1fr);
+	/** left:6.25%; **/
+	left:16px;
+	height:192px;
+	/** width:480px; **/
+	width:93.75%;
+}
+.grid-col-dungeon-filler{
+	/** width:352px; **/
+	width:68.75%;
+}
+.dungeon-walls-row-04{
+	position:absolute;
+	top:272px;
+	display:grid;
+	grid-template-columns:32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px;
+	grid-template-rows: 32px;
+	left:6.25%;
+	left:16px;
+	height:32px;
+	height:32px;
+	/** width:480px; **/
+	width:93.75%;
+}
+.dungeon-walls-row-05{
+	position:absolute;
+	top:304px;
+	display:grid;
+	grid-template-columns:32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px;
+	grid-template-rows: 32px;
+	left:6.25%;
+	left:16px;
+	height:256px;
+	height:32px;
+	/** width:480px; **/
+	width:93.75%;
+}
+#ul-screen-grid-dungeon,
+.ol-screen-grid-dungeon{
+	/** width:384px; **/
+	width:75%;
+	height:224px;
+	top:64px;
+	/** left:64px; **/
+	left:12.5%;
+	position:absolute;
+	display:grid;
+	grid-template-columns:repeat(12, 1fr);
+	grid-template-rows: repeat(7, 1fr);
+}
+.game-tile-size-032 .tile,
+.dungeon-walls-north.s512 .tile,
+#ul-screen-grid-dungeon .tile{
+	width:32px;
+	height:32px;
+}
+.dungeon-bricks{
+	display:grid;
+	position:absolute;
+}
+.dungeon-bricks-north-tiles{
+	top:0;
+	left:0;
+	width:100%;
+	height:16px;
+	grid-template-columns:repeat(16, 1fr);
+	grid-template-rows:16px;
+}
+.dungeon-bricks-west-tiles{
+	left:0;
+}
+.dungeon-bricks-east-tiles{
+	/** left:496px; **/
+	left:96.875%;
+}
+.dungeon-bricks-side{
+	grid-template-columns:16px;
+	grid-template-rows:repeat(10, 1fr);
+	top:16px;
+	/** width:16px; **/
+	width:3.125%;
+	height:320px;
+	overflow:hidden;
+}
+.dungeon-bricks-side li.tile{
+	width:200%;
+}

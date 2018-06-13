@@ -1,0 +1,451 @@
+/** underworld brick tile level 01 **/
+/**
+light grey - #00efde
+grey - #008c8c
+dark grey - #00425a 
+
+	--color-u-grey-light: ##00efde;
+	--color-u-grey: #008c8c;
+	--color-u-grey-dark:
+
+**/
+
+
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01:before{
+	background-color:var(--color-u-grey);
+}
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01:after,
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-01,
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-01:before,
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-01:after,
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-02,
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-02:before,
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-02:after,
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-03,
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-03:before,
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-03:after,
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-04,
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-04:before,
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-04:after,
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-05,
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-05:before,
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-05:after,
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-06,
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-06:before,
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-06:after,
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-07,
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-07:before,
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-07:after,
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-08,
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-08:before,
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-08:after,
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-09,
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-09:before,
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-09:after,
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-10,
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-11,
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-12{
+	background-color:var(--color-u-grey-light);
+}
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-10:before,
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-10:after,
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-11:before,
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-11:after,
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-12:before,
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-12:after,
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-13,
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-13:before,
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-13:after,
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-14,
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-14:before,
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-14:after,
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-15,
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-15:before,
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-15:after,
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-16,
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-16:before,
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-16:after,
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-17,
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-17:before,
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-17:after,
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-18,
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-18:before,
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-18:after,
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-19,
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-19:before,
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-19:after,
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-20,
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-20:before{
+	background-color:var(--color-u-grey-dark);
+}
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-20:after,
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-21,
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-21:before{
+	background-color:var(--color-black);
+}
+
+/** display:none;s  **/
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-21:after{
+	display:none;
+}
+
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01:before{
+	width:250%;
+	height:75%;
+	top:0;
+	left:0;
+}
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01:after{
+	width:250%;
+	height:3.125%;
+	top:37.5%;
+	left:0;
+}
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit{
+	width:3.125%;
+	height:3.125%;
+}
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-01{
+	top:71.875%;
+	left:62.5%;
+}
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-01:before{
+	top:-300%;
+	left:-2000%;
+	width:8000%;
+	height:100%;
+}
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-01:after{
+	top:-200%;
+	left:100%;
+	width:100%;
+	height:200%;
+}
+
+
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-02{
+	top:71.875%;
+	left:187.5%;
+}
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-02:before{
+	top:-200%;
+	left:100%;
+	width:100%;
+	height:200%;
+}
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-02:after{
+	top:-1900%;
+	left:-5900%;
+	width:700%;
+	height:300%;
+}
+
+
+
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-03{
+	top:21.875%;
+	left:3.125%;
+}
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-03:before{
+	top:-500%;
+	left:100%;
+	width:400%;
+	height:100%;
+}
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-03:after{
+	top:-400%;
+	left:100%;
+	width:500%;
+	height:100%;
+}
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-04{
+	top:56.25%;
+	left:9.375%;
+}
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-04:before{
+	top:-300%;
+	left:4100%;
+	width:100%;
+	height:200%;
+}
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-04:after{
+	top:-100%;
+	left:4000%;
+	width:100%;
+	height:200%;
+}
+
+
+
+
+
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-05{
+	top:53.125%;
+	left:9.375%;
+}
+
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-05:before{
+	top:-400%;
+	left:4200%;
+	width:100%;
+	height:200%;
+}
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-05:after{
+	top:-1700%;
+	left:6800%;
+	width:100%;
+	height:300%;
+}
+
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-06{
+	top:50%;
+	left:12.5%;
+}
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-06:before{
+	top:-1300%;
+	left:6600%;
+	width:100%;
+	height:200%;
+}
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-06:after{
+	top:-1100%;
+	left:6500%;
+	width:100%;
+	height:200%;
+}
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-07{
+	top:46.875%;
+	left:12.5%;
+}
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-07:before{
+	top:-800%;
+	left:6400%;
+	width:100%;
+	height:200%;
+}
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-07:after{
+	top:-600%;
+	left:6300%;
+	width:100%;
+	height:200%;
+}
+
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-08{
+	top:43.75%;
+	left:15.625%;
+}
+
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-08:before{
+	top:-1400%;
+	left:2600%;
+	width:100%;
+	height:300%;
+}
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-08:after{
+	top:-1100%;
+	left:2500%;
+	width:100%;
+	height:200%;
+}
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-09{
+	top:40.625%;
+	left:15.625%;
+}
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-09:before{
+	top:-800%;
+	left:2400%;
+	width:100%;
+	height:200%;
+}
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-09:after{
+	top:-600%;
+	left:2300%;
+	width:100%;
+	height:200%;
+}
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-10{
+	left:84.375%;
+	top:28.125%;
+}
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-10:before{
+	top:200%;
+	left:-2700%;
+	width:8000%;
+	height:100%;
+}
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-10:after{
+	top:1000%;
+	left:-2700%;
+	width:8000%;
+	height:100%;
+}
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-11{
+	left:84.375%;
+	top:28.125%;
+}
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-11:before{
+	top:-500%;
+	left:-2700%;
+	width:100%;
+	height:400%;
+}
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-11:after{
+	top:-900%;
+	left:4300%;
+	width:100%;
+	height:300%;
+}
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-12{
+	left:84.375%;
+	top:31.25%;
+}
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-12:before{
+	top:-700%;
+	left:4200%;
+	width:100%;
+	height:200%;
+}
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-12:after{
+	top:-500%;
+	left:4100%;
+	width:100%;
+	height:200%;
+}
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-13{
+	top:56.25%;
+	left:6.25%;
+}
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-13:before{
+	top:-1800%;
+	left:2800%;
+	width:100%;
+	height:300%;
+}
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-13:after{
+	top:-1500%;
+	left:2700%;
+	width:100%;
+	height:200%;
+}
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-14{
+	top:53.125%;
+	left:6.25%;
+}
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-14:before{
+	top:-1200%;
+	left:2600%;
+	width:100%;
+	height:200%;
+}
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-14:after{
+	top:-1000%;
+	left:2500%;
+	width:100%;
+	height:200%;
+}
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-15{
+	top:71.875%;
+	left:59.375%;
+}
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-15:before{
+	top:-1400%;
+	left:700%;
+	width:100%;
+	height:200%;
+}
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-15:after{
+	top:-1400%;
+	left:4700%;
+	width:100%;
+	height:200%;
+}
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-16{
+	top:50%;
+	left:9.375%;
+}
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-16:before{
+	top:-900%;
+	left:6400%;
+	width:100%;
+	height:200%;
+}
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-16:after{
+	top:500%;
+	left:5700%;
+	width:100%;
+	height:200%;
+}
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-17{
+	top:46.875%;
+	left:9.375%;
+}
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-17:before{
+	top:-200%;
+	left:4100%;
+	width:100%;
+	height:200%;
+}
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-17:after{
+	top:0;
+	left:4000%;
+	width:100%;
+	height:200%;
+}
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-18{
+	top:43.75%;
+	left:12.5%;
+}
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-18:before{
+	top:300%;
+	left:3800%;
+	width:100%;
+	height:200%;
+}
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-18:after{
+	top:900%;
+	left:5500%;
+	width:100%;
+	height:100%;
+}
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-19{
+	top:40.625%;
+	left:12.5%;
+}
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-19:before{
+	top:800%;
+	left:1600%;
+	width:100%;
+	height:200%;
+}
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-19:after{
+	top:-1100%;
+	left:-100%;
+	width:100%;
+	height:200%;
+}
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-20{
+	top:15.625%;
+	left:12.5%;
+}
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-20:before{
+	top:-100%;
+	left:0;
+	width:100%;
+	height:100%;
+}
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-20:after{
+	top:100%;
+	left:-100%;
+	width:500%;
+	height:100%;
+}
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-21{
+	top:21.875%;
+	left:6.25%;
+}
+.level-01-gsarchives.tile-dungeon-wall-mid-north-01 .bit-21:before{
+	top:0;
+	left:100%;
+	width:200%;
+	height:100%;
+}

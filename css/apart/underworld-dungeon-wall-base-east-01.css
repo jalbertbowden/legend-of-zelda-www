@@ -1,0 +1,234 @@
+/** underworld brick tile level 01 **/
+/**
+light grey - #00efde
+grey - #008c8c
+dark grey - #00425a 
+
+	--color-u-grey-light: ##00efde;
+	--color-u-grey: #008c8c;
+	--color-u-grey-dark:
+
+**/
+
+
+.level-01-gsarchives.tile-dungeon-wall-base-east-01:before{
+	background-color:var(--color-u-grey);
+}
+.level-01-gsarchives.tile-dungeon-wall-base-east-01:after,
+.level-01-gsarchives.tile-dungeon-wall-base-east-01 .bit-01,
+.level-01-gsarchives.tile-dungeon-wall-base-east-01 .bit-01:before,
+.level-01-gsarchives.tile-dungeon-wall-base-east-01 .bit-01:after,
+.level-01-gsarchives.tile-dungeon-wall-base-east-01 .bit-02,
+.level-01-gsarchives.tile-dungeon-wall-base-east-01 .bit-02:before,
+.level-01-gsarchives.tile-dungeon-wall-base-east-01 .bit-02:after,
+.level-01-gsarchives.tile-dungeon-wall-base-east-01 .bit-03,
+.level-01-gsarchives.tile-dungeon-wall-base-east-01 .bit-03:before,
+.level-01-gsarchives.tile-dungeon-wall-base-east-01 .bit-03:after,
+.level-01-gsarchives.tile-dungeon-wall-base-east-01 .bit-04,
+.level-01-gsarchives.tile-dungeon-wall-base-east-01 .bit-04:before,
+.level-01-gsarchives.tile-dungeon-wall-base-east-01 .bit-04:after{
+	background-color:var(--color-u-grey-light);
+}
+.tile.tile-dungeon-wall-base-east-01.level-01-gsarchives .bit-05:before,
+.tile.tile-dungeon-wall-base-east-01.level-01-gsarchives .bit-05:after,
+.tile.tile-dungeon-wall-base-east-01.level-01-gsarchives .bit-06,
+.tile.tile-dungeon-wall-base-east-01.level-01-gsarchives .bit-06:before,
+.tile.tile-dungeon-wall-base-east-01.level-01-gsarchives .bit-06:after,
+.tile.tile-dungeon-wall-base-east-01.level-01-gsarchives .bit-07,
+.tile.tile-dungeon-wall-base-east-01.level-01-gsarchives .bit-07:before,
+.tile.tile-dungeon-wall-base-east-01.level-01-gsarchives .bit-07:after,
+.tile.tile-dungeon-wall-base-east-01.level-01-gsarchives .bit-08,
+.tile.tile-dungeon-wall-base-east-01.level-01-gsarchives .bit-08:before,
+.tile.tile-dungeon-wall-base-east-01.level-01-gsarchives .bit-08:after,
+.tile.tile-dungeon-wall-base-east-01.level-01-gsarchives .bit-09,
+.tile.tile-dungeon-wall-base-east-01.level-01-gsarchives .bit-09:before,
+.tile.tile-dungeon-wall-base-east-01.level-01-gsarchives .bit-09:after,
+.tile.tile-dungeon-wall-base-east-01.level-01-gsarchives .bit-10{
+	background-color:var(--color-u-grey-dark);
+}
+/** display:none;s **/
+.tile.tile-dungeon-wall-base-east-01.level-01-gsarchives .bit-10:before,
+.tile.tile-dungeon-wall-base-east-01.level-01-gsarchives .bit-10:after{
+	display:none;
+}
+
+.level-01-gsarchives.tile-dungeon-wall-base-east-01:before{
+	width:75%;
+	height:100%;
+	top:0;
+	left:0;
+}
+.level-01-gsarchives.tile-dungeon-wall-base-east-01:after{
+	width:3.125%;
+	height:100%;
+	top:0;
+	left:9.375%;
+}
+
+.level-01-gsarchives.tile-dungeon-wall-base-east-01 .bit{
+	width:3.125%;
+	height:3.125%;
+}
+
+.level-01-gsarchives.tile-dungeon-wall-base-east-01 .bit-01{
+	top:87.5%;
+	left:0;
+}
+.level-01-gsarchives.tile-dungeon-wall-base-east-01 .bit-01:before{
+	top:-1100%;
+	left:2100%;
+	width:300%;
+	height:100%;
+}
+.level-01-gsarchives.tile-dungeon-wall-base-east-01 .bit-01:after{
+	top:-1000%;
+	left:1900%;
+	width:200%;
+	height:100%;
+}
+.level-01-gsarchives.tile-dungeon-wall-base-east-01 .bit-02{
+	top:84.375%;
+	left:3.125%;
+}
+.level-01-gsarchives.tile-dungeon-wall-base-east-01 .bit-02:before{
+	top:-800%;
+	left:1600%;
+	width:200%;
+	height:100%;
+}
+.level-01-gsarchives.tile-dungeon-wall-base-east-01 .bit-02:after{
+	top:-700%;
+	left:1400%;
+	width:200%;
+	height:100%;
+}
+.level-01-gsarchives.tile-dungeon-wall-base-east-01 .bit-03{
+	top:84.375%;
+	left:6.25%;
+}
+.level-01-gsarchives.tile-dungeon-wall-base-east-01 .bit-03:before{
+	top:-600%;
+	left:1100%;
+	width:200%;
+	height:100%;
+}
+.level-01-gsarchives.tile-dungeon-wall-base-east-01 .bit-03:after{
+	top:-2700%;
+	left:900%;
+	width:100%;
+	height:3200%;
+}
+.level-01-gsarchives.tile-dungeon-wall-base-east-01 .bit-04{
+	top:40.625%;
+	left:15.625%;
+}
+.level-01-gsarchives.tile-dungeon-wall-base-east-01 .bit-04:before{
+	top:-100%;
+	left:200%;
+	width:200%;
+	height:100%;
+}
+.level-01-gsarchives.tile-dungeon-wall-base-east-01 .bit-04:after{
+	top:-200%;
+	left:400%;
+	width:200%;
+	height:100%;
+}
+.level-01-gsarchives.tile-dungeon-wall-base-east-01 .bit-05{
+	top:40.625%;
+	left:18.75%;
+}
+.level-01-gsarchives.tile-dungeon-wall-base-east-01 .bit-05:before{
+	top:-1300%;
+	left:-200%;
+	width:100%;
+	height:3200%;
+}
+.level-01-gsarchives.tile-dungeon-wall-base-east-01 .bit-05:after{
+	top:-1300%;
+	left:600%;
+	width:100%;
+	height:3200%;
+}
+.level-01-gsarchives.tile-dungeon-wall-base-east-01 .bit-06{
+	top:84.375%;
+	left:0;
+}
+.level-01-gsarchives.tile-dungeon-wall-base-east-01 .bit-06:before{
+	top:-1100%;
+	left:2100%;
+	width:300%;
+	height:100%;
+}
+.level-01-gsarchives.tile-dungeon-wall-base-east-01 .bit-06:after{
+	top:-1000%;
+	left:1900%;
+	width:200%;
+	height:100%;
+}
+.level-01-gsarchives.tile-dungeon-wall-base-east-01 .bit-07{
+	top:81.125%;
+	left:3.125%;
+}
+.level-01-gsarchives.tile-dungeon-wall-base-east-01 .bit-07:before{
+	top:-800%;
+	left:1600%;
+	width:200%;
+	height:100%;
+}
+.level-01-gsarchives.tile-dungeon-wall-base-east-01 .bit-07:after{
+	top:-700%;
+	left:1400%;
+	width:200%;
+	height:100%;
+}
+.level-01-gsarchives.tile-dungeon-wall-base-east-01 .bit-08{
+	top:81.125%;
+	left:6.25%;
+}
+.level-01-gsarchives.tile-dungeon-wall-base-east-01 .bit-08:before{
+	top:-600%;
+	left:1200%;
+	width:100%;
+	height:100%;
+}
+.level-01-gsarchives.tile-dungeon-wall-base-east-01 .bit-08:after{
+	top:-1400%;
+	left:400%;
+	width:100%;
+	height:100%;
+}
+.level-01-gsarchives.tile-dungeon-wall-base-east-01 .bit-09{
+	top:37.5%;
+	left:15.625%;
+}
+.level-01-gsarchives.tile-dungeon-wall-base-east-01 .bit-09:before{
+	top:-100%;
+	left:200%;
+	width:200%;
+	height:100%;
+}
+.level-01-gsarchives.tile-dungeon-wall-base-east-01 .bit-09:after{
+	top:-200%;
+	left:400%;
+	width:200%;
+	height:100%;
+}
+.level-01-gsarchives.tile-dungeon-wall-base-east-01 .bit-10{
+	top:62.5%;
+	left:40.625%;
+}
+.level-01-gsarchives.tile-dungeon-wall-base-east-01 .bit-10:before{
+	top:-1200%;
+	left:-200%;
+	width:100%;
+	height:3200%;
+	display:none;
+}
+.level-01-gsarchives.tile-dungeon-wall-base-east-01 .bit-10:after{
+	top:-1200%;
+	left:600%;
+	width:100%;
+	height:3200%;
+	display:none;
+}

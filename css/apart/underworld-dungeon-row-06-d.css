@@ -1,0 +1,22 @@
+.tile-dungeon-06d.level-01-gsarchives{
+	background-color:var(--color-underground-grey);
+}
+.tile-dungeon-06d.level-01-gsarchives:before{
+	background-color:var(--color-underground-grey-dark);
+}
+.tile-dungeon-06d.level-01-gsarchives:after{
+	background-color:var(--color-underground-blue-light);
+}
+
+.tile-dungeon-06d:before{
+	width:6.25%;
+	height:100%;
+	top:0;
+	left:25%;
+}
+.tile-dungeon-06d:after{
+	width:6.25%;
+	height:100%;
+	top:0;
+	left:18.75%;
+}

@@ -1,0 +1,107 @@
+.tile-curve-left-bottom.water-brown,
+.tile-curve-left-bottom.water-green{
+	background-color: var(--color-khaki);
+}
+.tile-curve-left-bottom.water-brown:before,
+.tile-curve-left-bottom.water-brown:after,
+.tile-curve-left-bottom.water-brown .bit-01,
+.tile-curve-left-bottom.water-brown .bit-01:before,
+.tile-curve-left-bottom.water-green:before,
+.tile-curve-left-bottom.water-green:after,
+.tile-curve-left-bottom.water-green .bit-01,
+.tile-curve-left-bottom.water-green .bit-01:before,
+.tile-curve-left-bottom.water-grey:before,
+.tile-curve-left-bottom.water-grey:after,
+.tile-curve-left-bottom.water-grey .bit-01,
+.tile-curve-left-bottom.water-grey .bit-01:before{
+	background-color: var(--color-blue);
+}
+.tile-curve-left-bottom.water-grey{
+	background-color: var(--color-grey);
+}
+.tile-curve-left-bottom.water-brown .bit-04,.tile-curve-left-bottom.water-brown .bit-04:before{
+	background-color: var(--color-brown);
+}
+.tile-curve-left-bottom.water-green .bit-04,.tile-curve-left-bottom.water-green .bit-04:before{
+	background-color: var(--color-green);
+}
+.tile-curve-left-bottom.water-grey .bit-04,.tile-curve-left-bottom.water-grey .bit-04:before{
+	background-color: var(--color-white);
+}
+.tile-curve-left-bottom .bit-01:after, .tile-curve-left-bottom .bit-02, .tile-curve-left-bottom .bit-02:before, .tile-curve-left-bottom .bit-02:after, .tile-curve-left-bottom .bit-03, .tile-curve-left-bottom .bit-03:before,
+.tile-curve-left-bottom .bit-03:after{
+	background-color: var(--color-black);
+}
+.tile-curve-left-bottom .bit-04:after{
+	display:none;
+}
+.tile-curve-left-bottom:before{
+	width:12.5%;
+	height:56.25%;
+	top:43.75%;
+	left:0;
+}
+.tile-curve-left-bottom:after{
+	height:25%;
+	width:6.25%;
+	top:75%;
+	left:12.5%;
+}
+.tile-curve-left-bottom .bit-01{
+	top:93.75%;
+	left:18.75%;
+}
+.tile-curve-left-bottom .bit-01:before{
+	top:0;
+	left:100%;
+	width:200%;
+	height:100%;
+}
+.tile-curve-left-bottom .bit-01:after{
+	height:300%;
+	left:-300%;
+	width:100%;
+	top:-1100%;
+}
+.tile-curve-left-bottom .bit-02{
+	top:68.75%;
+	left:12.5%;
+}
+.tile-curve-left-bottom .bit-02:before{
+	top:-400%;
+	left:-100%;
+	width:100%;
+	height:400%;
+}
+.tile-curve-left-bottom .bit-02:after{
+	height:400%;
+	left:100%;
+	width:100%;
+	top:0;
+}
+.tile-curve-left-bottom .bit-03{
+	top:87.5%;
+	left:37.5%;
+}
+.tile-curve-left-bottom .bit-03:before{
+	top:-100%;
+	left:-200%;
+	width:200%;
+	height:200%;
+}
+.tile-curve-left-bottom .bit-03:after{
+	height:100%;
+	left:0;
+	width:200%;
+	top:100%;
+}
+.tile-curve-left-bottom .bit-04{
+	left:0;
+	top:68.75%;
+}
+.tile-curve-left-bottom .bit-04:before{
+	top:300%;
+	left:100%;
+	height:100%;
+	width:100%;
+}

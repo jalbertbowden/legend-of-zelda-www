@@ -1,0 +1,630 @@
+/** octorok.css **/
+/** 
+red: --color-red: #d82800; octorok red, --color-orange-carrot: #fc9838;, --color-white: #fcfcfc; blue: 	--color-blue-dark: #0000a8;
+octorok blue skin --color-blue-light: #5c94fc; octorok blue spots
+**/
+
+/** skin **/
+.octorok-red.octorok-east-a:before,
+.octorok-red.octorok-east-a:after,
+.octorok-red.octorok-east-a .bit-01,
+.octorok-red.octorok-east-a .bit-01:before,
+.octorok-red.octorok-east-a .bit-01:after,
+.octorok-red.octorok-east-a .bit-02,
+.octorok-red.octorok-east-a .bit-02:before,
+.octorok-red.octorok-east-a .bit-02:after,
+.octorok-red.octorok-east-a .bit-03,
+.octorok-red.octorok-east-a .bit-03:before,
+.octorok-red.octorok-east-a .bit-03:after,
+.octorok-red.octorok-east-a .bit-04,
+.octorok-red.octorok-east-a .bit-04:before,
+.octorok-red.octorok-east-a .bit-04:after,
+.octorok-red.octorok-east-a .bit-05,
+.octorok-red.octorok-east-a .bit-05:before,
+.octorok-red.octorok-east-a .bit-05:after,
+.octorok-red.octorok-east-a .bit-06,
+.octorok-red.octorok-east-a .bit-06:before,
+.octorok-red.octorok-east-a .bit-06:after,
+.octorok-red.octorok-east-a .bit-07,
+.octorok-red.octorok-east-a .bit-08,
+.octorok-red.octorok-east-a .bit-08:after,
+.octorok-red.octorok-east-a .bit-09,
+.octorok-red.octorok-east-a .bit-09:before,
+.octorok-red.octorok-east-a .bit-09:after,
+.octorok-red.octorok-east-a .bit-10,
+.octorok-red.octorok-east-a .bit-10:before,
+.octorok-red.octorok-east-a .bit-10:after{
+	background-color:var(--color-red);
+}
+.octorok-blue.octorok-east-a:before,
+.octorok-blue.octorok-east-a:after,
+.octorok-blue.octorok-east-a .bit-01,
+.octorok-blue.octorok-east-a .bit-01:before,
+.octorok-blue.octorok-east-a .bit-01:after,
+.octorok-blue.octorok-east-a .bit-02,
+.octorok-blue.octorok-east-a .bit-02:before,
+.octorok-blue.octorok-east-a .bit-02:after,
+.octorok-blue.octorok-east-a .bit-03,
+.octorok-blue.octorok-east-a .bit-03:before,
+.octorok-blue.octorok-east-a .bit-03:after,
+.octorok-blue.octorok-east-a .bit-04,
+.octorok-blue.octorok-east-a .bit-04:before,
+.octorok-blue.octorok-east-a .bit-04:after,
+.octorok-blue.octorok-east-a .bit-05,
+.octorok-blue.octorok-east-a .bit-05:before,
+.octorok-blue.octorok-east-a .bit-05:after,
+.octorok-blue.octorok-east-a .bit-06,
+.octorok-blue.octorok-east-a .bit-06:before,
+.octorok-blue.octorok-east-a .bit-06:after,
+.octorok-blue.octorok-east-a .bit-07,
+.octorok-blue.octorok-east-a .bit-08,
+.octorok-blue.octorok-east-a .bit-08:after,
+.octorok-blue.octorok-east-a .bit-09,
+.octorok-blue.octorok-east-a .bit-09:before,
+.octorok-blue.octorok-east-a .bit-09:after,
+.octorok-blue.octorok-east-a .bit-10,
+.octorok-blue.octorok-east-a .bit-10:before,
+.octorok-blue.octorok-east-a .bit-10:after{
+	background-color:var(--color-blue-dark);
+}
+/** spots **/
+.octorok-blue.octorok-east-a .bit-11,
+.octorok-blue.octorok-east-a .bit-11:before,
+.octorok-blue.octorok-east-a .bit-11:after,
+.octorok-blue.octorok-east-a .bit-12,
+.octorok-blue.octorok-east-a .bit-12:before,
+.octorok-blue.octorok-east-a .bit-12:after,
+.octorok-blue.octorok-east-a .bit-13,
+.octorok-blue.octorok-east-a .bit-13:before,
+.octorok-blue.octorok-east-a .bit-13:after{
+	background-color:var(--color-blue-light);
+}
+/** spots **/
+.octorok-red.octorok-east-a .bit-11,
+.octorok-red.octorok-east-a .bit-11:before,
+.octorok-red.octorok-east-a .bit-11:after,
+.octorok-red.octorok-east-a .bit-12,
+.octorok-red.octorok-east-a .bit-12:before,
+.octorok-red.octorok-east-a .bit-12:after,
+.octorok-red.octorok-east-a .bit-13,
+.octorok-red.octorok-east-a .bit-13:before,
+.octorok-red.octorok-east-a .bit-13:after{
+	background-color:var(--color-orange-carrot);
+}
+/** eyes **/
+.tile-octorok.octorok-east-a .bit-07:before,
+.tile-octorok.octorok-east-a .bit-07:after,
+.tile-octorok.octorok-east-a .bit-08:before{
+	background-color:var(--color-white);
+}
+/** display:none;s **/
+.tile-octorok.octorok-east-a .bit-13:after{
+	display:none;
+}
+
+
+
+
+
+.tile-octorok.octorok-east-a:before{
+	width:62.5%;
+	height:62.5%;
+	top:18.75%;
+	left:6.25%;
+}
+.tile-octorok.octorok-east-a:after{
+	width:18.75%;
+	height:25%;
+	top:37.5%;
+	left:68.75%;
+}
+.tile-octorok.octorok-east-a .bit-01{
+	top:0;
+	left:6.25%;
+}
+.tile-octorok.octorok-east-a .bit-01:before{
+	width:700%;
+	height:100%;
+	top:200%;
+	left:100%;
+}
+.tile-octorok.octorok-east-a .bit-01:after{
+	width:700%;
+	height:100%;
+	top:1300%;
+	left:100%;
+}
+.tile-octorok.octorok-east-a .bit-02{
+	top:6.25%;
+	left:6.25%;
+}
+.tile-octorok.octorok-east-a .bit-02:before{
+	width:100%;
+	height:600%;
+	top:400%;
+	left:-100%;
+}
+.tile-octorok.octorok-east-a .bit-02:after{
+	width:100%;
+	height:800%;
+	top:300%;
+	left:1200%;
+}
+.tile-octorok.octorok-east-a .bit-03{
+	top:6.25%;
+	left:12.5%;
+}
+.tile-octorok.octorok-east-a .bit-03:before{
+	width:100%;
+	height:200%;
+	top:1300%;
+	left:-100%;
+}
+.tile-octorok.octorok-east-a .bit-03:after{
+	width:100%;
+	height:200%;
+	top:1300%;
+	left:200%;
+}
+.tile-octorok.octorok-east-a .bit-04{
+	top:0;
+	left:25%;
+}
+.tile-octorok.octorok-east-a .bit-04:before{
+	width:100%;
+	height:200%;
+	top:1400%;
+	left:400%;
+}
+.tile-octorok.octorok-east-a .bit-04:after{
+	width:100%;
+	height:200%;
+	top:1200%;
+	left:700%;
+}
+.tile-octorok.octorok-east-a .bit-05{
+	top:31.25%;
+	left:75%;
+}
+.tile-octorok.octorok-east-a .bit-05:before{
+	width:100%;
+	height:200%;
+	top:-300%;
+	left:-100%;
+}
+.tile-octorok.octorok-east-a .bit-05:after{
+	width:100%;
+	height:200%;
+	top:-500%;
+	left:-400%;
+}
+.tile-octorok.octorok-east-a .bit-06{
+	top:62.5%;
+	left:75%;
+}
+.tile-octorok.octorok-east-a .bit-06:before{
+	width:100%;
+	height:100%;
+	top:400%;
+	left:-1000%;
+}
+.tile-octorok.octorok-east-a .bit-06:after{
+	width:100%;
+	height:100%;
+	top:400%;
+	left:-700%;
+}
+.tile-octorok.octorok-east-a .bit-07{
+	top:6.25%;
+	left:25%;
+}
+.tile-octorok.octorok-east-a .bit-07:before{
+	width:200%;
+	height:1000%;
+	top:200%;
+	left:200%;
+}
+.tile-octorok.octorok-east-a .bit-07:after{
+	width:500%;
+	height:800%;
+	top:300%;
+	left:100%;
+}
+.tile-octorok.octorok-east-a .bit-08{
+	top:6.25%;
+	left:31.25%;
+}
+.tile-octorok.octorok-east-a .bit-08:before{
+	width:100%;
+	height:400%;
+	top:500%;
+	left:500%;
+}
+.tile-octorok.octorok-east-a .bit-08:after{
+	width:100%;
+	height:400%;
+	top:500%;
+	left:0;
+}
+.tile-octorok.octorok-east-a .bit-09{
+	top:6.25%;
+	left:43.75%;
+}
+.tile-octorok.octorok-east-a .bit-09:before{
+	width:300%;
+	height:100%;
+	top:400%;
+	left:-100%;
+}
+.tile-octorok.octorok-east-a .bit-09:after{
+	width:300%;
+	height:100%;
+	top:500%;
+	left:0;
+}
+.tile-octorok.octorok-east-a .bit-10{
+	top:87.5%;
+	left:43.75%;
+}
+.tile-octorok.octorok-east-a .bit-10:before{
+	width:300%;
+	height:100%;
+	top:-400%;
+	left:-100%;
+}
+.tile-octorok.octorok-east-a .bit-10:after{
+	width:300%;
+	height:100%;
+	top:-500%;
+	left:0;
+}
+.tile-octorok.octorok-east-a .bit-11{
+	top:31.25%;
+	left:6.25%;
+}
+.tile-octorok.octorok-east-a .bit-11:before{
+	width:100%;
+	height:100%;
+	top:-100%;
+	left:300%;
+}
+.tile-octorok.octorok-east-a .bit-11:after{
+	width:100%;
+	height:100%;
+	top:100%;
+	left:200%;
+}
+.tile-octorok.octorok-east-a .bit-12{
+	top:62.5%;
+	left:6.25%;
+}
+.tile-octorok.octorok-east-a .bit-12:before{
+	width:100%;
+	height:100%;
+	top:100%;
+	left:300%;
+}
+.tile-octorok.octorok-east-a .bit-12:after{
+	width:100%;
+	height:100%;
+	top:-100%;
+	left:200%;
+}
+.tile-octorok.octorok-east-a .bit-13{
+	top:43.75%;
+	left:0;
+}
+.tile-octorok.octorok-east-a .bit-13:before{
+	width:100%;
+	height:100%;
+	top:100%;
+	left:0;
+}
+
+
+
+/** octorok.css **/
+/** 
+red: --color-red: #d82800; octorok red, --color-orange-carrot: #fc9838;, --color-white: #fcfcfc; blue:  --color-blue-dark: #0000a8;
+octorok blue skin --color-blue-light: #5c94fc; octorok blue spots
+**/
+
+/** skin **/
+.octorok-red.octorok-east-b:before,
+.octorok-red.octorok-east-b:after,
+.octorok-red.octorok-east-b .bit-01,
+.octorok-red.octorok-east-b .bit-01:before,
+.octorok-red.octorok-east-b .bit-01:after,
+.octorok-red.octorok-east-b .bit-02,
+.octorok-red.octorok-east-b .bit-02:before,
+.octorok-red.octorok-east-b .bit-02:after,
+.octorok-red.octorok-east-b .bit-03,
+.octorok-red.octorok-east-b .bit-03:before,
+.octorok-red.octorok-east-b .bit-03:after,
+.octorok-red.octorok-east-b .bit-04,
+.octorok-red.octorok-east-b .bit-04:before,
+.octorok-red.octorok-east-b .bit-04:after,
+.octorok-red.octorok-east-b .bit-05,
+.octorok-red.octorok-east-b .bit-05:before,
+.octorok-red.octorok-east-b .bit-05:after,
+.octorok-red.octorok-east-b .bit-06,
+.octorok-red.octorok-east-b .bit-07,
+.octorok-red.octorok-east-b .bit-07:before,
+.octorok-red.octorok-east-b .bit-07:after,
+.octorok-red.octorok-east-b .bit-08,
+.octorok-red.octorok-east-b .bit-08:before,
+.octorok-red.octorok-east-b .bit-08:after,
+.octorok-red.octorok-east-b .bit-09:before{
+  background-color:var(--color-red);
+}
+.octorok-blue.octorok-east-b:before,
+.octorok-blue.octorok-east-b:after,
+.octorok-blue.octorok-east-b .bit-01,
+.octorok-blue.octorok-east-b .bit-01:before,
+.octorok-blue.octorok-east-b .bit-01:after,
+.octorok-blue.octorok-east-b .bit-02,
+.octorok-blue.octorok-east-b .bit-02:before,
+.octorok-blue.octorok-east-b .bit-02:after,
+.octorok-blue.octorok-east-b .bit-03,
+.octorok-blue.octorok-east-b .bit-03:before,
+.octorok-blue.octorok-east-b .bit-03:after,
+.octorok-blue.octorok-east-b .bit-04,
+.octorok-blue.octorok-east-b .bit-04:before,
+.octorok-blue.octorok-east-b .bit-04:after,
+.octorok-blue.octorok-east-b .bit-05,
+.octorok-blue.octorok-east-b .bit-05:before,
+.octorok-blue.octorok-east-b .bit-05:after,
+.octorok-blue.octorok-east-b .bit-06,
+.octorok-blue.octorok-east-b .bit-07,
+.octorok-blue.octorok-east-b .bit-07:before,
+.octorok-blue.octorok-east-b .bit-07:after,
+.octorok-blue.octorok-east-b .bit-08,
+.octorok-blue.octorok-east-b .bit-08:before,
+.octorok-blue.octorok-east-b .bit-08:after,
+.octorok-blue.octorok-east-b .bit-09,
+.octorok-blue.octorok-east-b .bit-09:before,
+.octorok-blue.octorok-east-b .bit-10,
+.octorok-blue.octorok-east-b .bit-10:before,
+.octorok-blue.octorok-east-b .bit-10:after{
+  background-color:var(--color-blue-dark);
+}
+/** spots **/
+.octorok-blue.octorok-east-b .bit-09,
+.octorok-blue.octorok-east-b .bit-10,
+.octorok-blue.octorok-east-b .bit-10:before,
+.octorok-blue.octorok-east-b .bit-10:after,
+.octorok-blue.octorok-east-b .bit-11,
+.octorok-blue.octorok-east-b .bit-11:before,
+.octorok-blue.octorok-east-b .bit-11:after,
+.octorok-blue.octorok-east-b .bit-12,
+.octorok-blue.octorok-east-b .bit-12:before,
+.octorok-blue.octorok-east-b .bit-12:after,
+.octorok-blue.octorok-east-b .bit-13,
+.octorok-blue.octorok-east-b .bit-13:before,
+.octorok-blue.octorok-east-b .bit-13:after{
+  background-color:var(--color-blue-light);
+}
+/** spots **/
+.octorok-red.octorok-east-b .bit-09,
+.octorok-red.octorok-east-b .bit-10,
+.octorok-red.octorok-east-b .bit-10:before,
+.octorok-red.octorok-east-b .bit-10:after,
+.octorok-red.octorok-east-b .bit-11,
+.octorok-red.octorok-east-b .bit-11:before,
+.octorok-red.octorok-east-b .bit-11:after,
+.octorok-red.octorok-east-b .bit-12,
+.octorok-red.octorok-east-b .bit-12:before,
+.octorok-red.octorok-east-b .bit-12:after,
+.octorok-red.octorok-east-b .bit-13,
+.octorok-red.octorok-east-b .bit-13:before,
+.octorok-red.octorok-east-b .bit-13:after{
+  background-color:var(--color-orange-carrot);
+}
+/** eyes **/
+.tile-octorok.octorok-east-b .bit-06:before,
+.tile-octorok.octorok-east-b .bit-06:after,
+.tile-octorok.octorok-east-b .bit-09:after{
+  background-color:var(--color-white);
+}
+/** display:none;s **/
+.tile-octorok.octorok-east-b .bit-12,
+.tile-octorok.octorok-east-b .bit-12:before,
+.tile-octorok.octorok-east-b .bit-12:after,
+.tile-octorok.octorok-east-b .bit-13,
+.tile-octorok.octorok-east-b .bit-13:before,
+.tile-octorok.octorok-east-b .bit-13:after{
+  display:none;
+}
+
+
+
+
+
+.tile-octorok.octorok-east-b:before{
+  width:62.5%;
+  height:62.5%;
+  top:18.75%;
+  left:6.25%;
+}
+.tile-octorok.octorok-east-b:after{
+  width:25%;
+  height:25%;
+  top:37.5%;
+  left:68.75%;
+}
+.tile-octorok.octorok-east-b .bit-01{
+  top:0;
+  left:12.5%;
+}
+.tile-octorok.octorok-east-b .bit-01:before{
+  width:700%;
+  height:100%;
+  top:200%;
+  left:0;
+}
+.tile-octorok.octorok-east-b .bit-01:after{
+  width:700%;
+  height:100%;
+  top:1300%;
+  left:0;
+}
+.tile-octorok.octorok-east-b .bit-02{
+  top:6.25%;
+  left:18.75%;
+}
+.tile-octorok.octorok-east-b .bit-02:before{
+  width:100%;
+  height:600%;
+  top:400%;
+  left:-300%;
+}
+.tile-octorok.octorok-east-b .bit-02:after{
+  width:100%;
+  height:800%;
+  top:300%;
+  left:1200%;
+}
+.tile-octorok.octorok-east-b .bit-03{
+  top:6.25%;
+  left:12.5%;
+}
+.tile-octorok.octorok-east-b .bit-03:before{
+  width:100%;
+  height:200%;
+  top:1300%;
+  left:0;
+}
+.tile-octorok.octorok-east-b .bit-03:after{
+  width:100%;
+  height:200%;
+  top:1300%;
+  left:300%;
+}
+.tile-octorok.octorok-east-b .bit-04{
+  top:0;
+  left:31.25%;
+}
+.tile-octorok.octorok-east-b .bit-04:before{
+  width:100%;
+  height:200%;
+  top:300%;
+  left:600%;
+}
+.tile-octorok.octorok-east-b .bit-04:after{
+  width:100%;
+  height:200%;
+  top:1100%;
+  left:600%;
+}
+.tile-octorok.octorok-east-b .bit-05{
+  top:87.5%;
+  left:18.75%;
+}
+.tile-octorok.octorok-east-b .bit-05:before{
+  width:200%;
+  height:100%;
+  top:0;
+  left:500%;
+}
+.tile-octorok.octorok-east-b .bit-05:after{
+  width:200%;
+  height:100%;
+  top:-1300%;
+  left:500%;
+}
+.tile-octorok.octorok-east-b .bit-06{
+  top:87.5%;
+  left:37.5%;
+}
+.tile-octorok.octorok-east-b .bit-06:before{
+  width:200%;
+  height:1000%;
+  top:-1100%;
+  left:0;
+}
+.tile-octorok.octorok-east-b .bit-06:after{
+  width:500%;
+  height:800%;
+  top:-1000%;
+  left:-100%;
+}
+.tile-octorok.octorok-east-b .bit-07{
+  top:6.25%;
+  left:31.25%;
+}
+.tile-octorok.octorok-east-b .bit-07:before{
+  width:300%;
+  height:100%;
+  top:400%;
+  left:100%;
+}
+.tile-octorok.octorok-east-b .bit-07:after{
+  width:300%;
+  height:100%;
+  top:500%;
+  left:200%;
+}
+.tile-octorok.octorok-east-b .bit-08{
+  top:6.25%;
+  left:37.5%;
+}
+.tile-octorok.octorok-east-b .bit-08:before{
+  width:300%;
+  height:100%;
+  top:800%;
+  left:100%;
+}
+.tile-octorok.octorok-east-b .bit-08:after{
+  width:300%;
+  height:100%;
+  top:900%;
+  left:0;
+}
+.tile-octorok.octorok-east-b .bit-09{
+  top:25%;
+  left:25%;
+}
+.tile-octorok.octorok-east-b .bit-09:before{
+  width:100%;
+  height:400%;
+  top:200%;
+  left:100%;
+}
+.tile-octorok.octorok-east-b .bit-09:after{
+  width:100%;
+  height:400%;
+  top:200%;
+  left:600%;
+}
+.tile-octorok.octorok-east-b .bit-10{
+  top:37.5%;
+  left:18.75%;
+}
+.tile-octorok.octorok-east-b .bit-10:before{
+  width:100%;
+  height:100%;
+  top:500%;
+  left:100%;
+}
+.tile-octorok.octorok-east-b .bit-10:after{
+  width:100%;
+  height:100%;
+  top:300%;
+  left:0;
+}
+.tile-octorok.octorok-east-b .bit-11{
+  top:31.25%;
+  left:6.25%;
+}
+.tile-octorok.octorok-east-b .bit-11:before{
+  width:100%;
+  height:200%;
+  top:200%;
+  left:-100%;
+}
+.tile-octorok.octorok-east-b .bit-11:after{
+  width:100%;
+  height:100%;
+  top:500%;
+  left:0;
+}

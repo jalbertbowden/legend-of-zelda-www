@@ -1,0 +1,98 @@
+.tile-curve-right-bottom{
+	background-color: var(--color-khaki);
+}
+.tile-curve-right-bottom.water-grey{
+	background-color: var(--color-grey);
+}
+.tile-curve-right-bottom:before, .tile-curve-right-bottom:after, .tile-curve-right-bottom .bit-01, .tile-curve-right-bottom .bit-01:before{
+	background-color: var(--color-blue);
+}
+.tile-curve-right-bottom.water-brown .bit-04,
+.tile-curve-right-bottom.water-brown .bit-04:before{
+	background-color: var(--color-brown);
+}
+.tile-curve-right-bottom.water-green .bit-04,
+.tile-curve-right-bottom.water-green .bit-04:before{
+	background-color: var(--color-green);
+}
+.tile-curve-right-bottom.water-grey .bit-04,
+.tile-curve-right-bottom.water-grey .bit-04:before{
+	background-color: var(--color-white);
+}
+.tile-curve-right-bottom .bit-01:after, .tile-curve-right-bottom .bit-02, .tile-curve-right-bottom .bit-02:before, .tile-curve-right-bottom .bit-02:after, .tile-curve-right-bottom .bit-03,
+.tile-curve-right-bottom .bit-03:before,.tile-curve-right-bottom .bit-03:after{
+	background-color: var(--color-black);
+}
+.tile-curve-right-bottom .bit-04:after{
+	display:none;
+}
+.tile-curve-right-bottom:before{
+	width:6.25%;
+	height:56.25%;
+	top:43.75%;
+	left:93.75%;
+}
+.tile-curve-right-bottom:after{
+	width:12.5%;
+	height:37.5%;
+	top:62.5%;
+	left:81.25%;
+}
+.tile-curve-right-bottom .bit-01{
+	top:93.75%;
+	left:68.75%;
+}
+.tile-curve-right-bottom .bit-01:before{
+	width:100%;
+	height:100%;
+	top:0;
+	left:100%;
+}
+.tile-curve-right-bottom .bit-01:after{
+	width:300%;
+	height:100%;
+	top:0;
+	left:-300%;
+}
+.tile-curve-right-bottom .bit-02{
+	top:81.25%;
+	left:62.5%;
+}
+.tile-curve-right-bottom .bit-02:before{
+	width:200%;
+	height:200%;
+	top:0;
+	left:100%;
+}
+.tile-curve-right-bottom .bit-02:after{
+	width:100%;
+	height:300%;
+	top:-300%;
+	left:300%;
+}
+.tile-curve-right-bottom .bit-03{
+	top:37.5%;
+	left:93.75%;
+}
+.tile-curve-right-bottom .bit-03:before{
+	width:100%;
+	height:100%;
+	top:100%;
+	left:-100%;
+}
+.tile-curve-right-bottom .bit-03:after{
+	width:100%;
+	height:100%;
+	top:300%;
+	left:-100%;
+}
+.tile-curve-right-bottom .bit-04{
+	top:93.75%;
+	left:93.75%;
+}
+.tile-curve-right-bottom .bit-04:before{
+	width:100%;
+	height:100%;
+	top:-400%;
+	left:0;
+}

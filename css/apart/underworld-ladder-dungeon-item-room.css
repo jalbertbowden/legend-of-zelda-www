@@ -1,0 +1,84 @@
+/** grey #747474 - --color-grey, grey light #bcbcbc - --color-grey-light-dungeon-item-room:#bcbcbc, black #000 - --color-black **/
+:root{
+	--color-grey-light-dungeon-item-room:#bcbcbc;
+	--color-grey:#747474;
+	--color-white-off-white: #fcfcfc;
+}
+.tile-ladder-dungeon-item-room{
+	background-color:var(--color-grey);
+}
+.tile-ladder-dungeon-item-room .bit-02,
+.tile-ladder-dungeon-item-room .bit-02:before,
+.tile-ladder-dungeon-item-room .bit-02:after,
+.tile-ladder-dungeon-item-room .bit-03,
+.tile-ladder-dungeon-item-room .bit-03:before,
+.tile-ladder-dungeon-item-room .bit-03:after{
+	background-color:var(--color-grey-light-dungeon-item-room);
+}
+.tile-ladder-dungeon-item-room:before,
+.tile-ladder-dungeon-item-room:after,
+.tile-ladder-dungeon-item-room .bit-01,
+.tile-ladder-dungeon-item-room .bit-01:before,
+.tile-ladder-dungeon-item-room .bit-01:after{
+	background-color:var(--color-white-off-white);
+}
+.tile-ladder-dungeon-item-room:before{
+	height:6.25%;
+	width:100%;
+	top:93.75%;
+	left:0%;
+}
+.tile-ladder-dungeon-item-room:after{
+	height:6.25%;
+	width:100%;
+	top:68.75%;
+	left:0;
+}
+.tile-ladder-dungeon-item-room .bit-01{
+	top:18.75%;
+	left:0;
+}
+.tile-ladder-dungeon-item-room .bit-01:before{
+	width:1600%;
+	height:100%;
+	left:0;
+	top:400%;
+}
+.tile-ladder-dungeon-item-room .bit-01:after{
+	width:1500%;
+	height:100%;
+	left:100%;
+	top:0;
+}
+.tile-ladder-dungeon-item-room .bit-02{
+	top:12.5%;
+	left:0;
+}
+.tile-ladder-dungeon-item-room .bit-02:before{
+	width:1600%;
+	height:100%;
+	left:0;
+	top:1200%;
+}
+.tile-ladder-dungeon-item-room .bit-02:after{
+	width:1600%;
+	height:100%;
+	left:0;
+	top:800%;
+}
+.tile-ladder-dungeon-item-room .bit-03{
+	top:12.5%;
+	left:6.25%;
+}
+.tile-ladder-dungeon-item-room .bit-03:before{
+	width:1600%;
+	height:100%;
+	left:-100%;
+	top:400%;
+}
+.tile-ladder-dungeon-item-room .bit-03:after{
+	width:1400%;
+	height:100%;
+	left:100%;
+	top:0;
+}

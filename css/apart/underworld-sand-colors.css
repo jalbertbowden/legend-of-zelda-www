@@ -1,0 +1,165 @@
+/** grey - #008c8c, light grey - #00efde, blue - #005aff level 01 gsarchives **/
+/**
+
+
+
+sand 1-a
+.level-01.sand-a{
+	background-color:var(--color-underground-orange-yellow);
+}
+red var(--color-underground-red);
+grey var(--color-underground-grey-alt);
+
+sand 1-b
+.level-01.sand-b{
+	background-color:var(--color-underground-grey);
+dark - var(--color-underground-grey-dark);
+light - var(--color-underground-blue-light);
+
+sand 1-c
+.level-01.sand-c{
+	background-color:var(--color-underground-grey);
+dark var(--color-underground-blue);
+light var(--color-underground-blue-light);
+
+level 02
+a
+.level-02.sand-a{
+	background-color:var(--color-underground-orange-yellow);
+light var(--color-underground-orange-pink);
+dark var(--color-underground-red);
+b
+.level-02.sand-b{
+	background-color:var(--color-underground-purple);
+light var(--color-underground-blue-light-level-02);
+dark var(--color-underground-blue-purple);
+c
+.level-02.sand-c{
+	background-color:var(--color-underground-purple);
+light var(--color-underground-blue-light-level-02);
+dark var(--color-underground-red);
+
+level 03
+a
+.level-03.sand-a{
+	background-color:var(--color-underground-orange-yellow);
+light var(--color-underground-orange-pink);
+dark var(--color-underground-red);
+b
+.level-03.sand-b{
+	background-color:var(--color-underground-green);
+light var(--color-underground-green-light);
+dark var(--color-underground-brown);
+c
+.level-03.sand-c{
+	background-color:var(--color-underground-green);
+light var(--color-underground-green-light);
+dark var(--color-underground-red);
+
+level 04
+a
+.level-04.sand-a{
+	background-color:var(--color-underground-orange-yellow);
+light var(--color-underground-orange-pink);
+dark var(--color-underground-blue-level-04);
+b
+.level-04.sand-b{
+	background-color:var(--color-underground-green-gold);
+light var(--color-underground-yellow-gold);
+dark var(--color-underground-brown-dark);
+c
+.level-04.sand-c{
+	background-color:var(--color-underground-green-gold);
+light var(--color-underground-yellow-gold);
+dark var(--color-underground-blue-level-04);
+
+level 05
+a
+.level-05.sand-a{
+	background-color:var(--color-underground-orange-yellow);
+light var(--color-underground-orange-pink);
+dark var(--color-underground-red);
+b
+.level-05.sand-b{
+	background-color:var(--color-underground-orange-green);
+light var(--color-underground-orange-green-light);
+dark var(--color-underground-red-alt);
+c
+.level-05.sand-c{
+	background-color:var(--color-underground-orange-green);
+light var(--color-underground-orange-green-light);
+dark var(--color-underground-red);
+
+level 06
+a
+.level-06.sand-a{
+	background-color:var(--color-underground-orange-yellow);
+light var(--color-underground-orange-pink);
+dark var(--color-underground-red);
+b
+.level-06.sand-b{
+	background-color:var(--color-underground-yellow-green);
+light var(--color-underground-yellow-pink);
+dark var(--color-underground-brown-chocolate);
+c
+.level-06.sand-c{
+	background-color:var(--color-underground-yellow-green);
+light var(--color-underground-yellow-pink);
+dark var(--color-underground-red);
+
+level 07
+a
+.level-07.sand-a{
+	background-color:var(--color-underground-orange-yellow);
+light var(--color-underground-orange-pink);
+dark var(--color-underground-blue-royal-7);
+b
+.level-07.sand-b{
+	background-color:var(--color-underground-orange-green);
+light var(--color-underground-orange-green-light);
+dark var(--color-underground-red-alt);
+c
+.level-07.sand-c{
+	background-color:var(--color-underground-orange-green);
+light var(--color-underground-orange-green-light);
+dark var(--color-underground-blue-royal-7);
+
+level 08
+a
+.level-08.sand-a{
+	background-color:var(--color-underground-orange-yellow);
+light var(--color-underground-orange-pink);
+dark var(--color-underground-blue-light-alt);
+b
+.level-08.sand-b{
+	background-color:var(--color-underground-grey-89);
+light var(--color-underground-white);
+dark var(--color-underground-grey-dark-alt);
+c
+.level-08.sand-c{
+	background-color:var(--color-underground-grey-89);
+light var(--color-underground-white);
+dark var(--color-underground-blue-light-alt);
+
+level 09
+a
+.level-09.sand-a{
+	background-color:var(--color-underground-orange-yellow);
+light var(--color-underground-orange-pink);
+dark var(--color-underground-grey-dark-alt);
+b
+.level-09.sand-b{
+	background-color:var(--color-underground-grey-89);
+light var(--color-underground-white);
+dark var(--color-underground-grey-dark-alt);
+c
+.level-09.sand-c{
+	background-color:var(--color-underground-grey-89);
+	
+light var(--color-underground-white);
+dark var(--color-underground-grey-dark-alt);
+
+
+
+
+**/

@@ -1,0 +1,85 @@
+.tile-dungeon-05a.level-01,
+.tile-dungeon-05b.level-01,
+.tile-dungeon-05c.level-01,
+.tile-dungeon-05d.level-01{
+	background-color:var(--color-underground-grey);
+}
+.tile-dungeon-05a.level-01:before,
+.tile-dungeon-05b.level-01:before,
+.tile-dungeon-05c.level-01:before,
+.tile-dungeon-05d.level-01:before{
+	background-color:var(--color-underground-grey-dark);
+}
+.tile-dungeon-05a.level-01:after,
+.tile-dungeon-05b.level-01:after,
+.tile-dungeon-05c.level-01:after,
+.tile-dungeon-05d.level-01:after{
+	background-color:var(--color-underground-blue-light);
+}
+.tile-dungeon-05a.level-01-gsarchives,
+.tile-dungeon-05b.level-01-gsarchives,
+.tile-dungeon-05c.level-01-gsarchives,
+.tile-dungeon-05d.level-01-gsarchives{
+	background-color:var(--color-u-grey);
+}
+.tile-dungeon-05a.level-01-gsarchives:before,
+.tile-dungeon-05b.level-01-gsarchives:before,
+.tile-dungeon-05c.level-01-gsarchives:before,
+.tile-dungeon-05d.level-01-gsarchives:before{
+	background-color:var(--color-u-grey-dark);
+}
+.tile-dungeon-05a.level-01-gsarchives:after,
+.tile-dungeon-05b.level-01-gsarchives:after,
+.tile-dungeon-05c.level-01-gsarchives:after,
+.tile-dungeon-05d.level-01-gsarchives:after{
+	background-color:var(--color-u-grey-light);
+}
+
+.tile-dungeon-05a:before{
+	width:6.25%;
+	height:100%;
+	top:0;
+	left:68.75%;
+}
+.tile-dungeon-05a:after{
+	width:6.25%;
+	height:100%;
+	top:0;
+	left:75%;
+}
+.tile-dungeon-05b:before{
+	width:6.25%;
+	height:100%;
+	top:0;
+	left:18.75%;
+}
+.tile-dungeon-05b:after{
+	width:6.25%;
+	height:100%;
+	top:0;
+	left:25%;
+}
+.tile-dungeon-05c:before{
+	width:6.25%;
+	height:100%;
+	top:0;
+	left:75%;
+}
+.tile-dungeon-05c:after{
+	width:6.25%;
+	height:100%;
+	top:0;
+	left:68.75%;
+}
+.tile-dungeon-05d:before{
+	width:6.25%;
+	height:100%;
+	top:0;
+	left:25%;
+}
+.tile-dungeon-05d:after{
+	width:6.25%;
+	height:100%;
+	top:0;
+	left:18.75%;
+}

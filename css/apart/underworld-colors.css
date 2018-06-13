@@ -1,0 +1,103 @@
+/**
+level 01 GS Archives - tile-underworld-floor-tile-level-01-gsarchives - cream:#00efde, grey:#008c8c, black:#000
+level 01 - grey:#008484, dark grey:#214242, light blue:#0ff
+level 02 --color-underground-blue-light-level-02: #4284ff; --color-underground-black: #000; --color-underground-purple: #4200ff;
+**/
+:root{
+	--color-underground-black: #000;
+	
+	--color-underground-blue: #0021ff;
+	--color-underground-blue-dark: #000084;
+	--color-underground-blue-light: #0ff;
+	--color-underground-blue-light-alt: #63a5ff;
+	--color-underground-blue-light-level-02: #4284ff;
+	--color-underground-blue-level-04: #1839ef;
+	--color-underground-blue-royal: #000084;
+	--color-underground-blue-royal-7: #2142ff;
+	
+	
+	--color-underground-brown: #003910;
+	--color-underground-brown-level-04: #392900;
+	--color-underground-brown-level-05-07: #004200;
+	--color-underground-brown-red:#422100;
+	
+	
+	
+	
+	--color-underground-green: #009431;
+	--color-underground-green-alt:#848400;
+	--color-underground-green-level-04: #847300;
+	--color-underground-green-level-05: #00a500;
+	
+	--color-underground-green-light: #52f794;
+	--color-underground-green-light-alt:#ffc642;
+	--color-underground-green-light-level-04: #efbd39;
+	--color-underground-green-light-level-05-07: #42c642;
+	
+	
+	
+	
+
+
+	
+
+	
+
+	 
+	 
+	 
+	--color-underground-grey: #008484;
+	--color-underground-grey-alt: #ffa584;
+	/** --color-underground-grey-89: #848484; **/
+	--color-underground-grey-89: #bcbcbc;
+	--color-underground-grey-8984: #848484;
+	--color-underground-grey-dark: #214242;
+	/** --color-underground-grey-dark-alt: #424242; **/
+	--color-underground-grey-dark-alt: #747474;
+	--color-grey-light-dungeon-item-room:#bcbcbc;
+	
+	
+	--color-underground-orange:#847300;
+	--color-underground-orange-green:#00a500;
+	--color-underground-orange-green-light:#42c642;
+	--color-underground-orange-light:#efbd39;
+
+	
+	
+	
+	--color-underground-purple: #4200ff;
+	
+	
+	
+	--color-underground-red:#392900;
+	--color-underground-red-alt:#004200;
+	--color-underground-red-alt-2: #422100;
+	
+	--color-underground-red-dark: #392900;
+	
+	--color-underground-red-level-02: #c62100;
+	
+	
+	--color-underground-red-orange: #c62100;
+	
+	
+	--color-underground-white:#fff;
+	--color-underground-white-off:#fcfcfc;
+	
+	
+	--color-underground-yellow-orange:#ffa542;
+	
+	/** level 01 gsarchives colors **/
+	--color-u-grey-light: #00efde;
+	--color-u-grey: #008c8c;
+	--color-u-grey-dark: #00425a;
+	--color-u-blue: #005aff;
+	
+	
+	--color-subscreen-legend-blue: #233bef;
+	
+		
+	
+	
+
+}

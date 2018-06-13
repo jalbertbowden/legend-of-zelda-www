@@ -1,0 +1,84 @@
+/** boomerang.css - treasures-comp-half-bg-transparent-boomerang-icon-005x008.gif **/
+:root{
+	--color-green-neon: #94da00;
+	--color-cream: #f8daac;
+	--color-brown: #a35600;
+}
+.tile.tile-boomerang b{width:12.5%; height:12.5%;}
+.tile-boomerang:before,
+.tile-boomerang:after,
+.tile-boomerang .bit-01,
+.tile-boomerang .bit-01:before{
+	background-color:var(--color-cream);
+}
+.tile-boomerang .bit-01:after,
+.tile-boomerang .bit-02,
+.tile-boomerang .bit-02:before,
+.tile-boomerang .bit-02:after,
+.tile-boomerang .bit-03{
+	background-color:var(--color-brown);
+}
+.tile-boomerang .bit-03:before,
+.tile-boomerang .bit-03:after{
+	background-color:var(--color-green-neon);
+}
+.tile-boomerang:before{
+	width:37.5%;
+	height:50%;
+	top:25%;
+	left:18.75%;
+}
+.tile-boomerang:after{
+	width:25%;
+	height:12.5%;
+	top:75%;
+	left:31.25%;
+}
+.tile-boomerang .bit-01{
+	top:0;
+	left:56.25%;
+}
+.tile-boomerang .bit-01:before{
+	top:700%;
+	left:-100%;
+	width:200%;
+	height:100%;
+}
+.tile-boomerang .bit-01:after{
+	top:700%;
+	left:100%;
+	width:100%;
+	height:100%;
+}
+.tile-boomerang .bit-02{
+	top:0;
+	left:68.75%;
+}
+.tile-boomerang .bit-02:before{
+	top:600%;
+	left:-100%;
+	width:100%;
+	height:100%;
+}
+.tile-boomerang .bit-02:after{
+	top:200%;
+	left:-200%;
+	width:100%;
+	height:400%;
+}
+.tile-boomerang .bit-03{
+	top:12.5%;
+	left:56.25%;
+}
+.tile-boomerang .bit-03:before{
+	top:-100%;
+	left:-100%;
+	width:100%;
+	height:200%;
+}
+.tile-boomerang .bit-03:after{
+	top:0;
+	left:-200%;
+	width:100%;
+	height:200%;
+}

@@ -1,0 +1,251 @@
+.tile-dungeon-door-open-west{
+	position:absolute;
+}
+.s512 .tile-dungeon-door-open-west{
+	top:144px;
+	width:64px;
+	height:64px;
+	left:24px;
+}
+
+
+.tile-dungeon-door-open-west:before{
+	width:62.5%;
+	height:100%;
+	top:0;
+	left:0;
+}
+.tile-dungeon-door-open-west:after{
+	width:21.875%;
+	height:50%;
+	top:25%;
+	left:15.625%;
+}
+.s512 .tile-dungeon-door-open-west .bit{
+	height:3.125%;
+	width:3.125%;
+}
+.tile-dungeon-door-open-west .bit-01{
+	top:9.375%;
+	left:59.375%;
+}
+.tile-dungeon-door-open-west .bit-01:before{
+	top:400%;
+	left:0;
+	width:100%;
+	height:1800%;
+}
+.tile-dungeon-door-open-west .bit-01:after{
+	top:0;
+	left:-1500%;
+	width:100%;
+	height:2600%;
+}
+.tile-dungeon-door-open-west .bit-02{
+	top:0;
+	left:25%;
+}
+.tile-dungeon-door-open-west .bit-02:before{
+	top:700%;
+	left:-300%;
+	width:1400%;
+	height:100%;
+}
+.tile-dungeon-door-open-west .bit-02:after{
+	top:2400%;
+	left:-300%;
+	width:1400%;
+	height:100%;
+}
+.tile-dungeon-door-open-west .bit-03{
+	top:0;
+	left:46.875%;
+}
+.tile-dungeon-door-open-west .bit-03:before{
+	top:2400%;
+	left:-1000%;
+	width:1100%;
+	height:200%;
+}
+.tile-dungeon-door-open-west .bit-03:after{
+	top:600%;
+	left:-1000%;
+	width:1100%;
+	height:100%;
+}
+.tile-dungeon-door-open-west .bit-04{
+	top:3.125%;
+	left:46.875%;
+}
+.tile-dungeon-door-open-west .bit-04:before{
+	top:2600%;
+	left:200%;
+	width:300%;
+	height:100%;
+}
+.tile-dungeon-door-open-west .bit-04:after{
+	top:2700%;
+	left:-100%;
+	width:300%;
+	height:100%;
+}
+.tile-dungeon-door-open-west .bit-05{
+	top:6.25%;
+	left:46.875%;
+}
+.tile-dungeon-door-open-west .bit-05:before{
+	top:2800%;
+	left:-700%;
+	width:300%;
+	height:100%;
+}
+.tile-dungeon-door-open-west .bit-05:after{
+	top:2700%;
+	left:-400%;
+	width:300%;
+	height:100%;
+}
+.tile-dungeon-door-open-west .bit-06{
+	top:6.25%;
+	left:50%;
+}
+.tile-dungeon-door-open-west .bit-06:before{
+	top:2900%;
+	left:-1200%;
+	width:400%;
+	height:100%;
+}
+.tile-dungeon-door-open-west .bit-06:after{
+	top:2600%;
+	left:-100%;
+	width:100%;
+	height:400%;
+}
+.tile-dungeon-door-open-west .bit-07{
+	top:96.875%;
+	left:25%;
+}
+.tile-dungeon-door-open-west .bit-07:before{
+	top:-2300%;
+	left:400%;
+	width:700%;
+	height:100%;
+}
+.tile-dungeon-door-open-west .bit-07:after{
+	top:-3100%;
+	left:-700%;
+	width:100%;
+	height:3200%;
+}
+.tile-dungeon-door-open-west .bit-08{
+	top:96.875%;
+	left:50%;
+}
+.tile-dungeon-door-open-west .bit-08:before{
+	top:-2600%;
+	left:-1100%;
+	width:800%;
+	height:100%; 
+}
+.tile-dungeon-door-open-west .bit-08:after{
+	top:-500%;
+	left:-1100%;
+	width:800%;
+	height:100%;
+}
+.tile-dungeon-door-open-west .bit-09{
+	top:93.75%;
+	left:50%;
+}
+.tile-dungeon-door-open-west .bit-09:before{
+	top:-2600%;
+	left:-1100%;
+	width:500%;
+	height:100%;
+}
+.tile-dungeon-door-open-west .bit-09:after{
+	top:-300%;
+	left:-1100%;
+	width:500%;
+	height:100%;
+}
+.tile-dungeon-door-open-west .bit-10{
+	top:90.625%;
+	left:50%;
+}
+.tile-dungeon-door-open-west .bit-10:before{
+	top:-2600%;
+	left:-1100%;
+	width:200%;
+	height:100%; 
+}
+.tile-dungeon-door-open-west .bit-10:after{
+	top:-100%;
+	left:-1100%;
+	width:200%;
+	height:100%; 
+}
+.tile-dungeon-door-open-west .bit-11{
+	top:0;
+	left:50%;
+}
+.tile-dungeon-door-open-west .bit-11:before{
+	top:100%;
+	left:-800%;
+	width:300%;
+	height:100%;
+}
+.tile-dungeon-door-open-west .bit-11:after{
+	top:200%;
+	left:-500%;
+	width:300%;
+	height:100%;
+}
+.tile-dungeon-door-open-west .bit-12{
+	top:3.125%;
+	left:50%;
+}
+.tile-dungeon-door-open-west .bit-12:before{
+	top:200%;
+	left:-200%;
+	width:300%;
+	height:100%;
+}
+.tile-dungeon-door-open-west .bit-12:after{
+	top:300%;
+	left:100%;
+	width:300%;
+	height:100%;
+}
+.tile-dungeon-door-open-west .bit-13{
+	top:0;
+	left:21.875%;
+}
+.tile-dungeon-door-open-west .bit-13:before{
+	top:0;
+	left:-300%;
+	width:300%;
+	height:100%;
+}
+.tile-dungeon-door-open-west .bit-13:after{
+	top:0;
+	left:-700%;
+	width:100%;
+	height:3200%;
+}
+.tile-dungeon-door-open-west .bit-14{
+	top:87.5%;
+	left:59.375%;
+}
+.tile-dungeon-door-open-west .bit-14:before{
+	top:-500%;
+	left:-700%;
+	width:700%;
+	height:100%;
+}
+.tile-dungeon-door-open-west .bit-14:after{
+	top:-500%;
+	left:0;
+	width:100%;
+	height:100%;
+}

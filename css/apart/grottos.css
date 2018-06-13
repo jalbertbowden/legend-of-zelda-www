@@ -1,0 +1,23 @@
+/**
+grottoes candle placement
+
+margins left/right at: 28.125%
+  which is a half of 6.25%
+    25 + 6.25 = 31.25
+    6.25 / 2 = 3.125
+
+https://bowdenweb.com/nes/loz/i/items/fire/an-fire-x032.gif
+**/
+.flame-grottoes{
+    background-image:url("https://bowdenweb.com/nes/loz/i/items/fire/an-fire-x032.gif");
+    background-repeat:no-repeat;
+    background-position:0 0;
+    position:absolute;
+    top:128px;
+}
+#flame-grottoes-left{
+	left:28.125%;
+}
+#flame-grottoes-right{
+    left:61.875%;
+}

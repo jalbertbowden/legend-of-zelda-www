@@ -1,0 +1,28 @@
+/** underworld-dungeon-row-01-a.css **/
+	
+/**
+	--color-underground-blue-light
+**/
+
+.tile-dungeon-10j.level-01-gsarchives{
+	background-color:var(--color-underground-grey);
+}
+.tile-dungeon-10j.level-01-gsarchives:before{
+	background-color:var(--color-underground-grey-dark);
+}
+.tile-dungeon-10j.level-01-gsarchives:after{
+	background-color:var(--color-underground-blue-light);
+}
+
+.tile-dungeon-10j:before{
+	width:100%;
+	height:6.25%;
+	top:25%;
+	left:0;
+}
+.tile-dungeon-10j:after{
+	width:100%;
+	height:6.25%;
+	top:18.75%;
+	left:0;
+}

@@ -1,0 +1,84 @@
+ul{
+	list-style-type:none;
+}
+ul,
+li{
+	margin:0;
+	padding:0;
+	border:none;
+}
+#boxxx{
+	background-image:url("https://bowdenweb.com/nes/loz/i/subscreen/inventory-list-368x512.gif");
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	width:512px;
+	height:512px;
+	outline:1px solid #000;
+}
+#list-box{
+	width:1024px;
+	height:512px;
+	outline:2px dotted #333;
+}
+#listbox256{
+	width:522px;
+	height:256px;
+}
+#listboxxx128{
+	width:266px;
+	height:128px;
+}
+#listboxxx064{
+	width:106px;
+	height:64px;
+}
+#boxxx064{
+	background:url("https://bowdenweb.com/nes/loz/i/subscreen/inventory-list-046x064.gif") 0 0 no-repeat;
+	width:46px;
+	height:64px;
+	outline:1px solid #666;
+	margin-right:10px;
+}
+
+
+#boxxx128{
+	background:url("https://bowdenweb.com/nes/loz/i/subscreen/inventory-list-092x128.gif") 0 0 no-repeat;
+	width:92px;
+	height:128px;
+	outline:1px solid #666;
+	margin-right:10px;
+}
+#boxxx256{
+	background-image:url("https://bowdenweb.com/nes/loz/i/subscreen/inventory-list-184x256.gif");
+	background-repeat:no-repeat;
+	background-position:0 0;
+	width:184px;
+	height:256px;
+	outline:1px solid #666;
+	margin-right:10px;
+}
+#boxxx256,
+#boxxx128,
+#boxxx064{
+	float:left;
+}
+#listbox256 #inventory-list{
+	outline:1px solid #666;
+}
+#boxxx,
+#list-box #inventory-list,
+#listbox256 #inventory-list,
+#listbox128 #inventory-list,
+#listbox064 #inventory-list{
+	float:left;
+	outline:1px solid #000;
+}
+/**
+#subscreen-section-2{
+	margin-left:20px;
+}
+#subscreen-section-2{
+	height:100%;
+	width:368px;
+}
+**/

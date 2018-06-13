@@ -1,0 +1,50 @@
+/** fire - items.css **/ 	/** an-fire.gif: gold #ffa542, red #ff3900, white #fff **/
+/**	--color-fire-gold: #ffa542; --color-fire-red: #ff3900; **/
+.tile-fire:before, .tile-fire:after, .tile-fire .bit-01, .tile-fire .bit-01:before, .tile-fire .bit-01:after{
+	background-color:var(--color-fire-red);
+}
+.tile-size-032 .tile-fire{
+	background-image:url("https://bowdenweb.com/nes/loz/i/items/fire/an-fire-x032.gif");
+}
+/**
+.tile-fire:before{
+	height:12.5%;
+	width:62.5%;
+	top:68.75%;
+	left:18.75%;
+}
+.tile-fire:after{
+	height:12.5%;
+	width:50%;
+	top:56.25%;
+	left:25%;
+}
+.tile-fire.fire-shard .bit{
+	width:12.5%;
+	height:12.5%;
+}
+.tile-fire .bit-01{
+	top:18.75%;
+	left:43.75%;
+}
+.tile-fire .bit-01:before{
+	width:200%;
+	height:100%;
+	top:100%;
+	left:-50%;
+}
+.tile-fire .bit-01:after{
+	width:300%;
+	height:100%;
+	left:-100%;
+	top:200%;
+}**/
+.fire-an-gif{
+	background-position: 0 0;
+	background-repeat:no-repeat;
+}
+.tile-size-032 .fire-an-gif{
+	background-image:url("https://bowdenweb.com/nes/loz/i/items/fire/an-fire-x032.gif");
+	width:32px;
+	height:32px;
+}

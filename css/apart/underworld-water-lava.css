@@ -1,0 +1,43 @@
+/** underworld water / lava **/
+:root{
+	--color-underground-blue-light-alt: #63a5ff;
+	--color-underground-blue-royal-7: #2142ff;
+	--color-underground-red-level-02: #c62100;
+	--color-u-blue: #005aff;
+}
+.level-01.tile-underworld-water-lava{
+	background-color:var(--color-underground-blue-royal-7);
+}
+.level-01-gsarchives.tile-underworld-water-lava{
+	background-color:var(--color-u-blue);
+}
+.level-02.tile-underworld-water-lava{
+	background-color:var(--color-underground-blue-royal-7);
+}
+.level-03.tile-underworld-water-lava{
+	background-color:var(--color-underground-blue-royal-7);
+}
+.level-04.tile-underworld-water-lava{
+	background-color:var(--color-underground-blue-royal-7);
+}
+.level-05.tile-underworld-water-lava{
+	background-color:var(--color-underground-red-level-02);
+}
+.level-06.tile-underworld-water-lava{
+	background-color:var(--color-underground-red-level-02);
+}
+.level-07.tile-underworld-water-lava{
+	background-color:var(--color-underground-blue-royal-7);
+}
+.level-08.tile-underworld-water-lava{
+	background-color:var(--color-underground-blue-light-alt);
+}
+.level-09.tile-underworld-water-lava{
+	background-color:var(--color-underground-red-level-02);
+}
+/** display:none;s **/
+.tile-underworld-water-lava:before,
+.tile-underworld-water-lava:after{
+	display:none;
+}
+.s512 .tile.tile-underworld-water-lava{width:32px; height:32px;}

@@ -1,0 +1,594 @@
+/** life heart containers - subscreen **/
+/** red #d82800; **/
+/**.subscreen-section h2{
+	margin:0;
+}**/
+#life-text:before,
+#life-text:after,
+#life-text .bit,
+#life-text .bit:before,
+#life-text .bit:after{
+	background-color:var(--color-red);
+}
+
+#life-text{
+	margin-top:0;
+	margin-bottom:0;
+}
+/** life text **/
+#life-text .bit{
+	position:absolute;
+}
+#life-text:before,
+#life-text:after,
+#life-text .bit:before,
+#life-text .bit:after{
+	position:absolute;
+	content:"";
+}
+
+#subscreen-test #life-text.h2-subscreen-092x014{
+/**
+	margin-left:auto;
+	margin-right:auto;
+**/
+	margin-left:45px;
+	margin-bottom:34px;
+}
+#life-text.h2-subscreen-092x014 .bit{
+	width:2px;
+	height:2px;
+}
+#life-text.h2-subscreen-184x028 .bit{
+	width:4px;
+	height:4px;
+}
+#life-text.h2-subscreen-368x056 .bit{
+	width:8px;
+	height:8px;
+}
+
+#life-text.h2-subscreen-736x112 .bit{
+	width:16px;
+	height:16px;
+}
+#life-text{
+	position:relative;
+}
+#life-text:before{}
+#life-text:after{}
+
+#life-text.h2-subscreen-092x014{
+	width:92px;
+	height:14px;
+}
+#life-text.h2-subscreen-092x014:before{
+	height:2px;
+	width:12px;
+	top:6px;
+	left:0;
+}
+#life-text.h2-subscreen-092x014:after{
+	height:2px;
+	width:12px;
+	top:6px;
+	left:80px;
+}
+
+
+
+#life-text.h2-subscreen-184x028{
+	width:184px;
+	height:28px;
+}
+#life-text.h2-subscreen-184x028:before{
+	height:4px;
+	width:24px;
+	top:12px;
+	left:0;
+}
+#life-text.h2-subscreen-184x028:after{
+	height:4px;
+	width:24px;
+	top:12px;
+	left:160px;
+}
+
+
+
+
+#life-text.h2-subscreen-368x056{
+	width:368px;
+	height:56px;
+}
+#life-text.h2-subscreen-368x056:before{
+	height:8px;
+	width:48px;
+	top:24px;
+	left:0;
+}
+#life-text.h2-subscreen-368x056:after{
+	height:8px;
+	width:48px;
+	top:24px;
+	left:320px;
+}
+
+
+#life-text.h2-subscreen-736x112{
+	width:736px;
+	height:112px;
+}
+#life-text.h2-subscreen-736x112:before{
+	height:16px;
+	width:96px;
+	top:48px;
+	left:0;
+}
+#life-text.h2-subscreen-736x112:after{
+	height:16px;
+	width:96px;
+	top:48px;
+	left:640px;
+}
+
+
+
+#life-text.h2-subscreen-092x014 .bit-01{
+	left:36px;
+	top:0;
+}
+#life-text.h2-subscreen-184x028 .bit-01{
+	left:72px;
+	top:0;
+}
+#life-text.h2-subscreen-368x056 .bit-01{
+	left:144px;
+	top:0;
+}
+#life-text.h2-subscreen-736x112 .bit-01{
+	left:288px;
+	top:0;
+}
+
+
+
+
+
+
+#life-text .bit-01:before{
+	width:200%;
+	height:700%;
+	left:-900%;
+	top:0;
+}
+#life-text .bit-01:after{
+	width:400%;
+	height:100%;
+	left:-700%;
+	top:600%;
+}
+
+
+#life-text.h2-subscreen-092x014 .bit-02{
+	left:36px;
+	top:12px;
+}
+#life-text.h2-subscreen-184x028 .bit-02{
+	left:72px;
+	top:24px;
+}
+#life-text.h2-subscreen-368x056 .bit-02{
+	left:144px;
+	top:48px;
+}
+#life-text.h2-subscreen-736x112 .bit-02{
+	left:288px;
+	top:96px;
+}
+
+
+
+
+
+#life-text .bit-02:before{
+	width:500%;
+	height:100%;
+	left:1600%;
+	top:-600%;
+}
+#life-text .bit-02:after{
+	width:500%;
+	height:100%;
+	left:1600%;
+	top:0;
+}
+
+
+#life-text.h2-subscreen-092x014 .bit-03{
+	left:42px;
+	top:0;
+}
+#life-text.h2-subscreen-184x028 .bit-03{
+	left:84px;
+	top:0;
+}
+#life-text.h2-subscreen-368x056 .bit-03{
+	left:168px;
+	top:0;
+}
+#life-text.h2-subscreen-736x112 .bit-03{
+	left:336px;
+	top:0;
+}
+
+
+
+
+#life-text .bit-03:before{
+	width:400%;
+	height:100%;
+	left:1300%;
+	top:300%;
+}
+#life-text .bit-03:after{
+	width:200%;
+	height:700%;
+	left:1100%;
+	top:0;
+}
+
+
+
+#life-text.h2-subscreen-092x014 .bit-04{
+	left:42px;
+	top:12px;
+}
+#life-text.h2-subscreen-184x028 .bit-04{
+	left:84px;
+	top:24px;
+}
+#life-text.h2-subscreen-368x056 .bit-04{
+	left:168px;
+	top:48px;
+}
+#life-text.h2-subscreen-736x112 .bit-04{
+	left:336px;
+	top:96px;
+}
+
+
+
+#life-text .bit-04:before{
+	width:200%;
+	height:700%;
+	top:-600%;
+	left:300%;
+}
+#life-text .bit-04:after{
+	width:500%;
+	height:100%;
+	left:400%;
+	top:-300%;
+}
+
+
+
+
+#life-text.h2-subscreen-092x014 .bit-05{
+	left:40px;
+	top:0;
+}
+#life-text.h2-subscreen-184x028 .bit-05{
+	left:80px;
+	top:0;
+}
+#life-text.h2-subscreen-368x056 .bit-05{
+	left:160px;
+	top:0;
+}
+#life-text.h2-subscreen-736x112 .bit-05{
+	left:320px;
+	top:0;
+}
+
+
+
+
+
+
+#life-text .bit-05:before{
+	width:200%;
+	height:700%;
+	top:0;
+	left:-100%;
+}
+#life-text .bit-05:after{
+	width:500%;
+	height:100%;
+	left:600%;
+	top:0;
+}
+
+
+
+
+
+
+/** life heart containers, life heart gauge inventory meter - subscreen **/
+
+
+
+/** maximum width is eight life hearts; maxiumum height is two life hearts **/
+#heart-containers-list{
+	position:relative;
+	background-color:#000;
+}
+#heart-containers-list.size016{
+	width:128px;
+	height:32px;
+	margin-left:22px;
+	/** margin-top:34px; **/
+}
+#heart-containers-list.size032{
+	width:256px;
+	height:64px;
+}
+#heart-containers-list.size064{
+	width:512px;
+	height:128px;
+}
+#heart-containers-list.size128{
+	width:1024px;
+	height:256px;
+}
+#heart-containers-list.size256{
+	width:2048px;
+	height:512px;
+}
+/** second row of life hearts' height is one less than first; doing this via negative margins yo **/
+.size032 #heart-life-8,
+.size032 #heart-life-9,
+.size032 #heart-life-10,
+.size032 #heart-life-11,
+.size032 #heart-life-12,
+.size032 #heart-life-13,
+.size032 #heart-life-14,
+.size032 #heart-life-15{
+	margin-top:-4px;
+}
+.size016 #heart-life-8,
+.size016 #heart-life-9,
+.size016 #heart-life-10,
+.size016 #heart-life-11,
+.size016 #heart-life-12,
+.size016 #heart-life-13,
+.size016 #heart-life-14,
+.size016 #heart-life-15{
+	margin-top:-2px;
+}
+
+
+
+.heart-life{}
+.heart-life:before,
+.heart-life:after{}
+.heart-life .bit{}
+.heart-life .bit:before,
+.heart-life .bit:after{}
+.heart-life-half{}
+.heart-life-full{}
+
+
+.tile-heart-life{
+	display:inline-block;
+}
+.tile-heart-life.size512{
+	width:512px;
+	height:512px;
+}
+.tile-heart-life.size512 .bit{
+	width:64px;
+	height:64px;
+}
+
+
+.tile-heart-life.size032{
+	width:32px;
+	height:32px;
+}
+.tile-heart-life.size032 .bit{
+	width:4px;
+	height:4px;
+}
+
+
+.tile-heart-life.size016{
+	width:16px;
+	height:16px;
+}
+.tile-heart-life.size016 .bit{
+	width:2px;
+	height:2px;
+}
+
+.tile-heart-life{
+	position:relative;
+}
+
+
+.tile-heart-life:before,
+.tile-heart-life:after,
+.tile-heart-life .bit:before,
+.tile-heart-life .bit:after{
+	position:absolute;
+	content:"";
+}
+
+
+.tile-heart-life .bit{
+	position:absolute;
+}
+
+.tile-heart-life:before,
+.tile-heart-life:after,
+.tile-heart-life .bit-01,
+.tile-heart-life .bit-01:before,
+.tile-heart-life .bit-01:after,
+.tile-heart-life .bit-02,
+.tile-heart-life .bit-02:before{
+	background-color:var(--color-white-empty);
+}
+.tile-heart-life .bit-02:after,
+.tile-heart-life .bit-03,
+.tile-heart-life .bit-03:before,
+.tile-heart-life .bit-03:after,
+.tile-heart-life .bit-04,
+.tile-heart-life .bit-04:before,
+.tile-heart-life .bit-04:after{
+	background-color:var(--color-red);
+}
+
+
+
+/** display:none;s **/
+.tile-heart-life .bit-02:after,
+.tile-heart-life .bit-03,
+.tile-heart-life .bit-04{
+	display:none;
+}
+.tile-heart-life.heart-life-half .bit-02:after,
+.tile-heart-life.heart-life-half .bit-03,
+.tile-heart-life.heart-life-half .bit-04,
+.tile-heart-life.heart-life-full .bit-02:after,
+.tile-heart-life.heart-life-full .bit-03,
+.tile-heart-life.heart-life-full .bit-04{
+	display:block;
+}
+
+
+
+
+.tile-heart-life:before{
+	width:87.5%;
+	height:50%;
+	top:12.5%;
+	left:0;
+}
+.tile-heart-life:after{
+	width:62.5%;
+	left:12.5%;
+	height:12.5%;
+	top:62.5%;
+}
+.tile-heart-life .bit-01{
+	top:87.5%;
+	left:37.5%;
+}
+.tile-heart-life .bit-01:before{
+	width:300%;
+	height:100%;
+	left:-100%;
+	top:-100%;
+}
+.tile-heart-life .bit-01:after{
+	width:200%;
+	top:-700%;
+	left:-200%;
+	height:100%;
+}
+.tile-heart-life .bit-02{
+	top:0;
+	left:50%;
+}
+.tile-heart-life .bit-02:before{
+	width:100%;
+	height:100%;
+	left:100%;
+	top:0;
+}
+
+
+
+.heart-life-half{}
+.heart-life-half .bit-02:after{
+	width:100%;
+	height:400%;
+	left:-400%;
+	top:100%;
+}
+.heart-life-half .bit-03{
+	top:87.5%;
+	left:37.5%;
+}
+.heart-life-half .bit-03:before{
+	width:200%;
+	height:600%;
+	top:-700%;
+	left:-200%;
+}
+.heart-life-half .bit-03:after{
+	width:100%;
+	height:100%;
+	top:-100%;
+	left:-100%;
+}
+.heart-life-half .bit-04{
+	top:12.5%;
+	left:37.5%;
+}
+.heart-life-half .bit-04:before{
+	width:100%;
+	height:100%;
+	left:0;
+	top:200%;
+}
+.heart-life-half .bit-04:after{
+	width:100%;
+	height:100%;
+	left:0;
+	top:400%;
+}
+.heart-life-full{}
+
+
+.heart-life-full .bit-02:after{
+	width:700%;
+	height:400%;
+	left:-400%;
+	top:100%;
+}
+.heart-life-full .bit-03{
+	top:87.5%;
+	left:37.5%;
+}
+.heart-life-full .bit-03:before{
+	width:500%;
+	height:100%;
+	top:-200%;
+	left:-200%;
+}
+.heart-life-full .bit-03:after{
+	top:-100%;
+	left:-100%;
+	width:300%;
+	height:100%;
+}
+.heart-life-full .bit-04{
+	left:12.5%;
+	top:0;
+}
+.heart-life-full .bit-04:before{
+	left:300%;
+	top:0;
+	width:200%;
+	height:100%;
+}
+.heart-life-full .bit-04:after{
+	width:100%;
+	height:100%;
+	top:0;
+	left:100%;
+}
+
+

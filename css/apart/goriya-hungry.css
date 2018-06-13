@@ -1,0 +1,308 @@
+/** goriya-hungry - npc - non playable character - the legend of zelda - nes **/
+/**
+
+
+goriya-hungry color palette
+
+skin/khaki
+#ffad41
+
+red clothes/hair
+#e66410
+
+yellow clothes
+#b0ff18
+
+eyes
+#000
+
+
+**/
+
+
+/** red clothes/hair #e66410 **/
+.tile-goriya-hungry:before,
+.tile-goriya-hungry:after,
+.tile-goriya-hungry .bit-08,
+.tile-goriya-hungry .bit-08:before,
+.tile-goriya-hungry .bit-08:after,
+.tile-goriya-hungry .bit-09,
+.tile-goriya-hungry .bit-09:before,
+.tile-goriya-hungry .bit-09:after,
+.tile-goriya-hungry .bit-10,
+.tile-goriya-hungry .bit-10:before,
+.tile-goriya-hungry .bit-10:after,
+.tile-goriya-hungry .bit-11,
+.tile-goriya-hungry .bit-11:before,
+.tile-goriya-hungry .bit-11:after,
+.tile-goriya-hungry .bit-12,
+.tile-goriya-hungry .bit-12:before,
+.tile-goriya-hungry .bit-12:after{
+	background-color:#e66410
+}
+
+/** yellow - clothes **/
+.tile-goriya-hungry .bit-01,
+.tile-goriya-hungry .bit-01:before,
+.tile-goriya-hungry .bit-01:after,
+.tile-goriya-hungry .bit-02,
+.tile-goriya-hungry .bit-02:before,
+.tile-goriya-hungry .bit-02:after,
+.tile-goriya-hungry .bit-03,
+.tile-goriya-hungry .bit-03:before,
+.tile-goriya-hungry .bit-03:after{
+	background-color:#b0ff18;
+}
+
+/** skin/khaki #ffad41 **/
+.tile-goriya-hungry .bit-04,
+.tile-goriya-hungry .bit-04:before,
+.tile-goriya-hungry .bit-04:after,
+.tile-goriya-hungry .bit-05,
+.tile-goriya-hungry .bit-05:before,
+.tile-goriya-hungry .bit-05:after,
+.tile-goriya-hungry .bit-06,
+.tile-goriya-hungry .bit-06:before,
+.tile-goriya-hungry .bit-06:after,
+.tile-goriya-hungry .bit-07,
+.tile-goriya-hungry .bit-07:before,
+.tile-goriya-hungry .bit-07:after{
+	background-color:#ffad41;
+}
+
+/** black **/
+.tile-goriya-hungry .bit-13,
+.tile-goriya-hungry .bit-13:before,
+.tile-goriya-hungry .bit-13:after{
+	background-color:#000;
+}
+
+.tile-goriya-hungry:before{
+	width:62.5%;
+	height:81.25%;
+	top:6.25%;
+	left:18.75%;
+}
+.tile-goriya-hungry:after{
+	width:50%;
+	height:6.25%;
+	top:0;
+	left:25%;
+}
+
+
+
+
+
+
+
+
+.tile-goriya-hungry .bit-01{
+	top:37.5%;
+	left:18.75%;
+}
+.tile-goriya-hungry .bit-01:before{
+	width:800%;
+	height:200%;
+	left:100%;
+	top:200%;
+}
+.tile-goriya-hungry .bit-01:after{
+	width:600%;
+	height:400%;
+	top:400%;
+	left:200%;
+}
+.tile-goriya-hungry .bit-02{
+	top:37.5%;
+	left:75%;
+}
+.tile-goriya-hungry .bit-02:before{
+	width:200%;
+	height:100%;
+	top:600%;
+	left:-900%;
+}
+.tile-goriya-hungry .bit-02:after{
+	width:200%;
+	height:100%;
+	top:600%;
+	left:-100%;
+}
+.tile-goriya-hungry .bit-03{
+	top:43.75%;
+	left:25%;
+}
+.tile-goriya-hungry .bit-03:before{
+	width:200%;
+	height:100%;
+	top:0;
+	left:700%;
+}
+.tile-goriya-hungry .bit-03:after{
+	width:100%;
+	height:100%;
+	top:0;
+	left:-100%;
+}
+.tile-goriya-hungry .bit-04{
+	top:62.5%;
+	left:25%;
+}
+.tile-goriya-hungry .bit-04:before{
+	width:200%;
+	height:300%;
+	left:-200%;
+	top:-100%;
+}
+.tile-goriya-hungry .bit-04:after{
+	width:200%;
+	height:300%;
+	left:800%;
+	top:-100%;
+}
+
+.tile-goriya-hungry .bit-05{
+	top:62.5%;
+	left:68.75%;
+}
+.tile-goriya-hungry .bit-05:before{
+	width:200%;
+	height:200%;
+	left:-1000%;
+	top:100%;
+}
+.tile-goriya-hungry .bit-05:after{
+	width:200%;
+	height:200%;
+	left:200%;
+	top:100%;
+}
+.tile-goriya-hungry .bit-06{
+	top:31.25%;
+	left:25%;
+}
+.tile-goriya-hungry .bit-06:before{
+	width:100%;
+	height:300%;
+	left:-100%;
+	top:-200%;
+}
+.tile-goriya-hungry .bit-06:after{
+	width:100%;
+	height:300%;
+	left:800%;
+	top:-200%;
+}
+.tile-goriya-hungry .bit-07{
+	top:31.25%;
+	left:68.75%;
+}
+.tile-goriya-hungry .bit-07:before{
+	width:600%;
+	height:200%;
+	left:-600%;
+	top:-300%;
+}
+.tile-goriya-hungry .bit-07:after{
+	width:400%;
+	height:200%;
+	left:-500%;
+	top:-100%;
+}
+.tile-goriya-hungry .bit-08{
+	top:87.5%;
+	left:37.5%;
+}
+.tile-goriya-hungry .bit-08:before{
+	width:300%;
+	height:100%;
+	left:-300%;
+	top:0;
+}
+.tile-goriya-hungry .bit-08:after{
+	width:300%;
+	height:100%;
+	left:400%;
+	top:0;
+}
+.tile-goriya-hungry .bit-09{
+	top:87.5%;
+	left:56.25%;
+}
+.tile-goriya-hungry .bit-09:before{
+	top:100%;
+	left:-500%;
+	height:100%;
+	width:200%;
+}
+.tile-goriya-hungry .bit-09:after{
+	top:100%;
+	left:100%;
+	height:100%;
+	width:200%;
+}
+.tile-goriya-hungry .bit-10{
+	left:43.75%;
+	top:62.5%;
+}
+.tile-goriya-hungry .bit-10:before{
+	top:-300%;
+	left:-600%;
+	height:400%;
+	width:100%;
+}
+.tile-goriya-hungry .bit-10:after{
+	top:-300%;
+	left:700%;
+	height:400%;
+	width:100%;
+}
+.tile-goriya-hungry .bit-11{
+	left:50%;
+	top:62.5%;
+}
+.tile-goriya-hungry .bit-11:before{
+	top:-500%;
+	left:-600%;
+	height:400%;
+	width:100%;
+}
+.tile-goriya-hungry .bit-11:after{
+	top:-500%;
+	left:500%;
+	height:400%;
+	width:100%;
+}
+.tile-goriya-hungry .bit-12{
+	left:43.75%;
+	top:75%;
+}
+.tile-goriya-hungry .bit-12:before{
+	width:600%;
+	height:100%;
+	top:-100%;
+	left:-200%;
+}
+.tile-goriya-hungry .bit-12:after{
+	width:100%;
+	height:100%;
+	top:0;
+	left:100%;
+}
+.tile-goriya-hungry .bit-13{
+	top:12.5%;
+	left:37.5%;
+}
+.tile-goriya-hungry .bit-13:before{
+	width:100%;
+	height:200%;
+	top:0;
+	left:300%;
+}
+.tile-goriya-hungry .bit-13:after{
+	width:100%;
+	height:100%;
+	top:100%;
+	left:0;
+}

@@ -1,0 +1,102 @@
+/** <li id="inv-icon-key"></li> **/
+/** gold #fc9838  - khaki #fcbcb0    **/
+
+/** gold **/
+#inv-icon-key:before,
+#inv-icon-key:after,
+#inv-icon-key .bit-01,
+#inv-icon-key .bit-01:before,
+#inv-icon-key .bit-01:after,
+#inv-icon-key .bit-02,
+#inv-icon-key .bit-02:before,
+#inv-icon-key .bit-02:after,
+#inv-icon-key .bit-03,
+#inv-icon-key .bit-03:before,
+#inv-icon-key .bit-03:after,
+#inv-icon-key .bit-04{
+	background-color:#fc9838;
+}
+
+/** display:none; **/
+#inv-icon-key .bit-04:before,
+#inv-icon-key .bit-04:after{
+	display:none;
+}
+
+
+
+#inv-icon-key.tile .bit,
+.inventory-list-tile .bit{
+	width:12.5%;
+	height:12.5%;
+}
+
+
+
+
+
+
+#inv-icon-key:before{
+	width:37.5%;
+	left:50%;
+	height:12.5%;
+	top:0;
+}
+#inv-icon-key:after{
+	width:12.5%;
+	height:37.5%;
+	top:12.5%;
+	left:87.5%;
+}
+#inv-icon-key .bit-01{
+	top:12.5%;
+	left:75%;
+}
+#inv-icon-key .bit-01:before{
+	width:100%;
+	height:200%;
+	top:0;
+	left:-300%;
+}
+#inv-icon-key .bit-01:after{
+	width:200%;
+	height:100%;
+	top:300%;
+	left:-100%;
+}
+#inv-icon-key .bit-02{
+	top:87.5%;
+	left:0;
+}
+#inv-icon-key .bit-02:before{
+	width:100%;
+	height:100%;
+	top:0;
+	left:200%;
+}
+#inv-icon-key .bit-02:after{
+	width:100%;
+	height:100%;
+	top:-100%;
+	left:300%;
+}
+#inv-icon-key .bit-03{
+	top:75%;
+	left:12.5%;
+}
+#inv-icon-key .bit-03:before{
+	width:100%;
+	height:100%;
+	top:-100%;
+	left:100%;
+}
+#inv-icon-key .bit-03:after{
+	top:-200%;
+	height:100%;
+	width:100%;
+	left:200%;
+}
+#inv-icon-key .bit-04{
+	left:50%;
+	top:37.5%;
+}

@@ -1,0 +1,257 @@
+/** goriya-red - npc - non playable character - the legend of zelda - nes **/
+/**
+goriya-red color palette - red goriya colors palette
+orange-carrot - #fc9838, --color-orange-carrot, red - --color-red: #d82800;, white - skin - --color-white: #fcfcfc;
+**/
+
+
+/** --color-orange-carrot **/
+.tile-goriya-red:before,
+.tile-goriya-red .bit-05,
+.tile-goriya-red .bit-05:before,
+.tile-goriya-red .bit-05:after,
+.tile-goriya-red .bit-06,
+.tile-goriya-red .bit-06:before,
+.tile-goriya-red .bit-06:after,
+.tile-goriya-red .bit-08,
+.tile-goriya-red .bit-08:before,
+.tile-goriya-red .bit-08:after,
+.tile-goriya-red .bit-09,
+.tile-goriya-red .bit-10,
+.tile-goriya-red .bit-11{
+	background-color:var(--color-orange-carrot);
+}
+/** red **/
+.tile-goriya-red:after,
+.tile-goriya-red .bit-01,
+.tile-goriya-red .bit-01:before,
+.tile-goriya-red .bit-01:after,
+.tile-goriya-red .bit-02,
+.tile-goriya-red .bit-02:before,
+.tile-goriya-red .bit-02:after,
+.tile-goriya-red .bit-03,
+.tile-goriya-red .bit-03:before,
+.tile-goriya-red .bit-03:after,
+.tile-goriya-red .bit-04,
+.tile-goriya-red .bit-07,
+.tile-goriya-red .bit-07:before,
+.tile-goriya-red .bit-07:after,
+.tile-goriya-red .bit-12:before{
+	background-color:var(--color-red);
+}
+/** --color-white **/
+.tile-goriya-red .bit-04:before,
+.tile-goriya-red .bit-04:after,
+.tile-goriya-red .bit-09:before,
+.tile-goriya-red .bit-09:after,
+.tile-goriya-red .bit-10:before,
+.tile-goriya-red .bit-10:after,
+.tile-goriya-red .bit-11:before,
+.tile-goriya-red .bit-11:after,
+.tile-goriya-red .bit-12{
+	background-color:var(--color-white);
+}
+/** display:none;s **/
+.tile-goriya-south .bit-12:after{
+	display:none;
+}
+
+
+.tile-goriya-south:before{
+	width:62.5%;
+	height:18.75%;
+	top:68.75%;
+	left:12.55%;
+}
+.tile-goriya-south:after{
+	width:75%;
+	height:25%;
+	top:37.5%;
+	left:12.5%;
+}
+.tile-goriya-south .bit-01{
+	top:87.5%;
+	left:18.75%;
+}
+.tile-goriya-south .bit-01:before{
+	width:700%;
+	height:300%;
+	left:100%;
+	top:-1100%;
+}
+.tile-goriya-south .bit-01:after{
+	width:300%;
+	height:200%;
+	top:0;
+	left:600%;
+}
+.tile-goriya-south .bit-02{
+	top:87.5%;
+	left:25%;
+}
+.tile-goriya-south .bit-02:before{
+	width:100%;
+	height:400%;
+	top:-600%;
+	left:-300%;
+}
+.tile-goriya-south .bit-02:after{
+	width:1100%;
+	height:100%;
+	top:-400%;
+	left:-200%;
+}
+.tile-goriya-south .bit-03{
+	top:87.5%;
+	left:31.25%;
+}
+.tile-goriya-south .bit-03:before{
+	width:500%;
+	height:200%;
+	top:-1300%;
+	left:0;
+}
+.tile-goriya-south .bit-03:after{
+	width:900%;
+	height:200%;
+	top:-1000%;
+	left:-200%;
+}
+.tile-goriya-south .bit-04{
+	top:31.25%;
+	left:75%;
+}
+.tile-goriya-south .bit-04:before{
+	width:900%;
+	height:100%;
+	left:-900%;
+	top:100%;
+}
+.tile-goriya-south .bit-04:after{
+	width:700%;
+	height:100%;
+	left:-800%;
+	top:0;
+}
+.tile-goriya-south .bit-05{
+	top:0;
+	left:6.25%;
+}
+.tile-goriya-south .bit-05:before{
+	width:800%;
+	height:300%;
+	left:300%;
+	top:800%;
+}
+.tile-goriya-south .bit-05:after{
+	width:100%;
+	height:500%;
+	left:1100%;
+	top:800%;
+}
+.tile-goriya-south .bit-06{
+	top:0;
+	left:12.5%;
+}
+.tile-goriya-south .bit-06:before{
+	width:700%;
+	height:100%;
+	left:200%;
+	top:700%;
+}
+.tile-goriya-south .bit-06:after{
+	width:300%;
+	height:100%;
+	left:400%;
+	top:400%;
+}
+.tile-goriya-south .bit-07{
+	top:62.5%;
+	left:75%;
+}
+.tile-goriya-south .bit-07:before{
+	width:700%;
+	height:100%;
+	left:-700%;
+	top:100%;
+}
+.tile-goriya-south .bit-07:after{
+	width:300%;
+	height:300%;
+	left:-600%;
+	top:0;
+}
+.tile-goriya-south .bit-08{
+	top:0;
+	left:18.75%;
+}
+.tile-goriya-south .bit-08:before{
+	width:200%;
+	height:100%;
+	left:900%;
+	top:0;
+}
+.tile-goriya-south .bit-08:after{
+	width:200%;
+	height:200%;
+	left:700%;
+	top:0;
+}
+.tile-goriya-south .bit-09{
+	top:0;
+	left:25%;
+}
+.tile-goriya-south .bit-09:before{
+	top:300%;
+	left:100%;
+	height:100%;
+	width:200%;
+}
+.tile-goriya-south .bit-09:after{
+	top:300%;
+	left:400%;
+	height:100%;
+	width:200%;
+}
+.tile-goriya-south .bit-10{
+	left:25%;
+	top:6.25%;
+}
+.tile-goriya-south .bit-10:before{
+	top:600%;
+	left:-100%;
+	height:100%;
+	width:100%;
+}
+.tile-goriya-south .bit-10:after{
+	top:600%;
+	left:700%;
+	height:100%;
+	width:100%;
+}
+.tile-goriya-south .bit-11{
+	left:18.75%;
+	top:6.25%;
+}
+.tile-goriya-south .bit-11:before{
+	top:900%;
+	left:-100%;
+	height:300%;
+	width:200%;
+}
+.tile-goriya-south .bit-11:after{
+	top:800%;
+	left:0;
+	height:300%;
+	width:200%;
+}
+.tile-goriya-south .bit-12{
+	left:43.75%;
+	top:68.75%;
+}
+.tile-goriya-south .bit-12:before{
+	width:500%;
+	height:100%;
+	top:-400%;
+	left:-200%;
+}

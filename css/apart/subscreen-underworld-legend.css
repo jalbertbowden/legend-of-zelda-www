@@ -1,0 +1,133 @@
+/** subscreen legend map **/
+/**
+legend tilebox 432x256
+	64x32
+		56x24 tile
+		8x8 column-row-gap:8; column-header-gap:8;
+**/
+.subscreen-level-grid,
+.subscreen-overworld-grid{
+	display:grid;
+	grid-template-columns: repeat(8, 1fr);
+	grid-template-rows: repeat(8, 1fr);
+	grid-row-gap: 0;
+	grid-column-gap: 0;
+	grid-gap:0;
+}
+.screen-size-064 .subscreen-level-grid{
+	margin-top:15px;
+	width:64px;
+	height:32px;
+}
+.screen-size-128 .subscreen-level-grid{
+	margin-top:30px;
+}
+.subscreen-section.screen-size-128 .subscreen-level-grid{
+	margin-top:0;
+	margin-left:32px;
+}
+.screen-size-128 .subscreen-level-grid,
+.s512 .subscreen-level-grid{
+	width:128px;
+	height:64px;
+}
+.screen-size-256 .subscreen-level-grid{
+	width:256px;
+	height:128px;
+}
+.screen-size-512 .subscreen-level-grid{
+	margin-top:120px;
+	width:512px;
+	height:256px;
+}
+.subscreen-overworld-grid li,
+.subscreen-level-grid li{
+	display:inline-block;
+	position:relative;
+}
+.subscreen-overworld-grid li{
+	background-color:var(--color-grey);
+}
+.subscreen-level-grid li{
+	background-color:var(--color-black);
+}
+.subscreen-level-grid.screen-size-032 li,
+.screen-size-256x224 .sub-screen-map li{
+	width:4px;
+	height:2px;
+}
+.subscreen-level-grid.screen-size-064 li,
+.screen-size-256x224 .sub-screen-map li{
+	width:8px;
+	height:4px;
+}
+.subscreen-level-grid.screen-size-128 li,
+.screen-size-512x448 .sub-screen-map li{
+	width:16px;
+	height:8px;
+}
+.subscreen-level-grid.screen-size-256 li,
+.screen-size1024x896 .sub-screen-map li{
+	width:32px;
+	height:16px;
+}
+
+
+
+.subscreen-level-grid.screen-size-512 li,
+.screen-size-2048x1792 .sub-screen-map li{
+	width:64px;
+	height:32px;
+}
+.subscreen-level-grid li:before{
+	position:absolute;
+	content:"";
+	background-color:var(--color-subscreen-legend-blue);
+	left:0;
+}
+.screen-size-064 .subscreen-level-grid li:before,
+.s256 .subscreen-level-grid li:before{
+	top:1px;
+	width:7px;
+	height:3px;
+}
+.screen-size-128 .subscreen-level-grid li:before,
+.s512 .subscreen-level-grid li:before{
+	top:2px;
+	width:14px;
+	height:6px;
+}
+.screen-size-256 .subscreen-level-grid li:before,
+.s1024 .subscreen-level-grid li:before{
+	top:4px;
+	width:28px;
+	height:12px;
+}
+.screen-size-512 .subscreen-level-grid li:before,
+.s2048 .subscreen-level-grid li:before{
+	top:8px;
+	width:56px;
+	height:24px;
+}
+.tile-black:before{display:none}
+
+.screen-size-016{
+	width:16px;
+	height:16px;
+}
+.screen-size-032{
+	width:32px;
+	height:32px;
+}
+.screen-size-064{
+	width:64px;
+	height:64px;
+}
+.screen-size-128{
+	width:128px;
+	height:128px;
+}
+.screen-size-256{
+	width:256px;
+	height:256px;
+}

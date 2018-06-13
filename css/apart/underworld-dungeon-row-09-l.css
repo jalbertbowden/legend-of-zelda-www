@@ -1,0 +1,52 @@
+.tile-dungeon-09l.level-01-gsarchives{
+	background-color:var(--color-underground-grey);
+}
+.tile-dungeon-09l.level-01-gsarchives:before,
+.tile-dungeon-09l.level-01-gsarchives .bit-01,
+.tile-dungeon-09l.level-01-gsarchives .bit-01:before{
+	background-color:var(--color-underground-grey-dark);
+}
+.tile-dungeon-09l.level-01-gsarchives:after,
+.tile-dungeon-09l.level-01-gsarchives .bit-01:after,
+.tile-dungeon-09l.level-01-gsarchives .bit-02{
+	background-color:var(--color-underground-blue-light);
+}
+/** display:none;s **/
+.tile-dungeon-09l .bit-02:before,
+.tile-dungeon-09l .bit-02:after{
+	display:none;
+}
+
+
+.tile-dungeon-09l:before{
+	width:100%;
+	height:6.25%;
+	top:75%;
+	left:0;
+}
+.tile-dungeon-09l:after{
+	width:100%;
+	height:6.25%;
+	top:68.75%;
+	left:0;
+}
+.tile-dungeon-09l .bit-01{
+	top:93.75%;
+	left:18.75%;
+}
+.tile-dungeon-09l .bit-01:before{
+	width:100%;
+	height:200%;
+	top:-200%;
+	left:-100%;
+}
+.tile-dungeon-09l .bit-01:after{
+	width:100%;
+	height:200%;
+	top:-200%;
+	left:0;
+}
+.tile-dungeon-09l .bit-02{
+	top:93.75%;
+	left:25%;
+}

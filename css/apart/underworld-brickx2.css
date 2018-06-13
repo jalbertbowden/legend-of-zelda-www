@@ -1,0 +1,453 @@
+.tile.tile-u-brickx2 .bit{
+	width:6.25%;
+	height:6.25%;
+}
+.tile-u-brickx2.level-01-gsarchives{
+	background-color:var(--color-u-grey);
+}
+.tile-u-brickx2.level-01-gsarchives .bit-02,
+.tile-u-brickx2.level-01-gsarchives .bit-02:before,
+.tile-u-brickx2.level-01-gsarchives .bit-04,
+.tile-u-brickx2.level-01-gsarchives .bit-04:before,
+.tile-u-brickx2.level-01-gsarchives .bit-06,
+.tile-u-brickx2.level-01-gsarchives .bit-06:before,
+.tile-u-brickx2.level-01-gsarchives .bit-06:after,
+.tile-u-brickx2.level-01-gsarchives .bit-08{
+	background-color:var(--color-u-grey-light);
+}
+.tile-u-brickx2.level-01-gsarchives:before,
+.tile-u-brickx2.level-01-gsarchives:after,
+.tile-u-brickx2.level-01-gsarchives .bit-01,
+.tile-u-brickx2.level-01-gsarchives .bit-01:before,
+.tile-u-brickx2.level-01-gsarchives .bit-01:after,
+.tile-u-brickx2.level-01-gsarchives .bit-02:after,
+.tile-u-brickx2.level-01-gsarchives .bit-03,
+.tile-u-brickx2.level-01-gsarchives .bit-03:before,
+.tile-u-brickx2.level-01-gsarchives .bit-03:after,
+.tile-u-brickx2.level-01-gsarchives .bit-04:after,
+.tile-u-brickx2.level-01-gsarchives .bit-05,
+.tile-u-brickx2.level-01-gsarchives .bit-05:before,
+.tile-u-brickx2.level-01-gsarchives .bit-05:after,
+.tile-u-brickx2.level-01-gsarchives .bit-07,
+.tile-u-brickx2.level-01-gsarchives .bit-07:before,
+.tile-u-brickx2.level-01-gsarchives .bit-07:after{
+	background-color:var(--color-u-grey-dark);
+}
+.tile-u-brickx2.level-01{
+	background-color:var(--color-underground-grey);
+}
+.tile-u-brickx2.level-01 .bit-02,
+.tile-u-brickx2.level-01 .bit-02:before,
+.tile-u-brickx2.level-01 .bit-04,
+.tile-u-brickx2.level-01 .bit-04:before,
+.tile-u-brickx2.level-01 .bit-06,
+.tile-u-brickx2.level-01 .bit-06:before,
+.tile-u-brickx2.level-01 .bit-06:after,
+.tile-u-brickx2.level-01 .bit-08{
+	background-color:var(--color-underground-blue-light);
+}
+.tile-u-brickx2.level-01:before,
+.tile-u-brickx2.level-01:after,
+.tile-u-brickx2.level-01 .bit-01,
+.tile-u-brickx2.level-01 .bit-01:before,
+.tile-u-brickx2.level-01 .bit-01:after,
+.tile-u-brickx2.level-01 .bit-02:after,
+.tile-u-brickx2.level-01 .bit-03,
+.tile-u-brickx2.level-01 .bit-03:before,
+.tile-u-brickx2.level-01 .bit-03:after,
+.tile-u-brickx2.level-01 .bit-04:after,
+.tile-u-brickx2.level-01 .bit-05,
+.tile-u-brickx2.level-01 .bit-05:before,
+.tile-u-brickx2.level-01 .bit-05:after,
+.tile-u-brickx2.level-01 .bit-07,
+.tile-u-brickx2.level-01 .bit-07:before,
+.tile-u-brickx2.level-01 .bit-07:after{
+	background-color:var(--color-underground-grey-dark);
+}
+.tile-u-brickx2.level-02{
+	background-color:var(--color-underground-purple);
+}
+.tile-u-brickx2.level-02 .bit-02,
+.tile-u-brickx2.level-02 .bit-02:before,
+.tile-u-brickx2.level-02 .bit-04,
+.tile-u-brickx2.level-02 .bit-04:before,
+.tile-u-brickx2.level-02 .bit-06,
+.tile-u-brickx2.level-02 .bit-06:before,
+.tile-u-brickx2.level-02 .bit-06:after,
+.tile-u-brickx2.level-02 .bit-08{
+	background-color:var(--color-underground-blue-light-level-02);
+}
+.tile-u-brickx2.level-02:before,
+.tile-u-brickx2.level-02:after,
+.tile-u-brickx2.level-02 .bit-01,
+.tile-u-brickx2.level-02 .bit-01:before,
+.tile-u-brickx2.level-02 .bit-01:after,
+.tile-u-brickx2.level-02 .bit-02:after,
+.tile-u-brickx2.level-02 .bit-03,
+.tile-u-brickx2.level-02 .bit-03:before,
+.tile-u-brickx2.level-02 .bit-03:after,
+.tile-u-brickx2.level-02 .bit-04:after,
+.tile-u-brickx2.level-02 .bit-05,
+.tile-u-brickx2.level-02 .bit-05:before,
+.tile-u-brickx2.level-02 .bit-05:after,
+.tile-u-brickx2.level-02 .bit-07,
+.tile-u-brickx2.level-02 .bit-07:before,
+.tile-u-brickx2.level-02 .bit-07:after{
+	background-color:var(--color-underground-blue-dark);
+}
+.tile-u-brickx2.level-03{
+	background-color:var(--color-underground-green);
+}
+.tile-u-brickx2.level-03 .bit-02,
+.tile-u-brickx2.level-03 .bit-02:before,
+.tile-u-brickx2.level-03 .bit-04,
+.tile-u-brickx2.level-03 .bit-04:before,
+.tile-u-brickx2.level-03 .bit-06,
+.tile-u-brickx2.level-03 .bit-06:before,
+.tile-u-brickx2.level-03 .bit-06:after,
+.tile-u-brickx2.level-03 .bit-08{
+	background-color:var(--color-underground-green-light);
+}
+.tile-u-brickx2.level-03:before,
+.tile-u-brickx2.level-03:after,
+.tile-u-brickx2.level-03 .bit-01,
+.tile-u-brickx2.level-03 .bit-01:before,
+.tile-u-brickx2.level-03 .bit-01:after,
+.tile-u-brickx2.level-03 .bit-02:after,
+.tile-u-brickx2.level-03 .bit-03,
+.tile-u-brickx2.level-03 .bit-03:before,
+.tile-u-brickx2.level-03 .bit-03:after,
+.tile-u-brickx2.level-03 .bit-04:after,
+.tile-u-brickx2.level-03 .bit-05,
+.tile-u-brickx2.level-03 .bit-05:before,
+.tile-u-brickx2.level-03 .bit-05:after,
+.tile-u-brickx2.level-03 .bit-07,
+.tile-u-brickx2.level-03 .bit-07:before,
+.tile-u-brickx2.level-03 .bit-07:after{
+	background-color:var(--color-underground-brown);
+}
+.tile-u-brickx2.level-04{
+	background-color:var(--color-underground-green-level-04);
+}
+.tile-u-brickx2.level-04 .bit-02,
+.tile-u-brickx2.level-04 .bit-02:before,
+.tile-u-brickx2.level-04 .bit-04,
+.tile-u-brickx2.level-04 .bit-04:before,
+.tile-u-brickx2.level-04 .bit-06,
+.tile-u-brickx2.level-04 .bit-06:before,
+.tile-u-brickx2.level-04 .bit-06:after,
+.tile-u-brickx2.level-04 .bit-08{
+	background-color:var(--color-underground-green-light-level-04);
+}
+.tile-u-brickx2.level-04:before,
+.tile-u-brickx2.level-04:after,
+.tile-u-brickx2.level-04 .bit-01,
+.tile-u-brickx2.level-04 .bit-01:before,
+.tile-u-brickx2.level-04 .bit-01:after,
+.tile-u-brickx2.level-04 .bit-02:after,
+.tile-u-brickx2.level-04 .bit-03,
+.tile-u-brickx2.level-04 .bit-03:before,
+.tile-u-brickx2.level-04 .bit-03:after,
+.tile-u-brickx2.level-04 .bit-04:after,
+.tile-u-brickx2.level-04 .bit-05,
+.tile-u-brickx2.level-04 .bit-05:before,
+.tile-u-brickx2.level-04 .bit-05:after,
+.tile-u-brickx2.level-04 .bit-07,
+.tile-u-brickx2.level-04 .bit-07:before,
+.tile-u-brickx2.level-04 .bit-07:after{
+	background-color:var(--color-underground-brown-level-04);
+}
+.tile-u-brickx2.level-05{
+	background-color:var(--color-underground-green-level-05);
+}
+.tile-u-brickx2.level-05 .bit-02,
+.tile-u-brickx2.level-05 .bit-02:before,
+.tile-u-brickx2.level-05 .bit-04,
+.tile-u-brickx2.level-05 .bit-04:before,
+.tile-u-brickx2.level-05 .bit-06,
+.tile-u-brickx2.level-05 .bit-06:before,
+.tile-u-brickx2.level-05 .bit-06:after,
+.tile-u-brickx2.level-05 .bit-08{
+	background-color:var(--color-underground-green-light-level-05-07);
+}
+.tile-u-brickx2.level-05:before,
+.tile-u-brickx2.level-05:after,
+.tile-u-brickx2.level-05 .bit-01,
+.tile-u-brickx2.level-05 .bit-01:before,
+.tile-u-brickx2.level-05 .bit-01:after,
+.tile-u-brickx2.level-05 .bit-02:after,
+.tile-u-brickx2.level-05 .bit-03,
+.tile-u-brickx2.level-05 .bit-03:before,
+.tile-u-brickx2.level-05 .bit-03:after,
+.tile-u-brickx2.level-05 .bit-04:after,
+.tile-u-brickx2.level-05 .bit-05,
+.tile-u-brickx2.level-05 .bit-05:before,
+.tile-u-brickx2.level-05 .bit-05:after,
+.tile-u-brickx2.level-05 .bit-07,
+.tile-u-brickx2.level-05 .bit-07:before,
+.tile-u-brickx2.level-05 .bit-07:after{
+	background-color:var(--color-underground-brown-level-05-07);
+}
+.tile-u-brickx2.level-06{
+	background-color:var(--color-underground-green-alt);
+}
+.tile-u-brickx2.level-06 .bit-02,
+.tile-u-brickx2.level-06 .bit-02:before,
+.tile-u-brickx2.level-06 .bit-04,
+.tile-u-brickx2.level-06 .bit-04:before,
+.tile-u-brickx2.level-06 .bit-06,
+.tile-u-brickx2.level-06 .bit-06:before,
+.tile-u-brickx2.level-06 .bit-06:after,
+.tile-u-brickx2.level-06 .bit-08{
+	background-color:var(--color-underground-green-light-alt);
+}
+.tile-u-brickx2.level-06:before,
+.tile-u-brickx2.level-06:after,
+.tile-u-brickx2.level-06 .bit-01,
+.tile-u-brickx2.level-06 .bit-01:before,
+.tile-u-brickx2.level-06 .bit-01:after,
+.tile-u-brickx2.level-06 .bit-02:after,
+.tile-u-brickx2.level-06 .bit-03,
+.tile-u-brickx2.level-06 .bit-03:before,
+.tile-u-brickx2.level-06 .bit-03:after,
+.tile-u-brickx2.level-06 .bit-04:after,
+.tile-u-brickx2.level-06 .bit-05,
+.tile-u-brickx2.level-06 .bit-05:before,
+.tile-u-brickx2.level-06 .bit-05:after,
+.tile-u-brickx2.level-06 .bit-07,
+.tile-u-brickx2.level-06 .bit-07:before,
+.tile-u-brickx2.level-06 .bit-07:after{
+	background-color:var(--color-underground-brown-red);
+}
+.tile-u-brickx2.level-07{
+	background-color:var(--color-underground-orange-green);
+}
+.tile-u-brickx2.level-07 .bit-02,
+.tile-u-brickx2.level-07 .bit-02:before,
+.tile-u-brickx2.level-07 .bit-04,
+.tile-u-brickx2.level-07 .bit-04:before,
+.tile-u-brickx2.level-07 .bit-06,
+.tile-u-brickx2.level-07 .bit-06:before,
+.tile-u-brickx2.level-07 .bit-06:after,
+.tile-u-brickx2.level-07 .bit-08{
+	background-color:var(--color-underground-green-light-level-05-07);
+}
+.tile-u-brickx2.level-07:before,
+.tile-u-brickx2.level-07:after,
+.tile-u-brickx2.level-07 .bit-01,
+.tile-u-brickx2.level-07 .bit-01:before,
+.tile-u-brickx2.level-07 .bit-01:after,
+.tile-u-brickx2.level-07 .bit-02:after,
+.tile-u-brickx2.level-07 .bit-03,
+.tile-u-brickx2.level-07 .bit-03:before,
+.tile-u-brickx2.level-07 .bit-03:after,
+.tile-u-brickx2.level-07 .bit-04:after,
+.tile-u-brickx2.level-07 .bit-05,
+.tile-u-brickx2.level-07 .bit-05:before,
+.tile-u-brickx2.level-07 .bit-05:after,
+.tile-u-brickx2.level-07 .bit-07,
+.tile-u-brickx2.level-07 .bit-07:before,
+.tile-u-brickx2.level-07 .bit-07:after{
+	background-color:var(--color-underground-brown-level-05-07);
+}
+.tile-u-brickx2.level-08{
+	background-color:var(--color-underground-grey-89);
+}
+.tile-u-brickx2.level-08 .bit-02,
+.tile-u-brickx2.level-08 .bit-02:before,
+.tile-u-brickx2.level-08 .bit-04,
+.tile-u-brickx2.level-08 .bit-04:before,
+.tile-u-brickx2.level-08 .bit-06,
+.tile-u-brickx2.level-08 .bit-06:before,
+.tile-u-brickx2.level-08 .bit-06:after,
+.tile-u-brickx2.level-08 .bit-08{
+	background-color:var(--color-underground-white);
+}
+.tile-u-brickx2.level-08:before,
+.tile-u-brickx2.level-08:after,
+.tile-u-brickx2.level-08 .bit-01,
+.tile-u-brickx2.level-08 .bit-01:before,
+.tile-u-brickx2.level-08 .bit-01:after,
+.tile-u-brickx2.level-08 .bit-02:after,
+.tile-u-brickx2.level-08 .bit-03,
+.tile-u-brickx2.level-08 .bit-03:before,
+.tile-u-brickx2.level-08 .bit-03:after,
+.tile-u-brickx2.level-08 .bit-04:after,
+.tile-u-brickx2.level-08 .bit-05,
+.tile-u-brickx2.level-08 .bit-05:before,
+.tile-u-brickx2.level-08 .bit-05:after,
+.tile-u-brickx2.level-08 .bit-07,
+.tile-u-brickx2.level-08 .bit-07:before,
+.tile-u-brickx2.level-08 .bit-07:after{
+	background-color:var(--color-underground-grey-dark-alt);
+}
+.tile-u-brickx2.level-09{
+	background-color:var(--color-underground-grey-89);
+}
+.tile-u-brickx2.level-09 .bit-02,
+.tile-u-brickx2.level-09 .bit-02:before,
+.tile-u-brickx2.level-09 .bit-04,
+.tile-u-brickx2.level-09 .bit-04:before,
+.tile-u-brickx2.level-09 .bit-06,
+.tile-u-brickx2.level-09 .bit-06:before,
+.tile-u-brickx2.level-09 .bit-06:after,
+.tile-u-brickx2.level-09 .bit-08{
+	background-color:var(--color-underground-white);
+}
+.tile-u-brickx2.level-09:before,
+.tile-u-brickx2.level-09:after,
+.tile-u-brickx2.level-09 .bit-01,
+.tile-u-brickx2.level-09 .bit-01:before,
+.tile-u-brickx2.level-09 .bit-01:after,
+.tile-u-brickx2.level-09 .bit-02:after,
+.tile-u-brickx2.level-09 .bit-03,
+.tile-u-brickx2.level-09 .bit-03:before,
+.tile-u-brickx2.level-09 .bit-03:after,
+.tile-u-brickx2.level-09 .bit-04:after,
+.tile-u-brickx2.level-09 .bit-05,
+.tile-u-brickx2.level-09 .bit-05:before,
+.tile-u-brickx2.level-09 .bit-05:after,
+.tile-u-brickx2.level-09 .bit-07,
+.tile-u-brickx2.level-09 .bit-07:before,
+.tile-u-brickx2.level-09 .bit-07:after{
+	background-color:var(--color-underground-grey-dark-alt);
+}
+
+
+/** display:none;s **/
+.tile-u-brickx2 .bit-08:before,
+.tile-u-brickx2 .bit-08:after{
+	display:none;
+}
+
+.tile-u-brickx2:before{
+	height:6.25%;
+	width:100%;
+	top:18.75%;
+	left:0;
+}
+.tile-u-brickx2:after{
+	height:6.25%;
+	width:100%;
+	top:43.75%;
+	left:0;
+}
+.tile-u-brickx2 .bit-01{
+	top:0;
+	left:6.25%;
+}
+.tile-u-brickx2 .bit-01:before{
+	width:100%;
+	height:200%;
+	left:0;
+	top:100%;
+}
+.tile-u-brickx2 .bit-01:after{
+	width:100%;
+	height:300%;
+	left:400%;
+	top:400%;
+}
+.tile-u-brickx2 .bit-02{
+	top:0;
+	left:12.5%;
+}
+.tile-u-brickx2 .bit-02:before{
+	width:100%;
+	height:100%;
+	left:400%;
+	top:400%;
+}
+.tile-u-brickx2 .bit-02:after{
+	width:1600%;
+	height:100%;
+	top:1100%;
+	left:-200%;
+	
+}
+.tile-u-brickx2 .bit-03{
+	top:0;
+	left:56.25%;
+}
+.tile-u-brickx2 .bit-03:before{
+	width:100%;
+	height:200%;
+	left:0;
+	top:100%;
+}
+.tile-u-brickx2 .bit-03:after{
+	width:100%;
+	height:300%;
+	left:400%;
+	top:400%;
+}
+.tile-u-brickx2 .bit-04{
+	top:0;
+	left:62.5%;
+}
+.tile-u-brickx2 .bit-04:before{
+	width:100%;
+	height:100%;
+	left:400%;
+	top:400%;
+}
+.tile-u-brickx2 .bit-04:after{
+	width:1600%;
+	height:100%;
+	top:1500%;
+	left:-1000%;
+	
+}
+.tile-u-brickx2 .bit-05{
+	top:50%;
+	left:6.25%;
+}
+.tile-u-brickx2 .bit-05:before{
+	width:100%;
+	height:200%;
+	left:0;
+	top:100%;
+}
+.tile-u-brickx2 .bit-05:after{
+	width:100%;
+	height:300%;
+	left:400%;
+	top:400%;
+}
+.tile-u-brickx2 .bit-06{
+	top:50%;
+	left:12.5%;
+}
+.tile-u-brickx2 .bit-06:before{
+	width:100%;
+	height:100%;
+	left:400%;
+	top:400%;
+}
+.tile-u-brickx2 .bit-06:after{
+	width:100%;
+	height:100%;
+	top:0;
+	left:800%;
+	
+}
+.tile-u-brickx2 .bit-07{
+	top:50%;
+	left:56.25%;
+}
+.tile-u-brickx2 .bit-07:before{
+	width:100%;
+	height:200%;
+	left:0;
+	top:100%;
+}
+.tile-u-brickx2 .bit-07:after{
+	width:100%;
+	height:300%;
+	left:400%;
+	top:400%;
+}
+.tile-u-brickx2 .bit-08{
+	top:75%;
+	left:87.5%;
+}

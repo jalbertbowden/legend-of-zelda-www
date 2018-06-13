@@ -1,0 +1,90 @@
+#inv-icon-bomb:before, #inv-icon-bomb:after, #inv-icon-bomb .bit-02:before, #inv-icon-bomb .bit-02:after {
+    background-color: var(--color-blue);
+}
+#inv-icon-bomb .bit-01, #inv-icon-bomb .bit-01:before, #inv-icon-bomb .bit-01:after, #inv-icon-bomb .bit-02 {
+    background-color: var(--color-grey);
+}
+#inv-icon-bomb .bit-03, #inv-icon-bomb .bit-03:before, #inv-icon-bomb .bit-03:after, #inv-icon-bomb .bit-04 {
+    background-color: var(--color-white);
+}
+
+
+/** display:none;s **/
+#inv-icon-bomb .bit-04:before, #inv-icon-bomb .bit-04:after{
+	display:none;
+}
+
+
+#inv-icon-bomb .bit, .inventory-list-tile .bit {
+    width: 12.5%;
+    height: 12.5%;
+}
+
+#inv-icon-bomb::before {
+    width: 100%;
+    height: 37.5%;
+    top: 37.5%;
+    left: 0px;
+}
+#inv-icon-bomb::after {
+    width: 50%;
+    height: 87.5%;
+    left: 25%;
+    top: 12.5%;
+}
+
+
+
+#inv-icon-bomb .bit-01 {
+    top: 12.5%;
+    left: 25%;
+}
+#inv-icon-bomb .bit-01:before {
+    top: 100%;
+    left: -100%;
+    width: 300%;
+    height: 100%;
+}
+#inv-icon-bomb .bit-01:after{
+    top: 200%;
+    left: -200%;
+    height: 200%;
+    width: 300%;
+}
+#inv-icon-bomb .bit-02 {
+    top: 62.5%;
+    left: 12.5%;
+}
+#inv-icon-bomb .bit-02:before{
+    width: 600%;
+    height: 100%;
+    top: 100%;
+    left: 0px;
+}
+#inv-icon-bomb .bit-02:after{
+    width: 100%;
+    height: 100%;
+    top: -300%;
+    left: 500%;
+}
+#inv-icon-bomb .bit-03 {
+    top: 12.5%;
+    left: 87.5%;
+}
+#inv-icon-bomb .bit-03:before {
+    height: 200%;
+    width: 100%;
+    left: -600%;
+    top: 200%;
+}
+#inv-icon-bomb .bit-03:after {
+    height: 100%;
+    width: 100%;
+    left: -500%;
+    top: 100%;
+}
+#inv-icon-bomb .bit-04 {
+    top: 0px;
+    left: 87.5%;
+}
+

@@ -1,0 +1,542 @@
+.tile-0211,
+.tile-castle-cyclops.castle-brown,
+.tile-castle-cyclops.castle-green{
+	background-color: var(--color-khaki);
+}
+.tile-castle-cyclops.castle-grey{
+	background-color: var(--color-grey);
+}
+.tile-0211 .bit-01, .tile-0211 .bit-01:before, .tile-0211 .bit-01:after, .tile-0211 .bit-06:before, .tile-0211 .bit-06:after, .tile-0211 .bit-07{
+	background-color: var(--color-black);
+}
+.tile-castle-cyclops .bit-01, .tile-castle-cyclops .bit-01:before, .tile-castle-cyclops .bit-01:after, .tile-castle-cyclops .bit-06:before, .tile-castle-cyclops .bit-06:after, .tile-castle-cyclops .bit-07{
+	background-color: var(--color-black);
+}
+.tile-0211 .bit-15:before,
+.tile-0211 .bit-15:after{
+	display:none;
+}
+.tile-castle-cyclops .bit-15:before,
+.tile-castle-cyclops .bit-15:after{
+	display:none;
+}
+.tile-0211 .bit-11, .tile-0211 .bit-11:before, .tile-0211 .bit-11:after, .tile-0211 .bit-12, .tile-0211 .bit-12:before, .tile-0211 .bit-12:after,
+.tile-0211 .bit-13, .tile-0211 .bit-13:before, .tile-0211 .bit-13:after, .tile-0211 .bit-14, .tile-0211 .bit-14:before, .tile-0211 .bit-14:after,
+.tile-0211 .bit-15{
+	background-color: var(--color-blue);
+}
+.tile-castle-cyclops .bit-11, .tile-castle-cyclops .bit-11:before, .tile-castle-cyclops .bit-11:after, .tile-castle-cyclops .bit-12, .tile-castle-cyclops .bit-12:before, .tile-castle-cyclops .bit-12:after,
+.tile-castle-cyclops .bit-13, .tile-castle-cyclops .bit-13:before, .tile-castle-cyclops .bit-13:after, .tile-castle-cyclops .bit-14, .tile-castle-cyclops .bit-14:before, .tile-castle-cyclops .bit-14:after,
+.tile-castle-cyclops .bit-15{
+	background-color: var(--color-blue);
+}
+.tile-0211:before, .tile-0211:after, .tile-0211 .bit-03, .tile-0211 .bit-03:before, .tile-0211 .bit-03:after, .tile-0211 .bit-02, .tile-0211 .bit-02:before,
+.tile-0211 .bit-02:after, .tile-0211 .bit-04, .tile-0211 .bit-04:before, .tile-0211 .bit-04:after, .tile-0211 .bit-05, .tile-0211 .bit-05:before,
+.tile-0211 .bit-05:after, .tile-0211 .bit-06, .tile-0211 .bit-10:after{
+	background-color: var(--color-green);
+}
+.tile-castle-cyclops.castle-green:before, .tile-castle-cyclops.castle-green:after, .tile-castle-cyclops.castle-green .bit-03, .tile-castle-cyclops.castle-green .bit-03:before, .tile-castle-cyclops.castle-green .bit-03:after, .tile-castle-cyclops.castle-green .bit-02, .tile-castle-cyclops.castle-green .bit-02:before,
+.tile-castle-cyclops.castle-green .bit-02:after, .tile-castle-cyclops.castle-green .bit-04, .tile-castle-cyclops.castle-green .bit-04:before, .tile-castle-cyclops.castle-green .bit-04:after, .tile-castle-cyclops.castle-green .bit-05, .tile-castle-cyclops.castle-green .bit-05:before,
+.tile-castle-cyclops.castle-green .bit-05:after, .tile-castle-cyclops.castle-green .bit-06, .tile-castle-cyclops.castle-green .bit-10:after{
+	background-color: var(--color-green);
+}
+.tile-castle-cyclops.castle-brown:before, .tile-castle-cyclops.castle-brown:after, .tile-castle-cyclops.castle-brown .bit-03, .tile-castle-cyclops.castle-brown .bit-03:before, .tile-castle-cyclops.castle-brown .bit-03:after, .tile-castle-cyclops.castle-brown .bit-02, .tile-castle-cyclops.castle-brown .bit-02:before,
+.tile-castle-cyclops.castle-brown .bit-02:after, .tile-castle-cyclops.castle-brown .bit-04, .tile-castle-cyclops.castle-brown .bit-04:before, .tile-castle-cyclops.castle-brown .bit-04:after, .tile-castle-cyclops.castle-brown .bit-05, .tile-castle-cyclops.castle-brown .bit-05:before,
+.tile-castle-cyclops.castle-brown .bit-05:after, .tile-castle-cyclops.castle-brown .bit-06, .tile-castle-cyclops.castle-brown .bit-10:after{
+	background-color: var(--color-brown);
+}
+.tile-castle-cyclops.castle-grey:before, .tile-castle-cyclops.castle-grey:after, .tile-castle-cyclops.castle-grey .bit-03, .tile-castle-cyclops.castle-grey .bit-03:before, .tile-castle-cyclops.castle-grey .bit-03:after, .tile-castle-cyclops.castle-grey .bit-02, .tile-castle-cyclops.castle-grey .bit-02:before,
+.tile-castle-cyclops.castle-grey .bit-02:after, .tile-castle-cyclops.castle-grey .bit-04, .tile-castle-cyclops.castle-grey .bit-04:before, .tile-castle-cyclops.castle-grey .bit-04:after, .tile-castle-cyclops.castle-grey .bit-05, .tile-castle-cyclops.castle-grey .bit-05:before,
+.tile-castle-cyclops.castle-grey .bit-05:after, .tile-castle-cyclops.castle-grey .bit-06, .tile-castle-cyclops.castle-grey .bit-10:after{
+	background-color: var(--color-white);
+}
+.tile-0211 .bit-07:before, .tile-0211 .bit-07:after, .tile-0211 .bit-08, .tile-0211 .bit-08:before,
+.tile-0211 .bit-08:after, .tile-0211 .bit-09, .tile-0211 .bit-09:before, .tile-0211 .bit-09:after,
+.tile-0211 .bit-10, .tile-0211 .bit-10:before{
+	background-color: var(--color-black);
+}
+.tile-castle-cyclops .bit-07:before, .tile-castle-cyclops .bit-07:after, .tile-castle-cyclops .bit-08, .tile-castle-cyclops .bit-08:before,
+.tile-castle-cyclops .bit-08:after, .tile-castle-cyclops .bit-09, .tile-castle-cyclops .bit-09:before, .tile-castle-cyclops .bit-09:after,
+.tile-castle-cyclops .bit-10, .tile-castle-cyclops .bit-10:before{
+	background-color: var(--color-black);
+}
+.tile-0211:before{
+	width:100%;
+	height:37.5%;
+	top:31.25%;
+	left:0;
+}
+.tile-0211:after{
+	width:62.5%;
+	height:18.75%;
+	top:12.5%;
+	left:18.75%;
+}
+.tile-0211 .bit-03{
+	left:6.25%;
+	top:68.75%;
+}
+.tile-0211 .bit-03:before{
+	width:200%;
+	height:200%;
+	left:100%;
+	top:100%;
+}
+.tile-0211 .bit-03:after{
+	width:200%;
+	height:200%;
+	left:1100%;
+	top:100%;
+}
+.tile-0211 .bit-02{
+	left:87.5%;
+	top:68.75%;
+}
+.tile-0211 .bit-02:before{
+	width:100%;
+	height:200%;
+	left:-200%;
+	top:300%;
+}
+.tile-0211 .bit-02:after{
+	width:100%;
+	height:200%;
+	left:-1100%;
+	top:300%;
+}
+.tile-0211 .bit-01{
+	left:0;
+	top:93.75%;
+}
+.tile-0211 .bit-01:before{
+	width:1400%;
+	height:300%;
+	left:100%;
+	top:-200%;
+}
+.tile-0211 .bit-01:after{
+	width:400%;
+	height:200%;
+	left:600%;
+	top:-1000%;
+}
+.tile-0211 .bit-04{
+	left:37.5%;
+	top:81.25%;
+}
+.tile-0211 .bit-04:before{
+	width:200%;
+	height:100%;
+	left:-100%;
+	top:-100%;
+}
+.tile-0211 .bit-04:after{
+	width:200%;
+	height:100%;
+	left:300%;
+	top:-100%;
+}
+.tile-0211 .bit-05{
+	left:0;
+	top:75%;
+}
+.tile-0211 .bit-05:before{
+	width:200%;
+	height:100%;
+	left:700%;
+	top:-100%;
+}
+.tile-0211 .bit-05:after{
+	width:100%;
+	height:200%;
+	left:1500%;
+	top:-100%;
+}
+.tile-0211 .bit-06{
+	left:0;
+	top:68.75%;
+}
+.tile-0211 .bit-06:before{
+	width:100%;
+	height:300%;
+	left:0;
+	top:-900%;
+}
+.tile-0211 .bit-06:after{
+	width:100%;
+	height:300%;
+	left:1200%;
+	top:-500%;
+}
+.tile-0211 .bit-07{
+	left:93.75%;
+	top:93.75%;
+}
+.tile-0211 .bit-07:before{
+	width:200%;
+	height:100%;
+	left:-400%;
+	top:-1300%;
+}
+.tile-0211 .bit-07:after{
+	width:100%;
+	height:200%;
+	left:-200%;
+	top:-1200%;
+}
+.tile-0211 .bit-08{
+	left:87.5%;
+	top:31.25%;
+}
+.tile-0211 .bit-08:before{
+	width:100%;
+	height:100%;
+	left:-300%;
+	top:0;
+}
+.tile-0211 .bit-08:after{
+	width:100%;
+	height:100%;
+	left:-300%;
+	top:400%;
+}
+.tile-0211 .bit-09{
+	left:25%;
+	top:56.25%;
+}
+.tile-0211 .bit-09:before{
+	width:100%;
+	height:200%;
+	left:200%;
+	top:0;
+}
+.tile-0211 .bit-09:after{
+	width:100%;
+	height:200%;
+	left:500%;
+	top:0;
+}
+.tile-0211 .bit-10{
+	left:25%;
+	top:75%;
+}
+.tile-0211 .bit-10:before{
+	width:100%;
+	height:100%;
+	left:700%;
+	top:0;
+}
+.tile-0211 .bit-10:after{
+	width:100%;
+	height:100%;
+	left:500%;
+	top:100%;
+}
+.tile-0211 .bit-11{
+	left:6.25%;
+	top:31.25%;
+}
+.tile-0211 .bit-11:before{
+	width:100%;
+	height:200%;
+	left:100%;
+	top:-200%;
+}
+.tile-0211 .bit-11:after{
+	width:200%;
+	height:100%;
+	left:200%;
+	top:-300%;
+}
+.tile-0211 .bit-12{
+	left:25%;
+	top:62.5%;
+}
+.tile-0211 .bit-12:before{
+	width:600%;
+	height:100%;
+	left:100%;
+	top:-900%;
+}
+.tile-0211 .bit-12:after{
+	width:600%;
+	height:100%;
+	left:100%;
+	top:-600%;
+}
+.tile-0211 .bit-13{
+	left:68.75%;
+	top:62.5%;
+}
+.tile-0211 .bit-13:before{
+	width:400%;
+	height:100%;
+	left:-500%;
+	top:-200%;
+}
+.tile-0211 .bit-13:after{
+	width:100%;
+	height:300%;
+	left:-800%;
+	top:-400%;
+}
+.tile-0211 .bit-14{
+	left:62.5%;
+	top:56.25%;
+}
+.tile-0211 .bit-14:before{
+	width:100%;
+	height:100%;
+	left:-600%;
+	top:-400%;
+}
+.tile-0211 .bit-14:after{
+	width:100%;
+	height:400%;
+	left:500%;
+	top:-800%;
+}
+.tile-0211 .bit-15{
+	left:31.25%;
+	top:56.25%;
+}
+.tile-castle-cyclops:before{
+	width:100%;
+	height:37.5%;
+	top:31.25%;
+	left:0;
+}
+.tile-castle-cyclops:after{
+	width:62.5%;
+	height:18.75%;
+	top:12.5%;
+	left:18.75%;
+}
+.tile-castle-cyclops .bit-03{
+	left:6.25%;
+	top:68.75%;
+}
+.tile-castle-cyclops .bit-03:before{
+	width:200%;
+	height:200%;
+	left:100%;
+	top:100%;
+}
+.tile-castle-cyclops .bit-03:after{
+	width:200%;
+	height:200%;
+	left:1100%;
+	top:100%;
+}
+.tile-castle-cyclops .bit-02{
+	left:87.5%;
+	top:68.75%;
+}
+.tile-castle-cyclops .bit-02:before{
+	width:100%;
+	height:200%;
+	left:-200%;
+	top:300%;
+}
+.tile-castle-cyclops .bit-02:after{
+	width:100%;
+	height:200%;
+	left:-1100%;
+	top:300%;
+}
+.tile-castle-cyclops .bit-01{
+	left:0;
+	top:93.75%;
+}
+.tile-castle-cyclops .bit-01:before{
+	width:1400%;
+	height:300%;
+	left:100%;
+	top:-200%;
+}
+.tile-castle-cyclops .bit-01:after{
+	width:400%;
+	height:200%;
+	left:600%;
+	top:-1000%;
+}
+.tile-castle-cyclops .bit-04{
+	left:37.5%;
+	top:81.25%;
+}
+.tile-castle-cyclops .bit-04:before{
+	width:200%;
+	height:100%;
+	left:-100%;
+	top:-100%;
+}
+.tile-castle-cyclops .bit-04:after{
+	width:200%;
+	height:100%;
+	left:300%;
+	top:-100%;
+}
+.tile-castle-cyclops .bit-05{
+	left:0;
+	top:75%;
+}
+.tile-castle-cyclops .bit-05:before{
+	width:200%;
+	height:100%;
+	left:700%;
+	top:-100%;
+}
+.tile-castle-cyclops .bit-05:after{
+	width:100%;
+	height:200%;
+	left:1500%;
+	top:-100%;
+}
+.tile-castle-cyclops .bit-06{
+	left:0;
+	top:68.75%;
+}
+.tile-castle-cyclops .bit-06:before{
+	width:100%;
+	height:300%;
+	left:0;
+	top:-900%;
+}
+.tile-castle-cyclops .bit-06:after{
+	width:100%;
+	height:300%;
+	left:1200%;
+	top:-500%;
+}
+.tile-castle-cyclops .bit-07{
+	left:93.75%;
+	top:93.75%;
+}
+.tile-castle-cyclops .bit-07:before{
+	width:200%;
+	height:100%;
+	left:-400%;
+	top:-1300%;
+}
+.tile-castle-cyclops .bit-07:after{
+	width:100%;
+	height:200%;
+	left:-200%;
+	top:-1200%;
+}
+.tile-castle-cyclops .bit-08{
+	left:87.5%;
+	top:31.25%;
+}
+.tile-castle-cyclops .bit-08:before{
+	width:100%;
+	height:100%;
+	left:-300%;
+	top:0;
+}
+.tile-castle-cyclops .bit-08:after{
+	width:100%;
+	height:100%;
+	left:-300%;
+	top:400%;
+}
+.tile-castle-cyclops .bit-09{
+	left:25%;
+	top:56.25%;
+}
+.tile-castle-cyclops .bit-09:before{
+	width:100%;
+	height:200%;
+	left:200%;
+	top:0;
+}
+.tile-castle-cyclops .bit-09:after{
+	width:100%;
+	height:200%;
+	left:500%;
+	top:0;
+}
+.tile-castle-cyclops .bit-10{
+	left:25%;
+	top:75%;
+}
+.tile-castle-cyclops .bit-10:before{
+	width:100%;
+	height:100%;
+	left:700%;
+	top:0;
+}
+.tile-castle-cyclops .bit-10:after{
+	width:100%;
+	height:100%;
+	left:500%;
+	top:100%;
+}
+.tile-castle-cyclops .bit-11{
+	left:6.25%;
+	top:31.25%;
+}
+.tile-castle-cyclops .bit-11:before{
+	width:100%;
+	height:200%;
+	left:100%;
+	top:-200%;
+}
+.tile-castle-cyclops .bit-11:after{
+	width:200%;
+	height:100%;
+	left:200%;
+	top:-300%;
+}
+.tile-castle-cyclops .bit-12{
+	left:25%;
+	top:62.5%;
+}
+.tile-castle-cyclops .bit-12:before{
+	width:600%;
+	height:100%;
+	left:100%;
+	top:-900%;
+}
+.tile-castle-cyclops .bit-12:after{
+	width:600%;
+	height:100%;
+	left:100%;
+	top:-600%;
+}
+.tile-castle-cyclops .bit-13{
+	left:68.75%;
+	top:62.5%;
+}
+.tile-castle-cyclops .bit-13:before{
+	width:400%;
+	height:100%;
+	left:-500%;
+	top:-200%;
+}
+.tile-castle-cyclops .bit-13:after{
+	width:100%;
+	height:300%;
+	left:-800%;
+	top:-400%;
+}
+.tile-castle-cyclops .bit-14{
+	left:62.5%;
+	top:56.25%;
+}
+.tile-castle-cyclops .bit-14:before{
+	width:100%;
+	height:100%;
+	left:-600%;
+	top:-400%;
+}
+.tile-castle-cyclops .bit-14:after{
+	width:100%;
+	height:400%;
+	left:500%;
+	top:-800%;
+}
+.tile-castle-cyclops .bit-15{
+	left:31.25%;
+	top:56.25%;
+}

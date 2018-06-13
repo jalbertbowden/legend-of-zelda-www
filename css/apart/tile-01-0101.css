@@ -1,0 +1,117 @@
+/** 0101 == -stairs-brown **/
+.tile-stairs:before{
+	background-color: var(--color-black);
+}
+.stairs-brown:after,
+.stairs-green:after{
+	background-color: var(--color-khaki);
+}
+.stairs-brown .bit-01,
+.stairs-brown .bit-01:before,
+.stairs-brown .bit-01:after,
+.stairs-brown .bit-02,
+.stairs-brown .bit-02:before,
+.stairs-green .bit-01,
+.stairs-green .bit-01:before,
+.stairs-green .bit-01:after,
+.stairs-green .bit-02,
+.stairs-green .bit-02:before{
+	background-color: var(--color-khaki);
+}
+.stairs-grey:after,
+.stairs-grey .bit-01,
+.stairs-grey .bit-01:before,
+.stairs-grey .bit-01:after,
+.stairs-grey .bit-02,
+.stairs-grey .bit-02:before{
+	background-color: var(--color-grey);
+}
+.stairs-brown,
+.stairs-brown .bit-02:after,
+.stairs-brown .bit-03,
+.stairs-brown .bit-03:before,
+.stairs-brown .bit-03:after{
+	background-color: var(--color-brown);
+}
+.stairs-green,
+.stairs-green .bit-02:after,
+.stairs-green .bit-03,
+.stairs-green .bit-03:before,
+.stairs-green .bit-03:after{
+	background-color: var(--color-green);
+}
+.stairs-grey,
+.stairs-grey .bit-02:after,
+.stairs-grey .bit-03,
+.stairs-grey .bit-03:before,
+.stairs-grey .bit-03:after{
+	background-color: var(--color-white);
+}
+.tile-stairs{
+	position: relative;
+}
+.tile-stairs:before,
+.tile-stairs:after{
+	position:absolute;
+	content:"";
+}
+.tile-stairs:before{
+	width:87.5%;
+	height:50%;
+	left:6.25%;
+	top:6.25%;
+}
+.tile-stairs:after{
+	width:87.5%;
+	height:43.75%;
+	left:6.25%;
+	top:50%;
+}
+.tile-stairs .bit-01{
+	top:12.5%;
+	left:6.25%;
+}
+.tile-stairs .bit-01:before{
+	width:1000%;
+	top:400%;
+	left:0;
+	height:200%;
+}
+.tile-stairs .bit-01:after{
+	width:600%;
+	top:200%;
+	left:0;
+	height:200%;
+}
+.tile-stairs .bit-02{
+	top:12.5%;
+	left:12.5%;
+}
+.tile-stairs .bit-02:before{
+	width:200%;
+	height:100%;
+	left:-100%;
+	top:100%;
+}
+.tile-stairs .bit-02:after{
+	width:100%;
+	height:1200%;
+	left:100%;
+	top:100%;
+}
+.tile-stairs .bit-03{
+	top:31.25%;
+	left:43.75%;
+}
+.tile-stairs .bit-03:before{
+	top:100%;
+	left:0;
+	height:900%;
+	width:100%;
+}
+.tile-stairs .bit-03:after{
+	top:200%;
+	left:400%;
+	height:800%;
+	width:100%;
+}

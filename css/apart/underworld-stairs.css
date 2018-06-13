@@ -1,0 +1,368 @@
+/** underworld-stairs.css **/
+/**
+
+level 01 - gsarchives
+https://bowdenweb.com/nes/loz/i/tiles-underworld/stairs/tile-underworld-stairs-level-01-gsarchives-x512.gif
+light grey
+#00efde
+grey
+#008c8c
+dark grey
+#00425a
+black
+#000000
+
+level 01
+light blue
+#00ffff
+black
+#000
+grey
+#008484
+dark red
+#214242
+
+
+level 02
+light blue
+#4284ff
+black
+#000
+blue
+#4200ff
+purple
+#000084
+
+
+
+
+level 03
+light green
+#52f794
+black
+#000
+green
+#009431
+brown
+#003910
+
+
+level 04
+light orange
+#efbd39
+orange
+#847300
+red
+#392900
+black
+#000
+
+
+level 05
+light orangegreen
+#42c642
+oranggreen
+#00a500
+red
+#004200
+black
+#000
+
+level 06
+light green
+#ffc642
+green
+#848400
+brown-red
+#422100
+black
+#000
+
+level 07
+light orangegreen
+#42c642
+orangegreen
+#00a500
+red
+#004200
+black
+#000
+
+level 08
+white
+#fff
+grey
+#848484
+dark grey
+#424242
+black
+#000
+
+level 09
+white
+#fff
+grey
+#848484
+dark grey
+#424242
+black
+#000
+
+
+**/
+
+/**
+level 01 - gsarchives
+https://bowdenweb.com/nes/loz/i/tiles-underworld/stairs/tile-underworld-stairs-level-01-gsarchives-x512.gif
+
+
+
+**/
+.tile-stairs.level-01-gsarchives,
+.tile-stairs.level-01-gsarchives:after,
+.tile-stairs.level-01-gsarchives .bit-01,
+.tile-stairs.level-01-gsarchives .bit-01:before,
+.tile-stairs.level-01-gsarchives .bit-01:after,
+.tile-stairs.level-01-gsarchives .bit-02,
+.tile-stairs.level-01-gsarchives .bit-02:before,
+.tile-stairs.level-01,
+.tile-stairs.level-01:after,
+.tile-stairs.level-01 .bit-01,
+.tile-stairs.level-01 .bit-01:before,
+.tile-stairs.level-01 .bit-01:after,
+.tile-stairs.level-01 .bit-02,
+.tile-stairs.level-01 .bit-02:before{
+	background-color:#008c8c; /** grey **/
+}
+.tile-stairs.level-02,
+.tile-stairs.level-02:after,
+.tile-stairs.level-02 .bit-01,
+.tile-stairs.level-02 .bit-01:before,
+.tile-stairs.level-02 .bit-01:after,
+.tile-stairs.level-02 .bit-02,
+.tile-stairs.level-02 .bit-02:before{
+	background-color:#4200ff; /** blue **/
+}
+.tile-stairs.level-03,
+.tile-stairs.level-03:after,
+.tile-stairs.level-03 .bit-01,
+.tile-stairs.level-03 .bit-01:before,
+.tile-stairs.level-03 .bit-01:after,
+.tile-stairs.level-03 .bit-02,
+.tile-stairs.level-03 .bit-02:before{
+	background-color:#009431; /** green **/
+}
+.tile-stairs.level-04,
+.tile-stairs.level-04:after,
+.tile-stairs.level-04 .bit-01,
+.tile-stairs.level-04 .bit-01:before,
+.tile-stairs.level-04 .bit-01:after,
+.tile-stairs.level-04 .bit-02,
+.tile-stairs.level-04 .bit-02:before{
+	background-color:#847300; /** orange **/
+}
+.tile-stairs.level-05,
+.tile-stairs.level-05:after,
+.tile-stairs.level-05 .bit-01,
+.tile-stairs.level-05 .bit-01:before,
+.tile-stairs.level-05 .bit-01:after,
+.tile-stairs.level-05 .bit-02,
+.tile-stairs.level-05 .bit-02:before{
+	background-color:#00a500; /** orange-green **/
+}
+.tile-stairs.level-06,
+.tile-stairs.level-06:after,
+.tile-stairs.level-06 .bit-01,
+.tile-stairs.level-06 .bit-01:before,
+.tile-stairs.level-06 .bit-01:after,
+.tile-stairs.level-06 .bit-02,
+.tile-stairs.level-06 .bit-02:before{
+	background-color:#848400; /** green alt ?? **/
+}
+.tile-stairs.level-07,
+.tile-stairs.level-07:after,
+.tile-stairs.level-07 .bit-01,
+.tile-stairs.level-07 .bit-01:before,
+.tile-stairs.level-07 .bit-01:after,
+.tile-stairs.level-07 .bit-02,
+.tile-stairs.level-07 .bit-02:before{
+	background-color:#00a500; /** orange-green **/
+}
+.tile-stairs.level-08,
+.tile-stairs.level-08:after,
+.tile-stairs.level-08 .bit-01,
+.tile-stairs.level-08 .bit-01:before,
+.tile-stairs.level-08 .bit-01:after,
+.tile-stairs.level-08 .bit-02,
+.tile-stairs.level-08 .bit-02:before,
+.tile-stairs.level-09,
+.tile-stairs.level-09:after,
+.tile-stairs.level-09 .bit-01,
+.tile-stairs.level-09 .bit-01:before,
+.tile-stairs.level-09 .bit-01:after,
+.tile-stairs.level-09 .bit-02,
+.tile-stairs.level-09 .bit-02:before{
+	background-color:#848484; /** grey **/
+}
+
+
+
+
+
+.tile-stairs.level-01-gsarchives{
+	background-color:#00efde; /** light grey **/
+}
+.tile-stairs.level-01{
+	background-color:#0ff; /** light blue **/
+}
+.tile-stairs.level-02{
+	background-color:#4284ff; /** light blue alt **/
+}
+.tile-stairs.level-03{
+	background-color:#52f794; /** light green **/
+}
+.tile-stairs.level-04{
+	background-color:#efbd39; /** light orange **/
+}
+.tile-stairs.level-05{
+	background-color:#42c642; /** light orangegreen **/
+}
+.tile-stairs.level-06{
+	background-color:#ffc642; /** light green (alt) **/
+}
+.tile-stairs.level-07{
+	background-color:#42c642; /** light orangegreen **/
+}
+.tile-stairs.level-08{
+	background-color:#fff; /** white **/
+}
+.tile-stairs.level-09{
+	background-color:#fff; /** white **/
+}
+
+
+
+.tile-stairs.level-01-gsarchives .bit-02:after,
+.tile-stairs.level-01-gsarchives .bit-03,
+.tile-stairs.level-01-gsarchives .bit-03:before,
+.tile-stairs.level-01-gsarchives .bit-03:after{
+	background-color:#00425a; /** dark grey **/
+}
+.tile-stairs.level-01 .bit-02:after,
+.tile-stairs.level-01 .bit-03,
+.tile-stairs.level-01 .bit-03:before,
+.tile-stairs.level-01 .bit-03:after{
+	background-color:#214242; /** dark red **/
+}
+.tile-stairs.level-02 .bit-02:after,
+.tile-stairs.level-02 .bit-03,
+.tile-stairs.level-02 .bit-03:before,
+.tile-stairs.level-02 .bit-03:after{
+	background-color:#000084; /** purple **/
+}
+.tile-stairs.level-03 .bit-02:after,
+.tile-stairs.level-03 .bit-03,
+.tile-stairs.level-03 .bit-03:before,
+.tile-stairs.level-03 .bit-03:after{
+	background-color:#003910; /** brown **/
+}
+.tile-stairs.level-04 .bit-02:after,
+.tile-stairs.level-04 .bit-03,
+.tile-stairs.level-04 .bit-03:before,
+.tile-stairs.level-04 .bit-03:after{
+	background-color:#392900; /** red alt **/
+}
+.tile-stairs.level-05 .bit-02:after,
+.tile-stairs.level-05 .bit-03,
+.tile-stairs.level-05 .bit-03:before,
+.tile-stairs.level-05 .bit-03:after{
+	background-color:#004200; /** red **/
+}
+.tile-stairs.level-06 .bit-02:after,
+.tile-stairs.level-06 .bit-03,
+.tile-stairs.level-06 .bit-03:before,
+.tile-stairs.level-06 .bit-03:after{
+	background-color:#422100; /** brown-red **/
+}
+.tile-stairs.level-07 .bit-02:after,
+.tile-stairs.level-07 .bit-03,
+.tile-stairs.level-07 .bit-03:before,
+.tile-stairs.level-07 .bit-03:after{
+	background-color:#004200; /** red **/
+}
+.tile-stairs.level-08 .bit-02:after,
+.tile-stairs.level-08 .bit-03,
+.tile-stairs.level-08 .bit-03:before,
+.tile-stairs.level-08 .bit-03:after,
+.tile-stairs.level-09 .bit-02:after,
+.tile-stairs.level-09 .bit-03,
+.tile-stairs.level-09 .bit-03:before,
+.tile-stairs.level-09 .bit-03:after{
+	background-color:#424242; /** dark grey **/
+}
+
+.tile-stairs:before{
+	background-color:#000; /** black **/
+}
+
+
+.tile-stairs:before{
+	width:87.5%;
+	height:87.5%;
+	top:6.25%;
+	left:6.25%;
+}
+.tile-stairs:after{
+	width:87.5%;
+	height:43.75%;
+	top:50%;
+	left:6.25%;
+}
+.tile-stairs .bit-01{
+	left:6.25%;
+	top:12.5%;
+}
+.tile-stairs .bit-01:before{
+	width:1000%;
+	height:200%;
+	top:400%;
+	left:0;
+}
+.tile-stairs .bit-01:after{
+	width:600%;
+	height:200%;
+	top:200%;
+	left:0;
+}
+.tile-stairs .bit-02{
+	left:12.5%;
+	top:12.5%;
+}
+.tile-stairs .bit-02:before{
+	width:200%;
+	height:100%;
+	top:100%;
+	left:-100%;
+}
+.tile-stairs .bit-02:after{
+	width:100%;
+	height:1200%;
+	top:100%;
+	left:100%;
+}
+.tile-stairs .bit-03{
+	left:43.75%;
+	top:31.25%;
+}
+.tile-stairs .bit-03:before{
+	width:100%;
+	height:900%;
+	top:100%;
+	left:0;
+}
+.tile-stairs .bit-03:after{
+	width:100%;
+	height:800%;
+	top:200%;
+	left:400%;
+}

@@ -1,0 +1,1504 @@
+/** underworld-sand.css **/
+:root{
+	--color-underground-white: #fff;
+	--color-underground-grey: #008484;
+	--color-underground-grey-alt: #ffa584;
+	--color-underground-grey-89: #848484;
+	--color-underground-grey-dark: #214242;
+	--color-underground-grey-dark-alt: #424242;
+	--color-underground-blue: #0021ff;
+	--color-underground-blue-light: #0ff;
+	--color-underground-blue-light-level-02: #4284ff;
+	--color-underground-blue-light-alt: #63a5ff;
+	--color-underground-blue-level-04: #1839ef;
+	--color-underground-blue-purple: #000084;
+	--color-underground-blue-royal: #000084;
+	--color-underground-blue-royal-7: #2142ff;
+	--color-underground-purple: #4200ff;
+	
+	
+	--color-underground-red: #c62100;
+	--color-underground-red-alt: #004200;
+	--color-underground-red-alt-2: #422100;
+	--color-underground-red-dark: #392900;
+	--color-underground-red-orange: #c62100;
+	--color-underground-green: #009431;
+	--color-underground-green-alt: #848400;
+	--color-underground-green-gold: #847300;
+	--color-underground-green-light: #52f794;
+	--color-underground-green-light-alt: #ffc642;
+	--color-underground-brown: #003910;
+	--color-underground-brown-chocolate: #422100;
+	--color-underground-brown-dark: #392900;
+	--color-underground-orange: #847300;
+	--color-underground-orange-green: #00a500;
+	--color-underground-orange-green-light: #42c642;
+	--color-underground-orange-light: #efbd39;
+	--color-underground-orange-pink: #ffa584;
+	
+	
+	--color-underground-orange-yellow: #ff8400;
+	--color-underground-yellow-green: #848400;
+	--color-underground-yellow-gold: #efbd39;
+	--color-underground-yellow-pink: #ffc642;
+	
+	
+	--color-u-grey-light: #00efde;
+	--color-u-grey: #008c8c;
+	--color-u-grey-dark: #00425a;
+	--color-u-blue: #005aff;
+}
+
+
+/** level 01 gsarchives **/
+.tile-underworld-sand.level-01-gsarchives{
+	background-color:var(--color-u-grey); /** bg **/
+}
+.tile-underworld-sand.level-01-gsarchives:before,
+.tile-underworld-sand.level-01-gsarchives:after,
+.tile-underworld-sand.level-01-gsarchives .bit-01,
+.tile-underworld-sand.level-01-gsarchives .bit-01:before,
+.tile-underworld-sand.level-01-gsarchives .bit-01:after,
+.tile-underworld-sand.level-01-gsarchives .bit-02,
+.tile-underworld-sand.level-01-gsarchives .bit-02:before,
+.tile-underworld-sand.level-01-gsarchives .bit-02:after,
+.tile-underworld-sand.level-01-gsarchives .bit-03,
+.tile-underworld-sand.level-01-gsarchives .bit-03:before,
+.tile-underworld-sand.level-01-gsarchives .bit-03:after,
+.tile-underworld-sand.level-01-gsarchives .bit-04{
+	background-color:var(--color-u-grey-light); /** light **/
+}
+
+.tile-underworld-sand.level-01-gsarchives .bit-04:before,
+.tile-underworld-sand.level-01-gsarchives .bit-04:after,
+.tile-underworld-sand.level-01-gsarchives .bit-05,
+.tile-underworld-sand.level-01-gsarchives .bit-05:before,
+.tile-underworld-sand.level-01-gsarchives .bit-05:after,
+.tile-underworld-sand.level-01-gsarchives .bit-06,
+.tile-underworld-sand.level-01-gsarchives .bit-06:before,
+.tile-underworld-sand.level-01-gsarchives .bit-06:after,
+.tile-underworld-sand.level-01-gsarchives .bit-07,
+.tile-underworld-sand.level-01-gsarchives .bit-07:before,
+.tile-underworld-sand.level-01-gsarchives .bit-07:after,
+.tile-underworld-sand.level-01-gsarchives .bit-08,
+.tile-underworld-sand.level-01-gsarchives .bit-08:before,
+.tile-underworld-sand.level-01-gsarchives .bit-08:after,
+.tile-underworld-sand.level-01-gsarchives .bit-09,
+.tile-underworld-sand.level-01-gsarchives .bit-09:before,
+.tile-underworld-sand.level-01-gsarchives .bit-09:after,
+.tile-underworld-sand.level-01-gsarchives .bit-10,
+.tile-underworld-sand.level-01-gsarchives .bit-10:before,
+.tile-underworld-sand.level-01-gsarchives .bit-10:after,
+.tile-underworld-sand.level-01-gsarchives .bit-11,
+.tile-underworld-sand.level-01-gsarchives .bit-11:before,
+.tile-underworld-sand.level-01-gsarchives .bit-11:after,
+.tile-underworld-sand.level-01-gsarchives .bit-12{
+	background-color:var(--color-u-blue); /** dark **/
+}
+/** level 01 a **/
+.level-01.sand-a{
+	background-color:var(--color-underground-orange-yellow); /** bg **/
+}
+.level-01.sand-a:before,
+.level-01.sand-a:after,
+.level-01.sand-a .bit-01,
+.level-01.sand-a .bit-01:before,
+.level-01.sand-a .bit-01:after,
+.level-01.sand-a .bit-02,
+.level-01.sand-a .bit-02:before,
+.level-01.sand-a .bit-02:after,
+.level-01.sand-a .bit-03,
+.level-01.sand-a .bit-03:before,
+.level-01.sand-a .bit-03:after,
+.level-01.sand-a .bit-04{
+	background-color:var(--color-underground-grey-alt); /** light **/
+}
+.level-01.sand-a .bit-04:before,
+.level-01.sand-a .bit-04:after,
+.level-01.sand-a .bit-05,
+.level-01.sand-a .bit-05:before,
+.level-01.sand-a .bit-05:after,
+.level-01.sand-a .bit-06,
+.level-01.sand-a .bit-06:before,
+.level-01.sand-a .bit-06:after,
+.level-01.sand-a .bit-07,
+.level-01.sand-a .bit-07:before,
+.level-01.sand-a .bit-07:after,
+.level-01.sand-a .bit-08,
+.level-01.sand-a .bit-08:before,
+.level-01.sand-a .bit-08:after,
+.level-01.sand-a .bit-09,
+.level-01.sand-a .bit-09:before,
+.level-01.sand-a .bit-09:after,
+.level-01.sand-a .bit-10,
+.level-01.sand-a .bit-10:before,
+.level-01.sand-a .bit-10:after,
+.level-01.sand-a .bit-11,
+.level-01.sand-a .bit-11:before,
+.level-01.sand-a .bit-11:after,
+.level-01.sand-a .bit-12{
+	background-color:var(--color-underground-red); /** dark **/
+}
+/** level 01 b **/
+.level-01.sand-b{
+	background-color:var(--color-underground-grey); /** bg **/
+}
+.level-01.sand-b:before,
+.level-01.sand-b:after,
+.level-01.sand-b .bit-01,
+.level-01.sand-b .bit-01:before,
+.level-01.sand-b .bit-01:after,
+.level-01.sand-b .bit-02,
+.level-01.sand-b .bit-02:before,
+.level-01.sand-b .bit-02:after,
+.level-01.sand-b .bit-03,
+.level-01.sand-b .bit-03:before,
+.level-01.sand-b .bit-03:after,
+.level-01.sand-b .bit-04{
+	background-color:var(--color-underground-blue-light); /** light **/
+}
+.level-01.sand-b .bit-04:before,
+.level-01.sand-b .bit-04:after,
+.level-01.sand-b .bit-05,
+.level-01.sand-b .bit-05:before,
+.level-01.sand-b .bit-05:after,
+.level-01.sand-b .bit-06,
+.level-01.sand-b .bit-06:before,
+.level-01.sand-b .bit-06:after,
+.level-01.sand-b .bit-07,
+.level-01.sand-b .bit-07:before,
+.level-01.sand-b .bit-07:after,
+.level-01.sand-b .bit-08,
+.level-01.sand-b .bit-08:before,
+.level-01.sand-b .bit-08:after,
+.level-01.sand-b .bit-09,
+.level-01.sand-b .bit-09:before,
+.level-01.sand-b .bit-09:after,
+.level-01.sand-b .bit-10,
+.level-01.sand-b .bit-10:before,
+.level-01.sand-b .bit-10:after,
+.level-01.sand-b .bit-11,
+.level-01.sand-b .bit-11:before,
+.level-01.sand-b .bit-11:after,
+.level-01.sand-b .bit-12{
+	background-color:var(--color-underground-grey-dark); /** dark **/
+}
+/** level 01 c **/
+.level-01.sand-c{
+	background-color:var(--color-underground-grey); /** bg **/
+}
+.level-01.sand-c:before,
+.level-01.sand-c:after,
+.level-01.sand-c .bit-01,
+.level-01.sand-c .bit-01:before,
+.level-01.sand-c .bit-01:after,
+.level-01.sand-c .bit-02,
+.level-01.sand-c .bit-02:before,
+.level-01.sand-c .bit-02:after,
+.level-01.sand-c .bit-03,
+.level-01.sand-c .bit-03:before,
+.level-01.sand-c .bit-03:after,
+.level-01.sand-c .bit-04{
+	background-color:var(--color-underground-blue-light); /** light **/
+}
+.level-01.sand-c .bit-04:before,
+.level-01.sand-c .bit-04:after,
+.level-01.sand-c .bit-05,
+.level-01.sand-c .bit-05:before,
+.level-01.sand-c .bit-05:after,
+.level-01.sand-c .bit-06,
+.level-01.sand-c .bit-06:before,
+.level-01.sand-c .bit-06:after,
+.level-01.sand-c .bit-07,
+.level-01.sand-c .bit-07:before,
+.level-01.sand-c .bit-07:after,
+.level-01.sand-c .bit-08,
+.level-01.sand-c .bit-08:before,
+.level-01.sand-c .bit-08:after,
+.level-01.sand-c .bit-09,
+.level-01.sand-c .bit-09:before,
+.level-01.sand-c .bit-09:after,
+.level-01.sand-c .bit-10,
+.level-01.sand-c .bit-10:before,
+.level-01.sand-c .bit-10:after,
+.level-01.sand-c .bit-11,
+.level-01.sand-c .bit-11:before,
+.level-01.sand-c .bit-11:after,
+.level-01.sand-c .bit-12{
+	background-color:var(--color-underground-blue); /** dark **/
+}
+
+/** level 02 **/
+/** level 02 a **/
+.level-02.sand-a{
+	background-color:var(--color-underground-orange-yellow); /** bg **/
+}
+.level-02.sand-a:before,
+.level-02.sand-a:after,
+.level-02.sand-a .bit-01,
+.level-02.sand-a .bit-01:before,
+.level-02.sand-a .bit-01:after,
+.level-02.sand-a .bit-02,
+.level-02.sand-a .bit-02:before,
+.level-02.sand-a .bit-02:after,
+.level-02.sand-a .bit-03,
+.level-02.sand-a .bit-03:before,
+.level-02.sand-a .bit-03:after,
+.level-02.sand-a .bit-04{
+	background-color:var(--color-underground-orange-pink); /** light **/
+}
+.level-02.sand-a .bit-04:before,
+.level-02.sand-a .bit-04:after,
+.level-02.sand-a .bit-05,
+.level-02.sand-a .bit-05:before,
+.level-02.sand-a .bit-05:after,
+.level-02.sand-a .bit-06,
+.level-02.sand-a .bit-06:before,
+.level-02.sand-a .bit-06:after,
+.level-02.sand-a .bit-07,
+.level-02.sand-a .bit-07:before,
+.level-02.sand-a .bit-07:after,
+.level-02.sand-a .bit-08,
+.level-02.sand-a .bit-08:before,
+.level-02.sand-a .bit-08:after,
+.level-02.sand-a .bit-09,
+.level-02.sand-a .bit-09:before,
+.level-02.sand-a .bit-09:after,
+.level-02.sand-a .bit-10,
+.level-02.sand-a .bit-10:before,
+.level-02.sand-a .bit-10:after,
+.level-02.sand-a .bit-11,
+.level-02.sand-a .bit-11:before,
+.level-02.sand-a .bit-11:after,
+.level-02.sand-a .bit-12{
+	background-color:var(--color-underground-red); /** dark **/
+}
+/** level 02 b **/
+.level-02.sand-b{
+	background-color:var(--color-underground-purple); /** bg **/
+}
+.level-02.sand-b:before,
+.level-02.sand-b:after,
+.level-02.sand-b .bit-01,
+.level-02.sand-b .bit-01:before,
+.level-02.sand-b .bit-01:after,
+.level-02.sand-b .bit-02,
+.level-02.sand-b .bit-02:before,
+.level-02.sand-b .bit-02:after,
+.level-02.sand-b .bit-03,
+.level-02.sand-b .bit-03:before,
+.level-02.sand-b .bit-03:after,
+.level-02.sand-b .bit-04{
+	background-color:var(--color-underground-blue-light-level-02); /** light **/
+}
+.level-02.sand-b .bit-04:before,
+.level-02.sand-b .bit-04:after,
+.level-02.sand-b .bit-05,
+.level-02.sand-b .bit-05:before,
+.level-02.sand-b .bit-05:after,
+.level-02.sand-b .bit-06,
+.level-02.sand-b .bit-06:before,
+.level-02.sand-b .bit-06:after,
+.level-02.sand-b .bit-07,
+.level-02.sand-b .bit-07:before,
+.level-02.sand-b .bit-07:after,
+.level-02.sand-b .bit-08,
+.level-02.sand-b .bit-08:before,
+.level-02.sand-b .bit-08:after,
+.level-02.sand-b .bit-09,
+.level-02.sand-b .bit-09:before,
+.level-02.sand-b .bit-09:after,
+.level-02.sand-b .bit-10,
+.level-02.sand-b .bit-10:before,
+.level-02.sand-b .bit-10:after,
+.level-02.sand-b .bit-11,
+.level-02.sand-b .bit-11:before,
+.level-02.sand-b .bit-11:after,
+.level-02.sand-b .bit-12{
+	background-color:var(--color-underground-blue-purple); /** dark **/
+}
+/** level 02 b **/
+.level-02.sand-c{
+	background-color:var(--color-underground-purple); /** bg **/
+}
+.level-02.sand-c:before,
+.level-02.sand-c:after,
+.level-02.sand-c .bit-01,
+.level-02.sand-c .bit-01:before,
+.level-02.sand-c .bit-01:after,
+.level-02.sand-c .bit-02,
+.level-02.sand-c .bit-02:before,
+.level-02.sand-c .bit-02:after,
+.level-02.sand-c .bit-03,
+.level-02.sand-c .bit-03:before,
+.level-02.sand-c .bit-03:after,
+.level-02.sand-c .bit-04{
+	background-color:var(--color-underground-blue-light-level-02); /** light **/
+}
+.level-02.sand-c .bit-04:before,
+.level-02.sand-c .bit-04:after,
+.level-02.sand-c .bit-05,
+.level-02.sand-c .bit-05:before,
+.level-02.sand-c .bit-05:after,
+.level-02.sand-c .bit-06,
+.level-02.sand-c .bit-06:before,
+.level-02.sand-c .bit-06:after,
+.level-02.sand-c .bit-07,
+.level-02.sand-c .bit-07:before,
+.level-02.sand-c .bit-07:after,
+.level-02.sand-c .bit-08,
+.level-02.sand-c .bit-08:before,
+.level-02.sand-c .bit-08:after,
+.level-02.sand-c .bit-09,
+.level-02.sand-c .bit-09:before,
+.level-02.sand-c .bit-09:after,
+.level-02.sand-c .bit-10,
+.level-02.sand-c .bit-10:before,
+.level-02.sand-c .bit-10:after,
+.level-02.sand-c .bit-11,
+.level-02.sand-c .bit-11:before,
+.level-02.sand-c .bit-11:after,
+.level-02.sand-c .bit-12{
+	background-color:var(--color-underground-red); /** dark **/
+}
+
+/** level 03 **/
+/** level 03 a **/
+.level-03.sand-a{
+	background-color:var(--color-underground-orange-yellow); /** bg **/
+}
+.level-03.sand-a:before,
+.level-03.sand-a:after,
+.level-03.sand-a .bit-01,
+.level-03.sand-a .bit-01:before,
+.level-03.sand-a .bit-01:after,
+.level-03.sand-a .bit-02,
+.level-03.sand-a .bit-02:before,
+.level-03.sand-a .bit-02:after,
+.level-03.sand-a .bit-03,
+.level-03.sand-a .bit-03:before,
+.level-03.sand-a .bit-03:after,
+.level-03.sand-a .bit-04{
+	background-color:var(--color-underground-orange-pink); /** light **/
+}
+.level-03.sand-a .bit-04:before,
+.level-03.sand-a .bit-04:after,
+.level-03.sand-a .bit-05,
+.level-03.sand-a .bit-05:before,
+.level-03.sand-a .bit-05:after,
+.level-03.sand-a .bit-06,
+.level-03.sand-a .bit-06:before,
+.level-03.sand-a .bit-06:after,
+.level-03.sand-a .bit-07,
+.level-03.sand-a .bit-07:before,
+.level-03.sand-a .bit-07:after,
+.level-03.sand-a .bit-08,
+.level-03.sand-a .bit-08:before,
+.level-03.sand-a .bit-08:after,
+.level-03.sand-a .bit-09,
+.level-03.sand-a .bit-09:before,
+.level-03.sand-a .bit-09:after,
+.level-03.sand-a .bit-10,
+.level-03.sand-a .bit-10:before,
+.level-03.sand-a .bit-10:after,
+.level-03.sand-a .bit-11,
+.level-03.sand-a .bit-11:before,
+.level-03.sand-a .bit-11:after,
+.level-03.sand-a .bit-12{
+	background-color:var(--color-underground-red); /** dark **/
+}
+/** level 03 b **/
+.level-03.sand-b{
+	background-color:var(--color-underground-green); /** bg **/
+}
+.level-03.sand-b:before,
+.level-03.sand-b:after,
+.level-03.sand-b .bit-01,
+.level-03.sand-b .bit-01:before,
+.level-03.sand-b .bit-01:after,
+.level-03.sand-b .bit-02,
+.level-03.sand-b .bit-02:before,
+.level-03.sand-b .bit-02:after,
+.level-03.sand-b .bit-03,
+.level-03.sand-b .bit-03:before,
+.level-03.sand-b .bit-03:after,
+.level-03.sand-b .bit-04{
+	background-color:var(--color-underground-green-light); /** light **/
+}
+.level-03.sand-b .bit-04:before,
+.level-03.sand-b .bit-04:after,
+.level-03.sand-b .bit-05,
+.level-03.sand-b .bit-05:before,
+.level-03.sand-b .bit-05:after,
+.level-03.sand-b .bit-06,
+.level-03.sand-b .bit-06:before,
+.level-03.sand-b .bit-06:after,
+.level-03.sand-b .bit-07,
+.level-03.sand-b .bit-07:before,
+.level-03.sand-b .bit-07:after,
+.level-03.sand-b .bit-08,
+.level-03.sand-b .bit-08:before,
+.level-03.sand-b .bit-08:after,
+.level-03.sand-b .bit-09,
+.level-03.sand-b .bit-09:before,
+.level-03.sand-b .bit-09:after,
+.level-03.sand-b .bit-10,
+.level-03.sand-b .bit-10:before,
+.level-03.sand-b .bit-10:after,
+.level-03.sand-b .bit-11,
+.level-03.sand-b .bit-11:before,
+.level-03.sand-b .bit-11:after,
+.level-03.sand-b .bit-12{
+	background-color:var(--color-underground-brown); /** dark **/
+}
+/** level 03 b **/
+.level-03.sand-c{
+	background-color:var(--color-underground-green); /** bg **/
+}
+.level-03.sand-c:before,
+.level-03.sand-c:after,
+.level-03.sand-c .bit-01,
+.level-03.sand-c .bit-01:before,
+.level-03.sand-c .bit-01:after,
+.level-03.sand-c .bit-02,
+.level-03.sand-c .bit-02:before,
+.level-03.sand-c .bit-02:after,
+.level-03.sand-c .bit-03,
+.level-03.sand-c .bit-03:before,
+.level-03.sand-c .bit-03:after,
+.level-03.sand-c .bit-04{
+	background-color:var(--color-underground-green-light); /** light **/
+}
+.level-03.sand-c .bit-04:before,
+.level-03.sand-c .bit-04:after,
+.level-03.sand-c .bit-05,
+.level-03.sand-c .bit-05:before,
+.level-03.sand-c .bit-05:after,
+.level-03.sand-c .bit-06,
+.level-03.sand-c .bit-06:before,
+.level-03.sand-c .bit-06:after,
+.level-03.sand-c .bit-07,
+.level-03.sand-c .bit-07:before,
+.level-03.sand-c .bit-07:after,
+.level-03.sand-c .bit-08,
+.level-03.sand-c .bit-08:before,
+.level-03.sand-c .bit-08:after,
+.level-03.sand-c .bit-09,
+.level-03.sand-c .bit-09:before,
+.level-03.sand-c .bit-09:after,
+.level-03.sand-c .bit-10,
+.level-03.sand-c .bit-10:before,
+.level-03.sand-c .bit-10:after,
+.level-03.sand-c .bit-11,
+.level-03.sand-c .bit-11:before,
+.level-03.sand-c .bit-11:after,
+.level-03.sand-c .bit-12{
+	background-color:var(--color-underground-red); /** dark **/
+}
+/** level 04 a **/
+.level-04.sand-a{
+	background-color:var(--color-underground-orange-yellow); /** bg **/
+}
+.level-04.sand-a:before,
+.level-04.sand-a:after,
+.level-04.sand-a .bit-01,
+.level-04.sand-a .bit-01:before,
+.level-04.sand-a .bit-01:after,
+.level-04.sand-a .bit-02,
+.level-04.sand-a .bit-02:before,
+.level-04.sand-a .bit-02:after,
+.level-04.sand-a .bit-03,
+.level-04.sand-a .bit-03:before,
+.level-04.sand-a .bit-03:after,
+.level-04.sand-a .bit-04{
+	background-color:var(--color-underground-orange-pink); /** light **/
+}
+.level-04.sand-a .bit-04:before,
+.level-04.sand-a .bit-04:after,
+.level-04.sand-a .bit-05,
+.level-04.sand-a .bit-05:before,
+.level-04.sand-a .bit-05:after,
+.level-04.sand-a .bit-06,
+.level-04.sand-a .bit-06:before,
+.level-04.sand-a .bit-06:after,
+.level-04.sand-a .bit-07,
+.level-04.sand-a .bit-07:before,
+.level-04.sand-a .bit-07:after,
+.level-04.sand-a .bit-08,
+.level-04.sand-a .bit-08:before,
+.level-04.sand-a .bit-08:after,
+.level-04.sand-a .bit-09,
+.level-04.sand-a .bit-09:before,
+.level-04.sand-a .bit-09:after,
+.level-04.sand-a .bit-10,
+.level-04.sand-a .bit-10:before,
+.level-04.sand-a .bit-10:after,
+.level-04.sand-a .bit-11,
+.level-04.sand-a .bit-11:before,
+.level-04.sand-a .bit-11:after,
+.level-04.sand-a .bit-12{
+	background-color:var(--color-underground-blue-level-04); /** dark **/
+}
+/** level 04 b **/
+.level-04.sand-b{
+	background-color:var(--color-underground-green-gold); /** bg **/
+}
+.level-04.sand-b:before,
+.level-04.sand-b:after,
+.level-04.sand-b .bit-01,
+.level-04.sand-b .bit-01:before,
+.level-04.sand-b .bit-01:after,
+.level-04.sand-b .bit-02,
+.level-04.sand-b .bit-02:before,
+.level-04.sand-b .bit-02:after,
+.level-04.sand-b .bit-03,
+.level-04.sand-b .bit-03:before,
+.level-04.sand-b .bit-03:after,
+.level-04.sand-b .bit-04{
+	background-color:var(--color-underground-yellow-gold); /** light **/
+}
+.level-04.sand-b .bit-04:before,
+.level-04.sand-b .bit-04:after,
+.level-04.sand-b .bit-05,
+.level-04.sand-b .bit-05:before,
+.level-04.sand-b .bit-05:after,
+.level-04.sand-b .bit-06,
+.level-04.sand-b .bit-06:before,
+.level-04.sand-b .bit-06:after,
+.level-04.sand-b .bit-07,
+.level-04.sand-b .bit-07:before,
+.level-04.sand-b .bit-07:after,
+.level-04.sand-b .bit-08,
+.level-04.sand-b .bit-08:before,
+.level-04.sand-b .bit-08:after,
+.level-04.sand-b .bit-09,
+.level-04.sand-b .bit-09:before,
+.level-04.sand-b .bit-09:after,
+.level-04.sand-b .bit-10,
+.level-04.sand-b .bit-10:before,
+.level-04.sand-b .bit-10:after,
+.level-04.sand-b .bit-11,
+.level-04.sand-b .bit-11:before,
+.level-04.sand-b .bit-11:after,
+.level-04.sand-b .bit-12{
+	background-color:var(--color-underground-brown-dark); /** dark **/
+}
+/** level 04 b **/
+.level-04.sand-c{
+	background-color:var(--color-underground-green-gold); /** bg **/
+}
+.level-04.sand-c:before,
+.level-04.sand-c:after,
+.level-04.sand-c .bit-01,
+.level-04.sand-c .bit-01:before,
+.level-04.sand-c .bit-01:after,
+.level-04.sand-c .bit-02,
+.level-04.sand-c .bit-02:before,
+.level-04.sand-c .bit-02:after,
+.level-04.sand-c .bit-03,
+.level-04.sand-c .bit-03:before,
+.level-04.sand-c .bit-03:after,
+.level-04.sand-c .bit-04{
+	background-color:var(--color-underground-yellow-gold); /** light **/
+}
+.level-04.sand-c .bit-04:before,
+.level-04.sand-c .bit-04:after,
+.level-04.sand-c .bit-05,
+.level-04.sand-c .bit-05:before,
+.level-04.sand-c .bit-05:after,
+.level-04.sand-c .bit-06,
+.level-04.sand-c .bit-06:before,
+.level-04.sand-c .bit-06:after,
+.level-04.sand-c .bit-07,
+.level-04.sand-c .bit-07:before,
+.level-04.sand-c .bit-07:after,
+.level-04.sand-c .bit-08,
+.level-04.sand-c .bit-08:before,
+.level-04.sand-c .bit-08:after,
+.level-04.sand-c .bit-09,
+.level-04.sand-c .bit-09:before,
+.level-04.sand-c .bit-09:after,
+.level-04.sand-c .bit-10,
+.level-04.sand-c .bit-10:before,
+.level-04.sand-c .bit-10:after,
+.level-04.sand-c .bit-11,
+.level-04.sand-c .bit-11:before,
+.level-04.sand-c .bit-11:after,
+.level-04.sand-c .bit-12{
+	background-color:var(--color-underground-blue-level-04); /** dark **/
+}
+
+/** level 05 **/
+/** level 05 a **/
+.level-05.sand-a{
+	background-color:var(--color-underground-orange-yellow); /** bg **/
+}
+.level-05.sand-a:before,
+.level-05.sand-a:after,
+.level-05.sand-a .bit-01,
+.level-05.sand-a .bit-01:before,
+.level-05.sand-a .bit-01:after,
+.level-05.sand-a .bit-02,
+.level-05.sand-a .bit-02:before,
+.level-05.sand-a .bit-02:after,
+.level-05.sand-a .bit-03,
+.level-05.sand-a .bit-03:before,
+.level-05.sand-a .bit-03:after,
+.level-05.sand-a .bit-04{
+	background-color:var(--color-underground-orange-pink); /** light **/
+}
+.level-05.sand-a .bit-04:before,
+.level-05.sand-a .bit-04:after,
+.level-05.sand-a .bit-05,
+.level-05.sand-a .bit-05:before,
+.level-05.sand-a .bit-05:after,
+.level-05.sand-a .bit-06,
+.level-05.sand-a .bit-06:before,
+.level-05.sand-a .bit-06:after,
+.level-05.sand-a .bit-07,
+.level-05.sand-a .bit-07:before,
+.level-05.sand-a .bit-07:after,
+.level-05.sand-a .bit-08,
+.level-05.sand-a .bit-08:before,
+.level-05.sand-a .bit-08:after,
+.level-05.sand-a .bit-09,
+.level-05.sand-a .bit-09:before,
+.level-05.sand-a .bit-09:after,
+.level-05.sand-a .bit-10,
+.level-05.sand-a .bit-10:before,
+.level-05.sand-a .bit-10:after,
+.level-05.sand-a .bit-11,
+.level-05.sand-a .bit-11:before,
+.level-05.sand-a .bit-11:after,
+.level-05.sand-a .bit-12{
+	background-color:var(--color-underground-red); /** dark **/
+}
+/** level 05 b **/
+.level-05.sand-b{
+	background-color:var(--color-underground-orange-green); /** bg **/
+}
+.level-05.sand-b:before,
+.level-05.sand-b:after,
+.level-05.sand-b .bit-01,
+.level-05.sand-b .bit-01:before,
+.level-05.sand-b .bit-01:after,
+.level-05.sand-b .bit-02,
+.level-05.sand-b .bit-02:before,
+.level-05.sand-b .bit-02:after,
+.level-05.sand-b .bit-03,
+.level-05.sand-b .bit-03:before,
+.level-05.sand-b .bit-03:after,
+.level-05.sand-b .bit-04{
+	background-color:var(--color-underground-orange-green-light); /** light **/
+}
+.level-05.sand-b .bit-04:before,
+.level-05.sand-b .bit-04:after,
+.level-05.sand-b .bit-05,
+.level-05.sand-b .bit-05:before,
+.level-05.sand-b .bit-05:after,
+.level-05.sand-b .bit-06,
+.level-05.sand-b .bit-06:before,
+.level-05.sand-b .bit-06:after,
+.level-05.sand-b .bit-07,
+.level-05.sand-b .bit-07:before,
+.level-05.sand-b .bit-07:after,
+.level-05.sand-b .bit-08,
+.level-05.sand-b .bit-08:before,
+.level-05.sand-b .bit-08:after,
+.level-05.sand-b .bit-09,
+.level-05.sand-b .bit-09:before,
+.level-05.sand-b .bit-09:after,
+.level-05.sand-b .bit-10,
+.level-05.sand-b .bit-10:before,
+.level-05.sand-b .bit-10:after,
+.level-05.sand-b .bit-11,
+.level-05.sand-b .bit-11:before,
+.level-05.sand-b .bit-11:after,
+.level-05.sand-b .bit-12{
+	background-color:var(--color-underground-red-alt); /** dark **/
+}
+/** level 05 c **/
+.level-05.sand-c{
+	background-color:var(--color-underground-orange-green); /** bg **/
+}
+.level-05.sand-c:before,
+.level-05.sand-c:after,
+.level-05.sand-c .bit-01,
+.level-05.sand-c .bit-01:before,
+.level-05.sand-c .bit-01:after,
+.level-05.sand-c .bit-02,
+.level-05.sand-c .bit-02:before,
+.level-05.sand-c .bit-02:after,
+.level-05.sand-c .bit-03,
+.level-05.sand-c .bit-03:before,
+.level-05.sand-c .bit-03:after,
+.level-05.sand-c .bit-04{
+	background-color:var(--color-underground-orange-green-light); /** light **/
+}
+.level-05.sand-c .bit-04:before,
+.level-05.sand-c .bit-04:after,
+.level-05.sand-c .bit-05,
+.level-05.sand-c .bit-05:before,
+.level-05.sand-c .bit-05:after,
+.level-05.sand-c .bit-06,
+.level-05.sand-c .bit-06:before,
+.level-05.sand-c .bit-06:after,
+.level-05.sand-c .bit-07,
+.level-05.sand-c .bit-07:before,
+.level-05.sand-c .bit-07:after,
+.level-05.sand-c .bit-08,
+.level-05.sand-c .bit-08:before,
+.level-05.sand-c .bit-08:after,
+.level-05.sand-c .bit-09,
+.level-05.sand-c .bit-09:before,
+.level-05.sand-c .bit-09:after,
+.level-05.sand-c .bit-10,
+.level-05.sand-c .bit-10:before,
+.level-05.sand-c .bit-10:after,
+.level-05.sand-c .bit-11,
+.level-05.sand-c .bit-11:before,
+.level-05.sand-c .bit-11:after,
+.level-05.sand-c .bit-12{
+	background-color:var(--color-underground-red); /** dark **/
+}
+
+/** level 06 **/
+/** level 06 a **/
+.level-06.sand-a{
+	background-color:var(--color-underground-orange-yellow); /** bg **/
+}
+.level-06.sand-a:before,
+.level-06.sand-a:after,
+.level-06.sand-a .bit-01,
+.level-06.sand-a .bit-01:before,
+.level-06.sand-a .bit-01:after,
+.level-06.sand-a .bit-02,
+.level-06.sand-a .bit-02:before,
+.level-06.sand-a .bit-02:after,
+.level-06.sand-a .bit-03,
+.level-06.sand-a .bit-03:before,
+.level-06.sand-a .bit-03:after,
+.level-06.sand-a .bit-04{
+	background-color:var(--color-underground-orange-pink); /** light **/
+}
+.level-06.sand-a .bit-04:before,
+.level-06.sand-a .bit-04:after,
+.level-06.sand-a .bit-05,
+.level-06.sand-a .bit-05:before,
+.level-06.sand-a .bit-05:after,
+.level-06.sand-a .bit-06,
+.level-06.sand-a .bit-06:before,
+.level-06.sand-a .bit-06:after,
+.level-06.sand-a .bit-07,
+.level-06.sand-a .bit-07:before,
+.level-06.sand-a .bit-07:after,
+.level-06.sand-a .bit-08,
+.level-06.sand-a .bit-08:before,
+.level-06.sand-a .bit-08:after,
+.level-06.sand-a .bit-09,
+.level-06.sand-a .bit-09:before,
+.level-06.sand-a .bit-09:after,
+.level-06.sand-a .bit-10,
+.level-06.sand-a .bit-10:before,
+.level-06.sand-a .bit-10:after,
+.level-06.sand-a .bit-11,
+.level-06.sand-a .bit-11:before,
+.level-06.sand-a .bit-11:after,
+.level-06.sand-a .bit-12{
+	background-color:var(--color-underground-red); /** dark **/
+}
+/** level 06 b **/
+.level-06.sand-b{
+	background-color:var(--color-underground-yellow-green); /** bg **/
+}
+.level-06.sand-b:before,
+.level-06.sand-b:after,
+.level-06.sand-b .bit-01,
+.level-06.sand-b .bit-01:before,
+.level-06.sand-b .bit-01:after,
+.level-06.sand-b .bit-02,
+.level-06.sand-b .bit-02:before,
+.level-06.sand-b .bit-02:after,
+.level-06.sand-b .bit-03,
+.level-06.sand-b .bit-03:before,
+.level-06.sand-b .bit-03:after,
+.level-06.sand-b .bit-04{
+	background-color:var(--color-underground-yellow-pink); /** light **/
+}
+.level-06.sand-b .bit-04:before,
+.level-06.sand-b .bit-04:after,
+.level-06.sand-b .bit-05,
+.level-06.sand-b .bit-05:before,
+.level-06.sand-b .bit-05:after,
+.level-06.sand-b .bit-06,
+.level-06.sand-b .bit-06:before,
+.level-06.sand-b .bit-06:after,
+.level-06.sand-b .bit-07,
+.level-06.sand-b .bit-07:before,
+.level-06.sand-b .bit-07:after,
+.level-06.sand-b .bit-08,
+.level-06.sand-b .bit-08:before,
+.level-06.sand-b .bit-08:after,
+.level-06.sand-b .bit-09,
+.level-06.sand-b .bit-09:before,
+.level-06.sand-b .bit-09:after,
+.level-06.sand-b .bit-10,
+.level-06.sand-b .bit-10:before,
+.level-06.sand-b .bit-10:after,
+.level-06.sand-b .bit-11,
+.level-06.sand-b .bit-11:before,
+.level-06.sand-b .bit-11:after,
+.level-06.sand-b .bit-12{
+	background-color:var(--color-underground-brown-chocolate); /** dark **/
+}
+/** level 06 c **/
+.level-06.sand-c{
+	background-color:var(--color-underground-yellow-green); /** bg **/
+}
+.level-06.sand-c:before,
+.level-06.sand-c:after,
+.level-06.sand-c .bit-01,
+.level-06.sand-c .bit-01:before,
+.level-06.sand-c .bit-01:after,
+.level-06.sand-c .bit-02,
+.level-06.sand-c .bit-02:before,
+.level-06.sand-c .bit-02:after,
+.level-06.sand-c .bit-03,
+.level-06.sand-c .bit-03:before,
+.level-06.sand-c .bit-03:after,
+.level-06.sand-c .bit-04{
+	background-color:var(--color-underground-yellow-pink); /** light **/
+}
+.level-06.sand-c .bit-04:before,
+.level-06.sand-c .bit-04:after,
+.level-06.sand-c .bit-05,
+.level-06.sand-c .bit-05:before,
+.level-06.sand-c .bit-05:after,
+.level-06.sand-c .bit-06,
+.level-06.sand-c .bit-06:before,
+.level-06.sand-c .bit-06:after,
+.level-06.sand-c .bit-07,
+.level-06.sand-c .bit-07:before,
+.level-06.sand-c .bit-07:after,
+.level-06.sand-c .bit-08,
+.level-06.sand-c .bit-08:before,
+.level-06.sand-c .bit-08:after,
+.level-06.sand-c .bit-09,
+.level-06.sand-c .bit-09:before,
+.level-06.sand-c .bit-09:after,
+.level-06.sand-c .bit-10,
+.level-06.sand-c .bit-10:before,
+.level-06.sand-c .bit-10:after,
+.level-06.sand-c .bit-11,
+.level-06.sand-c .bit-11:before,
+.level-06.sand-c .bit-11:after,
+.level-06.sand-c .bit-12{
+	background-color:var(--color-underground-red); /** dark **/
+}
+
+/** level 07 **/
+/** level 07 a **/
+.level-07.sand-a{
+	background-color:var(--color-underground-orange-yellow); /** bg **/
+}
+.level-07.sand-a:before,
+.level-07.sand-a:after,
+.level-07.sand-a .bit-01,
+.level-07.sand-a .bit-01:before,
+.level-07.sand-a .bit-01:after,
+.level-07.sand-a .bit-02,
+.level-07.sand-a .bit-02:before,
+.level-07.sand-a .bit-02:after,
+.level-07.sand-a .bit-03,
+.level-07.sand-a .bit-03:before,
+.level-07.sand-a .bit-03:after,
+.level-07.sand-a .bit-04{
+	background-color:var(--color-underground-orange-pink); /** light **/
+}
+.level-07.sand-a .bit-04:before,
+.level-07.sand-a .bit-04:after,
+.level-07.sand-a .bit-05,
+.level-07.sand-a .bit-05:before,
+.level-07.sand-a .bit-05:after,
+.level-07.sand-a .bit-06,
+.level-07.sand-a .bit-06:before,
+.level-07.sand-a .bit-06:after,
+.level-07.sand-a .bit-07,
+.level-07.sand-a .bit-07:before,
+.level-07.sand-a .bit-07:after,
+.level-07.sand-a .bit-08,
+.level-07.sand-a .bit-08:before,
+.level-07.sand-a .bit-08:after,
+.level-07.sand-a .bit-09,
+.level-07.sand-a .bit-09:before,
+.level-07.sand-a .bit-09:after,
+.level-07.sand-a .bit-10,
+.level-07.sand-a .bit-10:before,
+.level-07.sand-a .bit-10:after,
+.level-07.sand-a .bit-11,
+.level-07.sand-a .bit-11:before,
+.level-07.sand-a .bit-11:after,
+.level-07.sand-a .bit-12{
+	background-color:var(--color-underground-blue-royal-7); /** dark **/
+}
+/** level 07 b **/
+.level-07.sand-b{
+	background-color:var(--color-underground-orange-green); /** bg **/
+}
+.level-07.sand-b:before,
+.level-07.sand-b:after,
+.level-07.sand-b .bit-01,
+.level-07.sand-b .bit-01:before,
+.level-07.sand-b .bit-01:after,
+.level-07.sand-b .bit-02,
+.level-07.sand-b .bit-02:before,
+.level-07.sand-b .bit-02:after,
+.level-07.sand-b .bit-03,
+.level-07.sand-b .bit-03:before,
+.level-07.sand-b .bit-03:after,
+.level-07.sand-b .bit-04{
+	background-color:var(--color-underground-orange-green-light); /** light **/
+}
+.level-07.sand-b .bit-04:before,
+.level-07.sand-b .bit-04:after,
+.level-07.sand-b .bit-05,
+.level-07.sand-b .bit-05:before,
+.level-07.sand-b .bit-05:after,
+.level-07.sand-b .bit-06,
+.level-07.sand-b .bit-06:before,
+.level-07.sand-b .bit-06:after,
+.level-07.sand-b .bit-07,
+.level-07.sand-b .bit-07:before,
+.level-07.sand-b .bit-07:after,
+.level-07.sand-b .bit-08,
+.level-07.sand-b .bit-08:before,
+.level-07.sand-b .bit-08:after,
+.level-07.sand-b .bit-09,
+.level-07.sand-b .bit-09:before,
+.level-07.sand-b .bit-09:after,
+.level-07.sand-b .bit-10,
+.level-07.sand-b .bit-10:before,
+.level-07.sand-b .bit-10:after,
+.level-07.sand-b .bit-11,
+.level-07.sand-b .bit-11:before,
+.level-07.sand-b .bit-11:after,
+.level-07.sand-b .bit-12{
+	background-color:var(--color-underground-red-alt); /** dark **/
+}
+/** level 07 c **/
+.level-07.sand-c{
+	background-color:var(--color-underground-orange-green); /** bg **/
+}
+.level-07.sand-c:before,
+.level-07.sand-c:after,
+.level-07.sand-c .bit-01,
+.level-07.sand-c .bit-01:before,
+.level-07.sand-c .bit-01:after,
+.level-07.sand-c .bit-02,
+.level-07.sand-c .bit-02:before,
+.level-07.sand-c .bit-02:after,
+.level-07.sand-c .bit-03,
+.level-07.sand-c .bit-03:before,
+.level-07.sand-c .bit-03:after,
+.level-07.sand-c .bit-04{
+	background-color:var(--color-underground-orange-green-light); /** light **/
+}
+.level-07.sand-c .bit-04:before,
+.level-07.sand-c .bit-04:after,
+.level-07.sand-c .bit-05,
+.level-07.sand-c .bit-05:before,
+.level-07.sand-c .bit-05:after,
+.level-07.sand-c .bit-06,
+.level-07.sand-c .bit-06:before,
+.level-07.sand-c .bit-06:after,
+.level-07.sand-c .bit-07,
+.level-07.sand-c .bit-07:before,
+.level-07.sand-c .bit-07:after,
+.level-07.sand-c .bit-08,
+.level-07.sand-c .bit-08:before,
+.level-07.sand-c .bit-08:after,
+.level-07.sand-c .bit-09,
+.level-07.sand-c .bit-09:before,
+.level-07.sand-c .bit-09:after,
+.level-07.sand-c .bit-10,
+.level-07.sand-c .bit-10:before,
+.level-07.sand-c .bit-10:after,
+.level-07.sand-c .bit-11,
+.level-07.sand-c .bit-11:before,
+.level-07.sand-c .bit-11:after,
+.level-07.sand-c .bit-12{
+	background-color:var(--color-underground-blue-royal-7); /** dark **/
+}
+
+/** level 08 **/
+
+/** level 08 a **/
+.level-08.sand-a{
+	background-color:var(--color-underground-orange-yellow); /** bg **/
+}
+.level-08.sand-a:before,
+.level-08.sand-a:after,
+.level-08.sand-a .bit-01,
+.level-08.sand-a .bit-01:before,
+.level-08.sand-a .bit-01:after,
+.level-08.sand-a .bit-02,
+.level-08.sand-a .bit-02:before,
+.level-08.sand-a .bit-02:after,
+.level-08.sand-a .bit-03,
+.level-08.sand-a .bit-03:before,
+.level-08.sand-a .bit-03:after,
+.level-08.sand-a .bit-04{
+	background-color:var(--color-underground-orange-pink); /** light **/
+}
+.level-08.sand-a .bit-04:before,
+.level-08.sand-a .bit-04:after,
+.level-08.sand-a .bit-05,
+.level-08.sand-a .bit-05:before,
+.level-08.sand-a .bit-05:after,
+.level-08.sand-a .bit-06,
+.level-08.sand-a .bit-06:before,
+.level-08.sand-a .bit-06:after,
+.level-08.sand-a .bit-07,
+.level-08.sand-a .bit-07:before,
+.level-08.sand-a .bit-07:after,
+.level-08.sand-a .bit-08,
+.level-08.sand-a .bit-08:before,
+.level-08.sand-a .bit-08:after,
+.level-08.sand-a .bit-09,
+.level-08.sand-a .bit-09:before,
+.level-08.sand-a .bit-09:after,
+.level-08.sand-a .bit-10,
+.level-08.sand-a .bit-10:before,
+.level-08.sand-a .bit-10:after,
+.level-08.sand-a .bit-11,
+.level-08.sand-a .bit-11:before,
+.level-08.sand-a .bit-11:after,
+.level-08.sand-a .bit-12{
+	background-color:var(--color-underground-blue-light-alt); /** dark **/
+}
+/** level 08 b **/
+.level-08.sand-b{
+	background-color:var(--color-underground-grey-89); /** bg **/
+}
+.level-08.sand-b:before,
+.level-08.sand-b:after,
+.level-08.sand-b .bit-01,
+.level-08.sand-b .bit-01:before,
+.level-08.sand-b .bit-01:after,
+.level-08.sand-b .bit-02,
+.level-08.sand-b .bit-02:before,
+.level-08.sand-b .bit-02:after,
+.level-08.sand-b .bit-03,
+.level-08.sand-b .bit-03:before,
+.level-08.sand-b .bit-03:after,
+.level-08.sand-b .bit-04{
+	background-color:var(--color-underground-white); /** light **/
+}
+.level-08.sand-b .bit-04:before,
+.level-08.sand-b .bit-04:after,
+.level-08.sand-b .bit-05,
+.level-08.sand-b .bit-05:before,
+.level-08.sand-b .bit-05:after,
+.level-08.sand-b .bit-06,
+.level-08.sand-b .bit-06:before,
+.level-08.sand-b .bit-06:after,
+.level-08.sand-b .bit-07,
+.level-08.sand-b .bit-07:before,
+.level-08.sand-b .bit-07:after,
+.level-08.sand-b .bit-08,
+.level-08.sand-b .bit-08:before,
+.level-08.sand-b .bit-08:after,
+.level-08.sand-b .bit-09,
+.level-08.sand-b .bit-09:before,
+.level-08.sand-b .bit-09:after,
+.level-08.sand-b .bit-10,
+.level-08.sand-b .bit-10:before,
+.level-08.sand-b .bit-10:after,
+.level-08.sand-b .bit-11,
+.level-08.sand-b .bit-11:before,
+.level-08.sand-b .bit-11:after,
+.level-08.sand-b .bit-12{
+	background-color:var(--color-underground-grey-dark-alt); /** dark **/
+}
+/** level 08 c **/
+.level-08.sand-c{
+	background-color:var(--color-underground-grey-89); /** bg **/
+}
+.level-08.sand-c:before,
+.level-08.sand-c:after,
+.level-08.sand-c .bit-01,
+.level-08.sand-c .bit-01:before,
+.level-08.sand-c .bit-01:after,
+.level-08.sand-c .bit-02,
+.level-08.sand-c .bit-02:before,
+.level-08.sand-c .bit-02:after,
+.level-08.sand-c .bit-03,
+.level-08.sand-c .bit-03:before,
+.level-08.sand-c .bit-03:after,
+.level-08.sand-c .bit-04{
+	background-color:var(--color-underground-white); /** light **/
+}
+.level-08.sand-c .bit-04:before,
+.level-08.sand-c .bit-04:after,
+.level-08.sand-c .bit-05,
+.level-08.sand-c .bit-05:before,
+.level-08.sand-c .bit-05:after,
+.level-08.sand-c .bit-06,
+.level-08.sand-c .bit-06:before,
+.level-08.sand-c .bit-06:after,
+.level-08.sand-c .bit-07,
+.level-08.sand-c .bit-07:before,
+.level-08.sand-c .bit-07:after,
+.level-08.sand-c .bit-08,
+.level-08.sand-c .bit-08:before,
+.level-08.sand-c .bit-08:after,
+.level-08.sand-c .bit-09,
+.level-08.sand-c .bit-09:before,
+.level-08.sand-c .bit-09:after,
+.level-08.sand-c .bit-10,
+.level-08.sand-c .bit-10:before,
+.level-08.sand-c .bit-10:after,
+.level-08.sand-c .bit-11,
+.level-08.sand-c .bit-11:before,
+.level-08.sand-c .bit-11:after,
+.level-08.sand-c .bit-12{
+	background-color:var(--color-underground-blue-light-alt); /** dark **/
+}
+
+
+/** level 09 **/
+
+/** level 09 a **/
+.level-09.sand-a{
+	background-color:var(--color-underground-orange-yellow); /** bg **/
+}
+.level-09.sand-a:before,
+.level-09.sand-a:after,
+.level-09.sand-a .bit-01,
+.level-09.sand-a .bit-01:before,
+.level-09.sand-a .bit-01:after,
+.level-09.sand-a .bit-02,
+.level-09.sand-a .bit-02:before,
+.level-09.sand-a .bit-02:after,
+.level-09.sand-a .bit-03,
+.level-09.sand-a .bit-03:before,
+.level-09.sand-a .bit-03:after,
+.level-09.sand-a .bit-04{
+	background-color:var(--color-underground-orange-pink); /** light **/
+}
+.level-09.sand-a .bit-04:before,
+.level-09.sand-a .bit-04:after,
+.level-09.sand-a .bit-05,
+.level-09.sand-a .bit-05:before,
+.level-09.sand-a .bit-05:after,
+.level-09.sand-a .bit-06,
+.level-09.sand-a .bit-06:before,
+.level-09.sand-a .bit-06:after,
+.level-09.sand-a .bit-07,
+.level-09.sand-a .bit-07:before,
+.level-09.sand-a .bit-07:after,
+.level-09.sand-a .bit-08,
+.level-09.sand-a .bit-08:before,
+.level-09.sand-a .bit-08:after,
+.level-09.sand-a .bit-09,
+.level-09.sand-a .bit-09:before,
+.level-09.sand-a .bit-09:after,
+.level-09.sand-a .bit-10,
+.level-09.sand-a .bit-10:before,
+.level-09.sand-a .bit-10:after,
+.level-09.sand-a .bit-11,
+.level-09.sand-a .bit-11:before,
+.level-09.sand-a .bit-11:after,
+.level-09.sand-a .bit-12{
+	background-color:var(--color-underground-grey-dark-alt); /** dark **/
+}
+/** level 09 b **/
+.level-09.sand-b{
+	background-color:var(--color-underground-grey-89); /** bg **/
+}
+.level-09.sand-b:before,
+.level-09.sand-b:after,
+.level-09.sand-b .bit-01,
+.level-09.sand-b .bit-01:before,
+.level-09.sand-b .bit-01:after,
+.level-09.sand-b .bit-02,
+.level-09.sand-b .bit-02:before,
+.level-09.sand-b .bit-02:after,
+.level-09.sand-b .bit-03,
+.level-09.sand-b .bit-03:before,
+.level-09.sand-b .bit-03:after,
+.level-09.sand-b .bit-04{
+	background-color:var(--color-underground-white); /** light **/
+}
+.level-09.sand-b .bit-04:before,
+.level-09.sand-b .bit-04:after,
+.level-09.sand-b .bit-05,
+.level-09.sand-b .bit-05:before,
+.level-09.sand-b .bit-05:after,
+.level-09.sand-b .bit-06,
+.level-09.sand-b .bit-06:before,
+.level-09.sand-b .bit-06:after,
+.level-09.sand-b .bit-07,
+.level-09.sand-b .bit-07:before,
+.level-09.sand-b .bit-07:after,
+.level-09.sand-b .bit-08,
+.level-09.sand-b .bit-08:before,
+.level-09.sand-b .bit-08:after,
+.level-09.sand-b .bit-09,
+.level-09.sand-b .bit-09:before,
+.level-09.sand-b .bit-09:after,
+.level-09.sand-b .bit-10,
+.level-09.sand-b .bit-10:before,
+.level-09.sand-b .bit-10:after,
+.level-09.sand-b .bit-11,
+.level-09.sand-b .bit-11:before,
+.level-09.sand-b .bit-11:after,
+.level-09.sand-b .bit-12{
+	background-color:var(--color-underground-grey-dark-alt); /** dark **/
+}
+/** level 09 c **/
+.level-09.sand-c{
+	background-color:var(--color-underground-grey-89); /** bg **/
+}
+.level-09.sand-c:before,
+.level-09.sand-c:after,
+.level-09.sand-c .bit-01,
+.level-09.sand-c .bit-01:before,
+.level-09.sand-c .bit-01:after,
+.level-09.sand-c .bit-02,
+.level-09.sand-c .bit-02:before,
+.level-09.sand-c .bit-02:after,
+.level-09.sand-c .bit-03,
+.level-09.sand-c .bit-03:before,
+.level-09.sand-c .bit-03:after,
+.level-09.sand-c .bit-04{
+	background-color:var(--color-underground-white); /** light **/
+}
+.level-09.sand-c .bit-04:before,
+.level-09.sand-c .bit-04:after,
+.level-09.sand-c .bit-05,
+.level-09.sand-c .bit-05:before,
+.level-09.sand-c .bit-05:after,
+.level-09.sand-c .bit-06,
+.level-09.sand-c .bit-06:before,
+.level-09.sand-c .bit-06:after,
+.level-09.sand-c .bit-07,
+.level-09.sand-c .bit-07:before,
+.level-09.sand-c .bit-07:after,
+.level-09.sand-c .bit-08,
+.level-09.sand-c .bit-08:before,
+.level-09.sand-c .bit-08:after,
+.level-09.sand-c .bit-09,
+.level-09.sand-c .bit-09:before,
+.level-09.sand-c .bit-09:after,
+.level-09.sand-c .bit-10,
+.level-09.sand-c .bit-10:before,
+.level-09.sand-c .bit-10:after,
+.level-09.sand-c .bit-11,
+.level-09.sand-c .bit-11:before,
+.level-09.sand-c .bit-11:after,
+.level-09.sand-c .bit-12{
+	background-color:var(--color-underground-grey-dark-alt); /** dark **/
+}
+
+
+
+/** display:none;s **/
+.tile-underworld-sand .bit-12:before,
+.tile-underworld-sand .bit-12:after{
+	display:none;
+}
+
+
+.tile-underworld-sand:before{
+	top:6.25%;
+	left:0;
+	width:6.25%;
+	height:6.25%;
+}
+.tile-underworld-sand:after{
+	top:6.25%;
+	left:50%;
+	width:6.25%;
+	height:6.25%;
+}
+.tile-underworld-sand .bit-01{
+	left:0;
+	top:56.25%;
+}
+.tile-underworld-sand .bit-01:before{
+	width:100%;
+	height:100%;
+	top:-200%;
+	left:500%;
+}
+.tile-underworld-sand .bit-01:after{
+	width:100%;
+	height:100%;
+	top:200%;
+	left:600%;
+}
+.tile-underworld-sand .bit-02{
+	left:31.25%;
+	top:93.75%;
+}
+.tile-underworld-sand .bit-02:before{
+	width:100%;
+	height:100%;
+	top:-600%;
+	left:300%;
+}
+.tile-underworld-sand .bit-02:after{
+	width:100%;
+	height:100%;
+	top:-1200%;
+	left:100%;
+}
+.tile-underworld-sand .bit-03{
+	left:81.25%;
+	top:93.75%;
+}
+.tile-underworld-sand .bit-03:before{
+	width:100%;
+	height:100%;
+	top:-400%;
+	left:100%;
+}
+.tile-underworld-sand .bit-03:after{
+	width:100%;
+	height:100%;
+	top:-800%;
+	left:0;
+}
+.tile-underworld-sand .bit-04{
+	left:87.5%;
+	top:18.75%;
+}
+.tile-underworld-sand .bit-04:before{
+	width:100%;
+	height:100%;
+	top:100%;
+	left:-200%;
+}
+.tile-underworld-sand .bit-04:after{
+	width:100%;
+	height:100%;
+	top:200%;
+	left:0;
+}
+.tile-underworld-sand .bit-05{
+	left:43.75%;
+	top:0;
+}
+.tile-underworld-sand .bit-05:before{
+	width:100%;
+	height:100%;
+	top:100%;
+	left:-400%;
+}
+.tile-underworld-sand .bit-05:after{
+	width:100%;
+	height:100%;
+	top:400%;
+	left:-300%;
+}
+.tile-underworld-sand .bit-06{
+	left:93.75%;
+	top:0;
+}
+.tile-underworld-sand .bit-06:before{
+	width:100%;
+	height:100%;
+	top:100%;
+	left:-400%;
+}
+.tile-underworld-sand .bit-06:after{
+	width:100%;
+	height:100%;
+	top:300%;
+	left:-600%;
+}
+.tile-underworld-sand .bit-07{
+	left:6.25%;
+	top:18.75%;
+}
+.tile-underworld-sand .bit-07:before{
+	width:100%;
+	height:100%;
+	top:200%;
+	left:500%;
+}
+.tile-underworld-sand .bit-07:after{
+	width:100%;
+	height:100%;
+	top:300%;
+	left:100%;
+}
+.tile-underworld-sand .bit-08{
+	left:6.25%;
+	top:68.5%;
+}
+.tile-underworld-sand .bit-08:before{
+	width:100%;
+	height:100%;
+	top:200%;
+	left:500%;
+}
+.tile-underworld-sand .bit-08:after{
+	width:100%;
+	height:100%;
+	top:300%;
+	left:100%;
+}
+.tile-underworld-sand .bit-09{
+	left:25%;
+	top:75%;
+}
+.tile-underworld-sand .bit-09:before{
+	width:100%;
+	height:100%;
+	top:-300%;
+	left:-100%;
+}
+.tile-underworld-sand .bit-09:after{
+	width:100%;
+	height:100%;
+	top:-400%;
+	left:300%;
+}
+.tile-underworld-sand .bit-10{
+	left:62.5%;
+	top:87.5%;
+}
+.tile-underworld-sand .bit-10:before{
+	width:100%;
+	height:100%;
+	top:-300%;
+	left:-100%;
+}
+.tile-underworld-sand .bit-10:after{
+	width:100%;
+	height:100%;
+	top:-200%;
+	left:200%;
+}
+.tile-underworld-sand .bit-11{
+	left:87.5%;
+	top:81.25%;
+}
+.tile-underworld-sand .bit-11:before{
+	width:100%;
+	height:100%;
+	top:-400%;
+	left:-300%;
+}
+.tile-underworld-sand .bit-11:after{
+	width:100%;
+	height:100%;
+	top:-700%;
+	left:-400%;
+}
+.tile-underworld-sand .bit-12{
+	left:93.75%;
+	top:50%;
+}

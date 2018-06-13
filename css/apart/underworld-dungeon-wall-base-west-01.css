@@ -1,0 +1,226 @@
+/** underworld brick tile level 01 **/
+/**
+light grey - #00efde
+grey - #008c8c
+dark grey - #00425a 
+
+	--color-u-grey-light: ##00efde;
+	--color-u-grey: #008c8c;
+	--color-u-grey-dark:
+
+**/
+
+
+.level-01-gsarchives.tile-dungeon-wall-base-west-01:before{
+	background-color:var(--color-u-grey);
+}
+.level-01-gsarchives.tile-dungeon-wall-base-west-01:after,
+.level-01-gsarchives.tile-dungeon-wall-base-west-01 .bit-01,
+.level-01-gsarchives.tile-dungeon-wall-base-west-01 .bit-01:before,
+.level-01-gsarchives.tile-dungeon-wall-base-west-01 .bit-01:after,
+.level-01-gsarchives.tile-dungeon-wall-base-west-01 .bit-02,
+.level-01-gsarchives.tile-dungeon-wall-base-west-01 .bit-02:before,
+.level-01-gsarchives.tile-dungeon-wall-base-west-01 .bit-02:after,
+.level-01-gsarchives.tile-dungeon-wall-base-west-01 .bit-03,
+.level-01-gsarchives.tile-dungeon-wall-base-west-01 .bit-03:before,
+.level-01-gsarchives.tile-dungeon-wall-base-west-01 .bit-03:after,
+.level-01-gsarchives.tile-dungeon-wall-base-west-01 .bit-04,
+.level-01-gsarchives.tile-dungeon-wall-base-west-01 .bit-04:before,
+.level-01-gsarchives.tile-dungeon-wall-base-west-01 .bit-04:after,
+.level-01-gsarchives.tile-dungeon-wall-base-west-01 .bit-05,
+.level-01-gsarchives.tile-dungeon-wall-base-west-01 .bit-05:before{
+	background-color:var(--color-u-grey-light);
+}
+.level-01-gsarchives.tile-dungeon-wall-base-west-01 .bit-05:after,
+.level-01-gsarchives.tile-dungeon-wall-base-west-01 .bit-06,
+.level-01-gsarchives.tile-dungeon-wall-base-west-01 .bit-06:before,
+.level-01-gsarchives.tile-dungeon-wall-base-west-01 .bit-06:after,
+.level-01-gsarchives.tile-dungeon-wall-base-west-01 .bit-07,
+.level-01-gsarchives.tile-dungeon-wall-base-west-01 .bit-07:before,
+.level-01-gsarchives.tile-dungeon-wall-base-west-01 .bit-07:after,
+.level-01-gsarchives.tile-dungeon-wall-base-west-01 .bit-08,
+.level-01-gsarchives.tile-dungeon-wall-base-west-01 .bit-08:before,
+.level-01-gsarchives.tile-dungeon-wall-base-west-01 .bit-08:after,
+.level-01-gsarchives.tile-dungeon-wall-base-west-01 .bit-09,
+.level-01-gsarchives.tile-dungeon-wall-base-west-01 .bit-09:before,
+.level-01-gsarchives.tile-dungeon-wall-base-west-01 .bit-09:after,
+.level-01-gsarchives.tile-dungeon-wall-base-west-01 .bit-10,
+.level-01-gsarchives.tile-dungeon-wall-base-west-01 .bit-10:before{
+	background-color:var(--color-u-grey-dark);
+}
+/** display:none;s **/
+.level-01-gsarchives.tile-dungeon-wall-base-west-01 .bit-10:after{
+	display:none;
+}
+
+.level-01-gsarchives.tile-dungeon-wall-base-west-01:before{
+	width:75%;
+	height:100%;
+	top:0;
+	left:0;
+}
+.level-01-gsarchives.tile-dungeon-wall-base-west-01:after{
+	width:3.125%;
+	height:100%;
+	top:0;
+	left:37.5%;
+}
+
+.level-01-gsarchives.tile-dungeon-wall-base-west-01 .bit{
+	width:3.125%;
+	height:3.125%;
+}
+.level-01-gsarchives.tile-dungeon-wall-base-west-01 .bit-01{
+	top:53.125%;
+	left:0;
+}
+.level-01-gsarchives.tile-dungeon-wall-base-west-01 .bit-01:before{
+	top:1000%;
+	left:2000%;
+	width:300%;
+	height:100%;
+}
+.level-01-gsarchives.tile-dungeon-wall-base-west-01 .bit-01:after{
+	top:-600%;
+	left:1300%;
+	width:200%;
+	height:100%;
+}
+.level-01-gsarchives.tile-dungeon-wall-base-west-01 .bit-02{
+	top:53.125%;
+	left:3.125%;
+}
+.level-01-gsarchives.tile-dungeon-wall-base-west-01 .bit-02:before{
+	top:-500%;
+	left:1400%;
+	width:200%;
+	height:100%;
+}
+.level-01-gsarchives.tile-dungeon-wall-base-west-01 .bit-02:after{
+	top:-400%;
+	left:1600%;
+	width:200%;
+	height:100%;
+}
+.level-01-gsarchives.tile-dungeon-wall-base-west-01 .bit-03{
+	top:53.125%;
+	left:6.25%;
+}
+.level-01-gsarchives.tile-dungeon-wall-base-west-01 .bit-03:before{
+	top:400%;
+	left:700%;
+	width:200%;
+	height:100%;
+}
+.level-01-gsarchives.tile-dungeon-wall-base-west-01 .bit-03:after{
+	top:300%;
+	left:500%;
+	width:200%;
+	height:100%;
+}
+.level-01-gsarchives.tile-dungeon-wall-base-west-01 .bit-04{
+	top:56.25%;
+	left:9.375%;
+}
+.level-01-gsarchives.tile-dungeon-wall-base-west-01 .bit-04:before{
+	top:-1800%;
+	left:1700%;
+	width:100%;
+	height:3200%;
+}
+.level-01-gsarchives.tile-dungeon-wall-base-west-01 .bit-04:after{
+	top:1000%;
+	left:2000%;
+	width:100%;
+	height:100%;
+}
+.level-01-gsarchives.tile-dungeon-wall-base-west-01 .bit-05{
+	top:56.25%;
+	left:12.5%;
+}
+.level-01-gsarchives.tile-dungeon-wall-base-west-01 .bit-05:before{
+	top:100%;
+	left:100%;
+	width:200%;
+	height:100%;
+}
+.level-01-gsarchives.tile-dungeon-wall-base-west-01 .bit-05:after{
+	top:-1800%;
+	left:1500%;
+	width:100%;
+	height:3200%;
+}
+.level-01-gsarchives.tile-dungeon-wall-base-west-01 .bit-06{
+	top:50%;
+	left:0;
+}
+.level-01-gsarchives.tile-dungeon-wall-base-west-01 .bit-06:before{
+	top:1000%;
+	left:2000%;
+	width:300%;
+	height:100%;
+}
+.level-01-gsarchives.tile-dungeon-wall-base-west-01 .bit-06:after{
+	top:-600%;
+	left:1300%;
+	width:200%;
+	height:100%;
+}
+.level-01-gsarchives.tile-dungeon-wall-base-west-01 .bit-07{
+	top:50%;
+	left:3.125%;
+}
+.level-01-gsarchives.tile-dungeon-wall-base-west-01 .bit-07:before{
+	top:-500%;
+	left:1400%;
+	width:200%;
+	height:100%;
+}
+.level-01-gsarchives.tile-dungeon-wall-base-west-01 .bit-07:after{
+	top:-400%;
+	left:1600%;
+	width:200%;
+	height:100%;
+}
+.level-01-gsarchives.tile-dungeon-wall-base-west-01 .bit-08{
+	top:50%;
+	left:6.25%;
+}
+.level-01-gsarchives.tile-dungeon-wall-base-west-01 .bit-08:before{
+	top:-1600%;
+	left:900%;
+	width:100%;
+	height:3200%;
+}
+.level-01-gsarchives.tile-dungeon-wall-base-west-01 .bit-08:after{
+	top:1100%;
+	left:2100%;
+	width:100%;
+	height:100%;
+}
+.level-01-gsarchives.tile-dungeon-wall-base-west-01 .bit-09{
+	top:53.125%;
+	left:9.375%;
+}
+.level-01-gsarchives.tile-dungeon-wall-base-west-01 .bit-09:before{
+	top:300%;
+	left:600%;
+	width:200%;
+	height:100%;
+}
+.level-01-gsarchives.tile-dungeon-wall-base-west-01 .bit-09:after{
+	top:200%;
+	left:400%;
+	width:200%;
+	height:100%;
+}
+.level-01-gsarchives.tile-dungeon-wall-base-west-01 .bit-10{
+	top:53.125%;
+	left:12.5%;
+}
+.level-01-gsarchives.tile-dungeon-wall-base-west-01 .bit-10:before{
+	top:100%;
+	left:100%;
+	width:200%;
+	height:100%;
+}

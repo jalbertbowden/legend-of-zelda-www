@@ -1,0 +1,238 @@
+*{margin:0; padding:0; border:none;}
+:root{
+	--color-brown: #c84c0c;
+	--color-khaki: #fcd8a8;
+	--color-black: #000;
+	--color-blue: #2038ec;
+	--color-blue-dark: #0000a8; /** octorok blue skin **/
+	--color-blue-light: #5c94fc; /** octorok blue spots **/
+	--color-green: #00a800;
+	--color-grey: #747474;
+	--color-white: #fcfcfc;
+	
+	/** red and empty colors taken from subscreen **/
+	--color-red: #d82800; /** red goriya and hungry goriya **/ /** octorok red **/
+	--color-white-empty: #fcbcb0;
+	
+	/** grottoes red via grottoes-legend-of-zelda-12-256x224.gif **/
+	--color-red-grottoes: #7c0800;
+	
+	
+/** underworld colors: light grey - #00efde, grey - #008c8c, dark grey - #00425a **/
+	--color-u-grey-light: #00efde;
+	--color-u-grey: #008c8c;
+	--color-u-grey-dark: #00425a;
+
+	/** items colors **/
+	/** treasures_comp-half.gif - sprite for color palette **/
+	/** gold #e8a528 - white #fff - red #bb3928 via key **/
+	--color-gold: #e8a528;
+	--color-red-orange: #bb3928;
+	--color-white-true: #fff;
+	--color-i-orange: #ecb237; /** triforce from sprite **/
+	
+	/** an-fire.gif: gold #ffa542, red #ff3900, white #fff **/
+	--color-fire-gold: #ffa542;
+	--color-fire-red: #ff3900;
+	
+	
+	--color-orange-carrot: #fc9838; /** octorok red spot **/
+}
+.tile-black{
+	background-color: var(--color-black);
+}
+.tile-khaki{
+	background-color: var(--color-khaki);
+}
+.tile-grey{
+	background-color: var(--color-grey);
+}
+
+ul,
+ol{
+	list-style-type:none;
+}
+.content{
+	position:relative;
+}
+.game-legend,
+#subscreen{
+	height:25%; /** 448 * .25 = 112 **/
+	height:112px;
+	width:100%;
+	background-color: #000;
+}
+#subscreen-hyrule-grid{
+	top:32px; /** height:112px = top:16px; **/ /** height:224px = top:32px **/
+	left:32px; /** height:112px = left:16px; **/ /** height:224px = left:32px; **/
+	position:relative;
+	width:128px; /** width:256px subscreen = width:64px grid **/ /** width:512px subscreen = 128px **/
+	height:64px; /** height:112px = subscreen height:32px **/ /** height:224px; = subscreen height: 64px; **/
+	background-color:#747474;
+}
+#hyrule-grid-link{
+/** links position coordinates for this map formula **/
+/** get tile id from data attribute of current active screen grid **/
+/** apply same formula for finding array position of tile movement options **/
+/** active row value tells you how many pixels to go down the y axis **/
+/** active column value tells you how many pixels to go across the x axis **/
+/** origin tile example, tile id is 0808 **/
+/** example dimensions: 064x032; **/
+/** tile dimensions being 4x4 **/
+/** row id is 08 **/
+/** so 8 rows down, aka the bottom row **/
+/** bottom:100%; **/
+/** 08 is column id **/
+/** 08 * 4 = 32 **/
+/** so 32 in on the y axis **/
+/** left:32px; **/
+  top:87.5%;
+  left:64px; /** 32px grid aspect ratio: y axis 8 * dimension 4 = 32 **/ /** 64px aspect ratio is double, etc. **/
+  position:absolute;
+  height:6px; /** 32px grid aspect ratio is 3x3 **/ /** 64px grid aspect ratio is 6x6 **/
+  width:6px; /** 32px grid aspect ratio is 3x3 **/ /** 64px grid aspect ratio is 6x6 **/
+  background-color:#80d010;
+}
+
+.screen-grid,
+.loz-game-offgrid{/** 512x224 - *1.5 = 768x336 **/ /** *1.75 = 896x392 **/
+	width:512px;
+	height:448px;
+}
+.screen-grid.s512x336.s512-no-subscreen{/** 512x336 - *1.5 = 768x504 **/ /** *1.75 = 896x588 **/
+	height:336px;
+}
+.screen-grid.s512x336.s512-no-subscreen .screen-game-grid{ top:0; }
+
+/** 16 columns revealed in gameplay **/ /** 10.5 rows revealed in gameplay **/
+#ul-screen-grid,
+.off-screen-grid{
+	list-style-type:none;
+	display:grid;
+	grid-template-columns: repeat(16, 1fr);
+	grid-gap:0;
+	height:336px;
+	overflow:hidden;
+	position:relative;
+}
+.screen-grid li{
+	display:inline-block;
+	height:32px;
+	width:32px;
+}
+.screen-grid li .tile{
+	outline: none;
+	width:32px;
+	height:32px;
+}
+
+.tile {
+	width:512px;
+	height:512px;
+	position:relative;
+}
+.bit{
+	width:6.25%;
+	height:6.25%;
+	position:absolute;
+	z-index:10;
+}
+.tile:before,
+.tile:after,
+.bit:before,
+.bit:after{
+	position:absolute;
+	content:"";
+}
+
+
+
+/** width: 1536px; height: 1344px; 3x3 grid **/
+#screen-grid-viewport{
+	outline:1px solid #000;
+	margin:50px auto;
+	width:512px;
+	height:448px;
+	/** width: 1536px; height: 1344px; **/
+	/**overflow:hidden;**/
+	position:relative;
+	display:grid;
+	grid-template-columns:512px;
+	grid-template-rows:448px;
+	grid-template-areas:
+		"..................... screen-grid-tile-north ......................"
+		"screen-grid-tile-west screen-grid-tile-active screen-grid-tile-east"
+		"..................... screen-grid-tile-south ......................";
+}
+#screen-grid-viewport-alt{
+	position:relative;
+}
+#screen-grid-viewport-alt.screen-size-512x448{
+	width:512px;
+	height:448px; /** width: 1536px; height: 1344px; **/
+}
+#screen-grid-viewport-alt.screen-size-512x336{
+	width:512px;
+	height:336px;
+}
+#screen-grid-viewport-alt .screen-grid{height:336px;}
+#screen-grid-viewport-alt .screen-game-grid{top:0}
+#screen-grid-viewport.sgv-no-subscreen{
+	height:336px;
+}
+
+.screen-grid-tiles{
+	width:512px;
+	height:448px;
+	outline:1px solid #000;
+}
+
+/** dev only **/
+/**
+.screen-grid-tile-north{
+	background-color:#ddd;
+	grid-area: screen-grid-tile-north;
+}
+.screen-grid-tile-west{
+	background-color:#ccc;
+	grid-area: screen-grid-tile-west;
+}
+.screen-grid-tile-active{
+	background-color:#fff;
+	grid-area: screen-grid-tile-active;
+}
+.screen-grid-tile-east{
+	background-color:#eee;
+	grid-area: screen-grid-tile-east;
+}
+.screen-grid-tile-south{
+	background-color:#ff0;
+	grid-area: screen-grid-tile-south;
+}
+**/
+
+
+
+
+.margin-center{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+
+
+.tile-size-016 .tile,
+.tile-size-032 .tile.tile-char{width:16px; height:16px;}
+.tile-size-032 .tile{width:32px; height:32px;}
+.tile-size-064 .tile{width:64px; height:64px;}
+.tile-size-128 .tile{width:128px; height:128px;}
+.tile-size-256 .tile{width:256px; height:256px;}
+
+.clearleft{clear:left; float:none;}
+.floatleft{float:left;}
+
+
+
+
+nav.nav-header{display:none;}

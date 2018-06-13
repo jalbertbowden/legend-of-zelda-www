@@ -1,0 +1,74 @@
+.grid-legend{
+	position:absolute;
+}
+#grid-legend-left{
+	left:0;
+}
+#grid-legend-right{
+	left:544px;
+}
+#grid-legend-north{
+	top:0;
+}
+#grid-legend-south{
+	top:480px;
+}
+#grid-legend-left,
+#grid-legend-right{
+	width:32px;
+	height:336px;
+	top:144px;
+}
+#grid-legend-left li,
+#grid-legend-right li{
+	width:32px;
+	height:32px;
+}
+#grid-legend-north,
+#grid-legend-south{
+	height:32px;
+	width:512px;
+	left:32px;
+}
+#grid-legend-north li,
+#grid-legend-south li{
+	width:32px;
+	height:32px;
+	display:inline-block;
+	position:relative;
+}
+.grid-legend li{
+	position:relative;
+	font-weight:700;
+	font-size:22px;
+	line-height:32px;
+	text-align:center;
+}
+.grid-legend li.legend-ew-last{
+	height:16px;
+}
+#grid-legend-left li:before,
+#grid-legend-right li:before{
+	position:absolute;
+	content:"";
+	width:32px;
+	height:1px;
+	top:32px;
+	left:0;
+	background-color:#333;
+}
+#grid-legend-north li:before,
+#grid-legend-south li:before{
+	position:absolute;
+	content:"";
+	top:0;
+	left:0;
+	width:1px;
+	height:32px;
+	background-color:#101010;
+}
+#grid-legend-east li.legend-ew-last:before,
+#grid-legend-west li.legend-ew-last:before{
+	top:16px;
+	height:16px;
+}

@@ -1,0 +1,122 @@
+/** key - items.css **/
+/** key-x032-scale-008x016.gif - gold #ffa044, red-orange: #f83800, white: #fff **/
+/**	--color-gold: #ffa044;
+	--color-red-orange: #f83800;
+	--color-white-true: #fff;  **/
+.tile-key:before, .tile-key:after, .tile-key .bit-01, .tile-key .bit-01:before, .tile-key .bit-01:after, .tile-key .bit-02, .tile-key .bit-02:before, .tile-key .bit-02:after{
+	background-color:var(--color-gold);
+}
+.tile-key .bit-03, .tile-key .bit-03:before, .tile-key .bit-03:after, .tile-key .bit-04, .tile-key .bit-04:before, .tile-key .bit-04:after, .tile-key .bit-05{
+	background-color:var(--color-red-orange);
+}
+.tile-key .bit-05:before, .tile-key .bit-05:after, .tile-key .bit-06, .tile-key .bit-06:before, .tile-key .bit-06:after{
+	background-color:var(--color-white-true);
+}
+/** display:none;s **/
+.tile-key .bit-06:after{
+	display:none;
+}
+
+.tile-key:before{
+	height:56.25%;
+	width:6.25%;
+	top:43.75%;
+	left:43.75%;
+}
+.tile-key:after{
+	height:12.5%;
+	width:25%;
+	top:0;
+	left:37.5%;
+}
+
+.tile-key .bit-01{
+	top:12.5%;
+	left:31.25%;
+}
+.tile-key .bit-01:before{
+	width:800%;
+	height:200%;
+	top:300%;
+	left:-100%;
+}
+.tile-key .bit-01:after{
+	width:100%;
+	height:300%;
+	left:500%;
+	top:0;
+}
+.tile-key .bit-02{
+	top:12.5%;
+	left:56.25%;
+}
+.tile-key .bit-02:before{
+	width:200%;
+	height:200%;
+	top:900%;
+	left:-400%;
+}
+.tile-key .bit-02:after{
+	width:200%;
+	height:100%;
+	left:-400%;
+	top:1200%;
+}
+.tile-key .bit-03{
+	top:12.5%;
+	left:37.5%;
+}
+.tile-key .bit-03:before{
+	width:100%;
+	height:200%;
+	top:100%;
+	left:-100%;
+}
+.tile-key .bit-03:after{
+	width:100%;
+	height:500%;
+	left:500%;
+	top:0;
+}
+.tile-key .bit-04{
+	top:0;
+	left:56.25%;
+}
+.tile-key .bit-04:before{
+	width:200%;
+	height:100%;
+	top:600%;
+	left:0;
+}
+.tile-key .bit-04:after{
+	width:100%;
+	height:900%;
+	left:-100%;
+	top:700%;
+}
+.tile-key .bit-05{
+	top:6.25%;
+	left:62.5%;
+}
+.tile-key .bit-05:before{
+	width:100%;
+	height:300%;
+	top:100%;
+	left:-600%;
+}
+.tile-key .bit-05:after{
+	width:100%;
+	height:100%;
+	left:-500%;
+	top:0;
+}
+.tile-key .bit-06{
+	top:37.5%;
+	left:25%;
+}
+.tile-key .bit-06:before{
+	width:100%;
+	height:100%;
+	top:500%;
+	left:100%;
+}

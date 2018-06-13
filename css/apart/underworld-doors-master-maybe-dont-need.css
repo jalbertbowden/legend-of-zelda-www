@@ -1,0 +1,96 @@
+.tile-dungeon-door-bombed-north.tile,
+.tile-dungeon-door-bombed-south.tile,
+.tile-dungeon-door-bombed-west.tile,
+.tile-dungeon-door-bombed-east.tile,
+.tile-dungeon-door-locked-east.tile,
+.tile-dungeon-door-locked-west.tile,
+.tile-dungeon-door-locked-north.tile,
+.tile-dungeon-door-locked-south.tile,
+.tile-dungeon-door-open-west.tile,
+.tile-dungeon-door-open-east.tile,
+.tile-dungeon-door-open-north.tile,
+.tile-dungeon-door-open-south.tile,
+.tile-dungeon-door-shuttered-north.tile,
+.tile-dungeon-door-shuttered-south.tile,
+.tile-dungeon-door-shuttered-east.tile,
+.tile-dungeon-door-shuttered-west.tile{
+	position:absolute;
+}
+.s512 .tile-dungeon-door-locked-east.tile,
+.s512 .tile-dungeon-door-locked-west.tile,
+.s512 .tile-dungeon-door-shuttered-east.tile,
+.s512 .tile-dungeon-door-shuttered-west.tile,
+.s512 .tile-dungeon-door-open-west.tile,
+.s512 .tile-dungeon-door-open-east.tile{
+	width:128px;
+	height:128px;
+	top:144px;
+	width:64px;
+	height:64px;
+}
+.s512 .tile-dungeon-door-bombed-west.tile,
+.s512 .tile-dungeon-door-bombed-east.tile{
+	width:64px;
+	height:64px;
+	top:96px;
+	width:32px;
+	height:32px;
+	top:48px;
+}
+.s512 .tile-dungeon-door-shuttered-east.tile,
+.s512 .tile-dungeon-door-locked-east.tile,
+.s512 .tile-dungeon-door-open-east.tile,
+.s512 .tile-dungeon-door-bombed-east.tile{
+	left:864px;
+	left:432px;
+}
+.s512 .tile-dungeon-door-locked-west.tile,
+.s512 .tile-dungeon-door-shuttered-west.tile,
+.s512 .tile-dungeon-door-open-west{
+	left:24px;
+}
+.s512 .tile-dungeon-door-bombed-west{
+	left:32px;
+	left:16px;
+}
+.s512 .tile-dungeon-door-shuttered-north.tile,
+.s512 .tile-dungeon-door-shuttered-south.tile,
+.s512 .tile-dungeon-door-open-north.tile,
+.s512 .tile-dungeon-door-open-south.tile,
+.s512 .tile-dungeon-door-locked-north.tile,
+.s512 .tile-dungeon-door-locked-south.tile{
+	width:128px;
+	width:64px;
+	height:128px;
+	height:64px;
+	left:416px;
+	left:208px;
+	z-index:20;
+}
+.s512 .tile-dungeon-door-bombed-north.tile,
+.s512 .tile-dungeon-door-bombed-south.tile{
+	width:64px;
+	width:32px;
+	height:64px;
+	height:32px;
+	left:448px;
+	left:224px;
+	z-index:20;
+}
+.s512 .tile-dungeon-door-shuttered-north.tile,
+.s512 .tile-dungeon-door-open-north.tile,
+.s512 .tile-dungeon-door-locked-north.tile,
+.s512 .tile-dungeon-door-bombed-north.tile{
+	top:16px;
+	top:8px;
+}
+.s512 .tile-dungeon-door-shuttered-south.tile,
+.s512 .tile-dungeon-door-open-south.tile,
+.s512 .tile-dungeon-door-locked-south.tile{
+	top:160px;
+	top:80px;
+}
+.s512 .tile-dungeon-door-bombed-south.tile{
+	top:176px;
+	top:88px;
+}

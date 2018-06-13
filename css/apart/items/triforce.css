@@ -1,0 +1,36 @@
+/** triforce - items.css **/
+.tile-triforce:before, .tile-triforce:after, .tile-triforce .bit-01, .tile-triforce .bit-01:before, .tile-triforce .bit-01:after{
+	background-color:var(--color-i-orange);
+}
+.tile-triforce:before{
+	height:12.5%;
+	width:62.5%;
+	top:68.75%;
+	left:18.75%;
+}
+.tile-triforce:after{
+	height:12.5%;
+	width:50%;
+	top:56.25%;
+	left:25%;
+}
+.tile-triforce.triforce-shard .bit{
+	width:12.5%;
+	height:12.5%;
+}
+.tile-triforce .bit-01{
+	top:18.75%;
+	left:43.75%;
+}
+.tile-triforce .bit-01:before{
+	width:200%;
+	height:100%;
+	top:100%;
+	left:-50%;
+}
+.tile-triforce .bit-01:after{
+	width:300%;
+	height:100%;
+	left:-100%;
+	top:200%;
+}

@@ -1,0 +1,641 @@
+/** underworld block tile **/
+/**
+level 01 gsarchies
+light grey - #00efde
+grey - #008c8c
+dark grey - #00425a 
+
+	--color-u-grey-light: ##00efde;
+	--color-u-grey: #008c8c;
+	--color-u-grey-dark:
+
+**/
+/**
+level 01 a
+yellow-orange #ffa542
+grey #008484
+red #c62100
+**/
+/**
+level 01 b
+light blue #00ffff
+light grey #008484
+dark grey #214242
+**/
+/**
+level 02 a
+yellow-orange #ffa542
+blue #4200ff
+red #c62100
+**/
+/**
+level 02 b
+light blue #4284ff
+blue #4200ff
+dark blue #000084
+**/
+/** level 03 a
+yellow orange #ffa542
+orange #009431
+red #c62100
+**/
+/** level 03 b
+light green #52f794
+green #009431
+brown #003910
+**/
+/** level 04 a
+yellow orange #ffa542
+green #847300
+blue #1839ef
+**/
+/** level 04 b
+light green #efbd39
+green #847300
+brown #392900
+**/
+/**
+level 05 a
+yellow orange #ffa542
+green #00a500
+red #c62100
+**/
+/**
+level 05 b
+light green #42c642
+green #00a500
+brown #004200
+**/
+/**
+level 06 a
+yellow orange #ffa542
+green #848400
+red #c62100
+**/
+/**
+level 06 b
+yellow #ffc642
+green #848400
+brown #422100
+**/
+/**
+block level 7 a
+green #42c642
+dark green #00a500
+blue #2142ff
+**/
+
+/**
+block level 7 b
+green #42c642
+dark green #00a500
+brown #004200
+**/
+
+/**
+level 08 a
+white #fff
+grey #848484
+blue #63a5ff
+**/
+/**
+level 08 b
+white #ffffff
+light grey #848484
+dark grey #424242
+**/
+/**
+level 09 a
+white #ffffff
+light grey #848484
+dark grey #424242
+**/
+/**
+level 09 b
+white #ffffff
+light grey #848484
+dark grey #424242
+**/
+.tile-u-block.level-01-b,
+.tile-u-block.level-01-b .bit-05,
+.tile-u-block.level-01-b .bit-05:before,
+.tile-u-block.level-01-b .bit-05:after,
+.tile-u-block.level-01-b .bit-06,
+.tile-u-block.level-01-b .bit-06:before,
+.tile-u-block.level-01-b .bit-06:after,
+.tile-u-block.level-01-b .bit-07,
+.tile-u-block.level-01-b .bit-07:before,
+.tile-u-block.level-01-b .bit-07:after{
+	background-color:var(--color-underground-blue-light);
+}
+.tile-u-block.level-01-b:before,
+.tile-u-block.level-01-b .bit-04:before,
+.tile-u-block.level-01-b .bit-04:after{
+	background-color:var(--color-underground-grey-dark);
+}
+.tile-u-block.level-01-b:after,
+.tile-u-block.level-01-b .bit-01,
+.tile-u-block.level-01-b .bit-01:before,
+.tile-u-block.level-01-b .bit-01:after,
+.tile-u-block.level-01-b .bit-02,
+.tile-u-block.level-01-b .bit-02:before,
+.tile-u-block.level-01-b .bit-02:after,
+.tile-u-block.level-01-b .bit-03,
+.tile-u-block.level-01-b .bit-03:before,
+.tile-u-block.level-01-b .bit-03:after,
+.tile-u-block.level-01-b .bit-04{
+	background-color:var(--color-underground-grey);
+}
+.tile-u-block.level-01-gsarchives,
+.tile-u-block.level-01-gsarchives .bit-05,
+.tile-u-block.level-01-gsarchives .bit-05:before,
+.tile-u-block.level-01-gsarchives .bit-05:after,
+.tile-u-block.level-01-gsarchives .bit-06,
+.tile-u-block.level-01-gsarchives .bit-06:before,
+.tile-u-block.level-01-gsarchives .bit-06:after,
+.tile-u-block.level-01-gsarchives .bit-07,
+.tile-u-block.level-01-gsarchives .bit-07:before,
+.tile-u-block.level-01-gsarchives .bit-07:after{
+	background-color:var(--color-u-grey-light);
+}
+.tile-u-block.level-01-gsarchives:before,
+.tile-u-block.level-01-gsarchives .bit-04:before,
+.tile-u-block.level-01-gsarchives .bit-04:after{
+	background-color:var(--color-u-grey-dark);
+}
+.tile-u-block.level-01-gsarchives:after,
+.tile-u-block.level-01-gsarchives .bit-01,
+.tile-u-block.level-01-gsarchives .bit-01:before,
+.tile-u-block.level-01-gsarchives .bit-01:after,
+.tile-u-block.level-01-gsarchives .bit-02,
+.tile-u-block.level-01-gsarchives .bit-02:before,
+.tile-u-block.level-01-gsarchives .bit-02:after,
+.tile-u-block.level-01-gsarchives .bit-03,
+.tile-u-block.level-01-gsarchives .bit-03:before,
+.tile-u-block.level-01-gsarchives .bit-03:after,
+.tile-u-block.level-01-gsarchives .bit-04{
+	background-color:var(--color-u-grey);
+}
+
+.tile-u-block.level-02-b,
+.tile-u-block.level-02-b .bit-05,
+.tile-u-block.level-02-b .bit-05:before,
+.tile-u-block.level-02-b .bit-05:after,
+.tile-u-block.level-02-b .bit-06,
+.tile-u-block.level-02-b .bit-06:before,
+.tile-u-block.level-02-b .bit-06:after,
+.tile-u-block.level-02-b .bit-07,
+.tile-u-block.level-02-b .bit-07:before,
+.tile-u-block.level-02-b .bit-07:after{
+	background-color:var(--color-underground-blue-light-level-02);
+}
+.tile-u-block.level-02-b:before,
+.tile-u-block.level-02-b .bit-04:before,
+.tile-u-block.level-02-b .bit-04:after{
+	background-color:var(--color-underground-blue-dark);
+}
+.tile-u-block.level-02-b:after,
+.tile-u-block.level-02-b .bit-01,
+.tile-u-block.level-02-b .bit-01:before,
+.tile-u-block.level-02-b .bit-01:after,
+.tile-u-block.level-02-b .bit-02,
+.tile-u-block.level-02-b .bit-02:before,
+.tile-u-block.level-02-b .bit-02:after,
+.tile-u-block.level-02-b .bit-03,
+.tile-u-block.level-02-b .bit-03:before,
+.tile-u-block.level-02-b .bit-03:after,
+.tile-u-block.level-02-b .bit-04{
+	background-color:var(--color-underground-purple);
+}
+.tile-u-block.level-03-b,
+.tile-u-block.level-03-b .bit-05,
+.tile-u-block.level-03-b .bit-05:before,
+.tile-u-block.level-03-b .bit-05:after,
+.tile-u-block.level-03-b .bit-06,
+.tile-u-block.level-03-b .bit-06:before,
+.tile-u-block.level-03-b .bit-06:after,
+.tile-u-block.level-03-b .bit-07,
+.tile-u-block.level-03-b .bit-07:before,
+.tile-u-block.level-03-b .bit-07:after{
+	background-color:var(--color-underground-green-light);
+}
+.tile-u-block.level-03-b:before,
+.tile-u-block.level-03-b .bit-04:before,
+.tile-u-block.level-03-b .bit-04:after{
+	background-color:var(--color-underground-brown);
+}
+.tile-u-block.level-03-b:after,
+.tile-u-block.level-03-b .bit-01,
+.tile-u-block.level-03-b .bit-01:before,
+.tile-u-block.level-03-b .bit-01:after,
+.tile-u-block.level-03-b .bit-02,
+.tile-u-block.level-03-b .bit-02:before,
+.tile-u-block.level-03-b .bit-02:after,
+.tile-u-block.level-03-b .bit-03,
+.tile-u-block.level-03-b .bit-03:before,
+.tile-u-block.level-03-b .bit-03:after,
+.tile-u-block.level-03-b .bit-04{
+	background-color:var(--color-underground-green);
+}
+
+
+
+.tile-u-block.level-04-a,
+.tile-u-block.level-04-a .bit-05,
+.tile-u-block.level-04-a .bit-05:before,
+.tile-u-block.level-04-a .bit-05:after,
+.tile-u-block.level-04-a .bit-06,
+.tile-u-block.level-04-a .bit-06:before,
+.tile-u-block.level-04-a .bit-06:after,
+.tile-u-block.level-04-a .bit-07,
+.tile-u-block.level-04-a .bit-07:before,
+.tile-u-block.level-04-a .bit-07:after{
+	background-color:var(--color-underground-yellow-orange);
+}
+.tile-u-block.level-04-a:before,
+.tile-u-block.level-04-a .bit-04:before,
+.tile-u-block.level-04-a .bit-04:after{
+	background-color:var(--color-underground-blue-level-04);
+}
+.tile-u-block.level-04-a:after,
+.tile-u-block.level-04-a .bit-01,
+.tile-u-block.level-04-a .bit-01:before,
+.tile-u-block.level-04-a .bit-01:after,
+.tile-u-block.level-04-a .bit-02,
+.tile-u-block.level-04-a .bit-02:before,
+.tile-u-block.level-04-a .bit-02:after,
+.tile-u-block.level-04-a .bit-03,
+.tile-u-block.level-04-a .bit-03:before,
+.tile-u-block.level-04-a .bit-03:after,
+.tile-u-block.level-04-a .bit-04{
+	background-color:var(--color-underground-green-level-04);
+}
+.tile-u-block.level-04-b,
+.tile-u-block.level-04-b .bit-05,
+.tile-u-block.level-04-b .bit-05:before,
+.tile-u-block.level-04-b .bit-05:after,
+.tile-u-block.level-04-b .bit-06,
+.tile-u-block.level-04-b .bit-06:before,
+.tile-u-block.level-04-b .bit-06:after,
+.tile-u-block.level-04-b .bit-07,
+.tile-u-block.level-04-b .bit-07:before,
+.tile-u-block.level-04-b .bit-07:after{
+	background-color:var(--color-underground-green-light-level-04);
+}
+.tile-u-block.level-04-b:before,
+.tile-u-block.level-04-b .bit-04:before,
+.tile-u-block.level-04-b .bit-04:after{
+	background-color:var(--color-underground-brown-level-04);
+}
+.tile-u-block.level-04-b:after,
+.tile-u-block.level-04-b .bit-01,
+.tile-u-block.level-04-b .bit-01:before,
+.tile-u-block.level-04-b .bit-01:after,
+.tile-u-block.level-04-b .bit-02,
+.tile-u-block.level-04-b .bit-02:before,
+.tile-u-block.level-04-b .bit-02:after,
+.tile-u-block.level-04-b .bit-03,
+.tile-u-block.level-04-b .bit-03:before,
+.tile-u-block.level-04-b .bit-03:after,
+.tile-u-block.level-04-b .bit-04{
+	background-color:var(--color-underground-green-level-04);
+}
+.tile-u-block.level-05-b,
+.tile-u-block.level-05-b .bit-05,
+.tile-u-block.level-05-b .bit-05:before,
+.tile-u-block.level-05-b .bit-05:after,
+.tile-u-block.level-05-b .bit-06,
+.tile-u-block.level-05-b .bit-06:before,
+.tile-u-block.level-05-b .bit-06:after,
+.tile-u-block.level-05-b .bit-07,
+.tile-u-block.level-05-b .bit-07:before,
+.tile-u-block.level-05-b .bit-07:after{
+	background-color:var(--color-underground-green-light-level-05-07);
+}
+.tile-u-block.level-05-b:before,
+.tile-u-block.level-05-b .bit-04:before,
+.tile-u-block.level-05-b .bit-04:after{
+	background-color:var(--color-underground-brown-level-05-07);
+}
+.tile-u-block.level-05-b:after,
+.tile-u-block.level-05-b .bit-01,
+.tile-u-block.level-05-b .bit-01:before,
+.tile-u-block.level-05-b .bit-01:after,
+.tile-u-block.level-05-b .bit-02,
+.tile-u-block.level-05-b .bit-02:before,
+.tile-u-block.level-05-b .bit-02:after,
+.tile-u-block.level-05-b .bit-03,
+.tile-u-block.level-05-b .bit-03:before,
+.tile-u-block.level-05-b .bit-03:after,
+.tile-u-block.level-05-b .bit-04{
+	background-color:var(--color-underground-green-level-05);
+}
+.tile-u-block.level-06-b,
+.tile-u-block.level-06-b .bit-05,
+.tile-u-block.level-06-b .bit-05:before,
+.tile-u-block.level-06-b .bit-05:after,
+.tile-u-block.level-06-b .bit-06,
+.tile-u-block.level-06-b .bit-06:before,
+.tile-u-block.level-06-b .bit-06:after,
+.tile-u-block.level-06-b .bit-07,
+.tile-u-block.level-06-b .bit-07:before,
+.tile-u-block.level-06-b .bit-07:after{
+	background-color:var(--color-underground-green-light-alt);
+}
+.tile-u-block.level-06-b:before,
+.tile-u-block.level-06-b .bit-04:before,
+.tile-u-block.level-06-b .bit-04:after{
+	background-color:var(--color-underground-brown-red);
+}
+.tile-u-block.level-06-b:after,
+.tile-u-block.level-06-b .bit-01,
+.tile-u-block.level-06-b .bit-01:before,
+.tile-u-block.level-06-b .bit-01:after,
+.tile-u-block.level-06-b .bit-02,
+.tile-u-block.level-06-b .bit-02:before,
+.tile-u-block.level-06-b .bit-02:after,
+.tile-u-block.level-06-b .bit-03,
+.tile-u-block.level-06-b .bit-03:before,
+.tile-u-block.level-06-b .bit-03:after,
+.tile-u-block.level-06-b .bit-04{
+	background-color:var(--color-underground-green-alt);
+}
+.tile-u-block.level-07-a,
+.tile-u-block.level-07-a .bit-05,
+.tile-u-block.level-07-a .bit-05:before,
+.tile-u-block.level-07-a .bit-05:after,
+.tile-u-block.level-07-a .bit-06,
+.tile-u-block.level-07-a .bit-06:before,
+.tile-u-block.level-07-a .bit-06:after,
+.tile-u-block.level-07-a .bit-07,
+.tile-u-block.level-07-a .bit-07:before,
+.tile-u-block.level-07-a .bit-07:after{
+	background-color:var(--color-underground-green-light-level-05-07);
+}
+.tile-u-block.level-07-a:before,
+.tile-u-block.level-07-a .bit-04:before,
+.tile-u-block.level-07-a .bit-04:after{
+	background-color:var(--color-underground-blue-royal-7);
+}
+.tile-u-block.level-07-a:after,
+.tile-u-block.level-07-a .bit-01,
+.tile-u-block.level-07-a .bit-01:before,
+.tile-u-block.level-07-a .bit-01:after,
+.tile-u-block.level-07-a .bit-02,
+.tile-u-block.level-07-a .bit-02:before,
+.tile-u-block.level-07-a .bit-02:after,
+.tile-u-block.level-07-a .bit-03,
+.tile-u-block.level-07-a .bit-03:before,
+.tile-u-block.level-07-a .bit-03:after,
+.tile-u-block.level-07-a .bit-04{
+	background-color:var(--color-underground-orange-green);
+}
+.tile-u-block.level-07-b,
+.tile-u-block.level-07-b .bit-05,
+.tile-u-block.level-07-b .bit-05:before,
+.tile-u-block.level-07-b .bit-05:after,
+.tile-u-block.level-07-b .bit-06,
+.tile-u-block.level-07-b .bit-06:before,
+.tile-u-block.level-07-b .bit-06:after,
+.tile-u-block.level-07-b .bit-07,
+.tile-u-block.level-07-b .bit-07:before,
+.tile-u-block.level-07-b .bit-07:after{
+	background-color:var(--color-underground-green-light-level-05-07);
+}
+.tile-u-block.level-07-b:before,
+.tile-u-block.level-07-b .bit-04:before,
+.tile-u-block.level-07-b .bit-04:after{
+	background-color:var(--color-underground-brown-level-05-07);
+}
+.tile-u-block.level-07-b:after,
+.tile-u-block.level-07-b .bit-01,
+.tile-u-block.level-07-b .bit-01:before,
+.tile-u-block.level-07-b .bit-01:after,
+.tile-u-block.level-07-b .bit-02,
+.tile-u-block.level-07-b .bit-02:before,
+.tile-u-block.level-07-b .bit-02:after,
+.tile-u-block.level-07-b .bit-03,
+.tile-u-block.level-07-b .bit-03:before,
+.tile-u-block.level-07-b .bit-03:after,
+.tile-u-block.level-07-b .bit-04{
+	background-color:var(--color-underground-orange-green);
+}
+.tile-u-block.level-08-a,
+.tile-u-block.level-08-a .bit-05,
+.tile-u-block.level-08-a .bit-05:before,
+.tile-u-block.level-08-a .bit-05:after,
+.tile-u-block.level-08-a .bit-06,
+.tile-u-block.level-08-a .bit-06:before,
+.tile-u-block.level-08-a .bit-06:after,
+.tile-u-block.level-08-a .bit-07,
+.tile-u-block.level-08-a .bit-07:before,
+.tile-u-block.level-08-a .bit-07:after{
+	background-color:var(--color-underground-white);
+}
+.tile-u-block.level-08-a:before,
+.tile-u-block.level-08-a .bit-04:before,
+.tile-u-block.level-08-a .bit-04:after{
+	background-color:var(--color-underground-blue-light-alt);
+}
+.tile-u-block.level-08-a:after,
+.tile-u-block.level-08-a .bit-01,
+.tile-u-block.level-08-a .bit-01:before,
+.tile-u-block.level-08-a .bit-01:after,
+.tile-u-block.level-08-a .bit-02,
+.tile-u-block.level-08-a .bit-02:before,
+.tile-u-block.level-08-a .bit-02:after,
+.tile-u-block.level-08-a .bit-03,
+.tile-u-block.level-08-a .bit-03:before,
+.tile-u-block.level-08-a .bit-03:after,
+.tile-u-block.level-08-a .bit-04{
+	background-color:var(--color-underground-grey-89);
+}
+.tile-u-block.level-08-b,
+.tile-u-block.level-08-b .bit-05,
+.tile-u-block.level-08-b .bit-05:before,
+.tile-u-block.level-08-b .bit-05:after,
+.tile-u-block.level-08-b .bit-06,
+.tile-u-block.level-08-b .bit-06:before,
+.tile-u-block.level-08-b .bit-06:after,
+.tile-u-block.level-08-b .bit-07,
+.tile-u-block.level-08-b .bit-07:before,
+.tile-u-block.level-08-b .bit-07:after{
+	background-color:var(--color-underground-white);
+}
+.tile-u-block.level-08-b:before,
+.tile-u-block.level-08-b .bit-04:before,
+.tile-u-block.level-08-b .bit-04:after{
+	background-color:var(--color-underground-grey-dark-alt);
+}
+.tile-u-block.level-08-b:after,
+.tile-u-block.level-08-b .bit-01,
+.tile-u-block.level-08-b .bit-01:before,
+.tile-u-block.level-08-b .bit-01:after,
+.tile-u-block.level-08-b .bit-02,
+.tile-u-block.level-08-b .bit-02:before,
+.tile-u-block.level-08-b .bit-02:after,
+.tile-u-block.level-08-b .bit-03,
+.tile-u-block.level-08-b .bit-03:before,
+.tile-u-block.level-08-b .bit-03:after,
+.tile-u-block.level-08-b .bit-04{
+	background-color:var(--color-underground-grey-89);
+}
+.tile-u-block.level-09-b,
+.tile-u-block.level-09-b .bit-05,
+.tile-u-block.level-09-b .bit-05:before,
+.tile-u-block.level-09-b .bit-05:after,
+.tile-u-block.level-09-b .bit-06,
+.tile-u-block.level-09-b .bit-06:before,
+.tile-u-block.level-09-b .bit-06:after,
+.tile-u-block.level-09-b .bit-07,
+.tile-u-block.level-09-b .bit-07:before,
+.tile-u-block.level-09-b .bit-07:after{
+	background-color:var(--color-underground-white);
+}
+.tile-u-block.level-09-b:before,
+.tile-u-block.level-09-b .bit-04:before,
+.tile-u-block.level-09-b .bit-04:after{
+	background-color:var(--color-underground-grey-dark-alt);
+}
+.tile-u-block.level-09-b:after,
+.tile-u-block.level-09-b .bit-01,
+.tile-u-block.level-09-b .bit-01:before,
+.tile-u-block.level-09-b .bit-01:after,
+.tile-u-block.level-09-b .bit-02,
+.tile-u-block.level-09-b .bit-02:before,
+.tile-u-block.level-09-b .bit-02:after,
+.tile-u-block.level-09-b .bit-03,
+.tile-u-block.level-09-b .bit-03:before,
+.tile-u-block.level-09-b .bit-03:after,
+.tile-u-block.level-09-b .bit-04{
+	background-color:var(--color-underground-grey-89);
+}
+
+
+
+.tile-u-block:before{
+	height:68.75%;
+	width:68.75%;
+	top:31.25%;
+	left:31.25%;
+}
+.tile-u-block:after{
+	height:37.5%;
+	width:37.5%;
+	top:31.25%;
+	left:31.25%;
+}
+
+
+.tile-u-block .bit-01{
+	top:0;
+	left:0;
+}
+.tile-u-block .bit-01:before{
+	width:100%;
+	height:100%;
+	left:1500%;
+	top:1500%;
+}
+.tile-u-block .bit-01:after{
+	width:100%;
+	height:100%;
+	left:1400%;
+	top:1400%;
+}
+.tile-u-block .bit-02{
+	top:6.25%;
+	left:6.25%;
+}
+.tile-u-block .bit-02:before{
+	width:100%;
+	height:100%;
+	left:1200%;
+	top:1200%;
+}
+.tile-u-block .bit-02:after{
+	width:100%;
+	height:100%;
+	left:1100%;
+	top:1100%;
+}
+.tile-u-block .bit-03{
+	top:12.5%;
+	left:12.5%;
+}
+.tile-u-block .bit-03:before{
+	width:100%;
+	height:100%;
+	left:900%;
+	top:900%;
+}
+.tile-u-block .bit-03:after{
+	width:100%;
+	height:100%;
+	left:200%;
+	top:200%;
+}
+.tile-u-block .bit-04{
+	top:18.75%;
+	left:18.75%;
+}
+.tile-u-block .bit-04:before{
+	width:500%;
+	height:500%;
+	left:-300%;
+	top:800%;
+}
+.tile-u-block .bit-04:after{
+	width:500%;
+	height:500%;
+	left:800%;
+	top:-300%;
+}
+.tile-u-block .bit-05{
+	top:93.75%;
+	left:0;
+}
+.tile-u-block .bit-05:before{
+	width:200%;
+	height:400%;
+	left:0;
+	top:-400%;
+}
+.tile-u-block .bit-05:after{
+	width:100%;
+	height:300%;
+	left:200%;
+	top:-400%;
+}
+.tile-u-block .bit-06{
+	top:75%;
+	left:18.75%;
+}
+.tile-u-block .bit-06:before{
+	width:200%;
+	height:100%;
+	left:0;
+	top:-100%;
+}
+.tile-u-block .bit-06:after{
+	width:100%;
+	height:400%;
+	left:800%;
+	top:-1200%;
+}
+.tile-u-block .bit-07{
+	top:0;
+	left:87.5%;
+}
+.tile-u-block .bit-07:before{
+	width:100%;
+	height:200%;
+	left:-100%;
+	top:0;
+}
+.tile-u-block .bit-07:after{
+	width:100%;
+	height:300%;
+	left:-200%;
+	top:0;
+}

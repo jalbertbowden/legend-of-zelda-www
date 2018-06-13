@@ -1,0 +1,35 @@
+.tile-dungeon-09o.level-01-gsarchives{
+	background-color:var(--color-underground-grey);
+}
+.tile-dungeon-09o.level-01-gsarchives:before,
+.tile-dungeon-09o.level-01-gsarchives .bit-01,
+.tile-dungeon-09o.level-01-gsarchives .bit-01:before,
+.tile-dungeon-09o.level-01-gsarchives .bit-01:after,
+.tile-dungeon-09o.level-01-gsarchives .bit-02,
+.tile-dungeon-09o.level-01-gsarchives .bit-02:before,
+.tile-dungeon-09o.level-01-gsarchives .bit-02:after,
+.tile-dungeon-09o.level-01-gsarchives .bit-03,
+.tile-dungeon-09o.level-01-gsarchives .bit-03:before,
+.tile-dungeon-09o.level-01-gsarchives .bit-03:after,
+.tile-dungeon-09o.level-01-gsarchives .bit-04,
+.tile-dungeon-09o.level-01-gsarchives .bit-04:before,
+.tile-dungeon-09o.level-01-gsarchives .bit-04:after{
+	background-color:var(--color-underground-grey-dark);
+}
+.tile-dungeon-09o.level-01-gsarchives:after,
+.tile-dungeon-09o.level-01-gsarchives .bit-03:after{
+	background-color:var(--color-underground-blue-light);
+}
+
+.tile-dungeon-09o:before{
+	width:6.25%;
+	height:100%;
+	top:0;
+	left:25%;
+}
+.tile-dungeon-09o:after{
+	width:6.25%;
+	height:100%;
+	top:0;
+	left:18.75%;
+}

@@ -1,0 +1,116 @@
+/** game text - game screen structures **/
+/** space is 384x224 on 512x448; **/
+/** text is 10 of 12 tiles, 1 tile buffer between; 320 of 384 **/
+/** #cave-text{
+	left:18.75%;
+	top:18.75%;
+	top:64px;
+}
+.tile-size-032 #cave-text{
+	width:320px; **/ /** 320/512=62.5% **/
+	/** height:64px; **/ /** 64/512=12.5% **/
+/** } **/
+#cave-text{
+  /** width:320px; **/ /** 320/512=62.5% **/
+  /** height:64px; **/ /** 64/512=12.5% **/
+  /** left:18.75%; **/
+  position:absolute;
+  top:18.75%;
+  top:64px;
+}
+#cave-text.dungeon-gap-top-0,
+#cave-text.top-25{
+  top:25%;
+}
+#cave-text.one-content-line{
+  top:28.125%;
+}
+#cave-text.text-content-size-w384{
+  width:384px;
+  height:64px;
+  left:12.5%;
+}
+#cave-text.text-content-size-w320{
+  width:320px; /** 320/512=62.5% **/
+  height:64px; /** 64/512=12.5% **/
+  left:18.75%;
+}
+#cave-text.one-content-line.text-content-size-w384,
+#cave-text.one-content-line.text-content-size-w320{
+  height:16px;
+}
+#cave-text.three-content-line.text-content-size-w384,
+#cave-text.three-content-line.text-content-size-w320{
+  height:48px;
+}
+
+#cave-torches-npc{
+	display:grid;
+	grid-template-rows:100%;
+	width:43.75%; /** 224/512=43.75% **/
+	left:28.125%;
+	top:37.5%;
+}
+#cave-torches-npc.one-content-line,
+#cave-torches-npc.top-4375{
+	top:43.75%;
+}
+#cave-torches-npc.three-content-line-wtf,
+#cave-torches-npc.small-margin-gap-wtf{
+	top:130px; /** 130 from 336 in go-north-west-south-west-to-the-forest-of-maze screen and go-to-the-next-room screen **/
+}
+.tile-size-032 #cave-torches-npc{
+	height:32px;
+	grid-template-columns:32px 32px 32px;
+	grid-column-gap:64px;
+}
+#cave-torches-npc li{
+	display:inline-block;
+}
+.tile-size-032 #cave-torches-npc li{
+	width:32px;
+	height:32px;
+}
+.cave-content-row{
+	position:absolute;	
+}
+.cave-text-row{
+	grid-column-gap:0;
+	display:grid;
+	width:100%;
+}
+.text-content-size-w320 .cave-text-row{
+	grid-template-columns:repeat(20, 1fr);
+	grid-template-rows:320px;
+}
+.text-content-size-w384 .cave-text-row{
+	grid-template-columns:repeat(24, 1fr);
+	grid-template-rows:384px;
+}
+.tile-size-016 .cave-text-row{
+	height:25%;
+	height:16px;
+}
+
+
+.cave-text-row li{
+	display:inline-block;
+}
+.tile-size-016 .tile{
+	width:16px;
+	height:16px;
+}
+#cave-text-row-1{
+	margin-top:16px;
+}
+.top-25 #cave-text-row-1{
+	margin-top:12px;
+}
+.dungeon-gap-top-0 #cave-text-row-1,
+.one-content-line #cave-text-row-1{
+	margin-top:0;
+}
+.cave-text-row li{margin-top:-2px; margin-left:-1px; overflow:hidden; }
+.cave-text-row li.text-left-0{margin-left:0;}
+.cave-text-row li.text-left-2{margin-left:-2px;}
+.dungeon-gap-top-0 .cave-text-row li{margin-top:-6px; margin-left:-1px; }
