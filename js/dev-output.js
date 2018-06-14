@@ -1,0 +1,35 @@
+function outputDev() { // console.log("alt walkability score: " +walkabilityOptions);
+  // console.log("inside output dev!");
+  // console.log("current world: " +currentWorld);
+	
+  var outputList = document.createElement("ul");
+  outputHTML = "<li>Current World: <strong>" +currentWorld+ "</strong></li>";
+  outputHTML += "<li>CSS Position Values: <strong>" +htmlLinkCSSPositionValues+ "</strong></li>";
+  outputHTML += "<li>CSS Positions: <strong>" +htmlLinkCSSPositions+ "</strong></li>";
+  outputHTML += "<li>Screen Grid Positions: <strong>" +htmlLinkScreenGridPositions+ "</strong></li>";
+  outputHTML += "<li>Screen Grid Tile ID: <strong>" +htmlScreenGridTileID+ "</strong></li>";
+  outputHTML += "<li>Hyrule Grid Position: <strong>" +hyruleGridPositions+ "</strong></li>";
+  outputHTML += "<li class=\"li-overflow\">Screen Grid Tile Array: <strong class=\"overflow-scroll\">" +tileGridValues+ "</strong></li>";
+  outputHTML += "<li>Hyrule Grid Tile Options: <strong class=\"block\">n: " +tileOptions[0]+ "</strong> <strong class=\"block\">e: " +tileOptions[1]+ "</strong> <strong class=\"block\">s: " +tileOptions[2]+ "</strong> <strong class=\"block\">w: " +tileOptions[3]+ "</strong></li>";
+  outputHTML += "<li>Move Options: n: [<strong>" +movementOptions[0]+ "</strong>] e: [<strong>" +movementOptions[1]+ "</strong>] s: [<strong>" +movementOptions[2]+ "</strong>] w: [<strong>" +movementOptions[3]+ "</strong>]</li>";
+  outputHTML += "<li><b class=\"b-title\">Move option tile values</b>:";
+  outputHTML += "<ul class=\"ul-sub\"><li>n: <strong>" +optionTileValues[0]+ "</strong></li>";
+  outputHTML += "<li>e: <strong>" +optionTileValues[1]+ "</strong></li>";
+  outputHTML += "<li>s: <strong>" +optionTileValues[2]+ "</strong></li>";
+  outputHTML += "<li>w: <strong>" +optionTileValues[3]+ "</strong></li></ul></li>";
+  outputHTML += "<li><b class=\"b-title\">Move option tile definitions</b>:";
+  outputHTML += "<ul class=\"ul-sub\"><li>n: <strong>" +optionTileDefinitions[0]+ "</strong></li>";
+  outputHTML += "<li>e: <strong>" +optionTileDefinitions[1]+ "</strong></li>";
+  outputHTML += "<li>s: <strong>" +optionTileDefinitions[2]+ "</strong></li>";
+  outputHTML += "<li>w: <strong>" +optionTileDefinitions[3]+ "</strong></li></ul></li>";
+  outputHTML += "<li><b class=\"b-title\">Tile Definitions Walkability Score</b>:";
+  outputHTML += "<ul class=\"ul-sub\"><li>n: <strong>" +walkabilityOptions[0]+ "</strong></li>";
+  outputHTML += "<li>e: <strong>" +walkabilityOptions[1]+ "</strong></li>";
+  outputHTML += "<li>s: <strong>" +walkabilityOptions[2]+ "</strong></li>";
+  outputHTML += "<li>w: <strong>" +walkabilityOptions[3]+ "</strong></li></ul></li>";
+  outputList.innerHTML = outputHTML;
+  let outputVariables = document.getElementById("console-log-variables");
+  outputVariables.innerHTML = "";
+  outputVariables.appendChild(outputList);
+  //outputVariables.innerHTML = outputList;
+}
