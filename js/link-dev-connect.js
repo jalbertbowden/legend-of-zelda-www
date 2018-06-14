@@ -18,9 +18,20 @@ var hyruleGridColumn; // column value position of current active screen tile on 
 var hyruleGridRow; // row value position of current active screen tile on hyrule grid; x axis
 var hyruleGridPosition = []; // position of active screen tile on hyrule grid; array of [hyruleGridRow, hyruleGridColumn]
 var hyruleGridTilePrepend = "hyruleGridTile";
+var caveGridTilePrepend = "caveGridTile";
+var dungeonGridTilePrepend = "dungeonGridTile";
 var tileGridID; // hyruleGridTilePrepend + data attribute value for correlating active screen grid array of tiles
 var tileGridValues; // current active screen grid array of tile values
 var tileOptions = []; // array of adjacent tile grid id values; north, east, south, west (in that order) tile grids providing possible movement action options in gameplay.
+
+
+// 2018-06-14
+// THIS NEEDS TO BE SET BY SAVED TILE ID!!!!
+// DIRTY FIX FOR NOW
+var currentWorld; // defines environment link is currently in; possible values: overworld, cave, dungeon
+var isCrossworld; // true/false value indicating if link's next move is crossworld
+
+
 
 // dev only
 var outputHTML;
@@ -48,15 +59,44 @@ function getHTMLDataAttributeValue(el) {
   htmlScreenGridTileID = el.dataset.screenGridTile;
   return htmlScreenGridTileID;
 }
+function getHTMLDataWorldAttributeValue(el){
+  currentWorld = el.dataset.world;
+  console.log("current world: " +currentWorld);
+  return currentWorld;
+}
 function getHyruleGridPositions(string) {
+  /**if(currentWorld === "overworld") {
+    hyruleGridRow = string.substring(0,2);
+    hyruleGridColumn = string.substring(2,4);
+    hyruleGridPositions = [hyruleGridRow, hyruleGridColumn];
+  } else if(currentWorld === "cave") {
+    console.log("get hyrule grid positions, current world is cave: " +currentWorld);
+  } else if(currentWorld === "dungeon") {
+    console.log("get hyrule grid positions, current world is dungeon: " +currentWorld);
+  }**/
+  console.log("string for hyrule grid row: " +string);
+  
   hyruleGridRow = string.substring(0,2);
+  console.log("hyrule grid row: " +hyruleGridRow);
   hyruleGridColumn = string.substring(2,4);
+  console.log("hyrule grid column: " +hyruleGridColumn);
   hyruleGridPositions = [hyruleGridRow, hyruleGridColumn];
+  console.log("hyrule grid positions: " +hyruleGridPositions);
+  
   return hyruleGridPositions;
 }
 function getScreenGridTiles() { // get array of tile values making up tile grid of current active screen grid
-  tileGridID = hyruleGridTilePrepend + htmlScreenGridTileID;
-  tileGridValues = hyruleGridTiles[tileGridID]; // array of 176 values correlating to tile definitions
+  if(currentWorld === "overworld") {
+  	tileGridID = hyruleGridTilePrepend + htmlScreenGridTileID;
+    tileGridValues = hyruleGridTiles[tileGridID]; // array of 176 values correlating to tile definitions
+  } else if (currentWorld === "cave") {
+  	console.log("cave loop, current is: " +currentWorld);
+  	console.log("tile grid id: " +tileGridID+ ", hyrule grid tile prepend: " +caveGridTilePrepend+ ", html screen grid tile id: " +htmlScreenGridTileID);
+    tileGridID = caveGridTilePrepend + htmlScreenGridTileID;
+    tileGridValues = hyruleGridTiles[tileGridID];
+  } else if (currentWorld === "dungeon") {
+  	console.log("dungeon loop, current is: " +currentWorld);  
+  }
   return tileGridValues;
 }
 function getHiddenScreenGridTiles(){
@@ -238,6 +278,8 @@ var screenGridRow11 = [];
 var screenGridArray = []; // array of active screen grid row array values
 
 function parseGrid(){ // parse current active screen grid array into row arrays; return array of 11 row arrays.
+	console.log("tile grid values: " +tileGridValues);
+	
   screenGridRow1 = tileGridValues.slice(0,16);
   screenGridRow2 = tileGridValues.slice(16,32);
   screenGridRow3 = tileGridValues.slice(32,48);
@@ -432,7 +474,7 @@ var tileS;
 var tileW;
 var tileWildCard; // gets defined in the function, as it should!
 
-function populateGridTileScreen(jsonObj, direction) { // populate gameplay grid tile screen with movement option tile's html, remove grid tile leaving behind
+function populateGridTileScreen(jsonObj, direction, currentWorld) { // populate gameplay grid tile screen with movement option tile's html, remove grid tile leaving behind
   var htmlLink = document.getElementById("link");
   var oldTile = document.getElementById("ul-screen-grid");
   oldTile.parentNode.removeChild(oldTile);
@@ -443,10 +485,17 @@ function populateGridTileScreen(jsonObj, direction) { // populate gameplay grid 
 
   var newGridTileList = document.getElementById("ul-screen-grid");
   newGridTileList.appendChild(htmlLink);
+  console.log("new screen added! current world: " +currentWorld+ ", is crossworld?: " +isCrossworld);
   
   // redo all of this!!!
   // functional code AND adaptive styles
   if(direction === "north") {
+    if (isCrossworld) {
+      // console.log("population var for crossworld here yo!");
+      htmlLink.style.setProperty("top", "320px");
+      htmlLink.style.setProperty("left", "224px");
+  	  linkDirectionalCSSClasses("link-north");
+    } 
   	htmlLink.style.setProperty("top", "320px");
   	linkDirectionalCSSClasses("link-north");
   } else if (direction === "east") {
@@ -461,7 +510,7 @@ function populateGridTileScreen(jsonObj, direction) { // populate gameplay grid 
   }
   updateLink();
 }
-function moveLinkTileJSON(string, direction){ // accepts tile option string of calling direction; ajax call is made for screen grid JSON of tile moving into; returns json response of html chunk in ul, representing the selected tile grid; second string parameter provides the direction of the tile move (north, east, south, or west).
+function moveLinkTileJSON(string, direction, currentWorld){ // accepts tile option string of calling direction; ajax call is made for screen grid JSON of tile moving into; returns json response of html chunk in ul, representing the selected tile grid; second string parameter provides the direction of the tile move (north, east, south, or west).
   var requestJSONURL = "grid-tiles/"+string+".js"; // console.log("request json url: " +requestJSONURL);
   
   var request = new XMLHttpRequest();
@@ -471,20 +520,41 @@ function moveLinkTileJSON(string, direction){ // accepts tile option string of c
   
   request.onload = function() {
     var screenGridTile = request.response; 
-    populateGridTileScreen(screenGridTile, direction);
+    populateGridTileScreen(screenGridTile, direction, currentWorld);
   }
 }
 
 function linkMovementHidden(str){
   console.log("hidden movement direction: " +str);
+  console.log("current world in hidden function: " +currentWorld);
+  let oldWorld = currentWorld;
+  console.log("old world: " +oldWorld+ ", but still in current: " +currentWorld);
+  
+  console.log("options world var: " +tileGridOptionsValues.door01.currentWorld);
+  currentWorld = tileGridOptionsValues.door01.currentWorld;
+  console.log("old world now: " +oldWorld+ ", current world now: " +currentWorld);
+  
+  console.log("tile wildcard var: " +str);
+	
+  // var crossworld = "crossworld";
+  isCrossworld = true;
+  
+  
   // hidden screen grid tile id to be built
   var screenToGet = tileGridOptionsValues.door01.entranceTo;
   console.log("entrance to: " +tileGridOptionsValues.door01.entranceTo);
   
-  
   // !!!!! connect screenToGet to list of cave tile screens markup.
   // match screenToGet with value in list
   // return tile screen markup and change the current active tile screen!!!
+  // console.log("hidden movement direction: " +str);
+  // hidden screen grid tile id to be built
+  var screenToGet = tileGridOptionsValues.door01.entranceTo;
+  // console.log("entrance to: " +tileGridOptionsValues.door01.entranceTo);
+  //var screenToGetURL = "grid-tiles/"+screenToGet;
+  //console.log("js url: " +screenToGetURL);
+  console.log("link movement hidden function currentWorld: " +currentWorld);
+  moveLinkTileJSON(screenToGet, str, currentWorld)
   
 }
 function moveLinkAndTileNorth(str){ // move link one current screen grid value north, while simultaneously changing the current screen to the one above (north) of it
@@ -509,7 +579,7 @@ function linkMovementNorth(){ // move north options cycle
     moveLinkNorth(); // move link north
   } else if ((htmlLinkScreenGridPositions[0] === 0) && (hyruleGridRow != "00")){ // else if link's current screen grid x value is 0 and hyrule grid row is not equal to "00" (str)
     moveLinkAndTileNorth(tileWildCard); // move link and tile north functionality!
-   }
+  }
   // document.body.style.background = "violet";      
 }
 function moveLinkAndTileEast(){
@@ -664,6 +734,7 @@ getPositionScreenGridValues(htmlLinkCSSPositions); // console.log(htmlLinkScreen
 htmlScreenGrid = document.getElementById("ul-screen-grid");
 getHTMLDataAttributeValue(htmlScreenGrid);
 // console.log("update link function; html screen grid tile id: " +htmlScreenGridTileID);
+getHTMLDataWorldAttributeValue(htmlScreenGrid);
 getHyruleGridPositions(htmlScreenGridTileID); // console.log("html screen grid tile id: " +htmlScreenGridTileID); // console.log("hyrule grid positions: " +hyruleGridPositions+ ", 0: " +hyruleGridPositions[0]+ ", 1: " +hyruleGridPositions[1]); // console.log(hyruleGridPositions);
 getScreenGridTiles(hyruleGridPositions); // console.log(tileGridValues);
 parseGrid();
@@ -680,6 +751,7 @@ currentDirection();
     cssPositionArrayValues: htmlLinkCSSPositions,
     positionScreenGridValues: htmlLinkScreenGridPositions,
     tileGrid: htmlScreenGridTileID,
+    currentWorld: currentWorld,
     hyruleGridPositions: hyruleGridPositions,
     screenGridTileValues: tileGridValues,
     movementOptions: movementOptions,
@@ -692,29 +764,45 @@ currentDirection();
   }
   outputDev();
 }
-
+/**
 
 
 function outputDev() { // console.log("alt walkability score: " +walkabilityOptions);
+	console.log("inside output dev!");
+	console.log("current world: " +currentWorld);
+	
   var outputList = document.createElement("ul");
-  outputHTML = "<li>CSS Position Values: <strong>" +htmlLinkCSSPositionValues+ "</strong></li>";
+  outputHTML = "<li>Current World: <strong>" +currentWorld+ "</strong></li>";
+  outputHTML += "<li>CSS Position Values: <strong>" +htmlLinkCSSPositionValues+ "</strong></li>";
   outputHTML += "<li>CSS Positions: <strong>" +htmlLinkCSSPositions+ "</strong></li>";
   outputHTML += "<li>Screen Grid Positions: <strong>" +htmlLinkScreenGridPositions+ "</strong></li>";
   outputHTML += "<li>Screen Grid Tile ID: <strong>" +htmlScreenGridTileID+ "</strong></li>";
   outputHTML += "<li>Hyrule Grid Position: <strong>" +hyruleGridPositions+ "</strong></li>";
-  outputHTML += "<li>Screen Grid Tile Array: <strong class=\"overflow-scroll\">" +tileGridValues+ "</strong></li>";
+  outputHTML += "<li class=\"li-overflow\">Screen Grid Tile Array: <strong class=\"overflow-scroll\">" +tileGridValues+ "</strong></li>";
   outputHTML += "<li>Hyrule Grid Tile Options: <strong class=\"block\">n: " +tileOptions[0]+ "</strong> <strong class=\"block\">e: " +tileOptions[1]+ "</strong> <strong class=\"block\">s: " +tileOptions[2]+ "</strong> <strong class=\"block\">w: " +tileOptions[3]+ "</strong></li>";
-  outputHTML += "<li>Current Move Options: n: [<strong>" +movementOptions[0]+ "</strong>] e: [<strong>" +movementOptions[1]+ "</strong>] s: [<strong>" +movementOptions[2]+ "</strong>] w: [<strong>" +movementOptions[3]+ "</strong>]</li>";
-  outputHTML += "<li>Current move option tile values: n: <strong>" +optionTileValues[0]+ "</strong>, e: <strong>" +optionTileValues[1]+ "</strong>, s: <strong>" +optionTileValues[2]+ "</strong>, w: <strong>" +optionTileValues[3]+ "</strong></li>";
-  outputHTML += "<li>Current move option tile definitions: n: <strong>" +optionTileDefinitions[0]+ "</strong>, e: <strong>" +optionTileDefinitions[1]+ "</strong>, s: <strong>" +optionTileDefinitions[2]+ "</strong>, w: <strong>" +optionTileDefinitions[3]+ "</strong></li>";
-  outputHTML += "<li>Tile Definitions Walkability Score: n: <strong>" +walkabilityOptions[0]+ "</strong>, e: <strong>" +walkabilityOptions[1]+ "</strong>, s: <strong>" +walkabilityOptions[2]+ "</strong>, w: <strong>" +walkabilityOptions[3]+ "</strong></li>";
+  outputHTML += "<li>Move Options: n: [<strong>" +movementOptions[0]+ "</strong>] e: [<strong>" +movementOptions[1]+ "</strong>] s: [<strong>" +movementOptions[2]+ "</strong>] w: [<strong>" +movementOptions[3]+ "</strong>]</li>";
+  outputHTML += "<li><b class=\"b-title\">Move option tile values</b>:";
+  outputHTML += "<ul class=\"ul-sub\"><li>n: <strong>" +optionTileValues[0]+ "</strong></li>";
+  outputHTML += "<li>e: <strong>" +optionTileValues[1]+ "</strong></li>";
+  outputHTML += "<li>s: <strong>" +optionTileValues[2]+ "</strong></li>";
+  outputHTML += "<li>w: <strong>" +optionTileValues[3]+ "</strong></li></ul></li>";
+  outputHTML += "<li><b class=\"b-title\">Move option tile definitions</b>:";
+  outputHTML += "<ul class=\"ul-sub\"><li>n: <strong>" +optionTileDefinitions[0]+ "</strong></li>";
+  outputHTML += "<li>e: <strong>" +optionTileDefinitions[1]+ "</strong></li>";
+  outputHTML += "<li>s: <strong>" +optionTileDefinitions[2]+ "</strong></li>";
+  outputHTML += "<li>w: <strong>" +optionTileDefinitions[3]+ "</strong></li></ul></li>";
+  outputHTML += "<li><b class=\"b-title\">Tile Definitions Walkability Score</b>:";
+  outputHTML += "<ul class=\"ul-sub\"><li>n: <strong>" +walkabilityOptions[0]+ "</strong></li>";
+  outputHTML += "<li>e: <strong>" +walkabilityOptions[1]+ "</strong></li>";
+  outputHTML += "<li>s: <strong>" +walkabilityOptions[2]+ "</strong></li>";
+  outputHTML += "<li>w: <strong>" +walkabilityOptions[3]+ "</strong></li></ul></li>";
   outputList.innerHTML = outputHTML;
   let outputVariables = document.getElementById("console-log-variables");
   outputVariables.innerHTML = "";
   outputVariables.appendChild(outputList);
   //outputVariables.innerHTML = outputList;
 }
-
+**/
 function locateLink(){ // locateLink function is center for link's functionality. all functions go through here.
   getCSSPositionValues(htmlLink); // get link's current css top/left position values // console.log(htmlLinkCSSPositionValues);
   getCSSPositionArrayValues(htmlLinkCSSPositionValues); // convert current css position values into integers, aka deleting "px" from string
@@ -723,6 +811,7 @@ function locateLink(){ // locateLink function is center for link's functionality
   // console.log(htmlLinkScreenGridPositions);
   getHTMLDataAttributeValue(htmlScreenGrid); // get screen grid data attribute value
   // console.log(" tile id from locate link function: " +htmlScreenGridTileID);
+  getHTMLDataWorldAttributeValue(htmlScreenGrid);
   getHyruleGridPositions(htmlScreenGridTileID); // console.log(hyruleGridPositions);
   getScreenGridTiles(hyruleGridPositions); // console.log(tileGridValues);
   getScreenGridOptions();
@@ -749,6 +838,7 @@ function locateLink(){ // locateLink function is center for link's functionality
     cssPositionArrayValues: htmlLinkCSSPositions,
     positionScreenGridValues: htmlLinkScreenGridPositions,
     tileGrid: htmlScreenGridTileID,
+    currentWorld: currentWorld,
     hyruleGridPositions: hyruleGridPositions,
     screenGridTileValues: tileGridValues,
     movementOptions: movementOptions,
