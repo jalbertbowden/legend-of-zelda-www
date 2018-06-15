@@ -156,7 +156,7 @@ var isEqual = function (value, other) {
 function getScreenGridOptions(){ // get array of option values for current active screen grid
   //console.log("YO!: " +hyruleGridOptionTiles.hyruleGridTileOptions0808["door01"]);
   tileGridOptionsID = hyruleGridTilePrepend+ "Options" +htmlScreenGridTileID;
-  //console.log('tile grid options id: ' +tileGridOptionsID);
+  console.log('tile grid options id: ' +tileGridOptionsID);
   tileGridOptionsValues = hyruleGridOptionTiles[tileGridOptionsID];
   // console.log("tile grid options values array: " +tileGridOptionsValues.door01.gridPosition);
   // console.log("tile grid options values array: " +tileGridOptionsValues.door.gridPosition+ ", " +tileGridOptionsValues.door.entranceTo);
@@ -737,6 +737,8 @@ getHTMLDataAttributeValue(htmlScreenGrid);
 getHTMLDataWorldAttributeValue(htmlScreenGrid);
 getHyruleGridPositions(htmlScreenGridTileID); // console.log("html screen grid tile id: " +htmlScreenGridTileID); // console.log("hyrule grid positions: " +hyruleGridPositions+ ", 0: " +hyruleGridPositions[0]+ ", 1: " +hyruleGridPositions[1]); // console.log(hyruleGridPositions);
 getScreenGridTiles(hyruleGridPositions); // console.log(tileGridValues);
+getScreenGridOptions();
+console.log("tile grid options values array in update link: " +tileGridOptionsValues);
 parseGrid();
 getMovementOptions(htmlLinkScreenGridPositions); // console.log("movement options: " + movementOptions);
 getAdjacentHyruleTiles(); // console.log("tile options: " +tileOptions);  
@@ -815,7 +817,7 @@ function locateLink(){ // locateLink function is center for link's functionality
   getHyruleGridPositions(htmlScreenGridTileID); // console.log(hyruleGridPositions);
   getScreenGridTiles(hyruleGridPositions); // console.log(tileGridValues);
   getScreenGridOptions();
-  
+  console.log("tile grid options values array in locate link: " +tileGridOptionsValues);
   
   parseGrid(); // get current active screen grid array slices, for finding current tile option move values
   getMovementOptions(htmlLinkScreenGridPositions); // get current active screen grid movement options/tiles

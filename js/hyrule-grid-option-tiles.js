@@ -16,7 +16,7 @@ var hyruleGridOptionTiles = {
           "gridPosition":[1,9],
           "type":"doorrepair",
           "entranceTo":"0102shop",
-          "hidden-entrance":"hidden-entrance",
+          "hiddenEntrance":"hidden-entrance",
           "required":"bomb",
           "note":"D"
         }
@@ -70,7 +70,7 @@ var hyruleGridOptionTiles = {
           "gridPosition":[4,10],
           "type":"doorrepair",
           "entranceTo":"0108shop",
-          "hidden-entrance":"hidden-entrance",
+          "hiddenEntrance":"hidden-entrance",
           "required":"bomb",
           "note":"D"
         }
@@ -105,7 +105,7 @@ var hyruleGridOptionTiles = {
         "doors": {
           "door01": {
             "gridPosition":[],
-            "hidden-entrance":"hidden-entrance",
+            "hiddenEntrance":"hidden-entrance",
               "entranceTo":"level-05",
               "note":"5"
           },
@@ -174,7 +174,7 @@ var hyruleGridOptionTiles = {
         "door01": {
           "gridPosition":[1,8],
           "type":"item-shop",
-          "hidden-entrance":"hidden-entrance",
+          "hiddenEntrance":"hidden-entrance",
           "entranceTo":"0203shop",
           "note":"L",
           "required":"bomb"
@@ -185,7 +185,7 @@ var hyruleGridOptionTiles = {
           "gridPosition":[1,2],
           "type":"rupees-free",
           "entranceTo":"0204shop",
-          "hidden-entrance":"hidden-entrance",
+          "hiddenEntrance":"hidden-entrance",
           "note":"H",
           "required":"bomb",
           "rupees":"30"
@@ -195,7 +195,7 @@ var hyruleGridOptionTiles = {
         "door01": {
           "gridPosition":[1,12],
           "type":"doorrepair",
-          "hidden-entrance":"hidden-entrance",
+          "hiddenEntrance":"hidden-entrance",
           "entranceTo":"shop0205",
           "note":"",
           "required":"awaken arnos statue"
@@ -215,7 +215,7 @@ var hyruleGridOptionTiles = {
           "gridPosition":[1,6],
           "type":"gambling-spot",
           "entranceTo":"0207shop",
-          "hidden-entrance":"hidden-entrance",
+          "hiddenEntrance":"hidden-entrance",
           "required":"bomb",
           "note":"C"
         }
@@ -265,7 +265,7 @@ var hyruleGridOptionTiles = {
     "hyruleGridTileOptions0213":{
         "door01": {
           "gridPosition":[4,11],
-          "hidden-entrance":"hidden-entrance",
+          "hiddenEntrance":"hidden-entrance",
           "entranceTo":"0213shop",
           "note":"O",
           "required":"wake armos statute"
@@ -280,7 +280,7 @@ var hyruleGridOptionTiles = {
           	  "stairs-central":"stairs-central-to-0510",
           	  "stairs-east":"stairs-east-to-0810"
           },
-          "hidden-entrance":"hidden-entrance",
+          "hiddenEntrance":"hidden-entrance",
           "entranceTo":"0214shop",
           "note":"B",
           "required":"bomb"
@@ -291,7 +291,7 @@ var hyruleGridOptionTiles = {
           "gridPosition":[1,12],
           "type":"doorrepair",
           "entranceTo":"0215shop",
-          "hidden-entrance":"hidden-entrance",
+          "hiddenEntrance":"hidden-entrance",
           "note":"D.",
           "required":"bomb"
         }
@@ -316,7 +316,7 @@ var hyruleGridOptionTiles = {
     "hyruleGridTileOptions0302":{
         "door01": {
           "gridPosition":[5,9],
-          "hidden-entrance":"hidden-entrance",
+          "hiddenEntrance":"hidden-entrance",
           "entranceTo":"shop0302",
           "note":"Magical Sword",
           "required":"Move tombstone"
@@ -325,7 +325,7 @@ var hyruleGridOptionTiles = {
     "hyruleGridTileOptions0303":{
         "door01": {
           "gridPosition":[],
-          "hidden-entrance":"hidden-entrance",
+          "hiddenEntrance":"hidden-entrance",
           "entranceTo":"",
           "note":"stairs",
           "required":"move arnos statue"
@@ -340,7 +340,7 @@ var hyruleGridOptionTiles = {
     "hyruleGridTileOptions0304":{
     	"door01": {
           "gridPosition":[5,3],
-          "hidden-entrance":"hidden-entrance",
+          "hiddenEntrance":"hidden-entrance",
           "entranceTo":"0304shop stairs",
           "required":"Move Western Boulder Rock North",
           "note":"boulder moves to [4,3]"
@@ -360,7 +360,7 @@ var hyruleGridOptionTiles = {
     "hyruleGridTileOptions0305":{
         "door01": {
           "gridPosition":[4,14],
-          "hidden-entrance":"hidden-entrance",
+          "hiddenEntrance":"hidden-entrance",
           "entranceTo":"Magic Bracelet",
           "note":"",
           "required":"wake up arnos statue"
@@ -378,7 +378,7 @@ var hyruleGridOptionTiles = {
         "door01": {
           "gridPosition":[1,3],
           "type":"item-shop",
-          "hidden-entrance":"hidden-entrance",
+          "hiddenEntrance":"hidden-entrance",
           "entranceTo":"0307shop",
           "required":"bomb",
           "note":"L"
@@ -388,7 +388,7 @@ var hyruleGridOptionTiles = {
         "door01": {
           "gridPosition":[1,14],
           "type":"potion-shop",
-          "hidden-entrance":"hidden-entrance",
+          "hiddenEntrance":"hidden-entrance",
           "entranceTo":"0308shop",
           "note":"E",
           "required":"bomb"
@@ -405,7 +405,7 @@ var hyruleGridOptionTiles = {
         "door01": {
           "gridPosition":[6,13],
           "type":"rupees-free",
-          "hidden-entrance":"hidden-entrance",
+          "hiddenEntrance":"hidden-entrance",
           "entranceTo":"0309shop",
           "note":"H",
           "required":"candle",
@@ -454,7 +454,7 @@ var hyruleGridOptionTiles = {
           "gridPosition":[1,5],
           "type":"rupees-free",
           "entranceTo":"0314shop",
-          "hidden-entrance":"hidden-entrance",
+          "hiddenEntrance":"hidden-entrance",
           "note":"H",
           "required":"bomb",
           "rupees":"30"
@@ -510,7 +510,7 @@ var hyruleGridOptionTiles = {
         "door01": {
           "gridPosition":[1,10],
           "type":"potion-shop",
-          "hidden-entrance":"hidden-entrance",
+          "hiddenEntrance":"hidden-entrance",
           "entranceTo":"0404shop",
           "note":"E",
           "required":"bomb"
@@ -520,7 +520,7 @@ var hyruleGridOptionTiles = {
         "door01": {
           "gridPosition":[4,4],
           "type":"item-shop",
-          "hidden-entrance":"hidden-entrance",
+          "hiddenEntrance":"hidden-entrance",
           "entranceTo":"0405shop",
           "note":"J - ",
           "required":"awake arnos statue"
@@ -602,7 +602,7 @@ var hyruleGridOptionTiles = {
         "door01": {
           "gridPosition":[4,9],
           "type":"rupees-free",
-          "hidden-entrance":"hidden-entrance",
+          "hiddenEntrance":"hidden-entrance",
           "entranceTo":"0414shop",
           "note":"H",
           "required":"wake up arnos statue",
@@ -699,7 +699,7 @@ var hyruleGridOptionTiles = {
         "door01": {
           "gridPosition":[7,9],
           "type":"item-shop",
-          "hidden-entrance":"hidden-entrance",
+          "hiddenEntrance":"hidden-entrance",
           "entranceTo":"0507shop",
           "note":"L",
           "required":"candle"
@@ -720,7 +720,7 @@ var hyruleGridOptionTiles = {
           "gridPosition":[2,13],
           "type":"rupees-free",
           "entranceTo":"shop0509",
-          "hidden-entrance":"hidden-entrance",
+          "hiddenEntrance":"hidden-entrance",
           "note":"",
           "required":"candle",
           "rupees":"30"
@@ -735,7 +735,7 @@ var hyruleGridOptionTiles = {
           	  "stairs-central":"stairs-central-to-0214",
           	  "stairs-east":"stairs-east-to-0304"
           },
-          "hidden-entrance":"hidden-entrance",
+          "hiddenEntrance":"hidden-entrance",
           "entranceTo":"shop0510",
           "note":"B",
           "required":"candle"
@@ -772,7 +772,7 @@ var hyruleGridOptionTiles = {
         "door01": {
           "gridPosition":[6,13],
           "type":"item-shop",
-          "hidden-entrance":"hidden-entrance",
+          "hiddenEntrance":"hidden-entrance",
           "entranceTo":"0514shop",
           "note":"",
           "required":"candle"
@@ -782,7 +782,7 @@ var hyruleGridOptionTiles = {
         "door01": {
           "gridPosition":[4,10],
           "type":"rupees-free",
-          "hidden-entrance":"hidden-entrance",
+          "hiddenEntrance":"hidden-entrance",
           "entranceTo":"shop0515",
           "note":"G",
           "required":"wake up arnos statue",
@@ -818,7 +818,7 @@ var hyruleGridOptionTiles = {
         "door01": {
           "gridPosition":[6,9],
           "type":"rupies-free",
-          "hidden-entrance":"hidden-entrance",
+          "hiddenEntrance":"hidden-entrance",
           "entranceTo":"shop0602",
           "note":"G",
           "required":"candle",
@@ -866,7 +866,7 @@ var hyruleGridOptionTiles = {
           "gridPosition":[6,10],
           "type":"free-rupies",
           "entranceTo":"shop0607",
-          "hidden-entrance":"hidden-entrance",
+          "hiddenEntrance":"hidden-entrance",
           "note":"",
           "required":"candle",
           "rupees":"10"
@@ -990,7 +990,7 @@ var hyruleGridOptionTiles = {
         "door01": {
           "gridPosition":[2,8],
           "type":"rupies-free",
-          "hidden-entrance":"hidden-entrance",
+          "hiddenEntrance":"hidden-entrance",
           "entranceTo":"shop0703",
           "note":"I",
           "required":"candle",
@@ -1001,7 +1001,7 @@ var hyruleGridOptionTiles = {
         "door01": {
           "gridPosition":[6,6],
           "type":"doorrepair",
-          "hidden-entrance":"hidden-entrance",
+          "hiddenEntrance":"hidden-entrance",
           "entranceTo":"0704shop",
           "note":"D",
           "required":"candle"
@@ -1039,7 +1039,7 @@ var hyruleGridOptionTiles = {
           "gridPosition":[1,7],
           "type":"rupees-free",
           "entranceTo":"0708shop",
-          "hidden-entrance":"hidden-entrance",
+          "hiddenEntrance":"hidden-entrance",
           "note":"H",
           "required":"bomb",
           "rupees":"30"
@@ -1050,7 +1050,7 @@ var hyruleGridOptionTiles = {
           "gridPosition":[6,2],
           "type":"doorrepair",
           "entranceTo":"0709shop",
-          "hidden-entrance":"hidden-entrance",
+          "hiddenEntrance":"hidden-entrance",
           "note":"D",
           "required":"candle"
         }
@@ -1060,7 +1060,7 @@ var hyruleGridOptionTiles = {
           "gridPosition":[],
           "type":"doorrepair",
           "entranceTo":"0710shop",
-          "hidden-entrance":"hidden-entrance",
+          "hiddenEntrance":"hidden-entrance",
           "note":"",
           "required":"candle"
         }
@@ -1068,7 +1068,7 @@ var hyruleGridOptionTiles = {
     "hyruleGridTileOptions0711":{
         "door01": {
           "gridPosition":[6,12],
-          "hidden-entrance":"hidden-entrance",
+          "hiddenEntrance":"hidden-entrance",
           "entranceTo":"0711shop",
           "note":"D",
           "required":"candle"
@@ -1078,7 +1078,7 @@ var hyruleGridOptionTiles = {
         "door01": {
           "gridPosition":[6,8],
           "type":"rupees-free",
-          "hidden-entrance":"hidden-entrance",
+          "hiddenEntrance":"hidden-entrance",
           "entranceTo":"0712shop",
           "note":"I",
           "required":"candle",
@@ -1097,7 +1097,7 @@ var hyruleGridOptionTiles = {
     "hyruleGridTileOptions0714":{
         "door01": {
           "gridPosition":[2,10],
-          "hidden-entrance":"hidden-entrance",
+          "hiddenEntrance":"hidden-entrance",
           "entranceTo":"Level 08",
           "note":"8",
           "required":"candle"
@@ -1181,27 +1181,83 @@ var hyruleGridOptionTiles = {
           "gridPosition":[1,6],
           "type":"gambling-spot",
           "entranceTo":"0807shop",
-          "hidden-entrance":"hidden-entrance",
+          "hiddenEntrance":"hidden-entrance",
           "note":"C",
           "required":"bomb"
         }
     },
     "hyruleGridTileOptions0808":{
-		"doorA": {
+		"door01": {
           "gridPosition":[1,4],
-          "type":"",
-          "entranceTo":"0808shop",
+          "type":"entrance",
+          "shopType":"cave",
+          "entranceTo":"0808-cave",
+          "returnGridPosition":[11,7],
+          "returnCSSPositionTop":11,
+          "returnCSSPositionLeft":7,
+          "worldEntering":"cave",
           "note":"wooden-sword"
+        }
+    },
+    "hyruleGridTileOptions0808Cave":{
+		"door01": {
+          "gridPosition":[11,7],
+          "type":"exit",
+          "entranceTo":"0808",
+          "returnGridPosition":[1,4],
+          "returnCSSPositionTop":1,
+          "returnCSSPositionLeft":4,
+          "worldEntering":"overworld",
+          "note":""
+        },
+        "door02": {
+          "gridPosition":[11,8],
+          "type":"exit",
+          "entranceTo":"0808",
+          "returnGridPosition":[1,4],
+          "returnCSSPositionTop":1,
+          "returnCSSPositionLeft":4,
+          "worldEntering":"overworld",
+          "note":""
         }
     },
     "hyruleGridTileOptions0809":{
         "door01": {
           "gridPosition":[6,4],
-          "type":"potion-shop",
-          "hidden-entrance":"hidden-entrance",
-          "entranceTo":"shop0809",
+          "type":"entrance",
+          "shopType":"potion-shop",
+          "hiddenEntrance":"hidden",
+          "entranceTo":"0809-cave",
+          "returnGridPosition":[11,7],
+          "returnCSSPositionTop":11,
+          "returnCSSPositionLeft":7,
+          "worldEntering":"cave",
           "note":"E",
           "required":"candle"
+        }
+    },
+    "hyruleGridTileOptions0809Cave":{
+		"door01": {
+          "gridPosition":[11,7],
+          "type":"exit",
+          "hiddenEntrance":"exposed",
+          "entranceTo":"0809-cave-exposed",
+          "returnGridPosition":[6,4],
+          "returnCSSPositionTop":6,
+          "returnCSSPositionLeft":4,
+          "worldEntering":"overworld",
+          "note":""
+        },
+        "door02": {
+          "gridPosition":[11,8],
+         "type":"exit",
+          "hiddenEntrance":"exposed",
+          "entranceTo":"0809-cave-exposed",
+          "returnGridPosition":[6,4],
+          "returnCSSPositionTop":6,
+          "returnCSSPositionLeft":4,
+          "worldEntering":"overworld",
+          "note":""
         }
     },
     "hyruleGridTileOptions0810":{
@@ -1221,7 +1277,7 @@ var hyruleGridOptionTiles = {
           	  "stairs-central":"stairs-central-to-0304",
           	  "stairs-east":"stairs-east-to-0510"
           },
-          "hidden-entrance":"hidden-entrance",
+          "hiddenEntrance":"hidden-entrance",
           "entranceTo":"tile stairs/warp zone",
           "note":"B",
           "required":"moving boulder"
@@ -1251,7 +1307,7 @@ var hyruleGridOptionTiles = {
           "gridPosition":[1,6],
           "type":"gambling-spot",
           "entranceTo":"0813shop",
-          "hidden-entrance":"hidden-entrance",
+          "hiddenEntrance":"hidden-entrance",
           "note":"C",
           "required":"bomb"
         }
@@ -1261,7 +1317,7 @@ var hyruleGridOptionTiles = {
           "gridPosition":[1,6],
           "type":"doorrepair",
           "entranceTo":"0814shop",
-          "hidden-entrance":"hidden-entrance",
+          "hiddenEntrance":"hidden-entrance",
           "note":"D",
           "required":"bomb"
         }
