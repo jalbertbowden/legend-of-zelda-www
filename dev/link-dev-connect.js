@@ -31,6 +31,8 @@ var tileOptions = []; // array of adjacent tile grid id values; north, east, sou
 var currentWorld; // defines environment link is currently in; possible values: overworld, cave, dungeon
 var isCrossworld; // true/false value indicating if link's next move is crossworld
 
+// trash
+// x032 sizings
 
 
 // dev only
@@ -486,7 +488,7 @@ function populateGridTileScreen(jsonObj, direction, currentWorld) { // populate 
   // functional code AND adaptive styles
   if(direction === "north") {
     if (isCrossworld) {
-      // console.log("population var for crossworld here yo!");
+      console.log("north crossworld here yo!");
       let moveNorthCrossWorldCSSTop = gridAspectRatio*tileGridOptionsValues.door01.returnCSSPositionTop+ "px";
       let moveNorthCrossWorldCSSLeft = gridAspectRatio*tileGridOptionsValues.door01.returnCSSPositionLeft+ "px";
       htmlLink.style.setProperty("top", moveNorthCrossWorldCSSTop);
@@ -494,6 +496,7 @@ function populateGridTileScreen(jsonObj, direction, currentWorld) { // populate 
   	  linkDirectionalCSSClasses("link-north");
     } 
   	// NEED ELSE IF HERE...PROBABLY TWO OF THEM
+  	console.log("north non-crossworld here yo!");
     htmlLink.style.setProperty("top", "320px");
   	linkDirectionalCSSClasses("link-north");
   } else if (direction === "east") {
@@ -501,7 +504,7 @@ function populateGridTileScreen(jsonObj, direction, currentWorld) { // populate 
     linkDirectionalCSSClasses("link-east");
   } else if (direction === "south") {
     if (isCrossworld) {
-      //console.log("Xrossworld!");
+      console.log("Xrossworld!");
       // check if hidden-entrance; if hidden-entrance === ???, then render different screen grid tile with hidden entrance marked, OR
       // render it ontop current hard-coded screen grid tile, OR
       // generate them on the fly, which is what should have been done in the first place....
@@ -509,11 +512,24 @@ function populateGridTileScreen(jsonObj, direction, currentWorld) { // populate 
       
       var badCard = htmlLink.dataset.entrance;
       var badCardX = htmlLink.dataset;
-      //console.log("x: " +data-entrance="exposed" 
-      //console.log("bad card fool!: " +badCard);
-     // console.log("bad card X fool!: " +badCardX);
+      console.log("bad card fool!: " +badCard);
+     console.log("bad card X fool!: " +badCardX);
       
       //console.log("pre detection!" +tileGridOptionsValues.door01.hiddenEntrance);
+      console.log("entry/exit: " +tileGridOptionsValues.door01.type);
+      // if move south is an entry move because you always enter caves/underworld in the same middle tile spot yo!
+      
+      let moveSouthCrossWorldCSSTop;
+      let moveSouthCrossWorldCSSLeft;
+      
+      
+      if(tileGridOptionsValues.door01.type === "entrance") {
+        moveSouthCrossWorldCSSTop = "320px";
+        moveSouthCrossWorldCSSLeft = "224px";
+      } /** else if(tileGridOptionsValues.door01.type === "exit") {
+        let moveSouthCrossWorldCSSTop = gridAspectRatio*tileGridOptionsValues.door01.returnCSSPositionTop+ "px";
+        let moveSouthCrossWorldCSSLeft = gridAspectRatio*tileGridOptionsValues.door01.returnCSSPositionLeft+ "px";
+      } **/
       
       if(tileGridOptionsValues.door01.hiddenEntrance === "hidden-entrance"){
       // "hidden-entrance":"hidden-entrance",
@@ -521,10 +537,33 @@ function populateGridTileScreen(jsonObj, direction, currentWorld) { // populate 
         
       }
       
-      //console.log("XXXX HERE: " +tileGridOptionsValues.door01.returnCSSPositionTop);
+      console.log("XXXX HERE: direction south yo" +tileGridOptionsValues.door01.returnCSSPositionTop);
       
-      let moveSouthCrossWorldCSSTop = gridAspectRatio*(tileGridOptionsValues.door01.returnCSSPositionTop - 1)+ "px";
-      let moveSouthCrossWorldCSSLeft = gridAspectRatio*tileGridOptionsValues.door01.returnCSSPositionLeft+ "px";
+      // let moveSouthCrossWorldCSSTop = gridAspectRatio*(tileGridOptionsValues.door01.returnCSSPositionTop - 1)+ "px";
+      // let moveSouthCrossWorldCSSTop = gridAspectRatio*(tileGridOptionsValues.door01.returnCSSPositionTop +1)+ "px";
+      
+      
+
+      console.log("return css top value prior to having test case condition exhibited!: " +tileGridOptionsValues.door01.returnCSSPositionTop);
+      // is the top value 11? if so, that is too much, so shave one value off!
+      if(tileGridOptionsValues.door01.returnCSSPositionTop === 11) {
+        console.log("return css top value test case condition exhibited!: " +tileGridOptionsValues.door01.returnCSSPositionTop);
+        let newVar = tileGridOptionsValues.door01.returnCSSPositionTop - 1;
+        console.log("correct return css top value to spit back: " +newVar);
+        moveSouthCrossWorldCSSTop = gridAspectRatio*(tileGridOptionsValues.door01.returnCSSPositionTop - 1)+ "px";
+      } else {
+      	 moveSouthCrossWorldCSSTop = gridAspectRatio*tileGridOptionsValues.door01.returnCSSPositionTop+ "px";
+      }
+      
+      moveSouthCrossWorldCSSLeft = gridAspectRatio*tileGridOptionsValues.door01.returnCSSPositionLeft+ "px";
+      
+      
+      
+      
+      
+      
+      
+      
       // let moveSouthCrossWorldCSSTop = "320px";
       // let moveSouthCrossWorldCSSLeft = gridAspectRatio*tileGridOptionsValues.door01.returnCSSPositionLeft+ "px";
       //console.log("move south cross world css position values: top: " +moveSouthCrossWorldCSSTop+ ", left: " +moveSouthCrossWorldCSSLeft);
@@ -614,8 +653,10 @@ function moveLinkAndTileNorth(str){ // move link one current screen grid value n
 }
 function linkMovementNorth(){ // move north options cycle
   var hiddenMoveNorth = isEqual(tileGridOptionsValues.door01.gridPosition, movementOptions[0]);
+  console.log("hidden move north: " +hiddenMoveNorth);
   tileWildCard = "north";
   if(hiddenMoveNorth === true) {
+  	console.log("hidden move north is true: " +hiddenMoveNorth);
     linkMovementHidden(tileWildCard); 
   }
   if(walkabilityOptions[0] == true) { // if north option is walkable
